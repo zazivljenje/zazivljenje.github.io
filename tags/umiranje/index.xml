@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Umiranje on Za življenje!</title>
+    <link>http://localhost:1313/tags/umiranje/</link>
+    <description>Recent content in Umiranje on Za življenje!</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/umiranje/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moja izkušnja ob bolezni in umiranju mojega očeta</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2024-05-moja-izkusnja-ob-bolezni-in-umiranju-oceta/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2024-05-moja-izkusnja-ob-bolezni-in-umiranju-oceta/</guid>
+      <description>Moj oče je bil kmet, ki je svoje življenje posvetil delu, vzgoji otrok in molitvi.</description>
+    </item>
+  </channel>
+</rss>

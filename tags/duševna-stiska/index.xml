@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Duševna Stiska on Za življenje!</title>
+    <link>http://localhost:1313/tags/du%C5%A1evna-stiska/</link>
+    <description>Recent content in Duševna Stiska on Za življenje!</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/du%C5%A1evna-stiska/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boj med biti in ne biti</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2026-01-boj-med-biti-in-ne-biti/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2026-01-boj-med-biti-in-ne-biti/</guid>
+      <description>V iskreni izpovedi Ivana Šoster spregovori o stiski, v kateri obup ni imel zadnje besede.</description>
+    </item>
+    <item>
+      <title>Bolj kot smrti me je strah življenja, ki ga moram živeti</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2025-01-bolj-kot-smrti-me-je-strah-zivljenja/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2025-01-bolj-kot-smrti-me-je-strah-zivljenja/</guid>
+      <description>Besede Romy v intervjuju za nizozemski časopis, ko se je odločila za evtanazijo.</description>
+    </item>
+  </channel>
+</rss>

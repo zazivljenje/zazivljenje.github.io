@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Stiska on Za življenje!</title>
+    <link>http://localhost:1313/tags/stiska/</link>
+    <description>Recent content in Stiska on Za življenje!</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/stiska/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Če bi lahko takrat malo zavrtela film naprej, se ne bi toliko obremenjevala</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2023-12-ce-bi-lahko-zavrtela-film-naprej/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2023-12-ce-bi-lahko-zavrtela-film-naprej/</guid>
+      <description>Maja Mivšek je v osebnem intervjuju predstavila stisko, ki jo je doživljala ob težki nosečnosti in po porodu.</description>
+    </item>
+  </channel>
+</rss>

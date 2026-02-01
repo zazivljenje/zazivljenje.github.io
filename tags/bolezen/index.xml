@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bolezen on Za življenje!</title>
+    <link>http://localhost:1313/tags/bolezen/</link>
+    <description>Recent content in Bolezen on Za življenje!</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bolezen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jekla ne moreš poškodovati</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2025-12-jekla-ne-mores-poskodovati/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2025-12-jekla-ne-mores-poskodovati/</guid>
+      <description>Geslo marinca in njegove družine, ko so mu diagnosticirali glioblastom – neizprosen možganski tumor.</description>
+    </item>
+    <item>
+      <title>Vsak dan je darilo, ki ga ne moreš opustiti</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2025-11-vsak-dan-je-darilo/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2025-11-vsak-dan-je-darilo/</guid>
+      <description>J. J. Hanson je izvedel, da mu preostanejo štiri meseci življenja, živel pa je še tri leta in pol.</description>
+    </item>
+    <item>
+      <title>Pomagal mi je razumeti, da je še upanje</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2025-10-pomagal-mi-je-razumeti-da-je-se-upanje/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2025-10-pomagal-mi-je-razumeti-da-je-se-upanje/</guid>
+      <description>»Nisem mogla verjeti, da je smrt pred vrati.« Tako prične pričevanje Jeanette Hall.</description>
+    </item>
+    <item>
+      <title>Po petih letih se je zbudila iz kome</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2024-04-po-petih-letih-se-je-zbudila-iz-kome/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2024-04-po-petih-letih-se-je-zbudila-iz-kome/</guid>
+      <description>Na splošno zelo hitro odpišemo ljudi, ki se dolgo ne zbudijo iz kome.</description>
+    </item>
+  </channel>
+</rss>

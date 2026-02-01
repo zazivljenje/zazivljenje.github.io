@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Družina on Za življenje!</title>
+    <link>http://localhost:1313/tags/dru%C5%BEina/</link>
+    <description>Recent content in Družina on Za življenje!</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/dru%C5%BEina/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jekla ne moreš poškodovati</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2025-12-jekla-ne-mores-poskodovati/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2025-12-jekla-ne-mores-poskodovati/</guid>
+      <description>Geslo marinca in njegove družine, ko so mu diagnosticirali glioblastom – neizprosen možganski tumor.</description>
+    </item>
+    <item>
+      <title>Vsak dan je darilo, ki ga ne moreš opustiti</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2025-11-vsak-dan-je-darilo/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2025-11-vsak-dan-je-darilo/</guid>
+      <description>J. J. Hanson je izvedel, da mu preostanejo štiri meseci življenja, živel pa je še tri leta in pol.</description>
+    </item>
+  </channel>
+</rss>

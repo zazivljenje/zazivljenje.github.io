@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hospic on Za življenje!</title>
+    <link>http://localhost:1313/tags/hospic/</link>
+    <description>Recent content in Hospic on Za življenje!</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hospic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manca Košir - In Memoriam</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2024-05-manca-kosir-in-memoriam/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2024-05-manca-kosir-in-memoriam/</guid>
+      <description>Drugega dne meseca maja se je mirno in v spremstvu svojih hčera poslovila Manca Košir.</description>
+    </item>
+  </channel>
+</rss>

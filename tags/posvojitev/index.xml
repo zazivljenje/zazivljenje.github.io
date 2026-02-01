@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posvojitev on Za življenje!</title>
+    <link>http://localhost:1313/tags/posvojitev/</link>
+    <description>Recent content in Posvojitev on Za življenje!</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/posvojitev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rešujemo svet, otroka za otrokom</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2026-01-resujemo-svet-otroka-za-otrokom/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2026-01-resujemo-svet-otroka-za-otrokom/</guid>
+      <description>Milena, rojena v Srbiji, je preživela umetni splav. Liz Wamsley jo je posvojila.</description>
+    </item>
+    <item>
+      <title>Priča smo sodobni krizi sirot</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2024-06-prica-smo-sodobni-krizi-sirot/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2024-06-prica-smo-sodobni-krizi-sirot/</guid>
+      <description>Lisa Wheeler je z možem vzgojila okoli 20 otrok, pet sta jih posvojila.</description>
+    </item>
+  </channel>
+</rss>

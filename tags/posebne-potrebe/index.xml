@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posebne-Potrebe on Za življenje!</title>
+    <link>http://localhost:1313/tags/posebne-potrebe/</link>
+    <description>Recent content in Posebne-Potrebe on Za življenje!</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/posebne-potrebe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Otrok z Downovim sindromom: vir veselja za družino</title>
+      <link>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2023-06-otrok-z-downovim-sindromom-vir-veselja/</link>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rubrike/pricevanja-za-zivljenje/pricevanje-2023-06-otrok-z-downovim-sindromom-vir-veselja/</guid>
+      <description>Pričevanje sestre otroka z Downovim sindromom o tem, kako je bratec spremenil njeno življenje.</description>
+    </item>
+  </channel>
+</rss>
