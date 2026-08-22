@@ -1,0 +1,250 @@
+.legal-map-page {
+    max-width: none;
+    width: 100%;
+}
+
+.legal-map-intro {
+    max-width: 72ch;
+    margin: 0 auto 1.25rem;
+    padding: 0 1rem;
+}
+
+.legal-map-intro h1 {
+    margin-bottom: 0.4rem;
+}
+
+.legal-map-intro p {
+    color: var(--secondary);
+    line-height: 1.55;
+}
+
+.legal-map-app {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    padding: 0 0.75rem 1.5rem;
+}
+
+.legal-map-stage {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--entry);
+}
+
+.legal-map-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.85rem;
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--entry);
+}
+
+.legal-map-canvas-wrap {
+    position: relative;
+    min-height: 560px;
+}
+
+#legal-map-canvas {
+    height: 560px;
+    background: #4f9fd4;
+}
+
+.dark #legal-map-canvas {
+    background: #2e7eb8;
+}
+
+.legal-map-legend,
+.legal-map-side {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.9rem 1rem;
+}
+
+.legal-map-side {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    width: min(360px, calc(100% - 24px));
+    max-height: 70%;
+    overflow: auto;
+    z-index: 500;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.legal-map-side[hidden] {
+    display: none;
+}
+
+.legal-map-controls h2,
+.legal-map-legend h2,
+.legal-map-side h2 {
+    font-size: 0.95rem;
+    margin: 0 0 0.55rem;
+}
+
+.legal-map-layers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem 1.1rem;
+}
+
+.legal-map-layers label {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    font-size: 0.92rem;
+    cursor: pointer;
+    line-height: 1.3;
+}
+
+.legal-map-search {
+    max-width: 28rem;
+}
+
+.legal-map-search input {
+    width: 100%;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--theme);
+    color: var(--primary);
+    font-size: 0.92rem;
+    line-height: 1.35;
+}
+
+.legal-map-search input::placeholder {
+    font-size: 0.92rem;
+    color: var(--secondary);
+}
+
+.legal-map-search-results {
+    list-style: none;
+    margin: 0.35rem 0 0;
+    padding: 0;
+    max-height: 180px;
+    overflow: auto;
+}
+
+.legal-map-search-results button {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: 0;
+    padding: 0.35rem 0.2rem;
+    cursor: pointer;
+    color: var(--primary);
+    font-size: 0.88rem;
+}
+
+.legal-map-search-results button:hover {
+    background: var(--tertiary);
+}
+
+.legal-map-swatch {
+    display: inline-block;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 3px;
+    margin-right: 0.45rem;
+    vertical-align: -0.1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.legal-map-legend ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.legal-map-legend-groups {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+}
+
+.legal-map-legend li {
+    font-size: 0.85rem;
+    margin: 0.35rem 0;
+    line-height: 1.35;
+}
+
+.legal-map-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin: 0.5rem 0 0.75rem;
+}
+
+.legal-map-badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.2rem 0.5rem;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.legal-map-side h3 {
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 1rem 0 0.35rem;
+    color: var(--secondary);
+}
+
+.legal-map-side p,
+.legal-map-side li {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.legal-map-side ul {
+    padding-left: 1.1rem;
+}
+
+.legal-map-side a {
+    word-break: break-word;
+}
+
+.legal-map-disclaimer {
+    font-size: 0.82rem;
+    color: var(--secondary);
+    line-height: 1.45;
+    margin: 0;
+    padding: 0 0.15rem 0.25rem;
+}
+
+.legal-map-note {
+    font-size: 0.8rem;
+    color: var(--secondary);
+    font-style: italic;
+}
+
+.leaflet-container {
+    background: #4f9fd4;
+    font-family: inherit;
+}
+
+.dark .leaflet-container {
+    background: #2e7eb8;
+}
+
+@media (max-width: 800px) {
+    #legal-map-canvas {
+        height: 420px;
+    }
+
+    .legal-map-side {
+        position: static;
+        width: auto;
+        max-height: none;
+        margin: 0;
+        border-radius: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+    }
+}

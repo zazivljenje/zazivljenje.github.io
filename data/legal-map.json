@@ -1,0 +1,5983 @@
+{
+  "meta": {
+    "updated": "2026-08-22",
+    "disclaimer": "Podatki so informativni in poenostavljeni za vizualizacijo. Zakonodaja se spreminja: vedno preverite veljavno besedilo zakona in sodno prakso. Kategorije za države brez podrobnega vpisa temeljijo na javno objavljenih podatkih iz različnih virov in so lahko nepopolne.",
+    "join_key": "ADM0_A3"
+  },
+  "categories": {
+    "abortion": {
+      "ban": {
+        "color": "#f4f4f4",
+        "label": "Prepoved (brez izjem ali le življenje matere)",
+        "label_en": "Ban / life of the mother only"
+      },
+      "restricted": {
+        "color": "#c8c8c8",
+        "label": "Strogo omejen (posilstvo, incest, zdravje)",
+        "label_en": "Highly restricted"
+      },
+      "mixed": {
+        "color": "#9a9a9a",
+        "label": "Ureditev se razlikuje po zveznih enotah",
+        "label_en": "Varies by state / province"
+      },
+      "broad": {
+        "color": "#6e6e6e",
+        "label": "Dovoljen ob širših socialnih/zdravstvenih pogojih",
+        "label_en": "Broad social or health grounds"
+      },
+      "on_request": {
+        "color": "#3d3d3d",
+        "label": "Na zahtevo (širok dostop)",
+        "label_en": "Legal on request"
+      },
+      "unknown": {
+        "color": "#f8e7a0",
+        "label": "Ni podatka",
+        "label_en": "No data"
+      }
+    },
+    "euthanasia": {
+      "prohibited": {
+        "color": "#f4f4f4",
+        "label": "Kazenska prepoved",
+        "label_en": "Criminal prohibition"
+      },
+      "passive": {
+        "color": "#c8c8c8",
+        "label": "Le pasivna ureditev / živa volja / sodna praksa",
+        "label_en": "Passive only / living will / court practice"
+      },
+      "pas_only": {
+        "color": "#6e6e6e",
+        "label": "Le asistirani samomor (brez medicinske zastrupitve)",
+        "label_en": "Assisted suicide only"
+      },
+      "active_and_pas": {
+        "color": "#3d3d3d",
+        "label": "Medicinska zastrupitev in zdravniško asistirana smrt",
+        "label_en": "Active euthanasia and physician-assisted dying"
+      },
+      "unknown": {
+        "color": "#f8e7a0",
+        "label": "Ni podatka",
+        "label_en": "No data"
+      }
+    },
+    "treaties": {
+      "both": {
+        "color": "#f4f4f4",
+        "label": "ACHR 4(1) in Ženevska deklaracija"
+      },
+      "achr4": {
+        "color": "#dcdcdc",
+        "label": "ACHR člen 4(1) — življenje »od spočetja«",
+        "note": "Ameriška konvencija o človekovih pravicah. Razlaga je sporna (npr. Baby Boy, Artavia Murillo); besedilo člena ostaja referenca."
+      },
+      "gcd": {
+        "color": "#c8c8c8",
+        "label": "Ženevska konsenzna deklaracija",
+        "note": "Politična deklaracija (2020), ne pogodba: ni mednarodne pravice do splava. Seznam sopodpisnic se spreminja."
+      },
+      "none": {
+        "color": "#5a5a5a",
+        "label": "Ni navedene pogodbe/deklaracije v tem naboru"
+      }
+    }
+  },
+  "treaty_defs": [
+    {
+      "id": "achr4",
+      "name": "Ameriška konvencija o človekovih pravicah",
+      "article": "Člen 4(1): pravica do življenja se varuje z zakonom in na splošno od trenutka spočetja.",
+      "kind": "pogodba",
+      "url": "https://www.oas.org/dil/treaties_b-32_american_convention_on_human_rights.htm"
+    },
+    {
+      "id": "gcd",
+      "name": "Ženevska konsenzna deklaracija",
+      "article": "Potrditev, da ni mednarodne pravice do splava in da se družina ter življenje varujeta; ni zavezujoča pogodba.",
+      "kind": "deklaracija",
+      "url": "https://www.thegcd.org/"
+    }
+  ],
+  "countries": [
+    {
+      "id": "FJI",
+      "iso3": "FJI",
+      "iso2": "FJ",
+      "name": "Fiji",
+      "name_sl": "Fidži",
+      "region": "Oceanija",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "TZA",
+      "iso3": "TZA",
+      "iso2": "TZ",
+      "name": "United Republic of Tanzania",
+      "name_sl": "Tanzanija",
+      "region": "Afrika",
+      "abortion": {
+        "status": "broad",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "CAN",
+      "iso3": "CAN",
+      "iso2": "CA",
+      "name": "Canada",
+      "name_sl": "Kanada",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "Od odločbe R. v. Morgentaler (1988) ni kazenskega zveznega zakona o splavu; dostop urejajo provincie kot zdravstveno storitev, brez zakonske gestacijske zgornje meje na zvezni ravni.",
+        "legislation": [
+          "R. v. Morgentaler, [1988] 1 S.C.R. 30",
+          "Canada Health Act — financiranje zdravstvenih storitev"
+        ]
+      },
+      "euthanasia": {
+        "status": "active_and_pas",
+        "conditions": "MAID (medical assistance in dying): dovoljena sta tako zdravniško asistirani samomor kot evtanazija ob izpolnjevanju zakonskih meril (resna in neozdravljiva bolezen; razširitev tudi onkraj razumno predvidljive smrti).",
+        "legislation": [
+          "Criminal Code, ss. 241.1–241.4 (kot spremenjen z C-14 in C-7)",
+          "Carter v. Canada, 2015 SCC 5"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Carter v. Canada (SCC)",
+          "url": "https://scc-csc.lexum.com/scc-csc/scc-csc/en/item/14637/index.do"
+        },
+        {
+          "title": "Health Canada — MAID",
+          "url": "https://www.canada.ca/en/health-canada/services/health-services-benefits/medical-assistance-dying.html"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "USA",
+      "iso3": "USA",
+      "iso2": "US",
+      "name": "United States of America",
+      "name_sl": "Združene države Amerike",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "mixed",
+        "conditions": "Po Dobbs (2022) ni zvezne ustavne pravice do splava; ureditev je v pristojnosti zveznih držav (od skoraj popolne prepovedi do splava na zahtevo v pozni nosečnosti).",
+        "legislation": [
+          "Dobbs v. Jackson Women's Health Organization, 597 U.S. 215 (2022) — razveljavitev Roe v. Wade",
+          "Hyde Amendment — omejitev zveznega financiranja"
+        ]
+      },
+      "euthanasia": {
+        "status": "pas_only",
+        "conditions": "Zvezno pravo ne dovoljuje evtanazije. Zdravniško asistirani samomor je zakonit v posameznih zveznih državah (npr. Oregon Death with Dignity Act); aktivna evtanazija ostaja prepovedana.",
+        "legislation": [
+          "Oregon Death with Dignity Act (1997)",
+          "Washington v. Glucksberg, 521 U.S. 702 (1997)"
+        ]
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "U.S. Supreme Court, Dobbs (2022)",
+          "url": "https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf"
+        },
+        {
+          "title": "Oregon Health Authority — Death with Dignity",
+          "url": "https://www.oregon.gov/oha/ph/providerpartnerresources/evaluationresearch/deathwithdignityact/pages/index.aspx"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "KAZ",
+      "iso3": "KAZ",
+      "iso2": "KZ",
+      "name": "Kazakhstan",
+      "name_sl": "Kazahstan",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "UZB",
+      "iso3": "UZB",
+      "iso2": "UZ",
+      "name": "Uzbekistan",
+      "name_sl": "Uzbekistan",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "PNG",
+      "iso3": "PNG",
+      "iso2": "PG",
+      "name": "Papua New Guinea",
+      "name_sl": "Papua Nova Gvineja",
+      "region": "Oceanija",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "IDN",
+      "iso3": "IDN",
+      "iso2": "ID",
+      "name": "Indonesia",
+      "name_sl": "Indonezija",
+      "region": "Azija",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ARG",
+      "iso3": "ARG",
+      "iso2": "AR",
+      "name": "Argentina",
+      "name_sl": "Argentina",
+      "region": "Južna Amerika",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "passive",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "CHL",
+      "iso3": "CHL",
+      "iso2": "CL",
+      "name": "Chile",
+      "name_sl": "Čile",
+      "region": "Južna Amerika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "passive",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "COD",
+      "iso3": "COD",
+      "iso2": "CD",
+      "name": "Democratic Republic of the Congo",
+      "name_sl": "Demokratična republika Kongo",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "SOM",
+      "iso3": "SOM",
+      "iso2": "SO",
+      "name": "Somalia",
+      "name_sl": "Somalija",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "KEN",
+      "iso3": "KEN",
+      "iso2": "KE",
+      "name": "Kenya",
+      "name_sl": "Kenija",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "SDN",
+      "iso3": "SDN",
+      "iso2": "SD",
+      "name": "Sudan",
+      "name_sl": "Sudan",
+      "region": "Afrika",
+      "abortion": {
+        "status": "unknown",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "TCD",
+      "iso3": "TCD",
+      "iso2": "TD",
+      "name": "Chad",
+      "name_sl": "Čad",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "HTI",
+      "iso3": "HTI",
+      "iso2": "HT",
+      "name": "Haiti",
+      "name_sl": "Haiti",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4",
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "DOM",
+      "iso3": "DOM",
+      "iso2": "DO",
+      "name": "Dominican Republic",
+      "name_sl": "Dominikanska republika",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "RUS",
+      "iso3": "RUS",
+      "iso2": "RU",
+      "name": "Russia",
+      "name_sl": "Rusija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "BHS",
+      "iso3": "BHS",
+      "iso2": "BS",
+      "name": "The Bahamas",
+      "name_sl": "Bahami",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "unknown",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "NOR",
+      "iso3": "NOR",
+      "iso2": null,
+      "name": "Norway",
+      "name_sl": "Norveška",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "GRL",
+      "iso3": "GRL",
+      "iso2": "GL",
+      "name": "Greenland",
+      "name_sl": "Grenlandija",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "TLS",
+      "iso3": "TLS",
+      "iso2": "TL",
+      "name": "East Timor",
+      "name_sl": "Vzhodni Timor",
+      "region": "Azija",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ZAF",
+      "iso3": "ZAF",
+      "iso2": "ZA",
+      "name": "South Africa",
+      "name_sl": "Južna Afrika",
+      "region": "Afrika",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "LSO",
+      "iso3": "LSO",
+      "iso2": "LS",
+      "name": "Lesotho",
+      "name_sl": "Lesoto",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MEX",
+      "iso3": "MEX",
+      "iso2": "MX",
+      "name": "Mexico",
+      "name_sl": "Mehika",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "mixed",
+        "conditions": "SCJN (2021, 2023) je zvezno kaznovanje splava razglasila za neustavno, a zvezne države še vedno različno urejajo dostop. Mexico City in več držav: na zahtevo v prvem trimesečju; druge ostajajo restriktivne.",
+        "legislation": [
+          "SCJN, Acción de inconstitucionalidad 148/2017",
+          "Código Penal de cada entidad federativa"
+        ]
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "Aktivna evtanazija ni dovoljena. Nekatere zvezne države urejajo pasivno evtanazijo / voluntad anticipada.",
+        "legislation": [
+          "Ley de Voluntad Anticipada (Ciudad de México in druge)"
+        ]
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "SCJN — jurisprudencia sobre aborto",
+          "url": "https://www.scjn.gob.mx/"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "URY",
+      "iso3": "URY",
+      "iso2": "UY",
+      "name": "Uruguay",
+      "name_sl": "Urugvaj",
+      "region": "Južna Amerika",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "passive",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "BRA",
+      "iso3": "BRA",
+      "iso2": "BR",
+      "name": "Brazil",
+      "name_sl": "Brazilija",
+      "region": "Južna Amerika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "Kazenski zakonik dovoljuje splav le ob nevarnosti za življenje ženske in ob posilstvu (art. 128); STF je dodal anencefalijo (ADPF 54). Brazilija je pogodbenica ACHR.",
+        "legislation": [
+          "Código Penal, arts. 124–128; STF ADPF 54"
+        ]
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "Aktivna evtanazija je kazniva. CFM priznava ortotanazijo (prekinitve nesmiselnega zdravljenja) in vnaprejšnje direktive, kar ni enako evtanaziji.",
+        "legislation": [
+          "Código Penal — homicídio; Resolução CFM 1.805/2006"
+        ]
+      },
+      "treaties": [
+        "achr4",
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Código Penal brasileiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "BOL",
+      "iso3": "BOL",
+      "iso2": "BO",
+      "name": "Bolivia",
+      "name_sl": "Bolivija",
+      "region": "Južna Amerika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "PER",
+      "iso3": "PER",
+      "iso2": "PE",
+      "name": "Peru",
+      "name_sl": "Peru",
+      "region": "Južna Amerika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "COL",
+      "iso3": "COL",
+      "iso2": "CO",
+      "name": "Colombia",
+      "name_sl": "Kolumbija",
+      "region": "Južna Amerika",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "C-355/2006 je dovolil splav v treh izjemah. C-055/2022 je dekriminaliziral splav do 24. tedna; po tem veljajo prejšnje izjeme (življenje/zdravje, posilstvo, huda fetalna okvara).",
+        "legislation": [
+          "Corte Constitucional, C-355/2006",
+          "Corte Constitucional, C-055/2022"
+        ]
+      },
+      "euthanasia": {
+        "status": "active_and_pas",
+        "conditions": "Ustavno sodišče je evtanazijo dekriminaliziralo za paciente v intenzivnem trpljenju (C-239/1997; razširitve C-233/2021 in C-164/2022, vključno z nekaterimi ne-terminalnimi stanji in mladoletniki ob strogih pogojih).",
+        "legislation": [
+          "C-239/1997, C-233/2021, C-164/2022",
+          "Resolución 971 de 2021 (MinSalud) — postopek"
+        ]
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Corte Constitucional C-055/2022",
+          "url": "https://www.corteconstitucional.gov.co/"
+        },
+        {
+          "title": "AHCR, člen 4(1)",
+          "url": "https://www.oas.org/dil/treaties_b-32_american_convention_on_human_rights.htm"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "PAN",
+      "iso3": "PAN",
+      "iso2": "PA",
+      "name": "Panama",
+      "name_sl": "Panama",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "CRI",
+      "iso3": "CRI",
+      "iso2": "CR",
+      "name": "Costa Rica",
+      "name_sl": "Kostarika",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "NIC",
+      "iso3": "NIC",
+      "iso2": "NI",
+      "name": "Nicaragua",
+      "name_sl": "Nikaragva",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "HND",
+      "iso3": "HND",
+      "iso2": "HN",
+      "name": "Honduras",
+      "name_sl": "Honduras",
+      "region": "Srednja Amerika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "Popolna prepoved splava; ustava je bila spremenjena, da bi otežila liberalizacijo. Pogodbenica ACHR, čl. 4(1).",
+        "legislation": [
+          "Código Penal; Constitución (reforma 2021 glede splava)"
+        ]
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "Evtanazija in asistirani samomor sta kazniva.",
+        "legislation": [
+          "Código Penal — homicidio / instigación al suicidio"
+        ]
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Constitución de Honduras",
+          "url": "https://www.tsc.gob.hn/"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "SLV",
+      "iso3": "SLV",
+      "iso2": "SV",
+      "name": "El Salvador",
+      "name_sl": "Salvador",
+      "region": "Srednja Amerika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "Popolna kazenska prepoved splava, brez zakonskih izjem za posilstvo, incest ali življenje matere. Člen 133 in nasl. Kazenskega zakonika; dolge zaporne kazni tudi v primerih porodnih nujnih stanj, ki so bile kvalificirane kot splav/umor.",
+        "legislation": [
+          "Código Penal, arts. 133–137",
+          "Beatriz et al. vs. El Salvador (Inter-American Court of Human Rights)"
+        ]
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "Aktivna evtanazija in asistirani samomor sta kazniva. Salvador je pogodbenica ACHR, ki v čl. 4(1) varuje pravico do življenja »na splošno od spočetja«.",
+        "legislation": [
+          "Código Penal — homicidio / inducción al suicidio"
+        ]
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Código Penal de El Salvador",
+          "url": "https://www.asamblea.gob.sv/"
+        },
+        {
+          "title": "IACtHR, Beatriz vs. El Salvador",
+          "url": "https://www.corteidh.or.cr/"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "GTM",
+      "iso3": "GTM",
+      "iso2": "GT",
+      "name": "Guatemala",
+      "name_sl": "Gvatemala",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4",
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "BLZ",
+      "iso3": "BLZ",
+      "iso2": "BZ",
+      "name": "Belize",
+      "name_sl": "Belize",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "unknown",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "VEN",
+      "iso3": "VEN",
+      "iso2": "VE",
+      "name": "Venezuela",
+      "name_sl": "Venezuela",
+      "region": "Južna Amerika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "GUY",
+      "iso3": "GUY",
+      "iso2": "GY",
+      "name": "Guyana",
+      "name_sl": "Gvajana",
+      "region": "Južna Amerika",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "SUR",
+      "iso3": "SUR",
+      "iso2": "SR",
+      "name": "Suriname",
+      "name_sl": "Surinam",
+      "region": "Južna Amerika",
+      "abortion": {
+        "status": "unknown",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "FRA",
+      "iso3": "FRA",
+      "iso2": null,
+      "name": "France",
+      "name_sl": "Francija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "Splav na zahtevo do 14. tedna (loi Veil, kasneje razširjeno). Marca 2024 je bila svoboda do umetnega splava vpisana v 34. člen Ustave.",
+        "legislation": [
+          "Loi Veil, 17 janvier 1975",
+          "Loi n° 2024-200 du 8 mars 2024 (ustavni amandma, art. 34)"
+        ]
+      },
+      "euthanasia": {
+        "status": "passive",
+        "conditions": "Aktivna evtanazija in asistirani samomor nista dovoljena. Loi Claeys-Leonetti (2016) ureja globoko in trajno sedacijo do smrti ter zavrnitev nesmiselnega zdravljenja.",
+        "legislation": [
+          "Code de la santé publique, loi Claeys-Leonetti (2016)",
+          "Code pénal — umor in pomoč pri samomoru ostajata kazniva"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Légifrance — ustavni amandma 2024",
+          "url": "https://www.legifrance.gouv.fr/"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "ECU",
+      "iso3": "ECU",
+      "iso2": "EC",
+      "name": "Ecuador",
+      "name_sl": "Ekvador",
+      "region": "Južna Amerika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "Ustavno sodišče (2021) je razveljavilo kaznovanje splava v primeru posilstva; sicer ostajajo ozke izjeme. Pogodbenica ACHR.",
+        "legislation": [
+          "Código Orgánico Integral Penal; sentencia Corte Constitucional 34-19-IN/21"
+        ]
+      },
+      "euthanasia": {
+        "status": "active_and_pas",
+        "conditions": "Corte Constitucional (2024) je dekriminalizirala evtanazijo v ozkih okoliščinah hudega trpljenja; izvedbena ureditev se dopolnjuje.",
+        "legislation": [
+          "Corte Constitucional del Ecuador, 2024 (eutanasia)"
+        ]
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Corte Constitucional del Ecuador",
+          "url": "https://www.corteconstitucional.gob.ec/"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "PRI",
+      "iso3": "PRI",
+      "iso2": "PR",
+      "name": "Puerto Rico",
+      "name_sl": "Portoriko",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "mixed",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "pas_only",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "JAM",
+      "iso3": "JAM",
+      "iso2": "JM",
+      "name": "Jamaica",
+      "name_sl": "Jamajka",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "CUB",
+      "iso3": "CUB",
+      "iso2": "CU",
+      "name": "Cuba",
+      "name_sl": "Kuba",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ZWE",
+      "iso3": "ZWE",
+      "iso2": "ZW",
+      "name": "Zimbabwe",
+      "name_sl": "Zimbabve",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "BWA",
+      "iso3": "BWA",
+      "iso2": "BW",
+      "name": "Botswana",
+      "name_sl": "Bocvana",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "NAM",
+      "iso3": "NAM",
+      "iso2": "NA",
+      "name": "Namibia",
+      "name_sl": "Namibija",
+      "region": "Afrika",
+      "abortion": {
+        "status": "broad",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "SEN",
+      "iso3": "SEN",
+      "iso2": "SN",
+      "name": "Senegal",
+      "name_sl": "Senegal",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MLI",
+      "iso3": "MLI",
+      "iso2": "ML",
+      "name": "Mali",
+      "name_sl": "Mali",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MRT",
+      "iso3": "MRT",
+      "iso2": "MR",
+      "name": "Mauritania",
+      "name_sl": "Mavretanija",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "BEN",
+      "iso3": "BEN",
+      "iso2": "BJ",
+      "name": "Benin",
+      "name_sl": "Benin",
+      "region": "Afrika",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "NER",
+      "iso3": "NER",
+      "iso2": "NE",
+      "name": "Niger",
+      "name_sl": "Niger",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "NGA",
+      "iso3": "NGA",
+      "iso2": "NG",
+      "name": "Nigeria",
+      "name_sl": "Nigerija",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "CMR",
+      "iso3": "CMR",
+      "iso2": "CM",
+      "name": "Cameroon",
+      "name_sl": "Kamerun",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "TGO",
+      "iso3": "TGO",
+      "iso2": "TG",
+      "name": "Togo",
+      "name_sl": "Togo",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "GHA",
+      "iso3": "GHA",
+      "iso2": "GH",
+      "name": "Ghana",
+      "name_sl": "Gana",
+      "region": "Afrika",
+      "abortion": {
+        "status": "broad",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "CIV",
+      "iso3": "CIV",
+      "iso2": "CI",
+      "name": "Ivory Coast",
+      "name_sl": "Slonokoščena obala",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "GIN",
+      "iso3": "GIN",
+      "iso2": "GN",
+      "name": "Guinea",
+      "name_sl": "Gvineja",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "GNB",
+      "iso3": "GNB",
+      "iso2": "GW",
+      "name": "Guinea-Bissau",
+      "name_sl": "Gvineja Bissau",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "LBR",
+      "iso3": "LBR",
+      "iso2": "LR",
+      "name": "Liberia",
+      "name_sl": "Liberija",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "SLE",
+      "iso3": "SLE",
+      "iso2": "SL",
+      "name": "Sierra Leone",
+      "name_sl": "Sierra Leone",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "BFA",
+      "iso3": "BFA",
+      "iso2": "BF",
+      "name": "Burkina Faso",
+      "name_sl": "Burkina Faso",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "CAF",
+      "iso3": "CAF",
+      "iso2": "CF",
+      "name": "Central African Republic",
+      "name_sl": "Srednjeafriška republika",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "COG",
+      "iso3": "COG",
+      "iso2": "CG",
+      "name": "Republic of the Congo",
+      "name_sl": "Republika Kongo",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "GAB",
+      "iso3": "GAB",
+      "iso2": "GA",
+      "name": "Gabon",
+      "name_sl": "Gabon",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "GNQ",
+      "iso3": "GNQ",
+      "iso2": "GQ",
+      "name": "Equatorial Guinea",
+      "name_sl": "Ekvatorialna Gvineja",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ZMB",
+      "iso3": "ZMB",
+      "iso2": "ZM",
+      "name": "Zambia",
+      "name_sl": "Zambija",
+      "region": "Afrika",
+      "abortion": {
+        "status": "broad",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MWI",
+      "iso3": "MWI",
+      "iso2": "MW",
+      "name": "Malawi",
+      "name_sl": "Malavi",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MOZ",
+      "iso3": "MOZ",
+      "iso2": "MZ",
+      "name": "Mozambique",
+      "name_sl": "Mozambik",
+      "region": "Afrika",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "SWZ",
+      "iso3": "SWZ",
+      "iso2": "SZ",
+      "name": "eSwatini",
+      "name_sl": "Esvatini",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "AGO",
+      "iso3": "AGO",
+      "iso2": "AO",
+      "name": "Angola",
+      "name_sl": "Angola",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "BDI",
+      "iso3": "BDI",
+      "iso2": "BI",
+      "name": "Burundi",
+      "name_sl": "Burundi",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ISR",
+      "iso3": "ISR",
+      "iso2": "IL",
+      "name": "Israel",
+      "name_sl": "Izrael",
+      "region": "Azija",
+      "abortion": {
+        "status": "broad",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "LBN",
+      "iso3": "LBN",
+      "iso2": "LB",
+      "name": "Lebanon",
+      "name_sl": "Libanon",
+      "region": "Azija",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MDG",
+      "iso3": "MDG",
+      "iso2": "MG",
+      "name": "Madagascar",
+      "name_sl": "Madagaskar",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "PSX",
+      "iso3": "PSE",
+      "iso2": "PS",
+      "name": "Palestine",
+      "name_sl": "Palestina",
+      "region": "Azija",
+      "abortion": {
+        "status": "unknown",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "GMB",
+      "iso3": "GMB",
+      "iso2": "GM",
+      "name": "Gambia",
+      "name_sl": "Gambija",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "TUN",
+      "iso3": "TUN",
+      "iso2": "TN",
+      "name": "Tunisia",
+      "name_sl": "Tunizija",
+      "region": "Afrika",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "DZA",
+      "iso3": "DZA",
+      "iso2": "DZ",
+      "name": "Algeria",
+      "name_sl": "Alžirija",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "JOR",
+      "iso3": "JOR",
+      "iso2": "JO",
+      "name": "Jordan",
+      "name_sl": "Jordanija",
+      "region": "Azija",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ARE",
+      "iso3": "ARE",
+      "iso2": "AE",
+      "name": "United Arab Emirates",
+      "name_sl": "Združeni arabski emirati",
+      "region": "Azija",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "QAT",
+      "iso3": "QAT",
+      "iso2": "QA",
+      "name": "Qatar",
+      "name_sl": "Katar",
+      "region": "Azija",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "KWT",
+      "iso3": "KWT",
+      "iso2": "KW",
+      "name": "Kuwait",
+      "name_sl": "Kuvajt",
+      "region": "Azija",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "IRQ",
+      "iso3": "IRQ",
+      "iso2": "IQ",
+      "name": "Iraq",
+      "name_sl": "Irak",
+      "region": "Azija",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "OMN",
+      "iso3": "OMN",
+      "iso2": "OM",
+      "name": "Oman",
+      "name_sl": "Oman",
+      "region": "Azija",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "VUT",
+      "iso3": "VUT",
+      "iso2": "VU",
+      "name": "Vanuatu",
+      "name_sl": "Vanuatu",
+      "region": "Oceanija",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "KHM",
+      "iso3": "KHM",
+      "iso2": "KH",
+      "name": "Cambodia",
+      "name_sl": "Kambodža",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "THA",
+      "iso3": "THA",
+      "iso2": "TH",
+      "name": "Thailand",
+      "name_sl": "Tajska",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "LAO",
+      "iso3": "LAO",
+      "iso2": "LA",
+      "name": "Laos",
+      "name_sl": "Laos",
+      "region": "Azija",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MMR",
+      "iso3": "MMR",
+      "iso2": "MM",
+      "name": "Myanmar",
+      "name_sl": "Mjanmar",
+      "region": "Azija",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "VNM",
+      "iso3": "VNM",
+      "iso2": "VN",
+      "name": "Vietnam",
+      "name_sl": "Vietnam",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "PRK",
+      "iso3": "PRK",
+      "iso2": "KP",
+      "name": "North Korea",
+      "name_sl": "Severna Koreja",
+      "region": "Azija",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "KOR",
+      "iso3": "KOR",
+      "iso2": "KR",
+      "name": "South Korea",
+      "name_sl": "Južna Koreja",
+      "region": "Azija",
+      "abortion": {
+        "status": "broad",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "passive",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MNG",
+      "iso3": "MNG",
+      "iso2": "MN",
+      "name": "Mongolia",
+      "name_sl": "Mongolija",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "IND",
+      "iso3": "IND",
+      "iso2": "IN",
+      "name": "India",
+      "name_sl": "Indija",
+      "region": "Azija",
+      "abortion": {
+        "status": "broad",
+        "conditions": "MTP Act (1971, spremembe 2021): do 20 tednov ob mnenju enega zdravnika, do 24 tednov za določene kategorije (dva zdravnika); kasneje prek državnega odbora. Ni čistega modela »na zahtevo« brez navedbe razloga, a razlogi so široki (duševno zdravje, kontracepcijska odpoved pri poročenih).",
+        "legislation": [
+          "Medical Termination of Pregnancy Act, 1971, as amended 2021"
+        ]
+      },
+      "euthanasia": {
+        "status": "passive",
+        "conditions": "Aktivna evtanazija je prepovedana. Vrhovno sodišče v Common Cause (2018) je priznalo pasivno evtanazijo in vnaprejšnje direktive (living will) za paciente v terminalnem/irreverzibilnem stanju.",
+        "legislation": [
+          "Common Cause v. Union of India, (2018) 5 SCC 1",
+          "Indian Penal Code ss. 306, 309 (pomoč pri samomoru)"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "MTP (Amendment) Act 2021",
+          "url": "https://www.indiacode.nic.in/"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "BGD",
+      "iso3": "BGD",
+      "iso2": "BD",
+      "name": "Bangladesh",
+      "name_sl": "Bangladeš",
+      "region": "Azija",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "BTN",
+      "iso3": "BTN",
+      "iso2": "BT",
+      "name": "Bhutan",
+      "name_sl": "Butan",
+      "region": "Azija",
+      "abortion": {
+        "status": "unknown",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "NPL",
+      "iso3": "NPL",
+      "iso2": "NP",
+      "name": "Nepal",
+      "name_sl": "Nepal",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "PAK",
+      "iso3": "PAK",
+      "iso2": "PK",
+      "name": "Pakistan",
+      "name_sl": "Pakistan",
+      "region": "Azija",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "AFG",
+      "iso3": "AFG",
+      "iso2": "AF",
+      "name": "Afghanistan",
+      "name_sl": "Afganistan",
+      "region": "Azija",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "TJK",
+      "iso3": "TJK",
+      "iso2": "TJ",
+      "name": "Tajikistan",
+      "name_sl": "Tadžikistan",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "KGZ",
+      "iso3": "KGZ",
+      "iso2": "KG",
+      "name": "Kyrgyzstan",
+      "name_sl": "Kirgizistan",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "TKM",
+      "iso3": "TKM",
+      "iso2": "TM",
+      "name": "Turkmenistan",
+      "name_sl": "Turkmenistan",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "IRN",
+      "iso3": "IRN",
+      "iso2": "IR",
+      "name": "Iran",
+      "name_sl": "Iran",
+      "region": "Azija",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "SYR",
+      "iso3": "SYR",
+      "iso2": "SY",
+      "name": "Syria",
+      "name_sl": "Sirija",
+      "region": "Azija",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ARM",
+      "iso3": "ARM",
+      "iso2": "AM",
+      "name": "Armenia",
+      "name_sl": "Armenija",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "SWE",
+      "iso3": "SWE",
+      "iso2": "SE",
+      "name": "Sweden",
+      "name_sl": "Švedska",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "BLR",
+      "iso3": "BLR",
+      "iso2": "BY",
+      "name": "Belarus",
+      "name_sl": "Belorusija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "UKR",
+      "iso3": "UKR",
+      "iso2": "UA",
+      "name": "Ukraine",
+      "name_sl": "Ukrajina",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "POL",
+      "iso3": "POL",
+      "iso2": "PL",
+      "name": "Poland",
+      "name_sl": "Poljska",
+      "region": "Evropa",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "Ustavno sodišče (K 1/20, 2020) je razveljavilo izjemo zaradi hude fetalne okvare. Splav ostaja dopusten ob nevarnosti za življenje ali zdravje ženske in ob nosečnosti zaradi kaznivega dejanja (posilstvo/incest).",
+        "legislation": [
+          "Ustawa z 7 stycznia 1993 r. o planowaniu rodziny (kot velja po K 1/20)",
+          "Trybunał Konstytucyjny, K 1/20 (2020)"
+        ]
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "Evtanazija in asistirani samomor sta kazniva (KK čl. 150–151). Poljska je sopodpisnica Ženevske konsenzne deklaracije.",
+        "legislation": [
+          "Kodeks karny, art. 150 (eutanazja), art. 151"
+        ]
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Trybunał Konstytucyjny K 1/20",
+          "url": "https://trybunal.gov.pl/"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "AUT",
+      "iso3": "AUT",
+      "iso2": "AT",
+      "name": "Austria",
+      "name_sl": "Avstrija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "pas_only",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "HUN",
+      "iso3": "HUN",
+      "iso2": "HU",
+      "name": "Hungary",
+      "name_sl": "Madžarska",
+      "region": "Evropa",
+      "abortion": {
+        "status": "broad",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MDA",
+      "iso3": "MDA",
+      "iso2": "MD",
+      "name": "Moldova",
+      "name_sl": "Moldavija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ROU",
+      "iso3": "ROU",
+      "iso2": "RO",
+      "name": "Romania",
+      "name_sl": "Romunija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "LTU",
+      "iso3": "LTU",
+      "iso2": "LT",
+      "name": "Lithuania",
+      "name_sl": "Litva",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "LVA",
+      "iso3": "LVA",
+      "iso2": "LV",
+      "name": "Latvia",
+      "name_sl": "Latvija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "EST",
+      "iso3": "EST",
+      "iso2": "EE",
+      "name": "Estonia",
+      "name_sl": "Estonija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "DEU",
+      "iso3": "DEU",
+      "iso2": "DE",
+      "name": "Germany",
+      "name_sl": "Nemčija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "Splav ostaja v kazenskem zakoniku (§ 218 StGB), a je nekaznovan v prvih 12 tednih po svetovanju (§ 218a). Kasneje medicinske in kriminološke indikacije.",
+        "legislation": [
+          "StGB §§ 218–219b"
+        ]
+      },
+      "euthanasia": {
+        "status": "pas_only",
+        "conditions": "Ubijanje na zahtevo je kaznivo (§ 216). Zvezno ustavno sodišče (2020) je razveljavilo prepoved poslovno organizirane pomoči pri samomoru (§ 217); asistenca je v ozkem okviru dopustna, aktivna evtanazija ni.",
+        "legislation": [
+          "BVerfG, Urteil vom 26. Februar 2020, 2 BvR 2347/15",
+          "StGB § 216"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "BVerfG 2020 — § 217 StGB",
+          "url": "https://www.bundesverfassungsgericht.de/"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "BGR",
+      "iso3": "BGR",
+      "iso2": "BG",
+      "name": "Bulgaria",
+      "name_sl": "Bolgarija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "GRC",
+      "iso3": "GRC",
+      "iso2": "GR",
+      "name": "Greece",
+      "name_sl": "Grčija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "TUR",
+      "iso3": "TUR",
+      "iso2": "TR",
+      "name": "Turkey",
+      "name_sl": "Turčija",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ALB",
+      "iso3": "ALB",
+      "iso2": "AL",
+      "name": "Albania",
+      "name_sl": "Albanija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "HRV",
+      "iso3": "HRV",
+      "iso2": "HR",
+      "name": "Croatia",
+      "name_sl": "Hrvaška",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "CHE",
+      "iso3": "CHE",
+      "iso2": "CH",
+      "name": "Switzerland",
+      "name_sl": "Švica",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "Na zahtevo v prvih 12 tednih ob stiski; kasneje ob medicinskih pogojih (StGB čl. 119).",
+        "legislation": [
+          "Schweizerisches Strafgesetzbuch, Art. 118–119"
+        ]
+      },
+      "euthanasia": {
+        "status": "pas_only",
+        "conditions": "Aktivna evtanazija je kazniva. Asistirani samomor ni kazniv, če ni sebičnih motivov (StGB čl. 115); organizacije kot Dignitas/EXIT delujejo v tem okviru. Zdravnik ne sme neposredno povzročiti smrti.",
+        "legislation": [
+          "Schweizerisches Strafgesetzbuch, Art. 115",
+          "Art. 114 StGB (Tötung auf Verlangen — kaznivo)"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Swiss Criminal Code (Fedlex)",
+          "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/en"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "LUX",
+      "iso3": "LUX",
+      "iso2": "LU",
+      "name": "Luxembourg",
+      "name_sl": "Luksemburg",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "active_and_pas",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "BEL",
+      "iso3": "BEL",
+      "iso2": "BE",
+      "name": "Belgium",
+      "name_sl": "Belgija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "Na zahtevo do 12 tednov po odbojnem roku; kasneje ob resni nevarnosti za žensko ali hudi fetalni patologiji.",
+        "legislation": [
+          "Loi du 3 avril 1990 (kot spremenjena 2018)"
+        ]
+      },
+      "euthanasia": {
+        "status": "active_and_pas",
+        "conditions": "Zakon o evtanaziji (2002), razširjen na mladoletnike (2014) ob strogih pogojih; dopustna tudi pri ne-terminalnem nenehnem trpljenju.",
+        "legislation": [
+          "Loi relative à l'euthanasie, 28 mai 2002"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "SPF Santé publique — euthanasie",
+          "url": "https://www.health.belgium.be/"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "NLD",
+      "iso3": "NLD",
+      "iso2": "NL",
+      "name": "Netherlands",
+      "name_sl": "Nizozemska",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "Zakon o prekinitvi nosečnosti; praksa do približno 24. tedna v licenciranih klinikah, z odbojnim rokom.",
+        "legislation": [
+          "Wet afbreking zwangerschap (Wafz, 1981/1984)"
+        ]
+      },
+      "euthanasia": {
+        "status": "active_and_pas",
+        "conditions": "Zdravnik sme opraviti evtanazijo ali asistirati pri samomoru, če so izpolnjena skrbnostna merila (neznosno trpljenje, prostovoljna in preudarna prošnja, posvet z drugim zdravnikom).",
+        "legislation": [
+          "Wet toetsing levensbeëindiging op verzoek en hulp bij zelfdoding (2002)"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Rijksoverheid — euthanasie",
+          "url": "https://www.rijksoverheid.nl/onderwerpen/levenseinde-en-euthanasie"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "PRT",
+      "iso3": "PRT",
+      "iso2": "PT",
+      "name": "Portugal",
+      "name_sl": "Portugalska",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "Na zahtevo do 10 tednov; kasneje medicinske in kriminološke indikacije.",
+        "legislation": [
+          "Lei n.º 16/2007"
+        ]
+      },
+      "euthanasia": {
+        "status": "active_and_pas",
+        "conditions": "Po več predsedniških vetih je zakon o medicinsko asistirani smrti začel veljati (2023); pogoji vključujejo trajno, neznosno trpljenje ob hudi bolezni.",
+        "legislation": [
+          "Lei n.º 22/2023"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Diário da República",
+          "url": "https://diariodarepublica.pt/"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "ESP",
+      "iso3": "ESP",
+      "iso2": "ES",
+      "name": "Spain",
+      "name_sl": "Španija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "Na zahtevo do 14 tednov; do 22 tednov ob resnem tveganju; kasneje ob fetalnih anomalijah nezdružljivih z življenjem.",
+        "legislation": [
+          "Ley Orgánica 2/2010, spremembe 2022–2023"
+        ]
+      },
+      "euthanasia": {
+        "status": "active_and_pas",
+        "conditions": "Ley Orgánica 3/2021 ureja evtanazijo in medicinsko asistirano smrt za osebe s hudo, kronično in onemogočajočo boleznijo ali resno, neozdravljivo boleznijo z nenehnim trpljenjem.",
+        "legislation": [
+          "Ley Orgánica 3/2021, de regulación de la eutanasia"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "BOE — LO 3/2021",
+          "url": "https://www.boe.es/eli/es/lo/2021/03/24/3"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "IRL",
+      "iso3": "IRL",
+      "iso2": "IE",
+      "name": "Ireland",
+      "name_sl": "Irska",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "Po razveljavitvi 8. amandmaja (referendum 2018) Health (Regulation of Termination of Pregnancy) Act 2018: na zahtevo do 12 tednov, kasneje ob tveganju za življenje/zdravje ali fatalni fetalni anomaliji.",
+        "legislation": [
+          "Thirty-sixth Amendment of the Constitution Act 2018; Act 2018"
+        ]
+      },
+      "euthanasia": {
+        "status": "passive",
+        "conditions": "Evtanazija in asistirani samomor nista zakonita. Dovoljeno je umikanje nesmiselnega zdravljenja; parlamentarne razprave o assisted dying potekajo.",
+        "legislation": [
+          "Criminal Law (Suicide) Act 1993"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "irishstatutebook.ie — 2018 Act",
+          "url": "https://www.irishstatutebook.ie/eli/2018/act/31/enacted/en/html"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "SLB",
+      "iso3": "SLB",
+      "iso2": "SB",
+      "name": "Solomon Islands",
+      "name_sl": "Salomonovi otoki",
+      "region": "Oceanija",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "NZL",
+      "iso3": "NZL",
+      "iso2": "NZ",
+      "name": "New Zealand",
+      "name_sl": "Nova Zelandija",
+      "region": "Oceanija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "Abortion Legislation Act 2020: na zahtevo do 20 tednov, kasneje ob mnenju dveh zdravstvenih delavcev.",
+        "legislation": [
+          "Abortion Legislation Act 2020"
+        ]
+      },
+      "euthanasia": {
+        "status": "active_and_pas",
+        "conditions": "End of Life Choice Act 2019 (v veljavi po referendumu 2020): terminalna bolezen z življenjsko napovedjo ≤ 6 mesecev; polnoletni državljani/rezidenti.",
+        "legislation": [
+          "End of Life Choice Act 2019"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "legislation.govt.nz — EOLC Act",
+          "url": "https://www.legislation.govt.nz/act/public/2019/0067/latest/whole.html"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "AUS",
+      "iso3": "AUS",
+      "iso2": "AU",
+      "name": "Australia",
+      "name_sl": "Avstralija",
+      "region": "Oceanija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "Splav je dekriminaliziran v vseh zveznih državah in teritorijih; gestacijske meje in pogoji se razlikujejo (običajno na zahtevo v prvem trimesečju, kasneje z dodatnimi mnenji).",
+        "legislation": [
+          "Npr. Abortion Law Reform Act 2019 (NSW); Reproductive Health Care Reform Act 2019"
+        ]
+      },
+      "euthanasia": {
+        "status": "active_and_pas",
+        "conditions": "VAD (voluntary assisted dying) je uzakonjen v vseh zveznih državah za polnoletne z napredovalo boleznijo, ki bo predvidoma vodila v smrt v določenem roku (običajno 6–12 mesecev). Teritoriji: ureditev se dopolnjuje.",
+        "legislation": [
+          "Voluntary Assisted Dying Act 2017 (Vic) in vzporedni zakoni drugih držav"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Australian Government — VAD overview",
+          "url": "https://www.health.gov.au/"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "LKA",
+      "iso3": "LKA",
+      "iso2": "LK",
+      "name": "Sri Lanka",
+      "name_sl": "Šrilanka",
+      "region": "Azija",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "CHN",
+      "iso3": "CHN",
+      "iso2": "CN",
+      "name": "China",
+      "name_sl": "Kitajska",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "TWN",
+      "iso3": "TWN",
+      "iso2": "CN-TW",
+      "name": "Taiwan",
+      "name_sl": "Tajvan",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "passive",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ITA",
+      "iso3": "ITA",
+      "iso2": "IT",
+      "name": "Italy",
+      "name_sl": "Italija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "pas_only",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "DNK",
+      "iso3": "DNK",
+      "iso2": "DK",
+      "name": "Denmark",
+      "name_sl": "Danska",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "GBR",
+      "iso3": "GBR",
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "name_sl": "Združeno kraljestvo",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "Abortion Act 1967 (Anglija, Wales, Škotska): do 24 tednov ob dveh zdravnikih (v praksi široko); kasneje ob hujših pogojih. Severna Irska: dekriminalizacija 2019/2020.",
+        "legislation": [
+          "Abortion Act 1967; Northern Ireland (Executive Formation etc) Act 2019"
+        ]
+      },
+      "euthanasia": {
+        "status": "passive",
+        "conditions": "Aktivna evtanazija in asistirani samomor sta kazniva (Suicide Act 1961, s. 2 v Angliji in Walesu). Dovoljena je prekinitev nesmiselnega zdravljenja (Airedale NHS Trust v Bland). Parlament v 2024–2025 obravnava predloge o asistiranem umiranju.",
+        "legislation": [
+          "Suicide Act 1961, s. 2",
+          "Airedale NHS Trust v Bland [1993] AC 789"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "legislation.gov.uk — Suicide Act 1961",
+          "url": "https://www.legislation.gov.uk/ukpga/Eliz2/9-10/60"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "ISL",
+      "iso3": "ISL",
+      "iso2": "IS",
+      "name": "Iceland",
+      "name_sl": "Islandija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "AZE",
+      "iso3": "AZE",
+      "iso2": "AZ",
+      "name": "Azerbaijan",
+      "name_sl": "Azerbajdžan",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "GEO",
+      "iso3": "GEO",
+      "iso2": "GE",
+      "name": "Georgia",
+      "name_sl": "Gruzija",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "PHL",
+      "iso3": "PHL",
+      "iso2": "PH",
+      "name": "Philippines",
+      "name_sl": "Filipini",
+      "region": "Azija",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MYS",
+      "iso3": "MYS",
+      "iso2": "MY",
+      "name": "Malaysia",
+      "name_sl": "Malezija",
+      "region": "Azija",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "BRN",
+      "iso3": "BRN",
+      "iso2": "BN",
+      "name": "Brunei",
+      "name_sl": "Brunej",
+      "region": "Azija",
+      "abortion": {
+        "status": "unknown",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "SVN",
+      "iso3": "SVN",
+      "iso2": "SI",
+      "name": "Slovenia",
+      "name_sl": "Slovenija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "Umetna prekinitev nosečnosti je dovoljena na zahtevo do 10. tedna; kasneje pred komisijo (zakon iz 1977, še v veljavi). 55. člen Ustave govori o svobodnem odločanju o rojstvih otrok — razlaga je sporna.",
+        "legislation": [
+          "Zakon o zdravstvenih ukrepih pri uresničevanju pravice do svobodnega odločanja o rojstvu otrok (1977)",
+          "Ustava RS, 55. člen"
+        ]
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "Aktivna evtanazija in pomoč pri samomoru sta kaznivi. Predlog zakona o medicinski pomoči pri končanju življenja v DZ ni dobil podpore; posvetovalni referendum 2024 je predlog zavrnil.",
+        "legislation": [
+          "Kazenski zakonik, 122. in 120. člen",
+          "Referendum o predlogu zakona o pomoči pri prostovoljnem končanju življenja (2024)"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "PISRS — KZ-1",
+          "url": "https://pisrs.si/"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "FIN",
+      "iso3": "FIN",
+      "iso2": "FI",
+      "name": "Finland",
+      "name_sl": "Finska",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "SVK",
+      "iso3": "SVK",
+      "iso2": "SK",
+      "name": "Slovakia",
+      "name_sl": "Slovaška",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "CZE",
+      "iso3": "CZE",
+      "iso2": "CZ",
+      "name": "Czechia",
+      "name_sl": "Češka",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ERI",
+      "iso3": "ERI",
+      "iso2": "ER",
+      "name": "Eritrea",
+      "name_sl": "Eritreja",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "JPN",
+      "iso3": "JPN",
+      "iso2": "JP",
+      "name": "Japan",
+      "name_sl": "Japonska",
+      "region": "Azija",
+      "abortion": {
+        "status": "broad",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "passive",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "PRY",
+      "iso3": "PRY",
+      "iso2": "PY",
+      "name": "Paraguay",
+      "name_sl": "Paragvaj",
+      "region": "Južna Amerika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "achr4",
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "YEM",
+      "iso3": "YEM",
+      "iso2": "YE",
+      "name": "Yemen",
+      "name_sl": "Jemen",
+      "region": "Azija",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "SAU",
+      "iso3": "SAU",
+      "iso2": "SA",
+      "name": "Saudi Arabia",
+      "name_sl": "Saudova Arabija",
+      "region": "Azija",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "CYP",
+      "iso3": "CYP",
+      "iso2": "CY",
+      "name": "Cyprus",
+      "name_sl": "Ciper",
+      "region": "Azija",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MAR",
+      "iso3": "MAR",
+      "iso2": "MA",
+      "name": "Morocco",
+      "name_sl": "Maroko",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "EGY",
+      "iso3": "EGY",
+      "iso2": "EG",
+      "name": "Egypt",
+      "name_sl": "Egipt",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "LBY",
+      "iso3": "LBY",
+      "iso2": "LY",
+      "name": "Libya",
+      "name_sl": "Libija",
+      "region": "Afrika",
+      "abortion": {
+        "status": "ban",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "ETH",
+      "iso3": "ETH",
+      "iso2": "ET",
+      "name": "Ethiopia",
+      "name_sl": "Etiopija",
+      "region": "Afrika",
+      "abortion": {
+        "status": "broad",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "DJI",
+      "iso3": "DJI",
+      "iso2": "DJ",
+      "name": "Djibouti",
+      "name_sl": "Džibuti",
+      "region": "Afrika",
+      "abortion": {
+        "status": "unknown",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "UGA",
+      "iso3": "UGA",
+      "iso2": "UG",
+      "name": "Uganda",
+      "name_sl": "Uganda",
+      "region": "Afrika",
+      "abortion": {
+        "status": "restricted",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "RWA",
+      "iso3": "RWA",
+      "iso2": "RW",
+      "name": "Rwanda",
+      "name_sl": "Ruanda",
+      "region": "Afrika",
+      "abortion": {
+        "status": "broad",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "BIH",
+      "iso3": "BIH",
+      "iso2": "BA",
+      "name": "Bosnia and Herzegovina",
+      "name_sl": "Bosna in Hercegovina",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MKD",
+      "iso3": "MKD",
+      "iso2": "MK",
+      "name": "North Macedonia",
+      "name_sl": "Severna Makedonija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "SRB",
+      "iso3": "SRB",
+      "iso2": "RS",
+      "name": "Republic of Serbia",
+      "name_sl": "Srbija",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MNE",
+      "iso3": "MNE",
+      "iso2": "ME",
+      "name": "Montenegro",
+      "name_sl": "Črna gora",
+      "region": "Evropa",
+      "abortion": {
+        "status": "on_request",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "KOS",
+      "iso3": "KOS",
+      "iso2": null,
+      "name": "Kosovo",
+      "name_sl": "Kosovo",
+      "region": "Evropa",
+      "abortion": {
+        "status": "unknown",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "TTO",
+      "iso3": "TTO",
+      "iso2": "TT",
+      "name": "Trinidad and Tobago",
+      "name_sl": "Trinidad in Tobago",
+      "region": "Severna Amerika",
+      "abortion": {
+        "status": "unknown",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "SDS",
+      "iso3": "SSD",
+      "iso2": "SS",
+      "name": "South Sudan",
+      "name_sl": "Južni Sudan",
+      "region": "Afrika",
+      "abortion": {
+        "status": "unknown",
+        "conditions": "",
+        "legislation": []
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "",
+        "legislation": []
+      },
+      "treaties": [
+        "gcd"
+      ],
+      "sources": [
+        {
+          "title": "Center for Reproductive Rights — The World's Abortion Laws",
+          "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+        },
+        {
+          "title": "WHO / HRP Global Abortion Policies Database",
+          "url": "https://abortion-policies.srhr.org/"
+        },
+        {
+          "title": "World Federation of Right to Die Societies",
+          "url": "https://wfrtds.org/"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "MLT",
+      "iso3": "MLT",
+      "iso2": "MT",
+      "name": "Malta",
+      "name_sl": "Malta",
+      "region": "Evropa",
+      "abortion": {
+        "status": "ban",
+        "conditions": "Ena najstrožjih ureditev v EU; 2023 omejena izjema, ko je življenje ženske v neposredni nevarnosti in fetus ni viabilen. Malta ni na zemljevidu Natural Earth 110m (premajhna), a je v podatkovni zbirki.",
+        "legislation": [
+          "Criminal Code, ss. 241–243A (kot spremenjen 2023)"
+        ]
+      },
+      "euthanasia": {
+        "status": "prohibited",
+        "conditions": "Evtanazija in asistirani samomor sta kazniva.",
+        "legislation": [
+          "Criminal Code"
+        ]
+      },
+      "treaties": [],
+      "sources": [
+        {
+          "title": "legislation.mt",
+          "url": "https://legislation.mt/"
+        }
+      ],
+      "featured": true
+    }
+  ],
+  "general_sources": [
+    {
+      "title": "Center for Reproductive Rights — The World's Abortion Laws",
+      "url": "https://reproductiverights.org/maps/worlds-abortion-laws/"
+    },
+    {
+      "title": "WHO / HRP Global Abortion Policies Database",
+      "url": "https://abortion-policies.srhr.org/"
+    },
+    {
+      "title": "World Federation of Right to Die Societies",
+      "url": "https://wfrtds.org/"
+    },
+    {
+      "title": "OAS — American Convention on Human Rights, Art. 4",
+      "url": "https://www.oas.org/dil/treaties_b-32_american_convention_on_human_rights.htm"
+    },
+    {
+      "title": "Geneva Consensus Declaration",
+      "url": "https://www.thegcd.org/"
+    }
+  ]
+}
