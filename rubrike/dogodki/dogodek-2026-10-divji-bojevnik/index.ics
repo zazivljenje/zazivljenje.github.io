@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Divji bojevnik
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-10-divji-bojevnik@zazivljenje.com
+DTSTAMP:20260913T212141Z
+DTSTART:20261009T153000Z
+DTEND:20261009T183000Z
+SUMMARY:Divji bojevnik
+DESCRIPTION:Triurna delavnica za očete in sinove v puberteti (približno 12–15 let) o spremljanju sina v odraščanju. Del vsebine imajo fantje in očetje ločeno\, del skupaj. https://www.iskreni.net/programi/delavnica-za-ocete-in-sinove/
+LOCATION:Brezovica pri Ljubljani\, Slovenija
+GEO:46.0242349;14.4179373
+URL:https://www.iskreni.net/programi/delavnica-za-ocete-in-sinove/
+END:VEVENT
+
+END:VCALENDAR

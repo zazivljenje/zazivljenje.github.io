@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dogodki on Za življenje!</title>
+    <link>https://zazivljenje.com/rubrike/dogodki/</link>
+    <description>Recent content in Dogodki on Za življenje!</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://zazivljenje.com/rubrike/dogodki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E-priprava na zakon</title>
+      <link>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-11-e-priprava/</link>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-11-e-priprava/</guid>
+      <description>Trimesečna e-priprava na zakon z uvodnim srečanjem 7. novembra 2026 in zaključnim vikendom.</description>
+    </item>
+    <item>
+      <title>Spominska sv. maša za ozdravljenje po izgubi otroka</title>
+      <link>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-10-celje-masa/</link>
+      <pubDate>Sat, 10 Oct 2026 15:00:00 +0200</pubDate>
+      <guid>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-10-celje-masa/</guid>
+      <description>Spominska maša za starše, ki žalujejo po izgubi otroka, v župniji Sv. Cecilije v Celju.</description>
+    </item>
+    <item>
+      <title>Divji bojevnik</title>
+      <link>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-10-divji-bojevnik/</link>
+      <pubDate>Fri, 09 Oct 2026 17:30:00 +0200</pubDate>
+      <guid>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-10-divji-bojevnik/</guid>
+      <description>Triurna delavnica za očete in sinove v puberteti o spremljanju sina v odraščanju.</description>
+    </item>
+    <item>
+      <title>Sv. maša za zakonce, ki si želijo otrok</title>
+      <link>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-10-ptujska-gora/</link>
+      <pubDate>Sat, 03 Oct 2026 18:00:00 +0200</pubDate>
+      <guid>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-10-ptujska-gora/</guid>
+      <description>Sveta maša za zakonce v preizkušnji neplodnosti na Ptujski Gori.</description>
+    </item>
+    <item>
+      <title>Modra ženska</title>
+      <link>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-10-modra-zenska/</link>
+      <pubDate>Thu, 01 Oct 2026 17:30:00 +0200</pubDate>
+      <guid>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-10-modra-zenska/</guid>
+      <description>Delavnica za ženske v menopavzi: skrb za zdravje in življenjsko obdobje.</description>
+    </item>
+    <item>
+      <title>Safeguarding Basics</title>
+      <link>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-09-integrum-safeguarding/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-09-integrum-safeguarding/</guid>
+      <description>Spletno srečanje zaključka programa Safeguarding Basics o zaščiti mladih in varnem okolju.</description>
+    </item>
+  </channel>
+</rss>

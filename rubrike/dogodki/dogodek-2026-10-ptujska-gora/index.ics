@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sv. maša za zakonce, ki si želijo otrok
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-10-ptujska-gora@zazivljenje.com
+DTSTAMP:20260913T212141Z
+DTSTART:20261003T160000Z
+DURATION:PT1H30M
+SUMMARY:Sv. maša za zakonce\, ki si želijo otrok
+DESCRIPTION:Sveta maša za zakonce v preizkušnji neplodnosti\; maševalec p. Toni Brinjovc. Po maši molitev pred Najsvetejšim za rodovitnost in potomstvo. https://www.neplodnost-rodovitnost.si/sv-masa-za-zakonce-ki-si-zelijo-otrok-3-oktober-2026-ptujska-gora/
+LOCATION:Ptujska Gora\, 2332\, Slovenija
+GEO:46.3541382;15.7605904
+URL:https://www.neplodnost-rodovitnost.si/sv-masa-za-zakonce-ki-si-zelijo-otrok-3-oktober-2026-ptujska-gora/
+END:VEVENT
+
+END:VCALENDAR

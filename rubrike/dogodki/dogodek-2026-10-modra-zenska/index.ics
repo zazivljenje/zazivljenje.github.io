@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Modra ženska
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-10-modra-zenska@zazivljenje.com
+DTSTAMP:20260913T212141Z
+DTSTART:20261001T153000Z
+DTEND:20261001T183000Z
+SUMMARY:Modra ženska
+DESCRIPTION:Delavnica za ženske v menopavzi. V varnem okolju obravnavajo telesne\, čustvene in psihološke spremembe tega življenjskega obdobja. Izvedba 1. oktobra 2026 v Brezovici pri Ljubljani. https://www.iskreni.net/programi/modra-zenska/
+LOCATION:Brezovica pri Ljubljani\, Slovenija
+GEO:46.0242349;14.4179373
+URL:https://www.iskreni.net/programi/modra-zenska/
+END:VEVENT
+
+END:VCALENDAR

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Safeguarding Basics
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-09-integrum-safeguarding@zazivljenje.com
+DTSTAMP:20260913T212141Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Safeguarding Basics
+DESCRIPTION:Spletno srečanje zaključka programa Safeguarding Basics (zaščita mladih / varno okolje). Zoom povezava je na strani tečaja Integrum. https://institut-integrum.com/spletni-tecaj-safeguarding/
+LOCATION:online (Zoom)
+URL:https://institut-integrum.com/spletni-tecaj-safeguarding/
+END:VEVENT
+
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:E-priprava na zakon
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-11-e-priprava@zazivljenje.com
+DTSTAMP:20260913T212141Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20270301
+SUMMARY:E-priprava na zakon
+DESCRIPTION:Trimesečna e-priprava na zakon z voditelji zakoncema. Vključuje spletne skupine\, uvodno srečanje 7. novembra 2026 in skupni zaključni vikend v Domu duhovnosti Nazarje. https://www.iskreni.net/programi/e-priprava-na-zakon/
+LOCATION:Nazarje\, Slovenija
+GEO:46.285886;14.9203922
+URL:https://www.iskreni.net/programi/e-priprava-na-zakon/
+END:VEVENT
+
+END:VCALENDAR

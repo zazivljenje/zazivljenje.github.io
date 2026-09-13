@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Za življenje — dogodki
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-09-integrum-safeguarding@zazivljenje.com
+DTSTAMP:20260913T212141Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Safeguarding Basics
+DESCRIPTION:Spletno srečanje zaključka programa Safeguarding Basics (zaščita mladih / varno okolje). Zoom povezava je na strani tečaja Integrum. https://institut-integrum.com/spletni-tecaj-safeguarding/
+LOCATION:online (Zoom)
+URL:https://institut-integrum.com/spletni-tecaj-safeguarding/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dogodek-2026-10-modra-zenska@zazivljenje.com
+DTSTAMP:20260913T212141Z
+DTSTART:20261001T153000Z
+DTEND:20261001T183000Z
+SUMMARY:Modra ženska
+DESCRIPTION:Delavnica za ženske v menopavzi. V varnem okolju obravnavajo telesne\, čustvene in psihološke spremembe tega življenjskega obdobja. Izvedba 1. oktobra 2026 v Brezovici pri Ljubljani. https://www.iskreni.net/programi/modra-zenska/
+LOCATION:Brezovica pri Ljubljani\, Slovenija
+GEO:46.0242349;14.4179373
+URL:https://www.iskreni.net/programi/modra-zenska/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dogodek-2026-10-ptujska-gora@zazivljenje.com
+DTSTAMP:20260913T212141Z
+DTSTART:20261003T160000Z
+DURATION:PT1H30M
+SUMMARY:Sv. maša za zakonce\, ki si želijo otrok
+DESCRIPTION:Sveta maša za zakonce v preizkušnji neplodnosti\; maševalec p. Toni Brinjovc. Po maši molitev pred Najsvetejšim za rodovitnost in potomstvo. https://www.neplodnost-rodovitnost.si/sv-masa-za-zakonce-ki-si-zelijo-otrok-3-oktober-2026-ptujska-gora/
+LOCATION:Ptujska Gora\, 2332\, Slovenija
+GEO:46.3541382;15.7605904
+URL:https://www.neplodnost-rodovitnost.si/sv-masa-za-zakonce-ki-si-zelijo-otrok-3-oktober-2026-ptujska-gora/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dogodek-2026-10-divji-bojevnik@zazivljenje.com
+DTSTAMP:20260913T212141Z
+DTSTART:20261009T153000Z
+DTEND:20261009T183000Z
+SUMMARY:Divji bojevnik
+DESCRIPTION:Triurna delavnica za očete in sinove v puberteti (približno 12–15 let) o spremljanju sina v odraščanju. Del vsebine imajo fantje in očetje ločeno\, del skupaj. https://www.iskreni.net/programi/delavnica-za-ocete-in-sinove/
+LOCATION:Brezovica pri Ljubljani\, Slovenija
+GEO:46.0242349;14.4179373
+URL:https://www.iskreni.net/programi/delavnica-za-ocete-in-sinove/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dogodek-2026-10-celje-masa@zazivljenje.com
+DTSTAMP:20260913T212141Z
+DTSTART:20261010T130000Z
+DTEND:20261010T140000Z
+SUMMARY:Spominska sv. maša za ozdravljenje po izgubi otroka
+DESCRIPTION:Spominska maša za starše\, ki žalujejo po izgubi otroka (tudi po spontanem ali umetnem splavu\, zunajmaternični nosečnosti\, nesreči\, bolezni in drugih izgubah). https://www.zavod-zivim.si/dogodki/spominska-sv-masa-za-ozdravljenje-po-izgubi-otroka-celje-2/
+LOCATION:Breg 18\, 3000 Celje\, Slovenija
+GEO:46.2244165;15.2650076
+URL:https://www.zavod-zivim.si/dogodki/spominska-sv-masa-za-ozdravljenje-po-izgubi-otroka-celje-2/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dogodek-2026-11-e-priprava@zazivljenje.com
+DTSTAMP:20260913T212141Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20270301
+SUMMARY:E-priprava na zakon
+DESCRIPTION:Trimesečna e-priprava na zakon z voditelji zakoncema. Vključuje spletne skupine\, uvodno srečanje 7. novembra 2026 in skupni zaključni vikend v Domu duhovnosti Nazarje. https://www.iskreni.net/programi/e-priprava-na-zakon/
+LOCATION:Nazarje\, Slovenija
+GEO:46.285886;14.9203922
+URL:https://www.iskreni.net/programi/e-priprava-na-zakon/
+END:VEVENT
+
+END:VCALENDAR

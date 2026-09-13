@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Predavanja on Za življenje!</title>
+    <link>https://zazivljenje.com/rubrike/predavanja/</link>
+    <description>Recent content in Predavanja on Za življenje!</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://zazivljenje.com/rubrike/predavanja/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IV. del: Splav v kulturni in spolni revoluciji</title>
+      <link>https://zazivljenje.com/rubrike/predavanja/predavanje-2024-11-iv-del/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/rubrike/predavanja/predavanje-2024-11-iv-del/</guid>
+      <description>Zaključni del predavanja o splavu kot marksističnem orodju v kulturni in spolni revoluciji</description>
+    </item>
+    <item>
+      <title>III. del: Gramsci in kulturna hegemonija</title>
+      <link>https://zazivljenje.com/rubrike/predavanja/predavanje-2024-06-iii-del/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/rubrike/predavanja/predavanje-2024-06-iii-del/</guid>
+      <description>Antonio Gramsci, kulturna hegemonija in potomci komunizma po padcu železne zavese</description>
+    </item>
+    <item>
+      <title>II. del: Lastnina in reproduktivne pravice</title>
+      <link>https://zazivljenje.com/rubrike/predavanja/predavanje-2024-05-ii-del/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/rubrike/predavanja/predavanje-2024-05-ii-del/</guid>
+      <description>Odprava zasebne lastnine in propagandna akcija o »reproduktivnih pravicah«</description>
+    </item>
+    <item>
+      <title>I. del: Kultura splava v Sovjetski zvezi</title>
+      <link>https://zazivljenje.com/rubrike/predavanja/predavanje-2024-04-i-del/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/rubrike/predavanja/predavanje-2024-04-i-del/</guid>
+      <description>Julia Loredo de Izcue o splavu kot marksističnem orodju — začetki kulture splava v Sovjetski zvezi</description>
+    </item>
+  </channel>
+</rss>
