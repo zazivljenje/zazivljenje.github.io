@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice">
+  <rect width="320" height="200" fill="#F3B39A"/>
+  <g font-family="ui-rounded, -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+    <g fill="#fff">
+      <rect x="31" y="56" width="38" height="38" rx="7"/>
+      <rect x="75" y="56" width="38" height="38" rx="7"/>
+      <rect x="119" y="56" width="38" height="38" rx="7"/>
+      <rect x="163" y="56" width="38" height="38" rx="7"/>
+      <rect x="207" y="56" width="38" height="38" rx="7"/>
+      <rect x="251" y="56" width="38" height="38" rx="7"/>
+    </g>
+    <g fill="#2C2C2C">
+      <text x="50" y="81">B</text>
+      <text x="94" y="81">E</text>
+      <text x="138" y="81">S</text>
+      <text x="182" y="81">E</text>
+      <text x="226" y="81">D</text>
+      <text x="270" y="81">A</text>
+    </g>
+    <g fill="#E8C47A">
+      <rect x="31" y="106" width="38" height="38" rx="7"/>
+      <rect x="119" y="106" width="38" height="38" rx="7"/>
+      <rect x="207" y="106" width="38" height="38" rx="7"/>
+    </g>
+    <g fill="#fff">
+      <rect x="75" y="106" width="38" height="38" rx="7"/>
+      <rect x="163" y="106" width="38" height="38" rx="7"/>
+      <rect x="251" y="106" width="38" height="38" rx="7"/>
+    </g>
+  </g>
+</svg>

@@ -13,12 +13,16 @@
     }
   }
 
-  function openDrawer(id) {
+  function openDrawer(id, trigger) {
     var tpl = document.getElementById("drawer-" + id);
     if (!tpl || !mount) return;
     window.clearTimeout(closeTimer);
     fillMount(tpl);
-    drawer.classList.toggle("site-drawer--compact", tpl.getAttribute("data-drawer-size") === "compact");
+    var size = tpl.getAttribute("data-drawer-size");
+    drawer.classList.toggle("site-drawer--compact", size === "compact");
+    drawer.classList.toggle("site-drawer--play", size === "play");
+    drawer.classList.toggle("site-drawer--news", size === "news");
+    drawer.classList.toggle("site-drawer--form", size === "form");
     drawer.hidden = false;
     backdrop.hidden = false;
     drawer.setAttribute("aria-hidden", "false");
@@ -34,6 +38,7 @@
     } else {
       location.hash = id;
     }
+    document.dispatchEvent(new CustomEvent("site-drawer:open", { detail: { id: id, mount: mount, trigger: trigger || null } }));
   }
 
   function closeDrawer() {
@@ -42,6 +47,7 @@
     backdrop.classList.remove("is-open");
     document.body.classList.remove("drawer-open");
     drawer.setAttribute("aria-hidden", "true");
+    document.dispatchEvent(new CustomEvent("site-drawer:close"));
     closeTimer = window.setTimeout(function () {
       if (mount) {
         mount.querySelectorAll("iframe").forEach(function (frame) {
@@ -49,7 +55,7 @@
         });
         mount.innerHTML = "";
       }
-      drawer.classList.remove("site-drawer--compact");
+      drawer.classList.remove("site-drawer--compact", "site-drawer--play", "site-drawer--news", "site-drawer--form");
       drawer.hidden = true;
       backdrop.hidden = true;
     }, 280);
@@ -69,7 +75,7 @@
     if (!trigger) return;
     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button === 1) return;
     event.preventDefault();
-    openDrawer(trigger.getAttribute("data-drawer"));
+    openDrawer(trigger.getAttribute("data-drawer"), trigger);
   });
 
   document.addEventListener("keydown", function (event) {

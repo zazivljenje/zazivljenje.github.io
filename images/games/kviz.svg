@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice">
+  <rect width="320" height="200" fill="#9ED6F0"/>
+  <g font-family="ui-rounded, -apple-system, BlinkMacSystemFont, sans-serif" font-size="28" font-weight="700" text-anchor="middle">
+    <rect x="86" y="36" width="68" height="68" rx="16" fill="#6BB8D6"/>
+    <rect x="166" y="36" width="68" height="68" rx="16" fill="#fff"/>
+    <rect x="86" y="116" width="68" height="68" rx="16" fill="#6BB8D6"/>
+    <rect x="166" y="116" width="68" height="68" rx="16" fill="#6BB8D6"/>
+    <text x="120" y="80" fill="#fff">A</text>
+    <text x="200" y="80" fill="#2C2C2C">B</text>
+    <text x="120" y="160" fill="#fff">C</text>
+    <text x="200" y="160" fill="#fff">D</text>
+  </g>
+</svg>
