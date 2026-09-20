@@ -7,10 +7,10 @@
 <meta name="robots" content="index, follow">
 <title>Aplikacije | Za življenje!</title>
 <meta name="keywords" content="">
-<meta name="description" content="Izračun dohodnine, ki omogoča preprost izračun najboljšega načina izrabe davčnih olajšav za vzdrževane otroke.">
+<meta name="description" content="Izračun dohodnine in Razvoj otroka v maternici.">
 <meta name="author" content="">
 <link rel="canonical" href="https://zazivljenje.com/aplikacije/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aa7abcb63c7efef045bcfd5d879f62f5e02f5fd11eee24162b60a5b47a2916a9.css" integrity="sha256-qnq8tjx&#43;/vBFvP1dh59i9eAvX9Ee7iQWK2CltHopFqk=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.6d627464d637f96652ccdcc977079cd6e13be68d594b66e4fbf3c8b627e068c5.css" integrity="sha256-bWJ0ZNY3&#43;WZSzNzJdwec1uE75o1ZS2bk&#43;/PItifgaMU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://zazivljenje.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://zazivljenje.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://zazivljenje.com/favicon-32x32.png">
@@ -78,13 +78,13 @@
           gtag('config', 'G-GYDERP4592');
         }
       </script><meta property="og:title" content="Aplikacije" />
-<meta property="og:description" content="Izračun dohodnine, ki omogoča preprost izračun najboljšega načina izrabe davčnih olajšav za vzdrževane otroke." />
+<meta property="og:description" content="Izračun dohodnine in Razvoj otroka v maternici." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://zazivljenje.com/aplikacije/" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Aplikacije"/>
-<meta name="twitter:description" content="Izračun dohodnine, ki omogoča preprost izračun najboljšega načina izrabe davčnih olajšav za vzdrževane otroke."/>
+<meta name="twitter:description" content="Izračun dohodnine in Razvoj otroka v maternici."/>
 
 
 <script type="application/ld+json">
@@ -182,171 +182,209 @@
         </ul>
     </nav>
 </header>
-<main class="main"><div class="section-listing doh-page">
+<main class="main"><div class="section-listing apps-page">
   <section class="home-band doh-band">
     <div class="home-inner">
       <header class="doh-intro">
         <p class="doh-kicker">Aplikacije</p>
-        <h1>Izračun dohodnine</h1>
-        <p>Preprost izračun najboljšega načina izrabe davčnih olajšav za vzdrževane otroke.</p>
+        <h1>Aplikacije</h1>
       </header>
 
-      <form id="doh-app" class="doh-app" novalidate>
-        <div class="doh-layout">
-          <div class="doh-form">
-            <section class="doh-card">
-              <div class="doh-card__top">
-                <h2>Kdo uveljavlja olajšave?</h2>
-                <div class="doh-seg" role="group" aria-label="Število zavezancev">
-                  <button type="button" class="doh-seg__btn" data-who="1" aria-pressed="true">En zavezanec</button>
-                  <button type="button" class="doh-seg__btn" data-who="2" aria-pressed="false">Dva zavezanca</button>
-                </div>
-              </div>
-              <p class="doh-help">Otroke vpisujte po starosti, od najstarejšega do najmlajšega.</p>
-              <div class="doh-toolbar">
-                <button type="button" class="doh-btn doh-btn--primary" data-add-child>Dodaj otroka</button>
-                <button type="button" class="doh-btn" data-optimize>Predlagaj najugodnejšo delitev</button>
-              </div>
-              <div class="doh-children" data-children></div>
-              <label class="doh-check doh-check--block">
-                <input type="checkbox" data-transfer checked>
-                Uveljavljam ostanek olajšave pri drugem zavezancu
-              </label>
-            </section>
-
-            <section class="doh-card">
-              <div class="doh-card__top">
-                <h2>Dohodki</h2>
-                <div class="doh-seg" role="group" aria-label="Obdobje vnosa">
-                  <button type="button" class="doh-seg__btn" data-period="month" aria-pressed="true">Mesečno</button>
-                  <button type="button" class="doh-seg__btn" data-period="year" aria-pressed="false">Letno</button>
-                </div>
-              </div>
-              <p class="doh-help">Za plačo, prispevke in akontacijo vnesite zneske <span data-unit>mesečno</span>. Regres in nagrade vnesite kot letni znesek.</p>
-
-              <div class="doh-person">
-                <h3>Zavezanec 1</h3>
-                <div class="doh-grid">
-                  <label class="doh-field">
-                    <span>Bruto plača <small data-unit>mesečno</small></span>
-                    <input name="t1-salary" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
-                  </label>
-                  <label class="doh-field">
-                    <span>Prispevki <small data-unit>mesečno</small></span>
-                    <input name="t1-contrib" type="number" min="0" step="0.01" inputmode="decimal" placeholder="22,1 % samodejno">
-                  </label>
-                  <label class="doh-field">
-                    <span>Akontacija dohodnine <small data-unit>mesečno</small></span>
-                    <input name="t1-withheld" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
-                  </label>
-                  <label class="doh-field">
-                    <span>Regres za letni dopust <small data-once>letno</small></span>
-                    <input name="t1-holiday" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
-                  </label>
-                </div>
-                <details class="doh-more">
-                  <summary>Drugi prejemki in olajšave</summary>
-                  <div class="doh-grid">
-                    <label class="doh-field"><span>Stimulacije in bonitete <small data-unit>mesečno</small></span><input name="t1-bonuses" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Ostalo iz delovnega razmerja <small data-unit>mesečno</small></span><input name="t1-otherEmployment" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Pokojnina iz obveznega PIZ <small data-unit>mesečno</small></span><input name="t1-pension" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Nadomestila (porodn., brezp.) <small data-unit>mesečno</small></span><input name="t1-maternity" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Drugi prejemki iz del. razmerja <small data-unit>mesečno</small></span><input name="t1-otherWork" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Obdavčen del za posl. uspešnost <small data-once>letno</small></span><input name="t1-perfTaxed" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Neobdavčeno za posl. uspešnost <small data-once>letno</small></span><input name="t1-perfUntaxed" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Zimski regres <small data-once>letno</small></span><input name="t1-winter" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Pogodbeno delo <small data-unit>mesečno</small></span><input name="t1-contract" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Dejanski stroški pogodbenega dela</span><input name="t1-contractCosts" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Delo preko študentskega servisa <small data-unit>mesečno</small></span><input name="t1-student" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Dejanski stroški študentskega dela</span><input name="t1-studentCosts" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Katastrski dohodek <small data-once>letno</small></span><input name="t1-cadastral" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Dohodek iz premoženjskih pravic <small data-once>letno</small></span><input name="t1-ipRights" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Preostali drugi dohodki <small data-once>letno</small></span><input name="t1-otherIncome" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Prostovoljno pokojninsko zavarovanje <small data-once>letno</small></span><input name="t1-volPension" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Samoprispevki <small data-once>letno</small></span><input name="t1-purpose" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Za mlade do 29 let (št. mesecev)</span><input name="t1-youngMonths" type="number" min="0" max="12" step="1" inputmode="numeric"></label>
-                    <label class="doh-field"><span>Meseci, ko ste vzdrževani družinski član</span><input name="t1-dependentMonths" type="number" min="0" max="12" step="1" inputmode="numeric"></label>
-                  </div>
-                  <div class="doh-checks">
-                    <label><input name="t1-disabled" type="checkbox"> 100% invalid</label>
-                    <label><input name="t1-studentFlag" type="checkbox"> Študentsko delo</label>
-                    <label><input name="t1-over70" type="checkbox"> Starejši od 70 let</label>
-                    <label><input name="t1-volunteer" type="checkbox"> Prostovoljec zaščite in reševanja 10 let</label>
-                  </div>
-                </details>
-              </div>
-
-              <div class="doh-person" data-panel="partner" hidden>
-                <h3>Zavezanec 2</h3>
-                <div class="doh-grid">
-                  <label class="doh-field">
-                    <span>Bruto plača <small data-unit>mesečno</small></span>
-                    <input name="t2-salary" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
-                  </label>
-                  <label class="doh-field">
-                    <span>Prispevki <small data-unit>mesečno</small></span>
-                    <input name="t2-contrib" type="number" min="0" step="0.01" inputmode="decimal" placeholder="22,1 % samodejno">
-                  </label>
-                  <label class="doh-field">
-                    <span>Akontacija dohodnine <small data-unit>mesečno</small></span>
-                    <input name="t2-withheld" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
-                  </label>
-                  <label class="doh-field">
-                    <span>Regres za letni dopust <small data-once>letno</small></span>
-                    <input name="t2-holiday" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
-                  </label>
-                </div>
-                <details class="doh-more">
-                  <summary>Drugi prejemki in olajšave</summary>
-                  <div class="doh-grid">
-                    <label class="doh-field"><span>Stimulacije in bonitete <small data-unit>mesečno</small></span><input name="t2-bonuses" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Ostalo iz delovnega razmerja <small data-unit>mesečno</small></span><input name="t2-otherEmployment" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Pokojnina iz obveznega PIZ <small data-unit>mesečno</small></span><input name="t2-pension" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Nadomestila (porodn., brezp.) <small data-unit>mesečno</small></span><input name="t2-maternity" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Drugi prejemki iz del. razmerja <small data-unit>mesečno</small></span><input name="t2-otherWork" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Obdavčen del za posl. uspešnost <small data-once>letno</small></span><input name="t2-perfTaxed" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Neobdavčeno za posl. uspešnost <small data-once>letno</small></span><input name="t2-perfUntaxed" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Zimski regres <small data-once>letno</small></span><input name="t2-winter" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Pogodbeno delo <small data-unit>mesečno</small></span><input name="t2-contract" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Dejanski stroški pogodbenega dela</span><input name="t2-contractCosts" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Delo preko študentskega servisa <small data-unit>mesečno</small></span><input name="t2-student" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Dejanski stroški študentskega dela</span><input name="t2-studentCosts" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Katastrski dohodek <small data-once>letno</small></span><input name="t2-cadastral" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Dohodek iz premoženjskih pravic <small data-once>letno</small></span><input name="t2-ipRights" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Preostali drugi dohodki <small data-once>letno</small></span><input name="t2-otherIncome" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Prostovoljno pokojninsko zavarovanje <small data-once>letno</small></span><input name="t2-volPension" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Samoprispevki <small data-once>letno</small></span><input name="t2-purpose" type="number" min="0" step="0.01" inputmode="decimal"></label>
-                    <label class="doh-field"><span>Za mlade do 29 let (št. mesecev)</span><input name="t2-youngMonths" type="number" min="0" max="12" step="1" inputmode="numeric"></label>
-                    <label class="doh-field"><span>Meseci, ko ste vzdrževani družinski član</span><input name="t2-dependentMonths" type="number" min="0" max="12" step="1" inputmode="numeric"></label>
-                  </div>
-                  <div class="doh-checks">
-                    <label><input name="t2-disabled" type="checkbox"> 100% invalid</label>
-                    <label><input name="t2-studentFlag" type="checkbox"> Študentsko delo</label>
-                    <label><input name="t2-over70" type="checkbox"> Starejši od 70 let</label>
-                    <label><input name="t2-volunteer" type="checkbox"> Prostovoljec zaščite in reševanja 10 let</label>
-                  </div>
-                </details>
-              </div>
-              <div class="doh-card__foot">
-                <button type="button" class="doh-btn" data-example>Prikaži primer družine</button>
-                <button type="button" class="doh-btn doh-btn--ghost" data-reset>Počisti</button>
-              </div>
-            </section>
+      <div class="section-listing__grid apps-cards">
+        <article class="home-card home-card--tile">
+          <a class="home-card__media" href="#dohodnina" data-drawer="dohodnina">
+            <img src="/images/aplikacije/dohodnina.jpg" alt="" width="1280" height="720">
+          </a>
+          <div class="home-card__body">
+            <p class="home-kicker">Kalkulator</p>
+            <h3 class="home-card__title">
+              <a href="#dohodnina" data-drawer="dohodnina">Izračun dohodnine</a>
+            </h3>
+            <p class="home-card__summary">Preprost izračun najboljšega načina izrabe davčnih olajšav za vzdrževane otroke.</p>
           </div>
+        </article>
 
-          <aside class="doh-aside">
-            <div class="doh-result" data-results aria-live="polite"></div>
-          </aside>
-        </div>
-        <div class="doh-legal">
-          <p>Obrazec je izdelan povsem ljubiteljsko in za lastno uporabo, zato ne pokriva vseh vrst dohodkov, ampak le najpogostejše. Uporabljate ga na lastno odgovornost. Če najdete napako, jo sporočite na <a href="mailto:druzinska.pobuda@gmail.com?subject=Feedback%20na%20kalkulator%20dohodnine&amp;body=Spo%C5%A1tovani%2C%0D%0A%0D%0AHvala%20vam%20za%20spletni%20kalkulator%20dohodnine.%20Ob%20uporabi%20smo%20opazili%20slede%C4%8Do%20pomanjkljivost%3A%0D%0A%0D%0A%0D%0ALep%20pozdrav%20in%20vse%20dobro%2C%0D%0A">druzinska.pobuda@gmail.com</a>.</p>
-          <p>Lestvice in logika izračuna temeljijo na obrazcu <a href="http://www.druzinskapobuda.si/">Družinske pobude</a> (Tomaž Merše). Prostovoljni prispevek: SI56 0430 2000 3327 957, OTP.</p>
-        </div>
-      </form>
+        <article class="home-card home-card--tile">
+          <a class="home-card__media" href="https://www.windowtothewomb.app/" target="_blank" rel="noopener">
+            <img src="/images/aplikacije/window-to-the-womb.jpg" alt="" width="1280" height="720">
+          </a>
+          <div class="home-card__body">
+            <p class="home-kicker">Live Action</p>
+            <h3 class="home-card__title">
+              <a href="https://www.windowtothewomb.app/" target="_blank" rel="noopener">Razvoj otroka v maternici</a>
+            </h3>
+            <p class="home-card__summary">Še nikoli viden vpogled v življenje pred rojstvom.</p>
+          </div>
+        </article>
+      </div>
     </div>
   </section>
 </div>
-<script src="/js/dohodnina.js" defer></script>
+
+<template id="drawer-dohodnina" data-drawer-size="app">
+  <div class="drawer-panel doh-page">
+    <form id="doh-app" class="doh-app" novalidate>
+  <header class="doh-intro">
+    <p class="doh-kicker">Aplikacije</p>
+    <h2 id="site-drawer-title">Izračun dohodnine</h2>
+    <p>Preprost izračun najboljšega načina izrabe davčnih olajšav za vzdrževane otroke.</p>
+  </header>
+  <div class="doh-layout">
+    <div class="doh-form">
+      <section class="doh-card">
+        <div class="doh-card__top">
+          <h3>Kdo uveljavlja olajšave?</h3>
+          <div class="doh-seg" role="group" aria-label="Število zavezancev">
+            <button type="button" class="doh-seg__btn" data-who="1" aria-pressed="true">En zavezanec</button>
+            <button type="button" class="doh-seg__btn" data-who="2" aria-pressed="false">Dva zavezanca</button>
+          </div>
+        </div>
+        <p class="doh-help">Otroke vpisujte po starosti, od najstarejšega do najmlajšega.</p>
+        <div class="doh-toolbar">
+          <button type="button" class="doh-btn doh-btn--primary" data-add-child>Dodaj otroka</button>
+          <button type="button" class="doh-btn" data-optimize>Predlagaj najugodnejšo delitev</button>
+        </div>
+        <div class="doh-children" data-children></div>
+        <label class="doh-check doh-check--block">
+          <input type="checkbox" data-transfer checked>
+          Uveljavljam ostanek olajšave pri drugem zavezancu
+        </label>
+      </section>
+
+      <section class="doh-card">
+        <div class="doh-card__top">
+          <h3>Dohodki</h3>
+          <div class="doh-seg" role="group" aria-label="Obdobje vnosa">
+            <button type="button" class="doh-seg__btn" data-period="month" aria-pressed="true">Mesečno</button>
+            <button type="button" class="doh-seg__btn" data-period="year" aria-pressed="false">Letno</button>
+          </div>
+        </div>
+        <p class="doh-help">Za plačo, prispevke in akontacijo vnesite zneske <span data-unit>mesečno</span>. Regres in nagrade vnesite kot letni znesek.</p>
+
+        <div class="doh-person">
+          <h3>Zavezanec 1</h3>
+          <div class="doh-grid">
+            <label class="doh-field">
+              <span>Bruto plača <small data-unit>mesečno</small></span>
+              <input name="t1-salary" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
+            </label>
+            <label class="doh-field">
+              <span>Prispevki <small data-unit>mesečno</small></span>
+              <input name="t1-contrib" type="number" min="0" step="0.01" inputmode="decimal" placeholder="22,1 % samodejno">
+            </label>
+            <label class="doh-field">
+              <span>Akontacija dohodnine <small data-unit>mesečno</small></span>
+              <input name="t1-withheld" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
+            </label>
+            <label class="doh-field">
+              <span>Regres za letni dopust <small data-once>letno</small></span>
+              <input name="t1-holiday" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
+            </label>
+          </div>
+          <details class="doh-more">
+            <summary>Drugi prejemki in olajšave</summary>
+            <div class="doh-grid">
+              <label class="doh-field"><span>Stimulacije in bonitete <small data-unit>mesečno</small></span><input name="t1-bonuses" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Ostalo iz delovnega razmerja <small data-unit>mesečno</small></span><input name="t1-otherEmployment" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Pokojnina iz obveznega PIZ <small data-unit>mesečno</small></span><input name="t1-pension" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Nadomestila (porodn., brezp.) <small data-unit>mesečno</small></span><input name="t1-maternity" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Drugi prejemki iz del. razmerja <small data-unit>mesečno</small></span><input name="t1-otherWork" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Obdavčen del za posl. uspešnost <small data-once>letno</small></span><input name="t1-perfTaxed" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Neobdavčeno za posl. uspešnost <small data-once>letno</small></span><input name="t1-perfUntaxed" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Zimski regres <small data-once>letno</small></span><input name="t1-winter" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Pogodbeno delo <small data-unit>mesečno</small></span><input name="t1-contract" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Dejanski stroški pogodbenega dela</span><input name="t1-contractCosts" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Delo preko študentskega servisa <small data-unit>mesečno</small></span><input name="t1-student" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Dejanski stroški študentskega dela</span><input name="t1-studentCosts" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Katastrski dohodek <small data-once>letno</small></span><input name="t1-cadastral" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Dohodek iz premoženjskih pravic <small data-once>letno</small></span><input name="t1-ipRights" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Preostali drugi dohodki <small data-once>letno</small></span><input name="t1-otherIncome" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Prostovoljno pokojninsko zavarovanje <small data-once>letno</small></span><input name="t1-volPension" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Samoprispevki <small data-once>letno</small></span><input name="t1-purpose" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Za mlade do 29 let (št. mesecev)</span><input name="t1-youngMonths" type="number" min="0" max="12" step="1" inputmode="numeric"></label>
+              <label class="doh-field"><span>Meseci, ko ste vzdrževani družinski član</span><input name="t1-dependentMonths" type="number" min="0" max="12" step="1" inputmode="numeric"></label>
+            </div>
+            <div class="doh-checks">
+              <label><input name="t1-disabled" type="checkbox"> 100% invalid</label>
+              <label><input name="t1-studentFlag" type="checkbox"> Študentsko delo</label>
+              <label><input name="t1-over70" type="checkbox"> Starejši od 70 let</label>
+              <label><input name="t1-volunteer" type="checkbox"> Prostovoljec zaščite in reševanja 10 let</label>
+            </div>
+          </details>
+        </div>
+
+        <div class="doh-person" data-panel="partner" hidden>
+          <h3>Zavezanec 2</h3>
+          <div class="doh-grid">
+            <label class="doh-field">
+              <span>Bruto plača <small data-unit>mesečno</small></span>
+              <input name="t2-salary" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
+            </label>
+            <label class="doh-field">
+              <span>Prispevki <small data-unit>mesečno</small></span>
+              <input name="t2-contrib" type="number" min="0" step="0.01" inputmode="decimal" placeholder="22,1 % samodejno">
+            </label>
+            <label class="doh-field">
+              <span>Akontacija dohodnine <small data-unit>mesečno</small></span>
+              <input name="t2-withheld" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
+            </label>
+            <label class="doh-field">
+              <span>Regres za letni dopust <small data-once>letno</small></span>
+              <input name="t2-holiday" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
+            </label>
+          </div>
+          <details class="doh-more">
+            <summary>Drugi prejemki in olajšave</summary>
+            <div class="doh-grid">
+              <label class="doh-field"><span>Stimulacije in bonitete <small data-unit>mesečno</small></span><input name="t2-bonuses" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Ostalo iz delovnega razmerja <small data-unit>mesečno</small></span><input name="t2-otherEmployment" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Pokojnina iz obveznega PIZ <small data-unit>mesečno</small></span><input name="t2-pension" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Nadomestila (porodn., brezp.) <small data-unit>mesečno</small></span><input name="t2-maternity" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Drugi prejemki iz del. razmerja <small data-unit>mesečno</small></span><input name="t2-otherWork" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Obdavčen del za posl. uspešnost <small data-once>letno</small></span><input name="t2-perfTaxed" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Neobdavčeno za posl. uspešnost <small data-once>letno</small></span><input name="t2-perfUntaxed" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Zimski regres <small data-once>letno</small></span><input name="t2-winter" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Pogodbeno delo <small data-unit>mesečno</small></span><input name="t2-contract" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Dejanski stroški pogodbenega dela</span><input name="t2-contractCosts" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Delo preko študentskega servisa <small data-unit>mesečno</small></span><input name="t2-student" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Dejanski stroški študentskega dela</span><input name="t2-studentCosts" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Katastrski dohodek <small data-once>letno</small></span><input name="t2-cadastral" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Dohodek iz premoženjskih pravic <small data-once>letno</small></span><input name="t2-ipRights" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Preostali drugi dohodki <small data-once>letno</small></span><input name="t2-otherIncome" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Prostovoljno pokojninsko zavarovanje <small data-once>letno</small></span><input name="t2-volPension" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Samoprispevki <small data-once>letno</small></span><input name="t2-purpose" type="number" min="0" step="0.01" inputmode="decimal"></label>
+              <label class="doh-field"><span>Za mlade do 29 let (št. mesecev)</span><input name="t2-youngMonths" type="number" min="0" max="12" step="1" inputmode="numeric"></label>
+              <label class="doh-field"><span>Meseci, ko ste vzdrževani družinski član</span><input name="t2-dependentMonths" type="number" min="0" max="12" step="1" inputmode="numeric"></label>
+            </div>
+            <div class="doh-checks">
+              <label><input name="t2-disabled" type="checkbox"> 100% invalid</label>
+              <label><input name="t2-studentFlag" type="checkbox"> Študentsko delo</label>
+              <label><input name="t2-over70" type="checkbox"> Starejši od 70 let</label>
+              <label><input name="t2-volunteer" type="checkbox"> Prostovoljec zaščite in reševanja 10 let</label>
+            </div>
+          </details>
+        </div>
+        <div class="doh-card__foot">
+          <button type="button" class="doh-btn" data-example>Prikaži primer družine</button>
+          <button type="button" class="doh-btn doh-btn--ghost" data-reset>Počisti</button>
+        </div>
+      </section>
+    </div>
+
+    <aside class="doh-aside">
+      <div class="doh-result" data-results aria-live="polite"></div>
+    </aside>
+  </div>
+  <div class="doh-legal">
+    <p>Obrazec je izdelan povsem ljubiteljsko in za lastno uporabo, zato ne pokriva vseh vrst dohodkov, ampak le najpogostejše. Uporabljate ga na lastno odgovornost. Če najdete napako, jo sporočite na <a href="mailto:druzinska.pobuda@gmail.com?subject=Feedback%20na%20kalkulator%20dohodnine&amp;body=Spo%C5%A1tovani%2C%0D%0A%0D%0AHvala%20vam%20za%20spletni%20kalkulator%20dohodnine.%20Ob%20uporabi%20smo%20opazili%20slede%C4%8Do%20pomanjkljivost%3A%0D%0A%0D%0A%0D%0ALep%20pozdrav%20in%20vse%20dobro%2C%0D%0A">druzinska.pobuda@gmail.com</a>.</p>
+    <p>Lestvice in logika izračuna temeljijo na obrazcu <a href="http://www.druzinskapobuda.si/">Družinske pobude</a> (Tomaž Merše). Prostovoljni prispevek: SI56 0430 2000 3327 957, OTP.</p>
+  </div>
+</form>
+
+  </div>
+</template>
+
+<script src="/js/dohodnina.js?v=drawer" defer></script>
     </main>
     
 <footer class="footer">
@@ -364,7 +402,7 @@
   </button>
   <div class="site-drawer__mount"></div>
 </aside>
-<script src="/js/site-drawer.js" defer></script>
+<script src="/js/site-drawer.js?v=app" defer></script>
 
 <template id="drawer-play-word" data-drawer-size="play">
   <div class="drawer-panel play-panel" data-play-root="word"></div>

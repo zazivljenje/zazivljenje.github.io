@@ -1,6 +1,7 @@
-(function () {
+function initDohodnina() {
   const root = document.getElementById("doh-app");
-  if (!root) return;
+  if (!root || root.dataset.dohBound === "1") return;
+  root.dataset.dohBound = "1";
 
   const MONTHS = 12;
   const CONTRIB_RATE = 0.221;
@@ -854,4 +855,9 @@
   renderChildren();
   syncLabels();
   setWho(1);
-})();
+}
+
+document.addEventListener("site-drawer:open", function (event) {
+  if (event.detail && event.detail.id === "dohodnina") initDohodnina();
+});
+initDohodnina();
