@@ -7,7 +7,7 @@ X-WR-CALNAME:Za življenje — dogodki
 X-WR-TIMEZONE:Europe/Ljubljana
 BEGIN:VEVENT
 UID:dogodek-2026-09-integrum-safeguarding@zazivljenje.com
-DTSTAMP:20260921T151910Z
+DTSTAMP:20260921T201451Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Safeguarding Basics
@@ -18,7 +18,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-modra-zenska@zazivljenje.com
-DTSTAMP:20260921T151910Z
+DTSTAMP:20260921T201451Z
 DTSTART:20261001T153000Z
 DTEND:20261001T183000Z
 SUMMARY:Modra ženska
@@ -30,7 +30,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-ptujska-gora@zazivljenje.com
-DTSTAMP:20260921T151910Z
+DTSTAMP:20260921T201451Z
 DTSTART:20261003T160000Z
 DURATION:PT1H30M
 SUMMARY:Sv. maša za zakonce\, ki si želijo otrok
@@ -41,8 +41,20 @@ URL:https://www.neplodnost-rodovitnost.si/sv-masa-za-zakonce-ki-si-zelijo-otrok-
 END:VEVENT
 
 BEGIN:VEVENT
+UID:dogodek-2026-10-nenacrtovana-pota@zazivljenje.com
+DTSTAMP:20260921T201451Z
+DTSTART:20261007T150000Z
+DURATION:PT1H30M
+SUMMARY:Premiera filma Nenačrtovana pota
+DESCRIPTION:Premiera filma Nenačrtovana pota bo v sredo\, 7. oktobra ob 17.00 v Odiseji. Film\, posnet po resničnih dogodkih\, pripoveduje zgodbo o Anji in Davidu\, ki ju nenačrtovana nosečnost povsem iztrga iz cone udobja. Več o filmu je na nenacrtovanapota.si. https://www.nenacrtovanapota.si/
+LOCATION:Moskovska ulica 11\, 1000 Ljubljana\, Slovenija
+GEO:46.0658;14.5459
+URL:https://www.nenacrtovanapota.si/
+END:VEVENT
+
+BEGIN:VEVENT
 UID:dogodek-2026-10-divji-bojevnik@zazivljenje.com
-DTSTAMP:20260921T151910Z
+DTSTAMP:20260921T201451Z
 DTSTART:20261009T153000Z
 DTEND:20261009T183000Z
 SUMMARY:Divji bojevnik
@@ -54,7 +66,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-skrivnostna-lepotica@zazivljenje.com
-DTSTAMP:20260921T151910Z
+DTSTAMP:20260921T201451Z
 DTSTART:20261009T153000Z
 DURATION:PT1H30M
 SUMMARY:Skrivnostna lepotica (mama in hči\, 13–15 let)
@@ -66,7 +78,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-cudovita-princesa@zazivljenje.com
-DTSTAMP:20260921T151910Z
+DTSTAMP:20260921T201451Z
 DTSTART:20261010T073000Z
 DURATION:PT1H30M
 SUMMARY:Čudovita princesa (mama in hči\, 9–12 let)
@@ -78,7 +90,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-pohod-za-zivljenje-ljubljana@zazivljenje.com
-DTSTAMP:20260921T151910Z
+DTSTAMP:20260921T201451Z
 DTSTART:20261010T073000Z
 DURATION:PT1H30M
 SUMMARY:Pohod za življenje 2026 — Ljubljana
@@ -90,7 +102,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-celje-masa@zazivljenje.com
-DTSTAMP:20260921T151910Z
+DTSTAMP:20260921T201451Z
 DTSTART:20261010T130000Z
 DTEND:20261010T140000Z
 SUMMARY:Spominska sv. maša za ozdravljenje po izgubi otroka
@@ -101,8 +113,19 @@ URL:https://www.zavod-zivim.si/dogodki/spominska-sv-masa-za-ozdravljenje-po-izgu
 END:VEVENT
 
 BEGIN:VEVENT
+UID:dogodek-2026-10-teden-za-zivljenje@zazivljenje.com
+DTSTAMP:20260921T201451Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261019
+SUMMARY:Teden za življenje 2026
+DESCRIPTION:Teden za življenje 2026 bo od 11. do 18. oktobra pod geslom kjer je tema\, naj prinašam svetlobo. Pripravlja ga Društvo Gibanje za življenje. https://gibanjezazivljenje.si/teden-za-zivljenje/
+LOCATION:po Sloveniji
+URL:https://gibanjezazivljenje.si/teden-za-zivljenje/
+END:VEVENT
+
+BEGIN:VEVENT
 UID:dogodek-2026-10-drzni-pustolovec@zazivljenje.com
-DTSTAMP:20260921T151910Z
+DTSTAMP:20260921T201451Z
 DTSTART:20261017T070000Z
 DURATION:PT1H30M
 SUMMARY:Drzni pustolovec (oče in sin\, 9–12 let)
@@ -114,7 +137,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-11-e-priprava@zazivljenje.com
-DTSTAMP:20260921T151910Z
+DTSTAMP:20260921T201451Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20270301
 SUMMARY:E-priprava na zakon
@@ -122,6 +145,17 @@ DESCRIPTION:Trimesečna e-priprava na zakon z voditelji zakoncema. Vključuje sp
 LOCATION:Nazarje\, Slovenija
 GEO:46.285886;14.9203922
 URL:https://www.iskreni.net/programi/e-priprava-na-zakon/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dogodek-2026-11-one-of-us-zimska-sola@zazivljenje.com
+DTSTAMP:20260921T201451Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+SUMMARY:ONE OF US zimska šola 2026
+DESCRIPTION:Evropska federacija ONE OF US organizira mednarodni izobraževalni vikend za študente in mlade profesionalce\, ki delujejo v nevladnih organizacijah in jih zanima zagovorništvo življenja ter razvoj vodstvenih sposobnosti. Dogodek bo potekal v Parizu od 27. do 29. novembra 2026. Organizator krije nastanitev in obroke v Parizu\, udeleženci pa si krijejo stroške prevoza oziroma letalske karte. Število mest je omejeno. Zainteresirani se za več informacij lahko obrnete na franci.pecnik@usidrani.si. https://oneofus.eu/
+LOCATION:Pariz\, Francija
+URL:https://oneofus.eu/
 END:VEVENT
 
 END:VCALENDAR

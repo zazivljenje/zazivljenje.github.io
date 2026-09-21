@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Teden za življenje 2026
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-10-teden-za-zivljenje@zazivljenje.com
+DTSTAMP:20260921T201451Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261019
+SUMMARY:Teden za življenje 2026
+DESCRIPTION:Teden za življenje 2026 bo od 11. do 18. oktobra pod geslom kjer je tema\, naj prinašam svetlobo. Pripravlja ga Društvo Gibanje za življenje. https://gibanjezazivljenje.si/teden-za-zivljenje/
+LOCATION:po Sloveniji
+URL:https://gibanjezazivljenje.si/teden-za-zivljenje/
+END:VEVENT
+
+END:VCALENDAR

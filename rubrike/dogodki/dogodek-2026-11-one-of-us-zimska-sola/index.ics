@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ONE OF US zimska šola 2026
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-11-one-of-us-zimska-sola@zazivljenje.com
+DTSTAMP:20260921T201451Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+SUMMARY:ONE OF US zimska šola 2026
+DESCRIPTION:Evropska federacija ONE OF US organizira mednarodni izobraževalni vikend za študente in mlade profesionalce\, ki delujejo v nevladnih organizacijah in jih zanima zagovorništvo življenja ter razvoj vodstvenih sposobnosti. Dogodek bo potekal v Parizu od 27. do 29. novembra 2026. Organizator krije nastanitev in obroke v Parizu\, udeleženci pa si krijejo stroške prevoza oziroma letalske karte. Število mest je omejeno. Zainteresirani se za več informacij lahko obrnete na franci.pecnik@usidrani.si. https://oneofus.eu/
+LOCATION:Pariz\, Francija
+URL:https://oneofus.eu/
+END:VEVENT
+
+END:VCALENDAR
