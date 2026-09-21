@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" width="820" height="560" role="img" aria-label="Teme v relevantni pokritosti po medijih">
+<rect width="100%" height="100%" fill="none"/>
+<rect x="28" y="22" width="11" height="11" rx="2" fill="#c9a227"/>
+<text x="44" y="32" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">N1</text>
+<rect x="70.4" y="22" width="11" height="11" rx="2" fill="#e07a3d"/>
+<text x="86.4" y="32" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">24ur</text>
+<rect x="127.2" y="22" width="11" height="11" rx="2" fill="#3b6fd8"/>
+<text x="143.2" y="32" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Slovenske novice</text>
+<rect x="265.2" y="22" width="11" height="11" rx="2" fill="#7c5cbf"/>
+<text x="281.2" y="32" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Obala Plus</text>
+<rect x="365.2" y="22" width="11" height="11" rx="2" fill="#2f9e6b"/>
+<text x="381.2" y="32" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Večer</text>
+<rect x="429.2" y="22" width="11" height="11" rx="2" fill="#a65b2b"/>
+<text x="445.2" y="32" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Delo</text>
+<path d="M 410.0,276.0 L 446.4,297.0 L 446.4,339.0 L 410.0,360.0 L 373.6,339.0 L 373.6,297.0 Z" fill="none" stroke="#e4e0d8" stroke-width="1"/>
+<path d="M 410.0,234.0 L 482.7,276.0 L 482.7,360.0 L 410.0,402.0 L 337.3,360.0 L 337.3,276.0 Z" fill="none" stroke="#e4e0d8" stroke-width="1"/>
+<path d="M 410.0,192.0 L 519.1,255.0 L 519.1,381.0 L 410.0,444.0 L 300.9,381.0 L 300.9,255.0 Z" fill="none" stroke="#e4e0d8" stroke-width="1"/>
+<path d="M 410.0,150.0 L 555.5,234.0 L 555.5,402.0 L 410.0,486.0 L 264.5,402.0 L 264.5,234.0 Z" fill="none" stroke="#e4e0d8" stroke-width="1"/>
+<line x1="410" y1="318" x2="410.0" y2="150.0" stroke="#e4e0d8" stroke-width="1"/>
+<text x="410.0" y="122.0" fill="#1c1917" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Družine</text>
+<line x1="410" y1="318" x2="555.5" y2="234.0" stroke="#e4e0d8" stroke-width="1"/>
+<text x="579.7" y="220.0" fill="#1c1917" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Vzgoja</text>
+<line x1="410" y1="318" x2="555.5" y2="402.0" stroke="#e4e0d8" stroke-width="1"/>
+<text x="579.7" y="416.0" fill="#1c1917" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Dostojanstvo</text>
+<line x1="410" y1="318" x2="410.0" y2="486.0" stroke="#e4e0d8" stroke-width="1"/>
+<text x="410.0" y="514.0" fill="#1c1917" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Zakon</text>
+<line x1="410" y1="318" x2="264.5" y2="402.0" stroke="#e4e0d8" stroke-width="1"/>
+<text x="240.3" y="416.0" fill="#1c1917" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Rodnost</text>
+<line x1="410" y1="318" x2="264.5" y2="234.0" stroke="#e4e0d8" stroke-width="1"/>
+<text x="240.3" y="220.0" fill="#1c1917" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Oskrba</text>
+<path d="M 410.0,188.2 L 436.5,302.7 L 416.6,321.8 L 410.0,340.9 L 396.8,325.6 L 396.8,310.4 Z" fill="rgba(201,162,39,0.14)" stroke="#c9a227" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="410.0" cy="188.2" r="3.2" fill="#c9a227" stroke="#fff" stroke-width="1"/>
+<circle cx="436.5" cy="302.7" r="3.2" fill="#c9a227" stroke="#fff" stroke-width="1"/>
+<circle cx="416.6" cy="321.8" r="3.2" fill="#c9a227" stroke="#fff" stroke-width="1"/>
+<circle cx="410.0" cy="340.9" r="3.2" fill="#c9a227" stroke="#fff" stroke-width="1"/>
+<circle cx="396.8" cy="325.6" r="3.2" fill="#c9a227" stroke="#fff" stroke-width="1"/>
+<circle cx="396.8" cy="310.4" r="3.2" fill="#c9a227" stroke="#fff" stroke-width="1"/>
+<path d="M 410.0,177.5 L 421.2,311.5 L 417.0,322.0 L 410.0,334.2 L 401.6,322.8 L 404.4,314.8 Z" fill="rgba(224,122,61,0.14)" stroke="#e07a3d" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="410.0" cy="177.5" r="3.2" fill="#e07a3d" stroke="#fff" stroke-width="1"/>
+<circle cx="421.2" cy="311.5" r="3.2" fill="#e07a3d" stroke="#fff" stroke-width="1"/>
+<circle cx="417.0" cy="322.0" r="3.2" fill="#e07a3d" stroke="#fff" stroke-width="1"/>
+<circle cx="410.0" cy="334.2" r="3.2" fill="#e07a3d" stroke="#fff" stroke-width="1"/>
+<circle cx="401.6" cy="322.8" r="3.2" fill="#e07a3d" stroke="#fff" stroke-width="1"/>
+<circle cx="404.4" cy="314.8" r="3.2" fill="#e07a3d" stroke="#fff" stroke-width="1"/>
+<path d="M 410.0,160.3 L 416.7,314.1 L 423.4,325.8 L 410.0,323.2 L 403.3,321.9 L 410.0,318.0 Z" fill="rgba(59,111,216,0.14)" stroke="#3b6fd8" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="410.0" cy="160.3" r="3.2" fill="#3b6fd8" stroke="#fff" stroke-width="1"/>
+<circle cx="416.7" cy="314.1" r="3.2" fill="#3b6fd8" stroke="#fff" stroke-width="1"/>
+<circle cx="423.4" cy="325.8" r="3.2" fill="#3b6fd8" stroke="#fff" stroke-width="1"/>
+<circle cx="410.0" cy="323.2" r="3.2" fill="#3b6fd8" stroke="#fff" stroke-width="1"/>
+<circle cx="403.3" cy="321.9" r="3.2" fill="#3b6fd8" stroke="#fff" stroke-width="1"/>
+<circle cx="410.0" cy="318.0" r="3.2" fill="#3b6fd8" stroke="#fff" stroke-width="1"/>
+<path d="M 410.0,168.7 L 426.2,308.7 L 410.0,318.0 L 410.0,318.0 L 410.0,318.0 L 410.0,318.0 Z" fill="rgba(124,92,191,0.14)" stroke="#7c5cbf" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="410.0" cy="168.7" r="3.2" fill="#7c5cbf" stroke="#fff" stroke-width="1"/>
+<circle cx="426.2" cy="308.7" r="3.2" fill="#7c5cbf" stroke="#fff" stroke-width="1"/>
+<circle cx="410.0" cy="318.0" r="3.2" fill="#7c5cbf" stroke="#fff" stroke-width="1"/>
+<circle cx="410.0" cy="318.0" r="3.2" fill="#7c5cbf" stroke="#fff" stroke-width="1"/>
+<circle cx="410.0" cy="318.0" r="3.2" fill="#7c5cbf" stroke="#fff" stroke-width="1"/>
+<circle cx="410.0" cy="318.0" r="3.2" fill="#7c5cbf" stroke="#fff" stroke-width="1"/>
+<path d="M 410.0,211.1 L 429.8,306.5 L 449.7,340.9 L 410.0,325.6 L 410.0,318.0 L 403.4,314.2 Z" fill="rgba(47,158,107,0.14)" stroke="#2f9e6b" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="410.0" cy="211.1" r="3.2" fill="#2f9e6b" stroke="#fff" stroke-width="1"/>
+<circle cx="429.8" cy="306.5" r="3.2" fill="#2f9e6b" stroke="#fff" stroke-width="1"/>
+<circle cx="449.7" cy="340.9" r="3.2" fill="#2f9e6b" stroke="#fff" stroke-width="1"/>
+<circle cx="410.0" cy="325.6" r="3.2" fill="#2f9e6b" stroke="#fff" stroke-width="1"/>
+<circle cx="410.0" cy="318.0" r="3.2" fill="#2f9e6b" stroke="#fff" stroke-width="1"/>
+<circle cx="403.4" cy="314.2" r="3.2" fill="#2f9e6b" stroke="#fff" stroke-width="1"/>
+<path d="M 410.0,174.7 L 444.2,298.2 L 418.6,322.9 L 410.0,332.8 L 405.7,320.5 L 405.7,315.5 Z" fill="rgba(166,91,43,0.14)" stroke="#a65b2b" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="410.0" cy="174.7" r="3.2" fill="#a65b2b" stroke="#fff" stroke-width="1"/>
+<circle cx="444.2" cy="298.2" r="3.2" fill="#a65b2b" stroke="#fff" stroke-width="1"/>
+<circle cx="418.6" cy="322.9" r="3.2" fill="#a65b2b" stroke="#fff" stroke-width="1"/>
+<circle cx="410.0" cy="332.8" r="3.2" fill="#a65b2b" stroke="#fff" stroke-width="1"/>
+<circle cx="405.7" cy="320.5" r="3.2" fill="#a65b2b" stroke="#fff" stroke-width="1"/>
+<circle cx="405.7" cy="315.5" r="3.2" fill="#a65b2b" stroke="#fff" stroke-width="1"/>
+</svg>

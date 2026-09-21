@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 604" width="820" height="604" role="img" aria-label="Indeks medijske naravnanosti do življenja po medijih">
+<rect width="100%" height="100%" fill="#faf8f3"/>
+<text x="24" y="30" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700">Indeks po medijih (0–1)</text>
+<line x1="24.0" y1="48" x2="24.0" y2="582" stroke="#d6d3d1" stroke-width="1"/>
+<text x="24.0" y="596" fill="#57534e" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">0.00</text>
+<line x1="217.0" y1="48" x2="217.0" y2="582" stroke="#d6d3d1" stroke-width="1"/>
+<text x="217.0" y="596" fill="#57534e" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">0.25</text>
+<line x1="410.0" y1="48" x2="410.0" y2="582" stroke="#d6d3d1" stroke-width="1"/>
+<text x="410.0" y="596" fill="#57534e" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">0.50</text>
+<line x1="603.0" y1="48" x2="603.0" y2="582" stroke="#d6d3d1" stroke-width="1"/>
+<text x="603.0" y="596" fill="#57534e" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">0.75</text>
+<line x1="796.0" y1="48" x2="796.0" y2="582" stroke="#d6d3d1" stroke-width="1"/>
+<text x="796.0" y="596" fill="#57534e" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11">1.00</text>
+<text x="24" y="62" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Siol.net</text>
+<text x="796" y="62" fill="#1c1917" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">0.42</text>
+<rect x="24" y="68" width="772" height="14" rx="3" fill="#e7e5e0"/>
+<rect x="24" y="68" width="324.2" height="14" rx="3" fill="#4b5f3e"/>
+<text x="24" y="110" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">N1 Slovenija</text>
+<text x="796" y="110" fill="#1c1917" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">0.39</text>
+<rect x="24" y="116" width="772" height="14" rx="3" fill="#e7e5e0"/>
+<rect x="24" y="116" width="301.1" height="14" rx="3" fill="#565938"/>
+<text x="24" y="158" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">24ur</text>
+<text x="796" y="158" fill="#1c1917" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">0.39</text>
+<rect x="24" y="164" width="772" height="14" rx="3" fill="#e7e5e0"/>
+<rect x="24" y="164" width="301.1" height="14" rx="3" fill="#565938"/>
+<text x="24" y="206" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Slovenske novice</text>
+<text x="796" y="206" fill="#1c1917" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">0.38</text>
+<rect x="24" y="212" width="772" height="14" rx="3" fill="#e7e5e0"/>
+<rect x="24" y="212" width="293.4" height="14" rx="3" fill="#595736"/>
+<text x="24" y="254" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Žurnal24</text>
+<text x="796" y="254" fill="#1c1917" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">0.38</text>
+<rect x="24" y="260" width="772" height="14" rx="3" fill="#e7e5e0"/>
+<rect x="24" y="260" width="293.4" height="14" rx="3" fill="#595736"/>
+<text x="24" y="302" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Obala Plus</text>
+<text x="796" y="302" fill="#1c1917" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">0.37</text>
+<rect x="24" y="308" width="772" height="14" rx="3" fill="#e7e5e0"/>
+<rect x="24" y="308" width="285.6" height="14" rx="3" fill="#5d5534"/>
+<text x="24" y="350" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Večer</text>
+<text x="796" y="350" fill="#1c1917" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">0.36</text>
+<rect x="24" y="356" width="772" height="14" rx="3" fill="#e7e5e0"/>
+<rect x="24" y="356" width="277.9" height="14" rx="3" fill="#605332"/>
+<text x="24" y="398" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Delo</text>
+<text x="796" y="398" fill="#1c1917" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">0.34</text>
+<rect x="24" y="404" width="772" height="14" rx="3" fill="#e7e5e0"/>
+<rect x="24" y="404" width="262.5" height="14" rx="3" fill="#684f2e"/>
+<text x="24" y="446" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Dnevnik</text>
+<text x="796" y="446" fill="#1c1917" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">0.34</text>
+<rect x="24" y="452" width="772" height="14" rx="3" fill="#e7e5e0"/>
+<rect x="24" y="452" width="262.5" height="14" rx="3" fill="#684f2e"/>
+<text x="24" y="494" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">Finance</text>
+<text x="796" y="494" fill="#1c1917" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">0.33</text>
+<rect x="24" y="500" width="772" height="14" rx="3" fill="#e7e5e0"/>
+<rect x="24" y="500" width="254.8" height="14" rx="3" fill="#6b4d2c"/>
+<text x="24" y="542" fill="#1c1917" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600">RTV Slovenija</text>
+<text x="796" y="542" fill="#1c1917" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">0.25</text>
+<rect x="24" y="548" width="772" height="14" rx="3" fill="#e7e5e0"/>
+<rect x="24" y="548" width="193.0" height="14" rx="3" fill="#883d1c"/>
+</svg>

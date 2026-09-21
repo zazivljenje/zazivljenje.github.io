@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" width="820" height="520" role="img" aria-label="Relevantnost in naklonjenost življenju po medijih">
+<line x1="78.0" y1="28" x2="78.0" y2="452" stroke="#e4e0d8" stroke-width="1"/>
+<text x="78.0" y="470" fill="#57534e" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">0</text>
+<line x1="220.8" y1="28" x2="220.8" y2="452" stroke="#e4e0d8" stroke-width="1"/>
+<text x="220.8" y="470" fill="#57534e" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">1</text>
+<line x1="363.6" y1="28" x2="363.6" y2="452" stroke="#e4e0d8" stroke-width="1"/>
+<text x="363.6" y="470" fill="#57534e" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">2</text>
+<line x1="506.4" y1="28" x2="506.4" y2="452" stroke="#e4e0d8" stroke-width="1"/>
+<text x="506.4" y="470" fill="#57534e" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">3</text>
+<line x1="649.2" y1="28" x2="649.2" y2="452" stroke="#e4e0d8" stroke-width="1"/>
+<text x="649.2" y="470" fill="#57534e" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">4</text>
+<line x1="792.0" y1="28" x2="792.0" y2="452" stroke="#e4e0d8" stroke-width="1"/>
+<text x="792.0" y="470" fill="#57534e" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">5</text>
+<line x1="78" y1="452.0" x2="792" y2="452.0" stroke="#e4e0d8" stroke-width="1"/>
+<text x="68" y="456.0" fill="#57534e" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">0</text>
+<line x1="78" y1="346.0" x2="792" y2="346.0" stroke="#e4e0d8" stroke-width="1"/>
+<text x="68" y="350.0" fill="#57534e" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">5</text>
+<line x1="78" y1="240.0" x2="792" y2="240.0" stroke="#e4e0d8" stroke-width="1"/>
+<text x="68" y="244.0" fill="#57534e" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">10</text>
+<line x1="78" y1="134.0" x2="792" y2="134.0" stroke="#e4e0d8" stroke-width="1"/>
+<text x="68" y="138.0" fill="#57534e" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">15</text>
+<line x1="78" y1="28.0" x2="792" y2="28.0" stroke="#e4e0d8" stroke-width="1"/>
+<text x="68" y="32.0" fill="#57534e" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">20</text>
+<text x="435.0" y="506" fill="#1c1917" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">relevantno (% pregledanih)</text>
+<text x="18" y="240.0" fill="#1c1917" text-anchor="middle" transform="rotate(-90 18 240.0)" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">naklonjeni življenju (% relevantnih)</text>
+<circle cx="295.1" cy="66.2" r="8" fill="#c9a227" stroke="#fff" stroke-width="2"/>
+<text x="307.1" y="56.2" fill="#1c1917" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600">N1</text>
+<circle cx="400.7" cy="333.3" r="8" fill="#7c5cbf" stroke="#fff" stroke-width="2"/>
+<text x="412.7" y="323.3" fill="#1c1917" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600">Obala Plus</text>
+<circle cx="707.7" cy="350.2" r="8" fill="#e07a3d" stroke="#fff" stroke-width="2"/>
+<text x="695.7" y="340.2" fill="#1c1917" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600">24ur</text>
+<circle cx="485.0" cy="354.5" r="8" fill="#3b6fd8" stroke="#fff" stroke-width="2"/>
+<text x="497.0" y="344.5" fill="#1c1917" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600">Slovenske novice</text>
+<circle cx="373.6" cy="356.6" r="8" fill="#2f9e6b" stroke="#fff" stroke-width="2"/>
+<text x="385.6" y="346.6" fill="#1c1917" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600">Večer</text>
+<circle cx="269.4" cy="452.0" r="8" fill="#a65b2b" stroke="#fff" stroke-width="2"/>
+<text x="281.4" y="442.0" fill="#1c1917" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600">Delo</text>
+</svg>
