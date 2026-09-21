@@ -4,6 +4,7 @@
 
   var tabs = Array.prototype.slice.call(root.querySelectorAll('[role="tab"]'));
   var panels = Array.prototype.slice.call(root.querySelectorAll('[role="tabpanel"]'));
+  var ids = tabs.map(function (tab) { return tab.getAttribute("data-tab"); });
   var aliases = {
     indeks: "indeks",
     "indeks-medijske-naravnanosti": "indeks",
@@ -13,8 +14,10 @@
   };
 
   function idFromHash() {
-    var raw = (location.hash || "#indeks").replace(/^#/, "");
-    return aliases[raw] || "indeks";
+    var raw = (location.hash || "").replace(/^#/, "");
+    var mapped = aliases[raw] || raw;
+    if (ids.indexOf(mapped) >= 0) return mapped;
+    return ids[0];
   }
 
   function show(id, push) {
