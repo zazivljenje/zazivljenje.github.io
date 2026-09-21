@@ -18,6 +18,7 @@
     if (!tpl || !mount) return;
     window.clearTimeout(closeTimer);
     fillMount(tpl);
+    drawer.scrollTop = 0;
     var size = tpl.getAttribute("data-drawer-size");
     drawer.classList.toggle("site-drawer--compact", size === "compact");
     drawer.classList.toggle("site-drawer--play", size === "play");

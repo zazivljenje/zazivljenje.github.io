@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Drzni pustolovec (oče in sin, 9–12 let)
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-10-drzni-pustolovec@zazivljenje.com
+DTSTAMP:20260921T151910Z
+DTSTART:20261017T070000Z
+DURATION:PT1H30M
+SUMMARY:Drzni pustolovec (oče in sin\, 9–12 let)
+DESCRIPTION:Štiriurna delavnica na prostem za fantje (9–12 let) in njihove očete: skupne aktivnosti\, pogovor in krepitev zaupanja. Cena: 59 € za par. Udeležba na lastno odgovornost\; prijava: iskreni.net. https://www.iskreni.net/programi/drzni-pustolovec/
+LOCATION:Preska\, Medvode\, Slovenija
+GEO:46.1379153;14.4121788
+URL:https://www.iskreni.net/programi/drzni-pustolovec/
+END:VEVENT
+
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Čudovita princesa (mama in hči, 9–12 let)
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-10-cudovita-princesa@zazivljenje.com
+DTSTAMP:20260921T151910Z
+DTSTART:20261010T073000Z
+DURATION:PT1H30M
+SUMMARY:Čudovita princesa (mama in hči\, 9–12 let)
+DESCRIPTION:Zabavna in poučna delavnica za deklice med 9. in 12. letom ter njihove mame. Starosti primerna predstavitev odraščanja in voden pogovor mama–hči. Cena: 59 € za par. Prijava in podrobnosti: iskreni.net. https://www.iskreni.net/programi/cudovita-princesa/
+LOCATION:Cesta v log 11\, 1351 Brezovica pri Ljubljani
+GEO:46.0242349;14.4179373
+URL:https://www.iskreni.net/programi/cudovita-princesa/
+END:VEVENT
+
+END:VCALENDAR

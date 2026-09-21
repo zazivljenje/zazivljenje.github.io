@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Pohod za življenje 2026 — Ljubljana
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-10-pohod-za-zivljenje-ljubljana@zazivljenje.com
+DTSTAMP:20260921T151910Z
+DTSTART:20261010T073000Z
+DURATION:PT1H30M
+SUMMARY:Pohod za življenje 2026 — Ljubljana
+DESCRIPTION:Organizatorji vabijo na Pohod za življenje\, ki bo sobota\, 10. oktober 2026\, z zborom ob 9.30 na Prešernovem trgu v Ljubljani. Pohod je javna civilna iniciativa za ozaveščanje o dostojanstvu človeškega življenja od spočetja do naravne smrti. Podrobnosti in morebitne posodobitve so na pohodzazivljenje.si. https://pohodzazivljenje.si/
+LOCATION:Prešernov trg\, 1000 Ljubljana\, Slovenija
+GEO:46.0513764;14.5059895
+URL:https://pohodzazivljenje.si/
+END:VEVENT
+
+END:VCALENDAR
