@@ -1,0 +1,45 @@
+# Za življenje!
+
+> Želimo graditi kulturo, ki ceni življenje vsakega človeka.
+
+- Site: https://zazivljenje.com/
+- Language: slovenščina (sl, sl_SI)
+- Contact: pohodzazivljenje@gmail.com
+
+## Copyright / TDM
+
+Original content on this site is copyrighted. All rights reserved.
+Vsebina je avtorsko zaščitena. Vse pravice so pridržane.
+
+Commercial reproduction, adaptation, and text-and-data mining (TDM), including machine-learning training, are reserved under Article 4 of Directive (EU) 2019/790.
+
+- Terms: https://zazivljenje.com/pogoji/
+- TDM-Reservation: 1
+
+Linking and quotation remain available to the extent permitted by law. Third-party logos, quotes, and linked materials stay with their rightsholders.
+
+## Machine-readable feeds
+
+- Sitemap: https://zazivljenje.com/sitemap.xml
+- RSS (home): https://zazivljenje.com/index.xml
+- RSS (news): https://zazivljenje.com/novice/index.xml
+- RSS (Slovenia): https://zazivljenje.com/novice/slovenija/index.xml
+- RSS (world): https://zazivljenje.com/novice/svet/index.xml
+- RSS (events): https://zazivljenje.com/rubrike/dogodki/index.xml
+- RSS (interviews): https://zazivljenje.com/rubrike/pogovori-za-zivljenje/index.xml
+- RSS (testimonials): https://zazivljenje.com/rubrike/pricevanja-za-zivljenje/index.xml
+- Calendar (ICS): https://zazivljenje.com/koledar.ics
+
+## Sections
+
+- [Novice](https://zazivljenje.com/novice/): Novice za življenje iz Slovenije in sveta
+- [Slovenija](https://zazivljenje.com/novice/slovenija/): Dogajanje za življenje v Sloveniji
+- [Svet](https://zazivljenje.com/novice/svet/): Novice in pogovori za življenje iz sveta
+- [Pogovori](https://zazivljenje.com/rubrike/pogovori-za-zivljenje/): Pogovori z zagovorniki življenja iz vsega sveta
+- [Pričevanja](https://zazivljenje.com/rubrike/pricevanja-za-zivljenje/): Pričevanja ljudi, ki so izbrali življenje
+- [Filmi](https://zazivljenje.com/rubrike/pogovor-ob-filmu/): Filmi z vrednotami za razvedrilo in sproščen pogovor
+- [Dogodki](https://zazivljenje.com/rubrike/dogodki/): Prihajajoča srečanja, maše in delavnice za družino in življenje
+- [Podkasti](https://zazivljenje.com/rubrike/podkasti/): Izbrani pogovori in epizode iz podkastov za kulturo življenja
+- [Aplikacije](https://zazivljenje.com/aplikacije/): Izračun dohodnine in Razvoj otroka v maternici
+- [Druge vsebine](https://zazivljenje.com/druge-vsebine/): Mednarodno pravo, dokumenti in predavanja za kulturo življenja
+- [Pogoji uporabe](https://zazivljenje.com/pogoji/): Avtorske pravice, vse pravice pridržane

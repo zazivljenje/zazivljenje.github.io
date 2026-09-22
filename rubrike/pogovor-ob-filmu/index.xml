@@ -3,9 +3,15 @@
   <channel>
     <title>Filmi on Za življenje!</title>
     <link>https://zazivljenje.com/rubrike/pogovor-ob-filmu/</link>
-    <description>Recent content in Filmi on Za življenje!</description>
+    <description>Filmi z vrednotami za razvedrilo in sproščen pogovor</description>
+    <image>
+      <title>Za življenje!</title>
+      <url>https://zazivljenje.com/apple-touch-icon.png</url>
+      <link>https://zazivljenje.com/apple-touch-icon.png</link>
+    </image>
     <generator>Hugo -- 0.145.0</generator>
-    <language>en-us</language>
+    <language>sl</language>
+    <copyright>Za življenje! Vse pravice pridržane.</copyright>
     <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zazivljenje.com/rubrike/pogovor-ob-filmu/index.xml" rel="self" type="application/rss+xml" />
     <item>

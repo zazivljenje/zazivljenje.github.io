@@ -3,9 +3,15 @@
   <channel>
     <title>Za življenje!</title>
     <link>https://zazivljenje.com/</link>
-    <description>Recent content on Za življenje!</description>
+    <description>Želimo graditi kulturo, ki ceni življenje vsakega človeka.</description>
+    <image>
+      <title>Za življenje!</title>
+      <url>https://zazivljenje.com/apple-touch-icon.png</url>
+      <link>https://zazivljenje.com/apple-touch-icon.png</link>
+    </image>
     <generator>Hugo -- 0.145.0</generator>
-    <language>en-us</language>
+    <language>sl</language>
+    <copyright>Za življenje! Vse pravice pridržane.</copyright>
     <lastBuildDate>Fri, 27 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zazivljenje.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -93,11 +99,32 @@
       <description>Delavnica za ženske v menopavzi: skrb za zdravje in življenjsko obdobje.</description>
     </item>
     <item>
+      <title>Beatifikacija Fultona Sheena — prenos EWTN</title>
+      <link>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-09-beatifikacija-fulton-sheen/</link>
+      <pubDate>Thu, 24 Sep 2026 21:00:00 +0200</pubDate>
+      <guid>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-09-beatifikacija-fulton-sheen/</guid>
+      <description>Živa maša beatifikacije nadškofa Fultona J. Sheena iz St. Louisa, prenos EWTN (YouTube &#43; splet).</description>
+    </item>
+    <item>
       <title>Safeguarding Basics</title>
       <link>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-09-integrum-safeguarding/</link>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
       <guid>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-09-integrum-safeguarding/</guid>
       <description>Spletno srečanje zaključka programa Safeguarding Basics o zaščiti mladih in varnem okolju.</description>
+    </item>
+    <item>
+      <title>Fulton Sheen: beatifikacija avtorja duhovne posvojitve</title>
+      <link>https://zazivljenje.com/novice/svet/2026-09-22-fulton-sheen-duhovna-posvojitev-beatifikacija/</link>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/novice/svet/2026-09-22-fulton-sheen-duhovna-posvojitev-beatifikacija/</guid>
+      <description>V četrtek, 24. septembra 2026, bo v St. Louisu beatificiran nadškof Fulton J. Sheen - pionir evangelizacije preko masivnih komunikacijskih medijev in avtor molitve »duhovne posvojitve« nerojenega otroka.</description>
+    </item>
+    <item>
+      <title>Papež Leon XIV. spomnil na poljske zaobljube Mariji: varstvo življenja, zakona in družine</title>
+      <link>https://zazivljenje.com/novice/svet/2026-09-22-papez-poljske-zaobljube-jasna-gora/</link>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/novice/svet/2026-09-22-papez-poljske-zaobljube-jasna-gora/</guid>
+      <description>Ob 70. obletnici jasnogórskih zaobljub poljskega naroda je papež na splošni avdienci poudaril program moralne prenove: varstvo človekovega življenja, skrb za zakon in družino ter vzgojo mladih.</description>
     </item>
     <item>
       <title>Premiera filma Nenačrtovana pota v Odiseji</title>
@@ -126,6 +153,13 @@
       <pubDate>Mon, 21 Sep 2026 21:44:00 +0200</pubDate>
       <guid>https://zazivljenje.com/novice/slovenija/2026-09-21-one-of-us-zimska-sola/</guid>
       <description>Evropska federacija ONE OF US organizira mednarodni izobraževalni vikend za študente in mlade profesionalce v Parizu od 27. do 29. novembra 2026.</description>
+    </item>
+    <item>
+      <title>Slovenska šola v Mendozi v Argentini prejme Slomškovo priznanje - vzgaja za Boga, družino in domovino</title>
+      <link>https://zazivljenje.com/novice/slovenija/2026-09-21-mendoza-slovenska-sola-vrednote/</link>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/novice/slovenija/2026-09-21-mendoza-slovenska-sola-vrednote/</guid>
+      <description>Radio Ognjišče 21. septembra 2026 poroča, da bo Slovenska šola Antona Martina Slomška iz Mendoze v Argentini prejela letošnje Slomškovo priznanje Društva katoliških pedagogov Slovenije.</description>
     </item>
     <item>
       <title>Slovenska šola v Mendozi v Argentini prejme Slomškovo priznanje - vzgaja za Boga, družino in domovino</title>
@@ -486,18 +520,18 @@
       <description>Michele Pillar, priznana pevka sodobne krščanske glasbe, je skozi življenje prehodila pot, polno bolečine, zmot in padcev.</description>
     </item>
     <item>
-      <title>Šepet srca (Če dobro prisluhneš)</title>
-      <link>https://zazivljenje.com/rubrike/pogovor-ob-filmu/film-2025-03-sepet-srca/</link>
-      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://zazivljenje.com/rubrike/pogovor-ob-filmu/film-2025-03-sepet-srca/</guid>
-      <description>Animirani film studia Ghibli o odkrivanju sebe in sledenju svojim sanjam</description>
-    </item>
-    <item>
       <title>Susana proti Nikaragvi</title>
       <link>https://zazivljenje.com/rubrike/mednarodno-pravo/pravo-2025-03-susana-vs-nikaragva/</link>
       <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://zazivljenje.com/rubrike/mednarodno-pravo/pravo-2025-03-susana-vs-nikaragva/</guid>
       <description>Primer pred Odborom Združenih narodov za človekove pravice</description>
+    </item>
+    <item>
+      <title>Šepet srca (Če dobro prisluhneš)</title>
+      <link>https://zazivljenje.com/rubrike/pogovor-ob-filmu/film-2025-03-sepet-srca/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/rubrike/pogovor-ob-filmu/film-2025-03-sepet-srca/</guid>
+      <description>Animirani film studia Ghibli o odkrivanju sebe in sledenju svojim sanjam</description>
     </item>
     <item>
       <title>Charlie Camosy</title>

@@ -3,11 +3,31 @@
   <channel>
     <title>Svet on Za življenje!</title>
     <link>https://zazivljenje.com/novice/svet/</link>
-    <description>Recent content in Svet on Za življenje!</description>
+    <description>Novice in pogovori za življenje iz sveta.</description>
+    <image>
+      <title>Za življenje!</title>
+      <url>https://zazivljenje.com/apple-touch-icon.png</url>
+      <link>https://zazivljenje.com/apple-touch-icon.png</link>
+    </image>
     <generator>Hugo -- 0.145.0</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 21 Sep 2026 18:08:51 +0000</lastBuildDate>
+    <language>sl</language>
+    <copyright>Za življenje! Vse pravice pridržane.</copyright>
+    <lastBuildDate>Tue, 22 Sep 2026 05:48:58 +0000</lastBuildDate>
     <atom:link href="https://zazivljenje.com/novice/svet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fulton Sheen: beatifikacija avtorja duhovne posvojitve</title>
+      <link>https://zazivljenje.com/novice/svet/2026-09-22-fulton-sheen-duhovna-posvojitev-beatifikacija/</link>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/novice/svet/2026-09-22-fulton-sheen-duhovna-posvojitev-beatifikacija/</guid>
+      <description>V četrtek, 24. septembra 2026, bo v St. Louisu beatificiran nadškof Fulton J. Sheen - pionir evangelizacije preko masivnih komunikacijskih medijev in avtor molitve »duhovne posvojitve« nerojenega otroka.</description>
+    </item>
+    <item>
+      <title>Papež Leon XIV. spomnil na poljske zaobljube Mariji: varstvo življenja, zakona in družine</title>
+      <link>https://zazivljenje.com/novice/svet/2026-09-22-papez-poljske-zaobljube-jasna-gora/</link>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/novice/svet/2026-09-22-papez-poljske-zaobljube-jasna-gora/</guid>
+      <description>Ob 70. obletnici jasnogórskih zaobljub poljskega naroda je papež na splošni avdienci poudaril program moralne prenove: varstvo človekovega življenja, skrb za zakon in družino ter vzgojo mladih.</description>
+    </item>
     <item>
       <title>Slovenska šola v Mendozi v Argentini prejme Slomškovo priznanje - vzgaja za Boga, družino in domovino</title>
       <link>https://zazivljenje.com/novice/svet/2026-09-21-mendoza-slovenska-sola-vrednote/</link>

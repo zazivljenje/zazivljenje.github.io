@@ -3,9 +3,15 @@
   <channel>
     <title>Mladi za življenje on Za življenje!</title>
     <link>https://zazivljenje.com/rubrike/mladi-za-zivljenje/</link>
-    <description>Recent content in Mladi za življenje on Za življenje!</description>
+    <description>Prispevki mladih zagovornikov življenja</description>
+    <image>
+      <title>Za življenje!</title>
+      <url>https://zazivljenje.com/apple-touch-icon.png</url>
+      <link>https://zazivljenje.com/apple-touch-icon.png</link>
+    </image>
     <generator>Hugo -- 0.145.0</generator>
-    <language>en-us</language>
+    <language>sl</language>
+    <copyright>Za življenje! Vse pravice pridržane.</copyright>
     <lastBuildDate>Sun, 15 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zazivljenje.com/rubrike/mladi-za-zivljenje/index.xml" rel="self" type="application/rss+xml" />
     <item>

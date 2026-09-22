@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Beatifikacija Fultona Sheena — prenos EWTN
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-09-beatifikacija-fulton-sheen@zazivljenje.com
+DTSTAMP:20260922T065221Z
+DTSTART:20260924T190000Z
+DTEND:20260924T210000Z
+SUMMARY:Beatifikacija Fultona Sheena — prenos EWTN
+DESCRIPTION:Maša beatifikacije častitega nadškofa Fultona J. Sheena poteka v The Dome at America&amp;rsquo\;s Center v St. Louisu\; začetek ob 14.00 po lokalnem času (21.00 po srednjeevropskem). Spremljajte v živo: EWTN Live YouTube kanal EWTN Program in dodatne vsebine: ewtn.com/sheen Info o livestreamu: EWTN Vatican Na strani dogodka lahko dogodek dodate tudi v Google Koledar (gumb koledarja na zazivljenje.si). https://www.ewtn.com/tv/watch-live
+LOCATION:St. Louis\, Missouri (prenos)
+URL:https://www.ewtn.com/tv/watch-live
+END:VEVENT
+
+END:VCALENDAR
