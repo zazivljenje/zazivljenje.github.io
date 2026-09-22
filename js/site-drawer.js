@@ -67,6 +67,24 @@
   }
 
   document.addEventListener("click", function (event) {
+    var copyBtn = event.target.closest("[data-copy]");
+    if (copyBtn) {
+      event.preventDefault();
+      var text = copyBtn.getAttribute("data-copy") || "";
+      var finish = function () {
+        copyBtn.classList.add("is-copied");
+        var prev = copyBtn.getAttribute("aria-label");
+        copyBtn.setAttribute("aria-label", "Kopirano");
+        window.setTimeout(function () {
+          copyBtn.classList.remove("is-copied");
+          if (prev) copyBtn.setAttribute("aria-label", prev);
+        }, 1600);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(finish).catch(function () {});
+      }
+      return;
+    }
     var close = event.target.closest("[data-drawer-close]");
     if (close) {
       event.preventDefault();
