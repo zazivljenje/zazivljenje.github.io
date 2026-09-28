@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Val svetlobe — spomin na otroke, umrle med nosečnostjo in kmalu po rojstvu
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-10-val-svetlobe-velenje@zazivljenje.com
+DTSTAMP:20260928T175058Z
+DTSTART:20261015T143000Z
+DTEND:20261015T153000Z
+SUMMARY:Val svetlobe — spomin na otroke\, umrle med nosečnostjo in kmalu po rojstvu
+DESCRIPTION:Val svetlobe — spominska slovesnost ob mednarodnem dnevu spomina na otroke\, umrle med nosečnostjo in kmalu po rojstvu. 15. oktober je mednarodni dan otrok\, ki so umrli med nosečnostjo ali kmalu po porodu. Starši v letih\, ki sledijo izgubi otroka\, potrebujejo prostor za žalovanje. Žalovanje staršev ne sme biti prezrto\, saj je resnično\, boleče in dolgotrajno. Smrt in izgube so del življenja — ne moremo jih napovedati in ne moremo se jim izogniti. Pomembno pa je\, da žalovanju\, ki sledi\, pustimo prostor in čas. Vabljeni na spominsko slovesnost ob obeležju za vse umrle otroke na pokopališču Podkraj pri Velenju. Toplo vabljeni vsi starši\, ki ste doživeli izgubo otroka\, in vsi tisti\, ki bi jim želeli sočutno stati ob strani. Sodelujoči: Slovensko društvo HOSPIC\, Zavod ŽIV!M\, Komunalno podjetje Velenje. https://www.zavod-zivim.si/dogodki/val-svetlobe-v-spomin-na-nase-ljubljene-otroke-2/
+LOCATION:Pokopališka cesta 10 a\, Velenje
+URL:https://www.zavod-zivim.si/dogodki/val-svetlobe-v-spomin-na-nase-ljubljene-otroke-2/
+END:VEVENT
+
+END:VCALENDAR

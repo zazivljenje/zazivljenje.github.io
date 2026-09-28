@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dan molitve za mamice, ki razmišljajo o splavu
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2026-10-dan-molitve-mamice@zazivljenje.com
+DTSTAMP:20260928T175058Z
+DTSTART:20261013T130000Z
+DTEND:20261013T150000Z
+SUMMARY:Dan molitve za mamice\, ki razmišljajo o splavu
+DESCRIPTION:Dan molitve za mamice\, ki razmišljajo o splavu — da bi zmogle sprejeti življenje. Namen: Molili bomo za mamice\, ki razmišljajo o splavu\, da bi zmogle sprejeti svojega otroka. Komu je namenjeno? Mladim (od 16. leta dalje) in odraslim\, ki želijo z molitvijo podpreti mamice v stiski. Vabljene tudi mamice z dojenčki. Program: 15.00 zbiranje in sv. maša 16.00 molitev 17.00 odhod Prijave niso potrebne. Vstopnina: brezplačno. Več informacij: 069 621 009 ali info@zavod-zivim.si. Skupaj ZA življenje! https://www.zavod-zivim.si/dogodki/dan-molitve-za-mamice-ki-razmisljajo-o-splavu-11/
+LOCATION:Prvomajska ul. 14\, 1000 Ljubljana
+URL:https://www.zavod-zivim.si/dogodki/dan-molitve-za-mamice-ki-razmisljajo-o-splavu-11/
+END:VEVENT
+
+END:VCALENDAR
