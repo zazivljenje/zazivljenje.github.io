@@ -3,6 +3,12 @@
     return gallery.querySelectorAll("[data-gallery-slide]");
   }
 
+  function preload(img) {
+    if (!img || !img.src) return;
+    var warm = new Image();
+    warm.src = img.src;
+  }
+
   function show(gallery, index) {
     var slides = slidesOf(gallery);
     if (!slides.length) return;
@@ -11,7 +17,16 @@
     slides.forEach(function (img, n) {
       img.hidden = n !== i;
     });
+    preload(slides[(i + 1) % slides.length]);
+    preload(slides[(i - 1 + slides.length) % slides.length]);
   }
+
+  function init(gallery) {
+    if (!gallery || gallery.dataset.index != null) return;
+    show(gallery, 0);
+  }
+
+  document.querySelectorAll("[data-gallery]").forEach(init);
 
   function step(gallery, delta) {
     var i = parseInt(gallery.dataset.index || "0", 10);

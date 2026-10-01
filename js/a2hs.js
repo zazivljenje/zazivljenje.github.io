@@ -77,8 +77,4 @@
       if (installBtn) installBtn.hidden = true;
     }
   });
-
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/sw.js").catch(function () {});
-  }
 })();

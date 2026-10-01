@@ -56,6 +56,7 @@
 
     </style>
 </noscript>
+<link rel="preload" as="image" href="/images/films/superman.png" fetchpriority="high">
 <link rel="manifest" href="/manifest.json">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -202,7 +203,7 @@
 
   <div class="post-content film-post">
     <div class="film-post-poster">
-      <img src="/images/films/superman.png" alt="Superman" loading="lazy">
+      <img src="/images/films/superman.png" alt="Superman" loading="eager" fetchpriority="high">
       <a href="https://www.youtube.com/watch?v=Ox8ZLF6cGM0" class="trailer-overlay" target="_blank" rel="noopener">
         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="white">
           <path d="M8 5v14l11-7z"/>
@@ -310,6 +311,7 @@
 <script src="/js/events-past.js" defer></script>
 <script src="/js/article-gallery.js" defer></script>
 <script src="/js/a2hs.js" defer></script>
+<script src="/js/sw-register.js" defer></script>
 <script src="/js/catalog.sealed.js" defer></script>
 <script src="/js/catalog-play.js" defer></script>
 
