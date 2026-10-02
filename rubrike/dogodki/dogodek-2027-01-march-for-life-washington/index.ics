@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:March for Life 2027 — Washington, D.C.
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:dogodek-2027-01-march-for-life-washington@zazivljenje.com
+DTSTAMP:20261002T213243Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:March for Life 2027 — Washington\, D.C.
+DESCRIPTION:Letni ameriški nacionalni pohod za življenje v Washingtonu. Tema 2027: The Truth Is Pro-Life. Napovedani glavni govorec: Clayton Kershaw. Podrobnosti programa objavlja March for Life na svoji spletni strani. https://marchforlife.org/
+LOCATION:National Mall / Capitol area\, Washington\, D.C.\, USA
+GEO:38.889931;-77.009003
+URL:https://marchforlife.org/
+END:VEVENT
+
+END:VCALENDAR
