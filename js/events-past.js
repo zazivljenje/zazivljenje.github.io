@@ -1,5 +1,5 @@
 (function hidePastEvents() {
-  var nodes = document.querySelectorAll("[data-event-end]");
+  var nodes = document.querySelectorAll(".home-poster[data-event-end]");
   if (!nodes.length) return;
 
   var now = new Date();

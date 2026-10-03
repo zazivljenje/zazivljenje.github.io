@@ -7,14 +7,23 @@ X-WR-CALNAME:Premiera filma Nenačrtovana pota
 X-WR-TIMEZONE:Europe/Ljubljana
 BEGIN:VEVENT
 UID:dogodek-2026-10-nenacrtovana-pota@zazivljenje.com
-DTSTAMP:20261003T170028Z
+DTSTAMP:20261003T171755Z
 DTSTART:20261007T150000Z
 DURATION:PT1H30M
 SUMMARY:Premiera filma Nenačrtovana pota
 DESCRIPTION:Premiera filma Nenačrtovana pota bo v sredo\, 7. oktobra ob 17.00 v Odiseji. Film\, posnet po resničnih dogodkih\, pripoveduje zgodbo o Anji in Davidu\, ki ju nenačrtovana nosečnost povsem iztrga iz cone udobja. Več o filmu je na nenacrtovanapota.si. https://www.nenacrtovanapota.si/
+
 LOCATION:Moskovska ulica 11\, 1000 Ljubljana\, Slovenija
+
 GEO:46.0658;14.5459
+
 URL:https://www.nenacrtovanapota.si/
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Premiera filma Nenačrtovana pota
+TRIGGER:-PT1H
+END:VALARM
 END:VEVENT
 
 END:VCALENDAR
