@@ -392,7 +392,7 @@
       root.innerHTML = html;
       root.querySelector("[data-word-status]").textContent = status;
       var keys = [
-        "QWERTYUIOPŠ",
+        "QWERTZUIOPŠ",
         "ASDFGHJKLČŽ",
         "⌫YXCVBNM↵"
       ];
