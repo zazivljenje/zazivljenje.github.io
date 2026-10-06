@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Uvod v logoterapijo
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:dogodek-2027-09-uvod-v-logoterapijo@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20270910T140000Z
+DTEND:20270911T133000Z
+SUMMARY:Uvod v logoterapijo
+DESCRIPTION:Ste se kdaj spraševali po smislu tega\, kar v življenju delate? Vas je kdaj begal smisel nemoči\, bolezni\, staranja? Ali veste\, če sta dajanje in sprejemanje pomoči dve enako pomembni plati istega kovanca? Če ste na katero zgornjih vprašanj odgovorili z DA\, če se poklicno ali v osebnem življenju srečujete z ljudmi\, ki težko sprejemajo del svojega življenja\, ali če si želite narediti nekaj za svojo osebno rast\, ali pa vas preprosto zanima to področje\, je morda logoterapija za vas zanimiva. Dvodnevni seminar Uvod v logoterapijo je namenjen uvodni predstavitvi logoterapije in njene uporabe v poklicnem in osebnem življenju. Logoterapija temelji na prepričanju\, da je osnovna motivacijska sila v življenju vsakega človeka iskanje smisla\, ali z drugimi besedami\, da je v vsakem človeku želja po smislu in da imamo ljudje svobodo ter s tem možnost\, da se odločamo za tisto\, kar je smiselno in dobro. Čeprav tega smisla ni vedno lahko najti\, je to vendarle možno tudi v težkih trenutkih in situacijah. To spoznanje bo rdeča nit bogatega dvodnevnega programa\, ki vključuje tako teoretično podlago kakor praktične delavnice. Seminar je namenjen vsem\, ki se pri svojem poklicnem ali osebnem delu srečujete s pomanjkanjem smisla\, ljudmi\, ki težko sprejemajo svoje omejitve\, oziroma želite preprosto izvedeti več o logoterapiji in njenih možnostih. Vsebina seminarja dan\, 16.00–21.00: Logoteorija in logoterapija: Viktor Frankl\, Elisabeth Lukas in drugi logoterapevti ter antropologija Antona Trstenjaka — njihova spoznanja in metode kot osnova za delo z ljudmi in za ljudi ter za lastni osebnostni razvoj. dan\, 9.00–15.30: Razvoj logoterapije po svetu in pri nas. Njena uporaba pri terapevtskem in preventivnem delu ter pri razvoju lastne osebnosti ter specializacija logoterapije in možnosti usposabljanja v tematskih modulih. Seminar vodijo mag. Ksenija Ramovš\, psihoterapevtka z dolgoletno izkušnjo družinskega zdravljenja zasvojenosti\, omam in drugih stisk z uporabo logoterapije in psihodrame\, mag. Martin Lisec\, direktor Inštituta Stopinje\, ter ostali sodelavci Inštituta za logoterapijo. Cena: 99 EUR\, kar vključuje le materialne stroške (knjigo in drugo učno gradivo ter kosilo in večerjo). Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/WkCL7psdhHyVjD5L6
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/WkCL7psdhHyVjD5L6
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Uvod v logoterapijo
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR

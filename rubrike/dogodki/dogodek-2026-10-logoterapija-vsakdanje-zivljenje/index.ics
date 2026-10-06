@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Logoterapija v vsakdanjem življenju
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:dogodek-2026-10-logoterapija-vsakdanje-zivljenje@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20261012T140000Z
+DTEND:20261013T143000Z
+SUMMARY:Logoterapija v vsakdanjem življenju
+DESCRIPTION:Logoterapija ni le teoretično znanje ali skupek terapevtskih metod. Njena resnična vrednost se pokaže\, ko njena spoznanja vključimo v vsakdanje življenje: v odnose\, vzgojo\, spremljanje človeka ob izgubi ter sprejemanje nepopolnosti\, staranja in življenjske ranljivosti. Seminar udeležence vabi k izkustvenemu raziskovanju človekove svobode\, odgovornosti\, enkratnosti in usmerjenosti k smislu. Seminar je namenjen terapevtom\, svetovalcem\, vzgojiteljem\, učiteljem\, zdravstvenim delavcem\, vodjem\, staršem in vsem\, ki želijo logoterapijo dejavno vključevati v vsakdanje življenje ter odkrivati smisel v odnosih\, vzgoji\, žalovanju\, staranju in življenjskih preizkušnjah. Vsebinski sklopi 1. Teorija sadežev — izkustveni uvod v smisel\, različnost in človeško povezanost Izkustvena delavnica uporablja metaforo različnih sadežev za raziskovanje človekove individualnosti\, empatije\, odpornosti in iskanja smisla. Na podlagi logoterapije\, spoznanj nevroznanosti in izkustvenega učenja bodo udeleženci odkrivali praktične možnosti za razvijanje smiselnih odnosov ter spoštovanje enkratnosti in neponovljivosti vsake osebe. Delavnica je uporabna pri terapevtskem\, svetovalnem\, pedagoškem in vodstvenem delu\, pa tudi v družinskih in drugih vsakdanjih odnosih. 2. Logoterapija po izgubi ljubljene osebe — spremljanje žalovanja z ritualom Srce spomina Sklop predstavlja možnosti logoterapevtskega spremljanja človeka v procesu žalovanja\, pri čemer ohranja spoštovanje do ljubezni\, spomina in smisla odnosa z umrlo osebo. Udeleženci bodo spoznali in izkusili ritual Srce spomina (Memory Heart Ritual)\, simbolno intervencijo\, ki človeku pomaga bolečo odsotnost postopoma vključevati v življenje ter odnos z umrlo osebo ohranjati kot notranjo vez hvaležnosti\, upanja in odgovornosti. 3. Pedagogika za transcendenco — vzgoja mladostnikov za odkrivanje smisla Predstavljen bo vzgojni model\, ki izhaja iz logoterapevtskega razumevanja samopreseganja in mladostnikom pomaga razvijati odgovornost\, odpornost\, samozavedanje ter usmerjenost k smiselnim ciljem. Udeleženci bodo skozi nadzorovano frustracijo\, izkustvene dejavnosti in refleksivni dialog spoznavali praktične strategije na smisel osredinjene vzgoje. Takšna vzgoja mladostnika ne varuje pred vsako oviro\, temveč ga podpira pri razvijanju notranjih moči\, sprejemanju odgovornosti in prepoznavanju življenjskih nalog. 4. Življenje je krof — odkrivanje smisla onkraj življenjskih nepopolnosti 5. Ko bom jaz na vrsti\, da skrbim zate … — smisel\, dostojanstvo in ljubezen pri staranju in skrbi za druge Sklop odpira vprašanja staranja\, odvisnosti od pomoči drugih ter globoke človeške izkušnje dajanja in sprejemanja skrbi. Razmišljali bomo\, kako lahko ranljivost poglobi odnose\, okrepi zavest o brezpogojnem dostojanstvu osebe ter odpre nove možnosti za odkrivanje smisla. Sprejemanje pomoči ni nujno izguba človekove vrednosti ali svobode\, skrb za drugega pa ni samo breme\, temveč je lahko tudi prostor ljubezni\, odgovornosti in samopreseganja. Seminar povezuje logoterapevtsko razumevanje človeka\, spoznanja nevroznanosti in izkustveno učenje. Predavanja bodo dopolnjevali refleksivni pogovor\, praktične vaje in simbolne intervencije\, uporabne pri terapevtskem\, svetovalnem\, pedagoškem\, zdravstvenem\, socialnem in vodstvenem delu ter v osebnem življenju. Potek dan\, ponedeljek\, 16.00–21.00: uvod in povezovanje logoterapije z vsakdanjim življenjem\, Teorija sadežev\, Življenje je krof\, izkustvene vaje in skupinska refleksija dan\, torek\, 9.00–16.30: Logoterapija po izgubi ljubljene osebe\, ritual Srce spomina\, Pedagogika za transcendenco\, Ko bom jaz na vrsti\, da skrbim zate …\, prenos spoznanj in sklepna refleksija Seminar vodi Annabella Piter\, M.Ed.\, mehiška logoterapevtka\, magistrica izobraževanja in predavateljica. Svoje delo posveča prenosu logoterapevtskih spoznanj v vzgojo\, odnose\, spremljanje žalovanja in vsakdanje življenje\; pri tem povezuje logoterapijo\, nevroznanost in izkustveno učenje. Je sodelavka Inštituta Viktorja Frankla na Dunaju na področju akreditacij ter avtorica vzgojnega modela Cedros: Pedagogika za transcendenco. Logoterapevtske vsebine podaja izkustveno\, razumljivo in praktično uporabno. Vrednotenje: seminar obsega 38 študijskih ur — 16 ur predavanj\, vaj in osebnih konzultacij ter osebnih vprašanjih ob učni snovi in 22 ur osebnega dela s študijskim gradivom (1 ECTS). Cena: 297 EUR\; možni popusti navedeni spodaj. Plača se po potrjeni prijavi. Popusti (razen za uvodni seminar): Člani društva Logos: 20 % Prostovoljci Slovenske mreže za kakovostno staranje: 50 % Koordinatorji Slovenske mreže starosti prijaznih mest in občin: 50 % Študentje s statusom študenta: 40 % Naročniki revije Kakovostna starost: 10 % Naročniki treh ali več seminarjev v akademskem letu: 20 % Popusti se med seboj ne seštevajo in se obračunajo ob plačilu oziroma se v primeru naročila treh ali več seminarjev obračunajo pri plačilu zadnjega seminarja. Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/DKWHnxNuADxFeoHK7
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/DKWHnxNuADxFeoHK7
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Logoterapija v vsakdanjem življenju
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR

@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Logodrama
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:dogodek-2026-12-logodrama@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20261211T150000Z
+DTEND:20261212T163000Z
+SUMMARY:Logodrama
+DESCRIPTION:Na intenzivnem dvodnevnem seminarju bomo združili spoznanja logoterapije Viktorja Frankla z izkustvenim učenjem klasične psihodrame po Jakobu Levy Morenu. Udeleženci boste imeli priložnost poglobiti razumevanje smisla kot osrednje človeške motivacije ter raziskati svoje notranje vire v soočanju z izzivi vsakdanjega življenja. Logoterapija in psihodrama imata skupni cilj — pomoč človeku\, da bolje razume samega sebe\, svoje odnose in svoje življenjske možnosti za smiselno odločanje. Med sabo se dopolnjujeta. Logoterapija z logoteorijo ima močno filozofsko in etično podlago: usmerja pozornost na vprašanje smisla\, na odgovornost do lastnega življenja in na prepoznavanje vrednot\, ki človeku dajejo notranjo privlačno motivacijo. Logoterapevtski pogovor je torej usmerjen v razumevanje\, ozaveščanje in smiselno odločanje. Psihodrama omogoča\, da se logoterapevtska spoznanja izrazijo v dejanjih. Pri njej človek v varnem okolju skupine raziskuje svoje notranje konflikte z uporabo igre vlog\, postavitvijo prizorov in simbolnim delom\, pri tem pa preizkuša nove možnosti vedenja in doživlja spremembo na izkustveni ravni. Medtem ko logoterapija pomaga raziskati\, kaj je bistveno in smiselno\, psihodrama ponudi prostor\, da to človek doživi\, preizkusi in ponotranji. Tako se kognitivni uvid poveže z emocionalno in telesno izkušnjo\, kar povečuje moč spremembe. Vsebina seminarja dan\, petek\, 16.00–21.00: Psihodrama v luči logoterapije. dan\, sobota\, 9.00–17.30: Prikaz prepleta logoterapevtskega pogovora in določenih psihodramskih tehnik skozi varno in kreativno izraženje v skupini. Seminar vodi mag. Ksenija Ramovš\, psihoterapevtka z dolgoletno izkušnjo družinskega zdravljenja zasvojenosti\, omam in drugih stisk z uporabo logoterapije in psihodrame. Seminar organizira Inštitut Antona Trstenjaka v sodelovanju z Inštitutom za logoterapijo\, kjer se ta seminar šteje kot izbirni modul pri logoterapevtski specializaciji. Vrednotenje: seminar obsega 64 študijskih ur — 16 ur predavanj\, vaj in osebnih konzultacij ob seminarski nalogi ter osebnih vprašanjih ob učni snovi in 48 ur osebnega dela s študijskim gradivom in izdelavo seminarske naloge ter pripravo na izpit iz učne snovi na seminarju (2 ECTS). Cena: 287 EUR\; možni popusti navedeni spodaj. Plača se po potrjeni prijavi. Popusti (razen za uvodni seminar): Člani društva Logos: 20 % Prostovoljci Slovenske mreže za kakovostno staranje: 50 % Koordinatorji Slovenske mreže starosti prijaznih mest in občin: 50 % Študentje s statusom študenta: 40 % Naročniki revije Kakovostna starost: 10 % Naročniki treh ali več seminarjev v akademskem letu: 20 % Popusti se med seboj ne seštevajo in se obračunajo ob plačilu oziroma se v primeru naročila treh ali več seminarjev obračunajo pri plačilu zadnjega seminarja. Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/eAuf9xkGZZ4VbdJt7
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/eAuf9xkGZZ4VbdJt7
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Logodrama
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR

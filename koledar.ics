@@ -25,7 +25,7 @@ END:VTIMEZONE
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-nenacrtovana-pota@zazivljenje.com
-DTSTAMP:20261005T080333Z
+DTSTAMP:20261006T135013Z
 DTSTART:20261007T150000Z
 DURATION:PT1H30M
 SUMMARY:Premiera filma Nenačrtovana pota
@@ -46,7 +46,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:mali-pohod-kurescek@zazivljenje.com
-DTSTAMP:20261005T080333Z
+DTSTAMP:20261006T135013Z
 DTSTART;TZID=Europe/Ljubljana:20261008T170000
 DTEND;TZID=Europe/Ljubljana:20261008T190000
 RRULE:FREQ=MONTHLY;BYDAY=2TH
@@ -68,7 +68,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-divji-bojevnik@zazivljenje.com
-DTSTAMP:20261005T080333Z
+DTSTAMP:20261006T135013Z
 DTSTART:20261009T153000Z
 DTEND:20261009T183000Z
 SUMMARY:Divji bojevnik
@@ -89,7 +89,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-skrivnostna-lepotica@zazivljenje.com
-DTSTAMP:20261005T080333Z
+DTSTAMP:20261006T135013Z
 DTSTART:20261009T153000Z
 DURATION:PT1H30M
 SUMMARY:Skrivnostna lepotica (mama in hči\, 13–15 let)
@@ -110,7 +110,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-cudovita-princesa@zazivljenje.com
-DTSTAMP:20261005T080333Z
+DTSTAMP:20261006T135013Z
 DTSTART:20261010T073000Z
 DURATION:PT1H30M
 SUMMARY:Čudovita princesa (mama in hči\, 9–12 let)
@@ -131,7 +131,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-pohod-za-zivljenje-ljubljana@zazivljenje.com
-DTSTAMP:20261005T080333Z
+DTSTAMP:20261006T135013Z
 DTSTART:20261010T073000Z
 DURATION:PT1H30M
 SUMMARY:Pohod za življenje 2026 — Ljubljana
@@ -152,7 +152,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-celje-masa@zazivljenje.com
-DTSTAMP:20261005T080333Z
+DTSTAMP:20261006T135013Z
 DTSTART:20261010T130000Z
 DTEND:20261010T140000Z
 SUMMARY:Spominska sv. maša za ozdravljenje po izgubi otroka
@@ -173,7 +173,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-teden-za-zivljenje@zazivljenje.com
-DTSTAMP:20261005T080333Z
+DTSTAMP:20261006T135013Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261019
 SUMMARY:Teden za življenje 2026
@@ -192,8 +192,29 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
+UID:dogodek-2026-10-logoterapija-vsakdanje-zivljenje@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20261012T140000Z
+DTEND:20261013T143000Z
+SUMMARY:Logoterapija v vsakdanjem življenju
+DESCRIPTION:Logoterapija ni le teoretično znanje ali skupek terapevtskih metod. Njena resnična vrednost se pokaže\, ko njena spoznanja vključimo v vsakdanje življenje: v odnose\, vzgojo\, spremljanje človeka ob izgubi ter sprejemanje nepopolnosti\, staranja in življenjske ranljivosti. Seminar udeležence vabi k izkustvenemu raziskovanju človekove svobode\, odgovornosti\, enkratnosti in usmerjenosti k smislu. Seminar je namenjen terapevtom\, svetovalcem\, vzgojiteljem\, učiteljem\, zdravstvenim delavcem\, vodjem\, staršem in vsem\, ki želijo logoterapijo dejavno vključevati v vsakdanje življenje ter odkrivati smisel v odnosih\, vzgoji\, žalovanju\, staranju in življenjskih preizkušnjah. Vsebinski sklopi 1. Teorija sadežev — izkustveni uvod v smisel\, različnost in človeško povezanost Izkustvena delavnica uporablja metaforo različnih sadežev za raziskovanje človekove individualnosti\, empatije\, odpornosti in iskanja smisla. Na podlagi logoterapije\, spoznanj nevroznanosti in izkustvenega učenja bodo udeleženci odkrivali praktične možnosti za razvijanje smiselnih odnosov ter spoštovanje enkratnosti in neponovljivosti vsake osebe. Delavnica je uporabna pri terapevtskem\, svetovalnem\, pedagoškem in vodstvenem delu\, pa tudi v družinskih in drugih vsakdanjih odnosih. 2. Logoterapija po izgubi ljubljene osebe — spremljanje žalovanja z ritualom Srce spomina Sklop predstavlja možnosti logoterapevtskega spremljanja človeka v procesu žalovanja\, pri čemer ohranja spoštovanje do ljubezni\, spomina in smisla odnosa z umrlo osebo. Udeleženci bodo spoznali in izkusili ritual Srce spomina (Memory Heart Ritual)\, simbolno intervencijo\, ki človeku pomaga bolečo odsotnost postopoma vključevati v življenje ter odnos z umrlo osebo ohranjati kot notranjo vez hvaležnosti\, upanja in odgovornosti. 3. Pedagogika za transcendenco — vzgoja mladostnikov za odkrivanje smisla Predstavljen bo vzgojni model\, ki izhaja iz logoterapevtskega razumevanja samopreseganja in mladostnikom pomaga razvijati odgovornost\, odpornost\, samozavedanje ter usmerjenost k smiselnim ciljem. Udeleženci bodo skozi nadzorovano frustracijo\, izkustvene dejavnosti in refleksivni dialog spoznavali praktične strategije na smisel osredinjene vzgoje. Takšna vzgoja mladostnika ne varuje pred vsako oviro\, temveč ga podpira pri razvijanju notranjih moči\, sprejemanju odgovornosti in prepoznavanju življenjskih nalog. 4. Življenje je krof — odkrivanje smisla onkraj življenjskih nepopolnosti 5. Ko bom jaz na vrsti\, da skrbim zate … — smisel\, dostojanstvo in ljubezen pri staranju in skrbi za druge Sklop odpira vprašanja staranja\, odvisnosti od pomoči drugih ter globoke človeške izkušnje dajanja in sprejemanja skrbi. Razmišljali bomo\, kako lahko ranljivost poglobi odnose\, okrepi zavest o brezpogojnem dostojanstvu osebe ter odpre nove možnosti za odkrivanje smisla. Sprejemanje pomoči ni nujno izguba človekove vrednosti ali svobode\, skrb za drugega pa ni samo breme\, temveč je lahko tudi prostor ljubezni\, odgovornosti in samopreseganja. Seminar povezuje logoterapevtsko razumevanje človeka\, spoznanja nevroznanosti in izkustveno učenje. Predavanja bodo dopolnjevali refleksivni pogovor\, praktične vaje in simbolne intervencije\, uporabne pri terapevtskem\, svetovalnem\, pedagoškem\, zdravstvenem\, socialnem in vodstvenem delu ter v osebnem življenju. Potek dan\, ponedeljek\, 16.00–21.00: uvod in povezovanje logoterapije z vsakdanjim življenjem\, Teorija sadežev\, Življenje je krof\, izkustvene vaje in skupinska refleksija dan\, torek\, 9.00–16.30: Logoterapija po izgubi ljubljene osebe\, ritual Srce spomina\, Pedagogika za transcendenco\, Ko bom jaz na vrsti\, da skrbim zate …\, prenos spoznanj in sklepna refleksija Seminar vodi Annabella Piter\, M.Ed.\, mehiška logoterapevtka\, magistrica izobraževanja in predavateljica. Svoje delo posveča prenosu logoterapevtskih spoznanj v vzgojo\, odnose\, spremljanje žalovanja in vsakdanje življenje\; pri tem povezuje logoterapijo\, nevroznanost in izkustveno učenje. Je sodelavka Inštituta Viktorja Frankla na Dunaju na področju akreditacij ter avtorica vzgojnega modela Cedros: Pedagogika za transcendenco. Logoterapevtske vsebine podaja izkustveno\, razumljivo in praktično uporabno. Vrednotenje: seminar obsega 38 študijskih ur — 16 ur predavanj\, vaj in osebnih konzultacij ter osebnih vprašanjih ob učni snovi in 22 ur osebnega dela s študijskim gradivom (1 ECTS). Cena: 297 EUR\; možni popusti navedeni spodaj. Plača se po potrjeni prijavi. Popusti (razen za uvodni seminar): Člani društva Logos: 20 % Prostovoljci Slovenske mreže za kakovostno staranje: 50 % Koordinatorji Slovenske mreže starosti prijaznih mest in občin: 50 % Študentje s statusom študenta: 40 % Naročniki revije Kakovostna starost: 10 % Naročniki treh ali več seminarjev v akademskem letu: 20 % Popusti se med seboj ne seštevajo in se obračunajo ob plačilu oziroma se v primeru naročila treh ali več seminarjev obračunajo pri plačilu zadnjega seminarja. Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/DKWHnxNuADxFeoHK7
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/DKWHnxNuADxFeoHK7
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Logoterapija v vsakdanjem življenju
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
 UID:dogodek-2026-10-dan-molitve-mamice@zazivljenje.com
-DTSTAMP:20261005T080333Z
+DTSTAMP:20261006T135013Z
 DTSTART:20261013T130000Z
 DTEND:20261013T150000Z
 SUMMARY:Dan molitve za mamice\, ki razmišljajo o splavu
@@ -213,7 +234,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-val-svetlobe-velenje@zazivljenje.com
-DTSTAMP:20261005T080333Z
+DTSTAMP:20261006T135013Z
 DTSTART:20261015T143000Z
 DTEND:20261015T153000Z
 SUMMARY:Val svetlobe — spomin na otroke\, umrle med nosečnostjo in kmalu po rojstvu
@@ -233,7 +254,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-10-drzni-pustolovec@zazivljenje.com
-DTSTAMP:20261005T080333Z
+DTSTAMP:20261006T135013Z
 DTSTART:20261017T070000Z
 DURATION:PT1H30M
 SUMMARY:Drzni pustolovec (oče in sin\, 9–12 let)
@@ -254,7 +275,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-11-e-priprava@zazivljenje.com
-DTSTAMP:20261005T080333Z
+DTSTAMP:20261006T135013Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20270301
 SUMMARY:E-priprava na zakon
@@ -275,7 +296,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-11-dan-molitve-mamice@zazivljenje.com
-DTSTAMP:20261005T080333Z
+DTSTAMP:20261006T135013Z
 DTSTART:20261117T140000Z
 DTEND:20261117T160000Z
 SUMMARY:Dan molitve za mamice\, ki razmišljajo o splavu
@@ -289,6 +310,153 @@ URL:https://www.zavod-zivim.si/dogodki/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Dan molitve za mamice\, ki razmišljajo o splavu
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dogodek-2026-11-logoterapevtski-pogovor-mediacija@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20261127T150000Z
+DTEND:20261128T153000Z
+SUMMARY:Logoterapevtski pogovor in mediacija
+DESCRIPTION:Empatična komunikacija je eno temeljnih orodij za kakovostne odnose\, osebnostno rast in uspešno delo z ljudmi. Logoterapija in antropohigiena jo postavljata v okvir smisla — v komunikaciji ne gre le za izmenjavo besed\, temveč za ustvarjanje pristne človeške bližine\, kjer ima prostor tako spoštovanje kot odgovornost. Smiselno naravnana komunikacija omogoča\, da sogovornik začuti\, da je slišan in sprejet\, hkrati pa odpira prostor za razumevanje\, rast in reševanje izzivov. Seminar ponuja praktičen pristop k razvoju veščin empatične komunikacije in pokaže\, kako so te veščine temelj logoterapevtskega pogovora. Poseben poudarek bo namenjen mediaciji kot enemu od uveljavljenih načinov mirnega reševanja sporov. Mediacija spodbuja ustvarjanje nove kulture odnosov — udeležencem omogoča\, da si izmenjajo stališča\, izrazijo mnenja\, strahove in potrebe ter poiščejo skupne\, smiselne rešitve. Proces je dogovorjen\, sporazumen\, hiter\, cenovno ugoden\, trden in celosten\, saj udeleženci sami najdejo rešitev\, ki jo sprejmejo in uresničijo. V povezavi z logoterapijo mediacija ni le iskanje kompromisa\, temveč predvsem iskanje smisla v konfliktnih situacijah in krepitev motivacije za smiselno reševanje odnosov. Seminar je namenjen študentom logoterapije in vsem\, ki želijo poglobiti svoje veščine empatične komunikacije skozi prizmo smisla\, logoterapije in antropohigiene. Vsebina seminarja dan\, petek\, 16.00–21.00: Kakovostna komunikacija\, logoterapija in antropohigiena. dan\, sobota\, 9.00–16.30: Veščine kakovostne komunikacije so temelj logoterapevtskega pogovora. Seminar vodi mag. Martin Lisec\, logoterapevt s 4-letno specializacijo pri dr. Cvijeti Pahljina\, trener mediatorjev\, nosilec Evropske diplome iz psihoterapije in akreditiran član Viktor Frankl Inštituta z Dunaja. Seminar organizira Inštitut Stopinje v sodelovanju z Inštitutom za logoterapijo\, kjer se ta seminar šteje kot izbirni modul pri logoterapevtski specializaciji. Vrednotenje: seminar obsega 64 študijskih ur — 16 ur predavanj\, vaj in osebnih konzultacij ob seminarski nalogi ter osebnih vprašanjih ob učni snovi in 48 ur osebnega dela s študijskim gradivom in izdelavo seminarske naloge ter pripravo na izpit iz učne snovi na seminarju (2 ECTS). Cena: 287 EUR\; možni popusti navedeni spodaj. Plača se po potrjeni prijavi. Popusti (razen za uvodni seminar): Člani društva Logos: 20 % Prostovoljci Slovenske mreže za kakovostno staranje: 50 % Koordinatorji Slovenske mreže starosti prijaznih mest in občin: 50 % Študentje s statusom študenta: 40 % Naročniki revije Kakovostna starost: 10 % Naročniki treh ali več seminarjev v akademskem letu: 20 % Popusti se med seboj ne seštevajo in se obračunajo ob plačilu oziroma se v primeru naročila treh ali več seminarjev obračunajo pri plačilu zadnjega seminarja. Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/39WBcSgLvsRTjfdu5
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/39WBcSgLvsRTjfdu5
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Logoterapevtski pogovor in mediacija
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dogodek-2026-12-logodrama@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20261211T150000Z
+DTEND:20261212T163000Z
+SUMMARY:Logodrama
+DESCRIPTION:Na intenzivnem dvodnevnem seminarju bomo združili spoznanja logoterapije Viktorja Frankla z izkustvenim učenjem klasične psihodrame po Jakobu Levy Morenu. Udeleženci boste imeli priložnost poglobiti razumevanje smisla kot osrednje človeške motivacije ter raziskati svoje notranje vire v soočanju z izzivi vsakdanjega življenja. Logoterapija in psihodrama imata skupni cilj — pomoč človeku\, da bolje razume samega sebe\, svoje odnose in svoje življenjske možnosti za smiselno odločanje. Med sabo se dopolnjujeta. Logoterapija z logoteorijo ima močno filozofsko in etično podlago: usmerja pozornost na vprašanje smisla\, na odgovornost do lastnega življenja in na prepoznavanje vrednot\, ki človeku dajejo notranjo privlačno motivacijo. Logoterapevtski pogovor je torej usmerjen v razumevanje\, ozaveščanje in smiselno odločanje. Psihodrama omogoča\, da se logoterapevtska spoznanja izrazijo v dejanjih. Pri njej človek v varnem okolju skupine raziskuje svoje notranje konflikte z uporabo igre vlog\, postavitvijo prizorov in simbolnim delom\, pri tem pa preizkuša nove možnosti vedenja in doživlja spremembo na izkustveni ravni. Medtem ko logoterapija pomaga raziskati\, kaj je bistveno in smiselno\, psihodrama ponudi prostor\, da to človek doživi\, preizkusi in ponotranji. Tako se kognitivni uvid poveže z emocionalno in telesno izkušnjo\, kar povečuje moč spremembe. Vsebina seminarja dan\, petek\, 16.00–21.00: Psihodrama v luči logoterapije. dan\, sobota\, 9.00–17.30: Prikaz prepleta logoterapevtskega pogovora in določenih psihodramskih tehnik skozi varno in kreativno izraženje v skupini. Seminar vodi mag. Ksenija Ramovš\, psihoterapevtka z dolgoletno izkušnjo družinskega zdravljenja zasvojenosti\, omam in drugih stisk z uporabo logoterapije in psihodrame. Seminar organizira Inštitut Antona Trstenjaka v sodelovanju z Inštitutom za logoterapijo\, kjer se ta seminar šteje kot izbirni modul pri logoterapevtski specializaciji. Vrednotenje: seminar obsega 64 študijskih ur — 16 ur predavanj\, vaj in osebnih konzultacij ob seminarski nalogi ter osebnih vprašanjih ob učni snovi in 48 ur osebnega dela s študijskim gradivom in izdelavo seminarske naloge ter pripravo na izpit iz učne snovi na seminarju (2 ECTS). Cena: 287 EUR\; možni popusti navedeni spodaj. Plača se po potrjeni prijavi. Popusti (razen za uvodni seminar): Člani društva Logos: 20 % Prostovoljci Slovenske mreže za kakovostno staranje: 50 % Koordinatorji Slovenske mreže starosti prijaznih mest in občin: 50 % Študentje s statusom študenta: 40 % Naročniki revije Kakovostna starost: 10 % Naročniki treh ali več seminarjev v akademskem letu: 20 % Popusti se med seboj ne seštevajo in se obračunajo ob plačilu oziroma se v primeru naročila treh ali več seminarjev obračunajo pri plačilu zadnjega seminarja. Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/eAuf9xkGZZ4VbdJt7
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/eAuf9xkGZZ4VbdJt7
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Logodrama
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dogodek-2027-01-logoterapija-mladostniki-ii@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20270129T150000Z
+DTEND:20270130T153000Z
+SUMMARY:Logoterapija in delo z mladostniki II
+DESCRIPTION:V dvodnevnem seminarju Logoterapevtska obravnava otrok in mladostnikov II. bo poudarek na mladostništvu kot pomembnem prehodu v zrelost. Zaradi hitrih bioloških\, psiholoških in duhovnih sprememb je to obdobje pogosto zahtevno. Mladostništvo bomo osvetlili skozi šestrazsežnostni antropohigienski model ter procese razvoja identitete\, odnosov z vrstniki\, spolne identitete in osebnega sistema vrednot. Posebno pozornost bomo namenili tudi težavam pri sprejemanju sprememb in obvladovanju čustev\, ki se lahko odražajo v odklonskih vedenjih. Pridobljena znanja bomo nadgradili z logoterapevtskimi metodami\, predvsem s Sokratskim dialogom\, ki mladostnika usmerja k lastnim izbiram in odločitvam. Seminar bo praktično naravnan ter bo predstavil konkretne tehnike in orodja za vzpostavljanje varnega prostora in kakovosten logoterapevtski proces\, med drugim igre vlog\, videofilme\, karte\, glino in risanje. Seminarja se lahko udeležijo vsi zainteresirani\; udeležba na seminarju Logoterapevtska obravnava otrok in mladostnikov I ni pogoj za udeležbo na tem seminarju. Vsebina seminarja dan\, petek\, 16.00–21.00: Mladostniki skozi logoterapevtski pogled. Teoretični del s poudarkom na prepletu psihologije in logoterapije otrok in mladostnikov. dan\, sobota\, 9.00–16.30: Logoterapevtske tehnike v praksi. Praktična uporaba pristopov pri delu z otroki in mladostniki. Seminar vodi Polonca Teršek\, predsednica Strokovnega sveta Društva Logos\, logoterapevtka s štiriletno specializacijo pri dr. Cvijeti Pahljina ter z več kot 25-letnimi izkušnjami dela z družinami na centru za socialno delo. Seminar organizira Inštitut Stopinje v sodelovanju z Inštitutom za logoterapijo\, kjer se ta seminar šteje kot izbirni modul pri logoterapevtski specializaciji. Vrednotenje: seminar obsega 64 študijskih ur — 16 ur predavanj\, vaj in osebnih konzultacij ob seminarski nalogi ter osebnih vprašanjih ob učni snovi in 48 ur osebnega dela s študijskim gradivom in izdelavo seminarske naloge ter pripravo na izpit iz učne snovi na seminarju (2 ECTS). Cena: 287 EUR\; možni popusti navedeni spodaj. Plača se po potrjeni prijavi. Popusti (razen za uvodni seminar): Člani društva Logos: 20 % Prostovoljci Slovenske mreže za kakovostno staranje: 50 % Koordinatorji Slovenske mreže starosti prijaznih mest in občin: 50 % Študentje s statusom študenta: 40 % Naročniki revije Kakovostna starost: 10 % Naročniki treh ali več seminarjev v akademskem letu: 20 % Popusti se med seboj ne seštevajo in se obračunajo ob plačilu oziroma se v primeru naročila treh ali več seminarjev obračunajo pri plačilu zadnjega seminarja. Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/h4BawS37FjSSThWT8
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/h4BawS37FjSSThWT8
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Logoterapija in delo z mladostniki II
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dogodek-2027-05-omame-zasvojenosti-logoterapija@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20270521T140000Z
+DTEND:20270522T143000Z
+SUMMARY:Omame in zasvojenosti kot izziv za terapevtsko in preventivno delo
+DESCRIPTION:Na seminarju bomo raziskovali omame in zasvojenosti kot izziv sodobnega človeka ter možnosti preventive in reševanja stisk skozi prizmo logoterapije\, smisla in celostne antropologije. Omame in zasvojenosti predstavljajo eno največjih stisk sodobnega človeka — posameznika\, njegove okolice in širše družbe\, zato zahtevajo tako preventivno kot terapevtsko pozornost. Na dvodnevnem seminarju bomo osvetlili širši družbeni kontekst omamljanja in zasvojenosti\, njihovo pojavnost ter razloge\, zaradi katerih postajajo vse pomembnejši izziv sodobnega človeka in družbe. Poseben poudarek bo namenjen logoterapevtskemu in eksistencialnemu pogledu na človeka\, ki ga ne razume zgolj skozi njegove potrebe in težnje po zadovoljitvi\, temveč kot bitje\, usmerjeno v preseganje sebe\, iskanje smisla in polno doživljanje življenja. Takšen pogled odpira pomembne možnosti za preventivno delo na področju omam in zasvojenosti ter za njihovo zdravljenje. V terapevtskem delu se bomo osredotočili na prepoznavanje zasvojenosti in obrambnih mehanizmov ter na pomen odločitve za spremembo. Spoznali bomo\, kako lahko logoterapija v povezavi z drugimi pristopi človeka usmerja k prepoznavanju notranjih moči\, k medsebojni podpori\, k zdravim dejavnostim in predvsem k samopreseganju kot eni ključnih poti iz začaranega kroga zasvojenosti. Vsebina seminarja dan\, petek\, 16.00–21.00: Fenomenologija in pojavnost omam ter zasvojenosti v kontekstu sodobne »mokre« in potrošniške družbe\, pomen preventive ter logoterapevtsko razumevanje človeka in njegove usmerjenosti v smisel in preseganje sebe. dan\, sobota\, 9.00–16.30: Logoterapevtski pristop k prepoznavanju zasvojenosti\, obrambnih mehanizmov in poti spremembe ter pomen notranjih moči\, podpore in samopreseganja. Seminar vodi mag. Ksenija Ramovš\, psihoterapevtka z dolgoletno izkušnjo družinskega zdravljenja zasvojenosti\, omam in drugih stisk z uporabo logoterapije in psihodrame. Seminar organizira Inštitut Antona Trstenjaka v sodelovanju z Inštitutom za logoterapijo\, kjer se ta seminar šteje kot izbirni modul pri logoterapevtski specializaciji. Vrednotenje: seminar obsega 64 študijskih ur — 16 ur predavanj\, vaj in osebnih konzultacij ob seminarski nalogi ter osebnih vprašanjih ob učni snovi in 48 ur osebnega dela s študijskim gradivom in izdelavo seminarske naloge ter pripravo na izpit iz učne snovi na seminarju (2 ECTS). Cena: 287 EUR\; možni popusti navedeni spodaj. Plača se po potrjeni prijavi. Popusti (razen za uvodni seminar): Člani društva Logos: 20 % Prostovoljci Slovenske mreže za kakovostno staranje: 50 % Koordinatorji Slovenske mreže starosti prijaznih mest in občin: 50 % Študentje s statusom študenta: 40 % Naročniki revije Kakovostna starost: 10 % Naročniki treh ali več seminarjev v akademskem letu: 20 % Popusti se med seboj ne seštevajo in se obračunajo ob plačilu oziroma se v primeru naročila treh ali več seminarjev obračunajo pri plačilu zadnjega seminarja. Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/9FEguUbirMgFJbcQ6
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/9FEguUbirMgFJbcQ6
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Omame in zasvojenosti kot izziv za terapevtsko in preventivno delo
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dogodek-2027-06-partnerska-terapija-logoterapija@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20270604T140000Z
+DTEND:20270605T143000Z
+SUMMARY:Partnerska terapija skozi oči logoterapije
+DESCRIPTION:Partnerstvo je srečanje dveh enkratnosti\, dveh oseb z različnimi vrednotami\, pogledi\, izkušnjami\, navadami in pričakovanji. Gradnja skupne poti zato ni vedno preprosta\, vendar je partnerski odnos pomemben prostor osebne in skupne rasti ter prostor\, v katerem se oblikujejo družinski odnosi in širša družba. Na seminarju Partnerska terapija skozi oči logoterapije bomo raziskovali pomen partnerskega odnosa in ga osvetlili z vidika sodobnih pristopov\, s posebnim poudarkom na značilnostih kakovostnega\, izpolnjujočega in rodovitnega odnosa. Razmišljali bomo o namenu partnerske terapije ter o tem\, kako lahko ta prispeva k boljšemu razumevanju sebe in partnerja ter k osebni in skupni rasti. Partnerski odnos bomo pogledali tudi skozi perspektivo logoterapije\, ki poudarja iskanje smisla\, svobodo in odgovornost. Odkrivanje skupnega smisla ter svobodno in odgovorno soočanje s krizami lahko postaneta pomembna vira povezanosti in rasti. Seminar bo izkustveno naravnan\; konkretne vaje in delavnica bodo udeležencem omogočile refleksijo lastnega razumevanja partnerskega odnosa in izkušnjo terapevtskega dela. Potek seminarja dan\, petek\, 16.00–21.00: Partnerstvo kot srečanje dveh enkratnih oseb dan\, sobota\, 9.00–16.30: Smisel\, svoboda in odgovornost v partnerskem odnosu Seminar vodi mag. Emilija Snoj\, logoterapevtka in imago terapevtka. Zaključila je usposabljanje za zakonskega in družinskega terapevta\, ki sloni na relacijski družinski terapiji\, je tudi družinska mediatorka. Dokončala je znanstveni magisterij socialne pedagogike. Ima slovensko diplomo iz psihoterapije. Vrednotenje: seminar obsega 64 študijskih ur — 16 ur predavanj\, vaj in osebnih konzultacij ob seminarski nalogi ter osebnih vprašanjih ob učni snovi in 48 ur osebnega dela s študijskim gradivom in izdelavo seminarske naloge ter pripravo na izpit iz učne snovi na seminarju (2 ECTS). Cena: 287 EUR\; možni popusti navedeni spodaj. Plača se po potrjeni prijavi. Popusti (razen za uvodni seminar): Člani društva Logos: 20 % Prostovoljci Slovenske mreže za kakovostno staranje: 50 % Koordinatorji Slovenske mreže starosti prijaznih mest in občin: 50 % Študentje s statusom študenta: 40 % Naročniki revije Kakovostna starost: 10 % Naročniki treh ali več seminarjev v akademskem letu: 20 % Popusti se med seboj ne seštevajo in se obračunajo ob plačilu oziroma se v primeru naročila treh ali več seminarjev obračunajo pri plačilu zadnjega seminarja. Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/qYNynUcPzbmUaRaW7
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/qYNynUcPzbmUaRaW7
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partnerska terapija skozi oči logoterapije
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dogodek-2027-07-uvod-v-logoterapijo@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20270702T140000Z
+DTEND:20270703T133000Z
+SUMMARY:Uvod v logoterapijo
+DESCRIPTION:Ste se kdaj spraševali po smislu tega\, kar v življenju delate? Vas je kdaj begal smisel nemoči\, bolezni\, staranja? Ali veste\, če sta dajanje in sprejemanje pomoči dve enako pomembni plati istega kovanca? Če ste na katero zgornjih vprašanj odgovorili z DA\, če se poklicno ali v osebnem življenju srečujete z ljudmi\, ki težko sprejemajo del svojega življenja\, ali če si želite narediti nekaj za svojo osebno rast\, ali pa vas preprosto zanima to področje\, je morda logoterapija za vas zanimiva. Dvodnevni seminar Uvod v logoterapijo je namenjen uvodni predstavitvi logoterapije in njene uporabe v poklicnem in osebnem življenju. Logoterapija temelji na prepričanju\, da je osnovna motivacijska sila v življenju vsakega človeka iskanje smisla\, ali z drugimi besedami\, da je v vsakem človeku želja po smislu in da imamo ljudje svobodo ter s tem možnost\, da se odločamo za tisto\, kar je smiselno in dobro. Čeprav tega smisla ni vedno lahko najti\, je to vendarle možno tudi v težkih trenutkih in situacijah. To spoznanje bo rdeča nit bogatega dvodnevnega programa\, ki vključuje tako teoretično podlago kakor praktične delavnice. Seminar je namenjen vsem\, ki se pri svojem poklicnem ali osebnem delu srečujete s pomanjkanjem smisla\, ljudmi\, ki težko sprejemajo svoje omejitve\, oziroma želite preprosto izvedeti več o logoterapiji in njenih možnostih. Vsebina seminarja dan\, 16.00–21.00: Logoteorija in logoterapija: Viktor Frankl\, Elisabeth Lukas in drugi logoterapevti ter antropologija Antona Trstenjaka — njihova spoznanja in metode kot osnova za delo z ljudmi in za ljudi ter za lastni osebnostni razvoj. dan\, 9.00–15.30: Razvoj logoterapije po svetu in pri nas. Njena uporaba pri terapevtskem in preventivnem delu ter pri razvoju lastne osebnosti ter specializacija logoterapije in možnosti usposabljanja v tematskih modulih. Seminar vodijo mag. Ksenija Ramovš\, psihoterapevtka z dolgoletno izkušnjo družinskega zdravljenja zasvojenosti\, omam in drugih stisk z uporabo logoterapije in psihodrame\, mag. Martin Lisec\, direktor Inštituta Stopinje\, ter ostali sodelavci Inštituta za logoterapijo. Cena: 99 EUR\, kar vključuje le materialne stroške (knjigo in drugo učno gradivo ter kosilo in večerjo). Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/M9BN9o4JZfGvCS4p7
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/M9BN9o4JZfGvCS4p7
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Uvod v logoterapijo
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dogodek-2027-09-uvod-v-logoterapijo@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20270910T140000Z
+DTEND:20270911T133000Z
+SUMMARY:Uvod v logoterapijo
+DESCRIPTION:Ste se kdaj spraševali po smislu tega\, kar v življenju delate? Vas je kdaj begal smisel nemoči\, bolezni\, staranja? Ali veste\, če sta dajanje in sprejemanje pomoči dve enako pomembni plati istega kovanca? Če ste na katero zgornjih vprašanj odgovorili z DA\, če se poklicno ali v osebnem življenju srečujete z ljudmi\, ki težko sprejemajo del svojega življenja\, ali če si želite narediti nekaj za svojo osebno rast\, ali pa vas preprosto zanima to področje\, je morda logoterapija za vas zanimiva. Dvodnevni seminar Uvod v logoterapijo je namenjen uvodni predstavitvi logoterapije in njene uporabe v poklicnem in osebnem življenju. Logoterapija temelji na prepričanju\, da je osnovna motivacijska sila v življenju vsakega človeka iskanje smisla\, ali z drugimi besedami\, da je v vsakem človeku želja po smislu in da imamo ljudje svobodo ter s tem možnost\, da se odločamo za tisto\, kar je smiselno in dobro. Čeprav tega smisla ni vedno lahko najti\, je to vendarle možno tudi v težkih trenutkih in situacijah. To spoznanje bo rdeča nit bogatega dvodnevnega programa\, ki vključuje tako teoretično podlago kakor praktične delavnice. Seminar je namenjen vsem\, ki se pri svojem poklicnem ali osebnem delu srečujete s pomanjkanjem smisla\, ljudmi\, ki težko sprejemajo svoje omejitve\, oziroma želite preprosto izvedeti več o logoterapiji in njenih možnostih. Vsebina seminarja dan\, 16.00–21.00: Logoteorija in logoterapija: Viktor Frankl\, Elisabeth Lukas in drugi logoterapevti ter antropologija Antona Trstenjaka — njihova spoznanja in metode kot osnova za delo z ljudmi in za ljudi ter za lastni osebnostni razvoj. dan\, 9.00–15.30: Razvoj logoterapije po svetu in pri nas. Njena uporaba pri terapevtskem in preventivnem delu ter pri razvoju lastne osebnosti ter specializacija logoterapije in možnosti usposabljanja v tematskih modulih. Seminar vodijo mag. Ksenija Ramovš\, psihoterapevtka z dolgoletno izkušnjo družinskega zdravljenja zasvojenosti\, omam in drugih stisk z uporabo logoterapije in psihodrame\, mag. Martin Lisec\, direktor Inštituta Stopinje\, ter ostali sodelavci Inštituta za logoterapijo. Cena: 99 EUR\, kar vključuje le materialne stroške (knjigo in drugo učno gradivo ter kosilo in večerjo). Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/WkCL7psdhHyVjD5L6
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/WkCL7psdhHyVjD5L6
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Uvod v logoterapijo
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT

@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Logoterapija in delo z mladostniki II
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:dogodek-2027-01-logoterapija-mladostniki-ii@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20270129T150000Z
+DTEND:20270130T153000Z
+SUMMARY:Logoterapija in delo z mladostniki II
+DESCRIPTION:V dvodnevnem seminarju Logoterapevtska obravnava otrok in mladostnikov II. bo poudarek na mladostništvu kot pomembnem prehodu v zrelost. Zaradi hitrih bioloških\, psiholoških in duhovnih sprememb je to obdobje pogosto zahtevno. Mladostništvo bomo osvetlili skozi šestrazsežnostni antropohigienski model ter procese razvoja identitete\, odnosov z vrstniki\, spolne identitete in osebnega sistema vrednot. Posebno pozornost bomo namenili tudi težavam pri sprejemanju sprememb in obvladovanju čustev\, ki se lahko odražajo v odklonskih vedenjih. Pridobljena znanja bomo nadgradili z logoterapevtskimi metodami\, predvsem s Sokratskim dialogom\, ki mladostnika usmerja k lastnim izbiram in odločitvam. Seminar bo praktično naravnan ter bo predstavil konkretne tehnike in orodja za vzpostavljanje varnega prostora in kakovosten logoterapevtski proces\, med drugim igre vlog\, videofilme\, karte\, glino in risanje. Seminarja se lahko udeležijo vsi zainteresirani\; udeležba na seminarju Logoterapevtska obravnava otrok in mladostnikov I ni pogoj za udeležbo na tem seminarju. Vsebina seminarja dan\, petek\, 16.00–21.00: Mladostniki skozi logoterapevtski pogled. Teoretični del s poudarkom na prepletu psihologije in logoterapije otrok in mladostnikov. dan\, sobota\, 9.00–16.30: Logoterapevtske tehnike v praksi. Praktična uporaba pristopov pri delu z otroki in mladostniki. Seminar vodi Polonca Teršek\, predsednica Strokovnega sveta Društva Logos\, logoterapevtka s štiriletno specializacijo pri dr. Cvijeti Pahljina ter z več kot 25-letnimi izkušnjami dela z družinami na centru za socialno delo. Seminar organizira Inštitut Stopinje v sodelovanju z Inštitutom za logoterapijo\, kjer se ta seminar šteje kot izbirni modul pri logoterapevtski specializaciji. Vrednotenje: seminar obsega 64 študijskih ur — 16 ur predavanj\, vaj in osebnih konzultacij ob seminarski nalogi ter osebnih vprašanjih ob učni snovi in 48 ur osebnega dela s študijskim gradivom in izdelavo seminarske naloge ter pripravo na izpit iz učne snovi na seminarju (2 ECTS). Cena: 287 EUR\; možni popusti navedeni spodaj. Plača se po potrjeni prijavi. Popusti (razen za uvodni seminar): Člani društva Logos: 20 % Prostovoljci Slovenske mreže za kakovostno staranje: 50 % Koordinatorji Slovenske mreže starosti prijaznih mest in občin: 50 % Študentje s statusom študenta: 40 % Naročniki revije Kakovostna starost: 10 % Naročniki treh ali več seminarjev v akademskem letu: 20 % Popusti se med seboj ne seštevajo in se obračunajo ob plačilu oziroma se v primeru naročila treh ali več seminarjev obračunajo pri plačilu zadnjega seminarja. Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/h4BawS37FjSSThWT8
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/h4BawS37FjSSThWT8
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Logoterapija in delo z mladostniki II
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR

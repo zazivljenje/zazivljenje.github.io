@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Logoterapevtski pogovor in mediacija
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:dogodek-2026-11-logoterapevtski-pogovor-mediacija@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20261127T150000Z
+DTEND:20261128T153000Z
+SUMMARY:Logoterapevtski pogovor in mediacija
+DESCRIPTION:Empatična komunikacija je eno temeljnih orodij za kakovostne odnose\, osebnostno rast in uspešno delo z ljudmi. Logoterapija in antropohigiena jo postavljata v okvir smisla — v komunikaciji ne gre le za izmenjavo besed\, temveč za ustvarjanje pristne človeške bližine\, kjer ima prostor tako spoštovanje kot odgovornost. Smiselno naravnana komunikacija omogoča\, da sogovornik začuti\, da je slišan in sprejet\, hkrati pa odpira prostor za razumevanje\, rast in reševanje izzivov. Seminar ponuja praktičen pristop k razvoju veščin empatične komunikacije in pokaže\, kako so te veščine temelj logoterapevtskega pogovora. Poseben poudarek bo namenjen mediaciji kot enemu od uveljavljenih načinov mirnega reševanja sporov. Mediacija spodbuja ustvarjanje nove kulture odnosov — udeležencem omogoča\, da si izmenjajo stališča\, izrazijo mnenja\, strahove in potrebe ter poiščejo skupne\, smiselne rešitve. Proces je dogovorjen\, sporazumen\, hiter\, cenovno ugoden\, trden in celosten\, saj udeleženci sami najdejo rešitev\, ki jo sprejmejo in uresničijo. V povezavi z logoterapijo mediacija ni le iskanje kompromisa\, temveč predvsem iskanje smisla v konfliktnih situacijah in krepitev motivacije za smiselno reševanje odnosov. Seminar je namenjen študentom logoterapije in vsem\, ki želijo poglobiti svoje veščine empatične komunikacije skozi prizmo smisla\, logoterapije in antropohigiene. Vsebina seminarja dan\, petek\, 16.00–21.00: Kakovostna komunikacija\, logoterapija in antropohigiena. dan\, sobota\, 9.00–16.30: Veščine kakovostne komunikacije so temelj logoterapevtskega pogovora. Seminar vodi mag. Martin Lisec\, logoterapevt s 4-letno specializacijo pri dr. Cvijeti Pahljina\, trener mediatorjev\, nosilec Evropske diplome iz psihoterapije in akreditiran član Viktor Frankl Inštituta z Dunaja. Seminar organizira Inštitut Stopinje v sodelovanju z Inštitutom za logoterapijo\, kjer se ta seminar šteje kot izbirni modul pri logoterapevtski specializaciji. Vrednotenje: seminar obsega 64 študijskih ur — 16 ur predavanj\, vaj in osebnih konzultacij ob seminarski nalogi ter osebnih vprašanjih ob učni snovi in 48 ur osebnega dela s študijskim gradivom in izdelavo seminarske naloge ter pripravo na izpit iz učne snovi na seminarju (2 ECTS). Cena: 287 EUR\; možni popusti navedeni spodaj. Plača se po potrjeni prijavi. Popusti (razen za uvodni seminar): Člani društva Logos: 20 % Prostovoljci Slovenske mreže za kakovostno staranje: 50 % Koordinatorji Slovenske mreže starosti prijaznih mest in občin: 50 % Študentje s statusom študenta: 40 % Naročniki revije Kakovostna starost: 10 % Naročniki treh ali več seminarjev v akademskem letu: 20 % Popusti se med seboj ne seštevajo in se obračunajo ob plačilu oziroma se v primeru naročila treh ali več seminarjev obračunajo pri plačilu zadnjega seminarja. Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/39WBcSgLvsRTjfdu5
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/39WBcSgLvsRTjfdu5
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Logoterapevtski pogovor in mediacija
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR

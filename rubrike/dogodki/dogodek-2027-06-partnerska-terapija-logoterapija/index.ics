@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Partnerska terapija skozi oči logoterapije
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:dogodek-2027-06-partnerska-terapija-logoterapija@zazivljenje.com
+DTSTAMP:20261006T135013Z
+DTSTART:20270604T140000Z
+DTEND:20270605T143000Z
+SUMMARY:Partnerska terapija skozi oči logoterapije
+DESCRIPTION:Partnerstvo je srečanje dveh enkratnosti\, dveh oseb z različnimi vrednotami\, pogledi\, izkušnjami\, navadami in pričakovanji. Gradnja skupne poti zato ni vedno preprosta\, vendar je partnerski odnos pomemben prostor osebne in skupne rasti ter prostor\, v katerem se oblikujejo družinski odnosi in širša družba. Na seminarju Partnerska terapija skozi oči logoterapije bomo raziskovali pomen partnerskega odnosa in ga osvetlili z vidika sodobnih pristopov\, s posebnim poudarkom na značilnostih kakovostnega\, izpolnjujočega in rodovitnega odnosa. Razmišljali bomo o namenu partnerske terapije ter o tem\, kako lahko ta prispeva k boljšemu razumevanju sebe in partnerja ter k osebni in skupni rasti. Partnerski odnos bomo pogledali tudi skozi perspektivo logoterapije\, ki poudarja iskanje smisla\, svobodo in odgovornost. Odkrivanje skupnega smisla ter svobodno in odgovorno soočanje s krizami lahko postaneta pomembna vira povezanosti in rasti. Seminar bo izkustveno naravnan\; konkretne vaje in delavnica bodo udeležencem omogočile refleksijo lastnega razumevanja partnerskega odnosa in izkušnjo terapevtskega dela. Potek seminarja dan\, petek\, 16.00–21.00: Partnerstvo kot srečanje dveh enkratnih oseb dan\, sobota\, 9.00–16.30: Smisel\, svoboda in odgovornost v partnerskem odnosu Seminar vodi mag. Emilija Snoj\, logoterapevtka in imago terapevtka. Zaključila je usposabljanje za zakonskega in družinskega terapevta\, ki sloni na relacijski družinski terapiji\, je tudi družinska mediatorka. Dokončala je znanstveni magisterij socialne pedagogike. Ima slovensko diplomo iz psihoterapije. Vrednotenje: seminar obsega 64 študijskih ur — 16 ur predavanj\, vaj in osebnih konzultacij ob seminarski nalogi ter osebnih vprašanjih ob učni snovi in 48 ur osebnega dela s študijskim gradivom in izdelavo seminarske naloge ter pripravo na izpit iz učne snovi na seminarju (2 ECTS). Cena: 287 EUR\; možni popusti navedeni spodaj. Plača se po potrjeni prijavi. Popusti (razen za uvodni seminar): Člani društva Logos: 20 % Prostovoljci Slovenske mreže za kakovostno staranje: 50 % Koordinatorji Slovenske mreže starosti prijaznih mest in občin: 50 % Študentje s statusom študenta: 40 % Naročniki revije Kakovostna starost: 10 % Naročniki treh ali več seminarjev v akademskem letu: 20 % Popusti se med seboj ne seštevajo in se obračunajo ob plačilu oziroma se v primeru naročila treh ali več seminarjev obračunajo pri plačilu zadnjega seminarja. Inštitut za logoterapijo organizira seminarje v sodelovanju z Inštitutom Antona Trstenjaka in Inštitutom Stopinje. Za dodatna pojasnila smo vam na voljo na info@iat.si ali na telefonsko številko 01 433 93 01. Lokacija: Resljevi 11\, v Ljubljani. Število mest je omejeno. Prijave do zapolnitve prostih mest najkasneje do 3 tedne pred izvedbo seminarja\, nakar prijavljeni prejme po pošti učno gradivo in navodila za kratko seminarsko nalogo. Prijava: prijavnica · info@iat.si · 01 433 93 01 https://forms.gle/qYNynUcPzbmUaRaW7
+
+LOCATION:Resljeva cesta 11\, 1000 Ljubljana
+
+GEO:46.0543108;14.5105528
+
+URL:https://forms.gle/qYNynUcPzbmUaRaW7
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partnerska terapija skozi oči logoterapije
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR
