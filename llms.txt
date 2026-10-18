@@ -38,6 +38,7 @@ Linking and quotation remain available to the extent permitted by law. Third-par
 - [Pogovori](https://zazivljenje.com/rubrike/pogovori-za-zivljenje/): Pogovori z zagovorniki življenja iz vsega sveta
 - [Pričevanja](https://zazivljenje.com/rubrike/pricevanja-za-zivljenje/): Pričevanja ljudi, ki so izbrali življenje
 - [Filmi](https://zazivljenje.com/rubrike/pogovor-ob-filmu/): Filmi z vrednotami za razvedrilo in sproščen pogovor
+- [Knjige](https://zazivljenje.com/knjige/): Izbor knjig iz slovenskih trgovin o družini, zakonu, vzgoji in dostojanstvu življenja
 - [Dogodki](https://zazivljenje.com/rubrike/dogodki/): Prihajajoča srečanja, maše in delavnice za družino in življenje
 - [Podkasti](https://zazivljenje.com/rubrike/podkasti/): Izbrani pogovori in epizode iz podkastov za kulturo življenja
 - [Aplikacije](https://zazivljenje.com/aplikacije/): Izračun dohodnine in Razvoj otroka v maternici

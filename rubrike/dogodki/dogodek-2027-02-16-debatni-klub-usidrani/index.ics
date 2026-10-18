@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Debatni klub Usidrani
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:debatni-klub-usidrani@zazivljenje.com
+DTSTAMP:20261018T141648Z
+DTSTART;TZID=Europe/Ljubljana:20261013T200000
+DTEND;TZID=Europe/Ljubljana:20261013T220000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Debatni klub Usidrani
+DESCRIPTION:Debatni klub Usidrani se od torka\, 13. oktobra 2026\, srečuje vsak torek ob 20.00 v središču Ljubljane. Natančen kraj udeleženci prejmejo ob prijavi. Vodi ga Peter Merše\, novinar in politični komentator. Vabljeni so predvsem študenti in mladi v poklicih. Enkratni prispevek za sezono 2026–27 je 5 evrov. Srečanje se začne z argumentom\, logičnimi napakami in retoriko\, nato sledi debata v obliki pro et contra in kratek razmislek. Teme so življenje\, zakonska zveza in družina\, spol\, starševske pravice ter svoboda govora in vere. Prijavnica: https://docs.google.com/forms/d/e/1FAIpQLScJuB4h0XJu42L6el4GrA6fpkKs99shstHRrIS-qrVey4Sg6A/viewform https://usidrani.si/prihaja-debatni-klub-usidrani/
+
+LOCATION:Center Ljubljane
+
+
+URL:https://usidrani.si/prihaja-debatni-klub-usidrani/
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Debatni klub Usidrani
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR

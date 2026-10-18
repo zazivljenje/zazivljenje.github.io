@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Razpisi in pravice za družine//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Za življenje — roki razpisov za družine
+X-WR-CALDESC:Odprti razpisi z roki in opomniki (3 dni prej). Koledar se posodobi ob osvežitvi spletne strani.
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VEVENT
+UID:pomoci-jssmol-namenski-mladi-5-2026-deadline@zazivljenje.com
+DTSTAMP:20261018T141648Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Rok: Ljubljana / Vrhnika — 60 namenskih najemnih stanovanj za mlade
+DESCRIPTION:5. javni razpis JSS MOL: 20 stanovanj za posameznike\, 20 za pare\, 20 za mlade družine\; vselitev predvidoma 2027–2028. Izpolnite vlogo z razpisne strani JSS MOL in jo oddajte v roku (glej razpis / PDF vloga). https://www.jssmol.si/5-javni-razpis-za-dodelitev-namenskih-najemnih-stanovanj-v-najem-mladim
+URL:https://www.jssmol.si/5-javni-razpis-za-dodelitev-namenskih-najemnih-stanovanj-v-najem-mladim
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Opomnik: rok razpisa čez 3 dni — Ljubljana / Vrhnika — 60 namenskih najemnih stanovanj za mlade
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pomoci-jssmol-namenski-mladi-5-2026-reminder@zazivljenje.com
+DTSTAMP:20261018T141648Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Opomnik (3 dni): Ljubljana / Vrhnika — 60 namenskih najemnih stanovanj za mlade
+DESCRIPTION:5. javni razpis JSS MOL: 20 stanovanj za posameznike\, 20 za pare\, 20 za mlade družine\; vselitev predvidoma 2027–2028. Izpolnite vlogo z razpisne strani JSS MOL in jo oddajte v roku (glej razpis / PDF vloga). https://www.jssmol.si/5-javni-razpis-za-dodelitev-namenskih-najemnih-stanovanj-v-najem-mladim
+URL:https://www.jssmol.si/5-javni-razpis-za-dodelitev-namenskih-najemnih-stanovanj-v-najem-mladim
+END:VEVENT
+BEGIN:VEVENT
+UID:pomoci-kranjska-gora-najem-mlade-druzine-2026-deadline@zazivljenje.com
+DTSTAMP:20261018T141648Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Rok: Kranjska Gora — 3 najemna stanovanja za mlade družine (Mojstrana)
+DESCRIPTION:Občina oddaja tri stanovanja (61–65 m²) na Delavski ulici 32 za 10 let\, namenjena družinam z otrokom. Obrazec na spletni strani / sedežu občine\; osebno ali priporočeno po pošti. https://gorenjskainfo.com/novica/lokalno/obcina-kranjska-gora-razpisuje-tri-najemna-stanovanja-za-mlade-druzine/450815
+URL:https://gorenjskainfo.com/novica/lokalno/obcina-kranjska-gora-razpisuje-tri-najemna-stanovanja-za-mlade-druzine/450815
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Opomnik: rok razpisa čez 3 dni — Kranjska Gora — 3 najemna stanovanja za mlade družine (Mojstrana)
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pomoci-kranjska-gora-najem-mlade-druzine-2026-reminder@zazivljenje.com
+DTSTAMP:20261018T141648Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Opomnik (3 dni): Kranjska Gora — 3 najemna stanovanja za mlade družine (Mojstrana)
+DESCRIPTION:Občina oddaja tri stanovanja (61–65 m²) na Delavski ulici 32 za 10 let\, namenjena družinam z otrokom. Obrazec na spletni strani / sedežu občine\; osebno ali priporočeno po pošti. https://gorenjskainfo.com/novica/lokalno/obcina-kranjska-gora-razpisuje-tri-najemna-stanovanja-za-mlade-druzine/450815
+URL:https://gorenjskainfo.com/novica/lokalno/obcina-kranjska-gora-razpisuje-tri-najemna-stanovanja-za-mlade-druzine/450815
+END:VEVENT
+BEGIN:VEVENT
+UID:pomoci-hrpelje-kozina-subvencija-mladi-2026-deadline@zazivljenje.com
+DTSTAMP:20261018T141648Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Rok: Hrpelje–Kozina — subvencija prvega stanovanjskega problema
+DESCRIPTION:Občinski razpis za mlade in mlade družine ob prvem reševanju stanovanjskega vprašanja (~30.000 € sredstev). Oddajte vlogo z razpisnimi prilogami na občino (glej objavo razpisa). https://www.hrpelje-kozina.si/razpis/1237207
+URL:https://www.hrpelje-kozina.si/razpis/1237207
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Opomnik: rok razpisa čez 3 dni — Hrpelje–Kozina — subvencija prvega stanovanjskega problema
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pomoci-hrpelje-kozina-subvencija-mladi-2026-reminder@zazivljenje.com
+DTSTAMP:20261018T141648Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Opomnik (3 dni): Hrpelje–Kozina — subvencija prvega stanovanjskega problema
+DESCRIPTION:Občinski razpis za mlade in mlade družine ob prvem reševanju stanovanjskega vprašanja (~30.000 € sredstev). Oddajte vlogo z razpisnimi prilogami na občino (glej objavo razpisa). https://www.hrpelje-kozina.si/razpis/1237207
+URL:https://www.hrpelje-kozina.si/razpis/1237207
+END:VEVENT
+BEGIN:VEVENT
+UID:pomoci-lendava-komunalni-prispevek-2026-deadline@zazivljenje.com
+DTSTAMP:20261018T141648Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Rok: Lendava — subvencija komunalnega prispevka za mlade
+DESCRIPTION:Sofinanciranje dela komunalnega prispevka pri gradnji\, obnovi ali rekonstrukciji za mlade / mlade družine. Osebno ali priporočeno na Občino Lendava (kontakt Marko Zelko). https://www.lendava.si/razpis/1217084
+URL:https://www.lendava.si/razpis/1217084
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Opomnik: rok razpisa čez 3 dni — Lendava — subvencija komunalnega prispevka za mlade
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pomoci-lendava-komunalni-prispevek-2026-reminder@zazivljenje.com
+DTSTAMP:20261018T141648Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Opomnik (3 dni): Lendava — subvencija komunalnega prispevka za mlade
+DESCRIPTION:Sofinanciranje dela komunalnega prispevka pri gradnji\, obnovi ali rekonstrukciji za mlade / mlade družine. Osebno ali priporočeno na Občino Lendava (kontakt Marko Zelko). https://www.lendava.si/razpis/1217084
+URL:https://www.lendava.si/razpis/1217084
+END:VEVENT
+BEGIN:VEVENT
+UID:pomoci-novo-mesto-gradnja-rekonstrukcija-2026-deadline@zazivljenje.com
+DTSTAMP:20261018T141648Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Rok: Novo mesto — sofinanciranje gradnje/rekonstrukcije za mlade investitorje
+DESCRIPTION:JSS MONM sofinancira rekonstrukcijo ali gradnjo stanovanj mladim\, ki prvič rešujejo stanovanjsko vprašanje v MONM. Oddajte vlogo z obrazci na JSS MONM (https://www.jss-monm.si/). https://www.jss-monm.si/razpisi/javni-poziv-za-sofinanciranje-rekonstrukcije-in-gradnje-stanovanj-mladim-investitorjem-na-obmocju-novega-mesta-v-letu-2026/
+URL:https://www.jss-monm.si/razpisi/javni-poziv-za-sofinanciranje-rekonstrukcije-in-gradnje-stanovanj-mladim-investitorjem-na-obmocju-novega-mesta-v-letu-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Opomnik: rok razpisa čez 3 dni — Novo mesto — sofinanciranje gradnje/rekonstrukcije za mlade investitorje
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pomoci-novo-mesto-gradnja-rekonstrukcija-2026-reminder@zazivljenje.com
+DTSTAMP:20261018T141648Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Opomnik (3 dni): Novo mesto — sofinanciranje gradnje/rekonstrukcije za mlade investitorje
+DESCRIPTION:JSS MONM sofinancira rekonstrukcijo ali gradnjo stanovanj mladim\, ki prvič rešujejo stanovanjsko vprašanje v MONM. Oddajte vlogo z obrazci na JSS MONM (https://www.jss-monm.si/). https://www.jss-monm.si/razpisi/javni-poziv-za-sofinanciranje-rekonstrukcije-in-gradnje-stanovanj-mladim-investitorjem-na-obmocju-novega-mesta-v-letu-2026/
+URL:https://www.jss-monm.si/razpisi/javni-poziv-za-sofinanciranje-rekonstrukcije-in-gradnje-stanovanj-mladim-investitorjem-na-obmocju-novega-mesta-v-letu-2026/
+END:VEVENT
+END:VCALENDAR
