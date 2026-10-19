@@ -11,6 +11,7 @@
     pravo: "pravo",
     predavanja: "predavanja",
     dokumenti: "dokumenti",
+    povzetki: "povzetki",
   };
 
   function idFromHash() {

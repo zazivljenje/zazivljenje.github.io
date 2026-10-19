@@ -6,8 +6,8 @@
     <description>Vse rubrike Novičnika Za življenje!</description>
     <image>
       <title>Za življenje!</title>
-      <url>https://zazivljenje.com/apple-touch-icon.png</url>
-      <link>https://zazivljenje.com/apple-touch-icon.png</link>
+      <url>https://zazivljenje.com/images/za-zivljenje-logo.png</url>
+      <link>https://zazivljenje.com/images/za-zivljenje-logo.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>sl</language>
@@ -524,6 +524,13 @@
       <pubDate>Tue, 20 Oct 2026 20:00:00 +0200</pubDate>
       <guid>https://zazivljenje.com/rubrike/dogodki/dogodek-2026-10-20-debatni-klub-usidrani/</guid>
       <description>Vsak torek ob 20.00 v središču Ljubljane. Debata pro et contra; vodi Peter Merše. Sezona 2026–27, 5 evrov.</description>
+    </item>
+    <item>
+      <title>Podpora žalujočim</title>
+      <link>https://zazivljenje.com/rubrike/povzetki/povzetek-2026-10-preobrazba-bolecine/</link>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/rubrike/povzetki/povzetek-2026-10-preobrazba-bolecine/</guid>
+      <description>Povzetek knjige Preobrazba bolečine p. Ivana Platovnjaka DJ — o spremljanju žalujočih in preobrazbi bolečine v upanje.</description>
     </item>
     <item>
       <title>Drzni pustolovec (oče in sin, 9–12 let)</title>

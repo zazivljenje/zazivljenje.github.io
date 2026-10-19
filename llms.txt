@@ -18,6 +18,11 @@ Commercial reproduction, adaptation, and text-and-data mining (TDM), including m
 
 Linking and quotation remain available to the extent permitted by law. Third-party logos, quotes, and linked materials stay with their rightsholders.
 
+## Brand / logo
+
+- Official logo (Za življenje logo / za zivljenje logo): https://zazivljenje.com/images/za-zivljenje-logo.png
+- Description: Stilizirano srce z materjo (rdeče) in otrokom (modro); uradni logotip Za življenje
+
 ## Machine-readable feeds
 
 - Sitemap: https://zazivljenje.com/sitemap.xml
@@ -46,5 +51,6 @@ Linking and quotation remain available to the extent permitted by law. Third-par
 - [Razpisi in pravice za družine](https://zazivljenje.com/aplikacije/razpisi-in-pravice-za-druzine/): Odprti razpisi in trajne pravice z roki
 - [Pričakujemo otroka](https://zazivljenje.com/aplikacije/pricakujemo-otroka/): Kalkulator otroškega dodatka in družinskih prejemkov
 - [Izračun dohodnine](https://zazivljenje.com/aplikacije/izracun-dohodnine/): Davčne olajšave za vzdrževane otroke
-- [Druge vsebine](https://zazivljenje.com/druge-vsebine/): Mednarodno pravo, dokumenti in predavanja za kulturo življenja
+- [Druge vsebine](https://zazivljenje.com/druge-vsebine/): Mednarodno pravo, dokumenti, predavanja in povzetki knjig za kulturo življenja
+- [Povzetki](https://zazivljenje.com/rubrike/povzetki/): Povzetki knjig za kulturo življenja
 - [Pogoji uporabe](https://zazivljenje.com/pogoji/): Avtorske pravice, vse pravice pridržane
