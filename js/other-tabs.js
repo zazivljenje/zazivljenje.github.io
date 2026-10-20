@@ -12,6 +12,7 @@
     predavanja: "predavanja",
     dokumenti: "dokumenti",
     povzetki: "povzetki",
+    vizualizacije: "vizualizacije",
   };
 
   function idFromHash() {

@@ -3,7 +3,7 @@
   <channel>
     <title>Druge vsebine on Za življenje!</title>
     <link>https://zazivljenje.com/druge-vsebine/</link>
-    <description>Mednarodno pravo, predavanja, dokumenti in povzetki knjig za kulturo življenja</description>
+    <description>Mednarodno pravo, predavanja, dokumenti, povzetki knjig in vizualizacije za kulturo življenja</description>
     <image>
       <title>Za življenje!</title>
       <url>https://zazivljenje.com/images/za-zivljenje-logo.png</url>
@@ -12,6 +12,14 @@
     <generator>Hugo -- 0.145.0</generator>
     <language>sl</language>
     <copyright>Za življenje! Vse pravice pridržane.</copyright>
+    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zazivljenje.com/druge-vsebine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dober glas seže v deveto vas</title>
+      <link>https://zazivljenje.com/druge-vsebine/vizualizacije/kako-se-je-beseda-sirila/</link>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://zazivljenje.com/druge-vsebine/vizualizacije/kako-se-je-beseda-sirila/</guid>
+      <description>Od 3. do 17. oktobra 2026: kdo je o Pohodu za življenje spregovoril, s kakšnim tonom in na kateri platformi. Zvezda na drsniku je sobota, 10. oktober, ob 9.30 na Prešernovem trgu.</description>
+    </item>
   </channel>
 </rss>

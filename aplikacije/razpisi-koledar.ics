@@ -8,7 +8,7 @@ X-WR-CALDESC:Odprti razpisi z roki in opomniki (3 dni prej). Koledar se posodobi
 X-WR-TIMEZONE:Europe/Ljubljana
 BEGIN:VEVENT
 UID:pomoci-jssmol-namenski-mladi-5-2026-deadline@zazivljenje.com
-DTSTAMP:20261020T055245Z
+DTSTAMP:20261020T175449Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Rok: Ljubljana / Vrhnika — 60 namenskih najemnih stanovanj za mlade
@@ -22,7 +22,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pomoci-jssmol-namenski-mladi-5-2026-reminder@zazivljenje.com
-DTSTAMP:20261020T055245Z
+DTSTAMP:20261020T175449Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:Opomnik (3 dni): Ljubljana / Vrhnika — 60 namenskih najemnih stanovanj za mlade
@@ -30,8 +30,54 @@ DESCRIPTION:5. javni razpis JSS MOL: 20 stanovanj za posameznike\, 20 za pare\, 
 URL:https://www.jssmol.si/5-javni-razpis-za-dodelitev-namenskih-najemnih-stanovanj-v-najem-mladim
 END:VEVENT
 BEGIN:VEVENT
+UID:pomoci-jssmol-posojila-rekonstrukcija-27-2026-deadline@zazivljenje.com
+DTSTAMP:20261020T175449Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Rok: Ljubljana — stanovanjska posojila za obnovo (27. razpis)
+DESCRIPTION:JSS MOL daje posojila lastnikom stanovanjskih stavb v MOL\, starejših od 20 let\, za rekonstrukcijo ter redna in investicijska vzdrževalna dela. Izpolnite vlogo\, priloženo razpisu na strani JSS MOL\, in jo oddajte do roka. https://www.jssmol.si/27-javni-razpis-za-stanovanjska-posojila-za-rekonstrukcijo-in-vzdrzevalna-dela-na-stanovanjskih-stavbah
+URL:https://www.jssmol.si/27-javni-razpis-za-stanovanjska-posojila-za-rekonstrukcijo-in-vzdrzevalna-dela-na-stanovanjskih-stavbah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Opomnik: rok razpisa čez 3 dni — Ljubljana — stanovanjska posojila za obnovo (27. razpis)
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pomoci-jssmol-posojila-rekonstrukcija-27-2026-reminder@zazivljenje.com
+DTSTAMP:20261020T175449Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Opomnik (3 dni): Ljubljana — stanovanjska posojila za obnovo (27. razpis)
+DESCRIPTION:JSS MOL daje posojila lastnikom stanovanjskih stavb v MOL\, starejših od 20 let\, za rekonstrukcijo ter redna in investicijska vzdrževalna dela. Izpolnite vlogo\, priloženo razpisu na strani JSS MOL\, in jo oddajte do roka. https://www.jssmol.si/27-javni-razpis-za-stanovanjska-posojila-za-rekonstrukcijo-in-vzdrzevalna-dela-na-stanovanjskih-stavbah
+URL:https://www.jssmol.si/27-javni-razpis-za-stanovanjska-posojila-za-rekonstrukcijo-in-vzdrzevalna-dela-na-stanovanjskih-stavbah
+END:VEVENT
+BEGIN:VEVENT
+UID:pomoci-jssmol-dosmrtna-sluznost-renta-2026-deadline@zazivljenje.com
+DTSTAMP:20261020T175449Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Rok: Ljubljana — prodaja stanovanja z dosmrtno služnostjo in rento
+DESCRIPTION:Lastnik proda stanovanje JSS MOL\, obdrži dosmrtno uporabo zase in za družino\, kupnina pa se plača zavarovalnici\, ki izplačuje doživljenjsko mesečno rento. Izpolnite vlogo\, priloženo javnemu povabilu na strani JSS MOL. https://www.jssmol.si/javno-povabilo-za-nakup-stanovanj-z-ustanovitvijo-dosmrtne-sluznosti-stanovanja-in-izplacilom-dozivljenjske-mesecne-rente-2
+URL:https://www.jssmol.si/javno-povabilo-za-nakup-stanovanj-z-ustanovitvijo-dosmrtne-sluznosti-stanovanja-in-izplacilom-dozivljenjske-mesecne-rente-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Opomnik: rok razpisa čez 3 dni — Ljubljana — prodaja stanovanja z dosmrtno služnostjo in rento
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pomoci-jssmol-dosmrtna-sluznost-renta-2026-reminder@zazivljenje.com
+DTSTAMP:20261020T175449Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Opomnik (3 dni): Ljubljana — prodaja stanovanja z dosmrtno služnostjo in rento
+DESCRIPTION:Lastnik proda stanovanje JSS MOL\, obdrži dosmrtno uporabo zase in za družino\, kupnina pa se plača zavarovalnici\, ki izplačuje doživljenjsko mesečno rento. Izpolnite vlogo\, priloženo javnemu povabilu na strani JSS MOL. https://www.jssmol.si/javno-povabilo-za-nakup-stanovanj-z-ustanovitvijo-dosmrtne-sluznosti-stanovanja-in-izplacilom-dozivljenjske-mesecne-rente-2
+URL:https://www.jssmol.si/javno-povabilo-za-nakup-stanovanj-z-ustanovitvijo-dosmrtne-sluznosti-stanovanja-in-izplacilom-dozivljenjske-mesecne-rente-2
+END:VEVENT
+BEGIN:VEVENT
 UID:pomoci-kranjska-gora-najem-mlade-druzine-2026-deadline@zazivljenje.com
-DTSTAMP:20261020T055245Z
+DTSTAMP:20261020T175449Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Rok: Kranjska Gora — 3 najemna stanovanja za mlade družine (Mojstrana)
@@ -45,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pomoci-kranjska-gora-najem-mlade-druzine-2026-reminder@zazivljenje.com
-DTSTAMP:20261020T055245Z
+DTSTAMP:20261020T175449Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Opomnik (3 dni): Kranjska Gora — 3 najemna stanovanja za mlade družine (Mojstrana)
@@ -54,7 +100,7 @@ URL:https://gorenjskainfo.com/novica/lokalno/obcina-kranjska-gora-razpisuje-tri-
 END:VEVENT
 BEGIN:VEVENT
 UID:pomoci-hrpelje-kozina-subvencija-mladi-2026-deadline@zazivljenje.com
-DTSTAMP:20261020T055245Z
+DTSTAMP:20261020T175449Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Rok: Hrpelje–Kozina — subvencija prvega stanovanjskega problema
@@ -68,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pomoci-hrpelje-kozina-subvencija-mladi-2026-reminder@zazivljenje.com
-DTSTAMP:20261020T055245Z
+DTSTAMP:20261020T175449Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:Opomnik (3 dni): Hrpelje–Kozina — subvencija prvega stanovanjskega problema
@@ -77,7 +123,7 @@ URL:https://www.hrpelje-kozina.si/razpis/1237207
 END:VEVENT
 BEGIN:VEVENT
 UID:pomoci-lendava-komunalni-prispevek-2026-deadline@zazivljenje.com
-DTSTAMP:20261020T055245Z
+DTSTAMP:20261020T175449Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Rok: Lendava — subvencija komunalnega prispevka za mlade
@@ -91,7 +137,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pomoci-lendava-komunalni-prispevek-2026-reminder@zazivljenje.com
-DTSTAMP:20261020T055245Z
+DTSTAMP:20261020T175449Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Opomnik (3 dni): Lendava — subvencija komunalnega prispevka za mlade
@@ -100,7 +146,7 @@ URL:https://www.lendava.si/razpis/1217084
 END:VEVENT
 BEGIN:VEVENT
 UID:pomoci-novo-mesto-gradnja-rekonstrukcija-2026-deadline@zazivljenje.com
-DTSTAMP:20261020T055245Z
+DTSTAMP:20261020T175449Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Rok: Novo mesto — sofinanciranje gradnje/rekonstrukcije za mlade investitorje
@@ -114,7 +160,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pomoci-novo-mesto-gradnja-rekonstrukcija-2026-reminder@zazivljenje.com
-DTSTAMP:20261020T055245Z
+DTSTAMP:20261020T175449Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Opomnik (3 dni): Novo mesto — sofinanciranje gradnje/rekonstrukcije za mlade investitorje
