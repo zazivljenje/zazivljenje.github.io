@@ -454,8 +454,22 @@
       slotOrder.push(item.post.voice);
     });
     while (slotOrder.length < 15 * 4) slotOrder.push("");
-    crowd.style.setProperty("--pohod-cols", "15");
-    crowd.style.setProperty("--pohod-rows", "4");
+
+    function fitCrowd() {
+      var width = crowd.clientWidth || root.clientWidth;
+      if (!width) return;
+      var dot = width < 560 ? 20 : 23;
+      var gap = width < 560 ? 5 : 7;
+      var usable = Math.max(dot, width - 8);
+      var cols = Math.min(15, Math.max(1, Math.floor((usable + gap) / (dot + gap))));
+      var rows = Math.ceil(slotOrder.length / cols);
+      crowd.style.setProperty("--pohod-cols", String(cols));
+      crowd.style.setProperty("--pohod-rows", String(rows));
+      crowd.style.setProperty("--pohod-dot", dot + "px");
+      crowd.style.setProperty("--pohod-gap", gap + "px");
+    }
+    fitCrowd();
+    if (window.ResizeObserver) new ResizeObserver(fitCrowd).observe(crowd);
 
     function cloudOf(through) {
       var counts = {};
