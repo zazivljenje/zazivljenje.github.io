@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sv. maša za zakonce, ki si želijo otrok — Žalec
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:dogodek-2026-11-zalec-masa@zazivljenje.com
+DTSTAMP:20261025T194129Z
+DTSTART:20261114T173000Z
+DURATION:PT1H30M
+SUMMARY:Sv. maša za zakonce\, ki si želijo otrok — Žalec
+DESCRIPTION:Se soočata s preizkušnjo\, ko otroka ni in ni? V cerkvi sv. Miklavža v Žalcu bo v soboto\, 14. novembra 2026\, ob 18.30 sveta maša. Maševal bo Vlado Bizjak. Med sveto mašo bo pričevanje zakonskega para\, po sv. maši pa molitev pred Najsvetejšim za ozdravljenje in rodovitnost. Sveta maša bo tudi zahvalna za 10 let delovanja Zavoda Neplodnost in najina rodovitnost. https://www.neplodnost-rodovitnost.si/sv-masa-za-zakonce-ki-si-zelijo-otrok-14-november-2026-zalec/
+
+LOCATION:Savinjska cesta 9\, 3310 Žalec\, Slovenija
+
+GEO:46.2519459;15.1642383
+
+URL:https://www.neplodnost-rodovitnost.si/sv-masa-za-zakonce-ki-si-zelijo-otrok-14-november-2026-zalec/
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sv. maša za zakonce\, ki si želijo otrok — Žalec
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR

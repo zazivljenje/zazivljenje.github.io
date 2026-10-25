@@ -46,6 +46,10 @@ Linking and quotation remain available to the extent permitted by law. Third-par
 - [Knjige](https://zazivljenje.com/knjige/): Izbor knjig iz slovenskih trgovin o družini, zakonu, vzgoji in dostojanstvu življenja
 - [Dogodki](https://zazivljenje.com/rubrike/dogodki/): Prihajajoča srečanja, maše in delavnice za družino in življenje
 - [Podkasti](https://zazivljenje.com/rubrike/podkasti/): Izbrani pogovori in epizode iz podkastov za kulturo življenja
+- [Mladi za življenje](https://zazivljenje.com/rubrike/mladi-za-zivljenje/): Prispevki mladih zagovornikov življenja
+- [Dokumenti](https://zazivljenje.com/rubrike/dokumenti/): Dokumenti, gradiva in študije za življenje
+- [Mednarodne odločbe](https://zazivljenje.com/rubrike/mednarodno-pravo/): Primeri iz mednarodnega prava o varovanju življenja
+- [Predavanja](https://zazivljenje.com/rubrike/predavanja/): Predavanja za kulturo življenja
 - [Izdelki](https://zazivljenje.com/izdelki/): Rabljena otroška oblačila, obutev in dodatki (MiniLoop katalog)
 - [Aplikacije](https://zazivljenje.com/aplikacije/): Orodja za družine — razpisi, prejemki, dohodnina
 - [Razpisi in pravice za družine](https://zazivljenje.com/aplikacije/razpisi-in-pravice-za-druzine/): Odprti razpisi in trajne pravice z roki

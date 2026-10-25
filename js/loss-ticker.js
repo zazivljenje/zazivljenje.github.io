@@ -78,6 +78,25 @@
   var footer = document.querySelector(".footer");
   var mq = window.matchMedia("(max-width: 860px)");
   var dockRaf = 0;
+  var toggle = box.querySelector(".loss-ticker__toggle");
+  var toggleLabel = toggle ? toggle.querySelector(".visually-hidden") : null;
+
+  function setTickerOpen(open) {
+    box.classList.toggle("is-collapsed", !open);
+    if (toggle) toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    if (toggleLabel) toggleLabel.textContent = open ? "Skrij številke" : "Pokaži številke";
+    try { localStorage.setItem("loss-ticker-open", open ? "1" : "0"); } catch (err) {}
+    requestDock();
+  }
+
+  if (toggle) {
+    toggle.addEventListener("click", function () {
+      setTickerOpen(box.classList.contains("is-collapsed"));
+    });
+    try {
+      if (localStorage.getItem("loss-ticker-open") === "0") setTickerOpen(false);
+    } catch (err) {}
+  }
 
   function isMobileTicker() {
     return window.innerWidth <= 860 || mq.matches;
@@ -85,7 +104,7 @@
 
   function syncDock() {
     dockRaf = 0;
-    if (!footer || !isMobileTicker()) {
+    if (box.classList.contains("is-collapsed") || !footer || !isMobileTicker()) {
       box.classList.remove("is-docked");
       document.documentElement.style.removeProperty("--loss-ticker-space");
       return;
