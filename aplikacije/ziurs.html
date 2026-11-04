@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1a3348">
+<meta name="description" content="Vodeni vodič: ali je interventni zakon (ZIURS) družinam prijazen? Izračunajte vpliv na vaše gospodinjstvo in delite rezultat.">
+<!-- Kanonična povezava, ki se deli. Pusti prazno za samodejno zaznavo (stran, ki aplikacijo vgrajuje). -->
+<meta name="zz-share-url" content="https://zazivljenje.com/aplikacije/ziurs-za-druzine/">
+<meta property="og:title" content="Je ZIURS družinam prijazen? | Za življenje!">
+<meta property="og:description" content="Izračunajte, kaj interventni zakon pomeni za proračun vaše družine.">
+<meta property="og:type" content="website">
+<title>Je ZIURS družinam prijazen? | Za življenje!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #1a3348;
+  --ink: #162028;
+  --teal: #0c5d68;
+  --gold: #c6a15a;
+  --paper: #f7f5f1;
+  --white: #ffffff;
+  --muted: #56636d;
+  --line: rgba(22, 32, 40, 0.12);
+  --teal-soft: #e4eff0;
+  --gold-soft: #f6eedd;
+  --radius: 16px;
+  --serif: 'Literata', Georgia, 'Times New Roman', serif;
+  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; background: var(--white); }
+body { margin: 0; font-family: var(--sans); color: var(--ink); background: var(--white); line-height: 1.55; font-size: 16px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; touch-action: manipulation; }
+img, svg, canvas { display: block; }
+h1, h2, h3, h4, p { margin: 0; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+a { color: var(--teal); }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; border-radius: 8px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.icon { width: 20px; height: 20px; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.icon-sm { width: 16px; height: 16px; }
+.icon-brand { fill: currentColor; stroke: none; }
+
+.app { max-width: 1040px; margin: 0 auto; display: flex; flex-direction: column; min-height: 100vh; }
+
+/* ---------- Glava ---------- */
+.app-header { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,0.94); backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--line); }
+.brand-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 16px; }
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; text-decoration: none; color: inherit; }
+.brand img { width: 36px; height: 36px; }
+.brand-text { min-width: 0; }
+.brand-name { font-weight: 700; font-size: 14px; line-height: 1.2; }
+.brand-sub { font-size: 12px; color: var(--muted); line-height: 1.3; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.btn-calc { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line); background: var(--white); color: var(--navy); font-weight: 600; font-size: 14px; padding: 8px 14px; border-radius: 999px; min-height: 40px; white-space: nowrap; transition: background .2s, border-color .2s; }
+.btn-calc:hover { background: var(--paper); border-color: rgba(22,32,40,.22); }
+
+.stepper { position: relative; display: flex; gap: 4px; list-style: none; overflow-x: auto; scrollbar-width: none; padding: 0 12px 10px; scroll-behavior: smooth; }
+.stepper::-webkit-scrollbar { display: none; }
+.stepper > li { flex: 1 0 0; min-width: 128px; }
+.step-indicator { position: absolute; top: 0; left: 0; height: 36px; min-width: 0 !important; background: var(--navy); border-radius: 999px; pointer-events: none; transition: transform .45s cubic-bezier(.4,0,.2,1), width .45s cubic-bezier(.4,0,.2,1); }
+.step-tab { position: relative; z-index: 1; display: flex; width: 100%; align-items: center; justify-content: center; gap: 8px; border: 0; background: transparent; padding: 6px 12px 6px 6px; border-radius: 999px; font-size: 13px; font-weight: 500; color: var(--muted); white-space: nowrap; min-height: 36px; transition: background .2s, color .3s; }
+.step-tab:hover { background: var(--paper); color: var(--ink); }
+.step-num { display: inline-flex; flex-shrink: 0; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 999px; border: 1.5px solid var(--line); font-size: 12px; font-weight: 700; transition: background .3s, color .3s, border-color .3s; }
+.step-tab.is-done .step-num { background: var(--teal-soft); border-color: transparent; color: var(--teal); }
+.step-tab[aria-current="step"], .step-tab[aria-current="step"]:hover { background: transparent; color: var(--white); }
+.step-tab[aria-current="step"] .step-num { background: var(--white); color: var(--navy); border-color: transparent; }
+.progress { height: 3px; background: var(--paper); }
+.progress-fill { height: 100%; width: 14%; background: var(--teal); transition: width .5s cubic-bezier(.4,0,.2,1); }
+
+/* ---------- Vsebina ---------- */
+.content { flex: 1; padding: 24px 16px 32px; }
+.panel { display: none; }
+.panel.is-active { display: block; animation: panel-in .5s cubic-bezier(.2,.7,.2,1); }
+.panel.is-active > * { animation: panel-in .55s cubic-bezier(.2,.7,.2,1) both; }
+.panel.is-active > *:nth-child(2) { animation-delay: .05s; }
+.panel.is-active > *:nth-child(3) { animation-delay: .1s; }
+.panel.is-active > *:nth-child(n+4) { animation-delay: .15s; }
+@keyframes panel-in { from { opacity: 0; transform: translateX(var(--enter-x, 0)) translateY(var(--enter-y, 10px)); } to { opacity: 1; transform: none; } }
+
+.eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--teal); margin-bottom: 10px; }
+.h1 { font-family: var(--serif); font-weight: 700; font-size: clamp(30px, 6vw, 52px); line-height: 1.1; letter-spacing: -0.01em; text-wrap: balance; color: var(--navy); }
+.h2 { font-family: var(--serif); font-weight: 700; font-size: clamp(24px, 4.4vw, 36px); line-height: 1.15; letter-spacing: -0.01em; text-wrap: balance; color: var(--navy); outline: none; }
+.h3 { font-size: 16px; font-weight: 700; line-height: 1.35; }
+.lead { font-size: 16px; color: var(--muted); max-width: 64ch; margin-top: 12px; text-wrap: pretty; }
+.section-head { margin-bottom: 24px; }
+.small { font-size: 14px; color: var(--muted); }
+.tiny { font-size: 13px; color: var(--muted); }
+
+.grid { display: grid; gap: 12px; }
+@media (min-width: 640px) { .grid-2 { grid-template-columns: repeat(2, 1fr); } .grid-3 { grid-template-columns: repeat(3, 1fr); } .grid { gap: 16px; } }
+
+.card { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
+.card-paper { background: var(--paper); border-color: transparent; }
+.card-navy { background: var(--navy); color: var(--white); border-color: transparent; }
+.card-navy .small, .card-navy .tiny { color: rgba(255,255,255,.75); }
+.stack { display: flex; flex-direction: column; gap: 8px; }
+.mt-16 { margin-top: 16px; }
+.mt-24 { margin-top: 24px; }
+
+.label-up { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.rate { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin: 8px 0 6px; }
+.rate-old { font-size: 24px; font-weight: 700; color: var(--muted); text-decoration: line-through; text-decoration-thickness: 2px; opacity: .7; }
+.rate-new { font-size: 44px; font-weight: 800; color: var(--teal); line-height: 1; letter-spacing: -0.02em; }
+.rate-arrow { color: var(--gold); }
+.big { font-size: 32px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; color: var(--navy); }
+.card-navy .big { color: var(--white); }
+.tag { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; padding: 4px 10px; border-radius: 999px; background: var(--teal-soft); color: var(--teal); }
+
+.icon-tile { width: 40px; height: 40px; border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; background: var(--teal-soft); color: var(--teal); }
+.icon-tile.gold { background: var(--gold-soft); color: #7a5c2e; }
+.icon-tile.navy { background: rgba(26,51,72,.08); color: var(--navy); }
+
+/* ---------- Uvod ---------- */
+.hero { display: grid; gap: 24px; align-items: center; padding: 8px 0 8px; }
+@media (min-width: 860px) { .hero { grid-template-columns: 1.25fr 1fr; gap: 40px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.hero-facts { display: grid; gap: 10px; }
+.fact { display: flex; align-items: center; gap: 14px; background: var(--paper); border-radius: var(--radius); padding: 14px 16px; }
+.fact-num { font-size: 26px; font-weight: 800; color: var(--navy); min-width: 88px; letter-spacing: -0.02em; }
+.fact-txt { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.referral { display: flex; gap: 14px; align-items: flex-start; background: var(--gold-soft); border-radius: var(--radius); padding: 16px; margin-bottom: 24px; }
+.referral[hidden] { display: none; }
+.referral strong { color: var(--navy); }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 12px; font-weight: 600; font-size: 15px; padding: 12px 18px; min-height: 48px; border: 1px solid transparent; transition: background .2s, transform .1s, border-color .2s; text-decoration: none; }
+.btn:active { transform: scale(.98); }
+.btn-primary { background: var(--navy); color: var(--white); }
+.btn-primary:hover { background: var(--ink); }
+.btn-ghost { background: var(--white); border-color: var(--line); color: var(--navy); }
+.btn-ghost:hover { background: var(--paper); }
+.btn-teal { background: var(--teal); color: var(--white); }
+.btn-teal:hover { background: #08444c; }
+.btn-block { width: 100%; }
+
+/* ---------- Grafi ---------- */
+.hbars { display: flex; flex-direction: column; gap: 10px; margin-top: 16px; }
+.hbar { display: grid; grid-template-columns: 120px 1fr 52px; align-items: center; gap: 10px; font-size: 13px; }
+.hbar-track { display: block; height: 14px; background: var(--paper); border-radius: 999px; overflow: hidden; }
+.hbar-fill { display: block; height: 100%; border-radius: 999px; background: var(--teal); transform-origin: left; animation: grow .8s cubic-bezier(.2,.7,.2,1) both; }
+.hbar-fill.alt { background: var(--navy); }
+.hbar-val { font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; }
+@keyframes grow { from { transform: scaleX(0); } }
+.vbars { display: flex; align-items: flex-end; gap: 12px; height: 180px; margin-top: 16px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+.vbar { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; height: 100%; border-radius: 8px 8px 2px 2px; overflow: hidden; animation: growY .8s cubic-bezier(.2,.7,.2,1) both; transform-origin: bottom; }
+.vbar span { display: block; }
+@keyframes growY { from { transform: scaleY(0); } }
+.vlabels { display: flex; gap: 12px; margin-top: 6px; }
+.vlabels span { flex: 1; text-align: center; font-size: 12px; color: var(--muted); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 12px; font-size: 13px; color: var(--muted); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.compare { display: flex; flex-direction: column; gap: 14px; margin-top: 16px; }
+.compare-row { display: grid; gap: 6px; }
+.compare-head { display: flex; justify-content: space-between; font-size: 13px; font-weight: 600; }
+.compare-bar { display: flex; height: 36px; border-radius: 10px; overflow: hidden; font-size: 12px; font-weight: 700; }
+.compare-bar span { display: flex; align-items: center; padding: 0 10px; white-space: nowrap; }
+
+.list { display: flex; flex-direction: column; gap: 14px; }
+.list li { display: flex; gap: 12px; align-items: flex-start; }
+.list .check { color: var(--teal); margin-top: 2px; }
+.list .minus { color: var(--muted); margin-top: 2px; }
+
+.verdict { display: grid; gap: 16px; align-items: center; }
+@media (min-width: 720px) { .verdict { grid-template-columns: 1fr auto; } }
+.meter { min-width: 220px; }
+.meter-score { font-size: 40px; font-weight: 800; color: var(--white); letter-spacing: -0.02em; line-height: 1; }
+.meter-score small { font-size: 16px; font-weight: 500; color: rgba(255,255,255,.7); }
+.meter-track { height: 10px; background: rgba(255,255,255,.16); border-radius: 999px; overflow: hidden; margin-top: 12px; }
+.meter-fill { height: 100%; width: 84%; background: var(--gold); border-radius: 999px; }
+
+/* ---------- Izračun ---------- */
+.sim { display: grid; gap: 16px; align-items: start; }
+@media (min-width: 960px) { .sim { grid-template-columns: 1.4fr 1fr; gap: 24px; } .sim-result { position: sticky; top: 120px; } .sim-mini { display: none !important; } }
+.sim-mini { position: sticky; top: 104px; z-index: 5; display: flex; align-items: center; justify-content: space-between; gap: 12px; background: var(--navy); color: var(--white); border-radius: 12px; padding: 10px 14px; font-size: 14px; box-shadow: 0 8px 24px -12px rgba(22,32,40,.5); }
+.sim-mini strong { font-size: 18px; color: var(--gold); font-variant-numeric: tabular-nums; }
+fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+legend, .field-label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 8px; padding: 0; }
+.field + .field { margin-top: 20px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { position: relative; }
+.chip input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.chip span { display: inline-flex; align-items: center; min-height: 44px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 12px; font-size: 14px; font-weight: 500; background: var(--white); transition: all .15s; }
+.chip input:hover + span { border-color: rgba(22,32,40,.3); }
+.chip input:checked + span { background: var(--navy); border-color: var(--navy); color: var(--white); }
+.chip input:focus-visible + span { outline: 3px solid var(--gold); outline-offset: 2px; }
+.money { position: relative; max-width: 240px; }
+.money input { width: 100%; min-height: 48px; padding: 10px 40px 10px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.money input:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px var(--teal-soft); }
+.money::after { content: '€'; position: absolute; right: 14px; top: 50%; transform: translateY(-50%); color: var(--muted); font-weight: 600; pointer-events: none; }
+.hint { font-size: 13px; color: var(--muted); margin-top: 6px; }
+.range-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+.range-head output { font-weight: 700; color: var(--teal); font-variant-numeric: tabular-nums; }
+input[type="range"] { width: 100%; accent-color: var(--teal); height: 32px; margin: 0; }
+
+.result-total { font-size: 56px; font-weight: 800; letter-spacing: -0.03em; line-height: 1; color: var(--gold); font-variant-numeric: tabular-nums; margin-top: 6px; }
+.result-total small { font-size: 18px; font-weight: 500; color: rgba(255,255,255,.75); letter-spacing: 0; }
+.result-annual { font-size: 15px; color: rgba(255,255,255,.8); margin-top: 6px; }
+.stackbar { display: flex; height: 12px; border-radius: 999px; overflow: hidden; margin: 20px 0 16px; background: rgba(255,255,255,.12); }
+.stackbar span { height: 100%; transition: width .4s ease; }
+.breakdown { display: flex; flex-direction: column; gap: 10px; font-size: 14px; }
+.breakdown li { display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+.breakdown li > span:first-child { display: inline-flex; align-items: center; gap: 8px; color: rgba(255,255,255,.85); }
+.breakdown i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+.breakdown b { font-variant-numeric: tabular-nums; }
+.method { margin-top: 16px; border-top: 1px solid rgba(255,255,255,.14); padding-top: 12px; }
+.method summary { cursor: pointer; font-size: 14px; font-weight: 600; color: var(--white); list-style: none; display: flex; align-items: center; gap: 8px; min-height: 32px; }
+.method summary::-webkit-details-marker { display: none; }
+.method summary::after { content: '+'; margin-left: auto; font-size: 18px; }
+.method[open] summary::after { content: '−'; }
+.method ul { margin-top: 8px; display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: rgba(255,255,255,.78); list-style: disc; padding-left: 18px; }
+.c-food { background: #7fb8bf; } .c-energy { background: var(--gold); } .c-housing { background: var(--paper); } .c-emp { background: #9bb1c4; }
+
+/* ---------- Deljenje ---------- */
+.share { display: grid; gap: 20px; align-items: start; }
+@media (min-width: 900px) { .share { grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 32px; } }
+.preview { background: var(--paper); border-radius: 20px; padding: 20px; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.preview canvas { max-width: 100%; max-height: 560px; width: auto; height: auto; border-radius: 12px; box-shadow: 0 20px 40px -20px rgba(22,32,40,.45); }
+.preview-note { font-size: 13px; color: var(--muted); text-align: center; }
+.picker { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+@media (min-width: 520px) { .picker { grid-template-columns: repeat(4, 1fr); } }
+.pick { position: relative; }
+.pick input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.pick span { display: flex; flex-direction: column; gap: 8px; height: 100%; padding: 10px; border: 1.5px solid var(--line); border-radius: 12px; font-size: 13px; font-weight: 600; line-height: 1.3; background: var(--white); transition: border-color .15s, box-shadow .15s; }
+.pick i { display: block; height: 28px; border-radius: 6px; }
+.pick input:checked + span { border-color: var(--navy); box-shadow: 0 0 0 1px var(--navy); }
+.pick input:focus-visible + span { outline: 3px solid var(--gold); outline-offset: 2px; }
+.sw-navy { background: var(--navy); } .sw-teal { background: var(--teal); } .sw-paper { background: var(--paper); border: 1px solid var(--line); } .sw-ink { background: linear-gradient(90deg, var(--ink) 60%, var(--gold) 60%); }
+.seg { display: inline-flex; background: var(--paper); border-radius: 12px; padding: 4px; gap: 4px; }
+.seg label { position: relative; }
+.seg input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.seg span { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 9px; font-size: 14px; font-weight: 600; color: var(--muted); min-height: 40px; }
+.seg input:checked + span { background: var(--white); color: var(--navy); box-shadow: 0 1px 3px rgba(22,32,40,.15); }
+.seg input:focus-visible + span { outline: 3px solid var(--gold); }
+.share-controls { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+.share-setup { display: grid; grid-template-rows: 1fr; opacity: 1; transition: grid-template-rows .35s cubic-bezier(.4,0,.2,1), opacity .25s, margin .35s; }
+.share-setup-inner { overflow: hidden; min-height: 0; display: flex; flex-direction: column; gap: 20px; }
+.caption-field { display: flex; flex-direction: column; }
+@media (min-width: 900px) {
+  .share { align-items: stretch; }
+  .share-pane { position: relative; min-height: 0; }
+  .share-controls { position: absolute; inset: 0; }
+  .caption-field { flex: 1 1 auto; min-height: 0; }
+  .caption-field .caption { flex: 1 1 auto; min-height: 120px; resize: none; }
+  .share.menu-open .share-setup { grid-template-rows: 0fr; opacity: 0; margin-bottom: -20px; }
+  .share-box { margin-top: auto; }
+}
+.caption { width: 100%; min-height: 220px; resize: vertical; border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; font-size: 14px; line-height: 1.5; background: var(--white); }
+.caption:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px var(--teal-soft); }
+.share-box { display: flex; flex-direction: column; }
+.share-toggle { width: 100%; }
+.share-toggle .chev { transition: transform .3s cubic-bezier(.4,0,.2,1); }
+.share-toggle[aria-expanded="true"] .chev { transform: rotate(180deg); }
+.share-menu { display: grid; grid-template-rows: 0fr; opacity: 0; transition: grid-template-rows .35s cubic-bezier(.4,0,.2,1), opacity .25s; }
+.share-menu.is-open { grid-template-rows: 1fr; opacity: 1; }
+.share-menu-inner { overflow: hidden; min-height: 0; }
+.share-menu-body { display: flex; flex-direction: column; gap: 10px; padding-top: 12px; }
+.share-hint { font-size: 13px; line-height: 1.5; color: var(--muted); }
+.socials { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; }
+.social { display: inline-flex; align-items: center; justify-content: flex-start; gap: 10px; padding: 0 14px; white-space: nowrap; min-height: 44px; cursor: pointer; font-family: inherit; border-radius: 12px; border: 1px solid var(--line); background: var(--white); font-size: 14px; font-weight: 600; color: var(--ink); text-decoration: none; transition: background .15s; }
+.social:hover { background: var(--paper); }
+.social .icon-brand { width: 18px; height: 18px; }
+.insta-tip { display: flex; gap: 10px; align-items: flex-start; font-size: 13px; color: var(--muted); background: var(--paper); border-radius: 12px; padding: 12px; }
+
+/* ---------- Spodnja navigacija ---------- */
+.bottom-nav { position: sticky; bottom: 0; z-index: 20; background: rgba(255,255,255,0.96); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-top: 1px solid var(--line); padding: 10px 16px max(10px, env(safe-area-inset-bottom)); display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 12px; }
+.nav-count { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; text-align: center; }
+.bottom-nav .btn { min-height: 44px; padding: 10px 14px; width: 100%; max-width: 220px; justify-content: center; white-space: nowrap; overflow: hidden; }
+.bottom-nav .btn-prev { justify-self: start; }
+.bottom-nav #btn-next { justify-self: end; }
+#next-label { overflow: hidden; text-overflow: ellipsis; }
+.nl-extra { display: none; }
+@media (min-width: 560px) { .nl-extra { display: inline; } }
+.nc-slash { display: none; }
+@media (max-width: 419px) { .nc-word { display: none; } .nc-slash { display: inline; } .bottom-nav { gap: 8px; } .bottom-nav .btn { padding: 10px 10px; } }
+.btn-prev[disabled] { visibility: hidden; }
+.footer-note { padding: 16px; font-size: 12px; color: var(--muted); text-align: center; }
+
+.toast { position: fixed; left: 50%; bottom: 84px; transform: translate(-50%, 16px); background: var(--ink); color: var(--white); padding: 12px 16px; border-radius: 12px; font-size: 14px; font-weight: 500; display: flex; align-items: center; gap: 10px; opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; z-index: 50; max-width: calc(100% - 32px); box-shadow: 0 12px 32px -12px rgba(0,0,0,.4); }
+.toast.is-on { opacity: 1; transform: translate(-50%, 0); }
+.toast .icon { color: var(--gold); }
+
+@media (min-width: 640px) { .content { padding: 40px 24px 48px; } .brand-row { padding: 12px 24px; } .stepper { padding: 0 20px 12px; } .bottom-nav { padding-left: 24px; padding-right: 24px; } .card { padding: 24px; } .hbar { grid-template-columns: 150px 1fr 56px; } }
+.is-embedded .app { min-height: 0; }
+.is-embedded .toast { position: absolute; bottom: auto; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+  <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98"/><path d="m15.41 6.51-6.82 3.98"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></symbol>
+  <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+  <symbol id="i-more" viewBox="0 0 24 24"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+  <symbol id="i-calc" viewBox="0 0 24 24"><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M8 6h8"/><path d="M16 14v4"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></symbol>
+  <symbol id="i-cart" viewBox="0 0 24 24"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></symbol>
+  <symbol id="i-briefcase" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="7" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+  <symbol id="i-zap" viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+  <symbol id="i-image" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.09-3.09a2 2 0 0 0-2.82 0L6 21"/></symbol>
+  <symbol id="b-whatsapp" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+  <symbol id="b-facebook" viewBox="0 0 24 24"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></symbol>
+  <symbol id="b-x" viewBox="0 0 24 24"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></symbol>
+  <symbol id="b-linkedin" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></symbol>
+  <symbol id="b-viber" viewBox="0 0 24 24"><path d="M11.4 0C9.473.028 5.333.344 3.02 2.467 1.302 4.187.696 6.7.633 9.817.57 12.933.488 18.776 6.12 20.36h.003l-.004 2.416s-.037.977.61 1.177c.777.242 1.234-.5 1.98-1.302.407-.44.972-1.084 1.397-1.58 3.85.326 6.812-.416 7.15-.525.776-.252 5.176-.816 5.892-6.657.74-6.02-.36-9.83-2.34-11.546-.596-.55-3.006-2.3-8.375-2.323 0 0-.395-.025-1.037-.017zm.058 1.693c.545-.004.88.017.88.017 4.542.02 6.717 1.388 7.222 1.846 1.675 1.435 2.53 4.868 1.906 9.897v.002c-.604 4.878-4.174 5.184-4.832 5.395-.28.09-2.882.737-6.153.524 0 0-2.436 2.94-3.197 3.704-.12.12-.26.167-.352.144-.13-.033-.166-.188-.165-.414l.02-4.018c-4.762-1.32-4.485-6.292-4.43-8.895.054-2.604.543-4.738 1.996-6.173 1.96-1.773 5.474-2.018 7.11-2.03zm.38 2.602c-.167 0-.303.135-.304.302 0 .167.133.303.3.305 1.624.01 2.946.537 4.028 1.592 1.073 1.046 1.62 2.468 1.633 4.334.002.167.14.3.307.3.166-.002.3-.138.3-.304-.014-1.984-.618-3.596-1.816-4.764-1.19-1.16-2.692-1.753-4.447-1.765zm-3.96.695c-.19-.032-.4.005-.616.117l-.01.002c-.43.247-.816.562-1.146.932-.002.004-.006.004-.008.008-.267.323-.42.638-.46.948-.008.046-.01.093-.007.14 0 .136.022.27.065.4l.013.01c.135.48.473 1.276 1.205 2.604.42.768.903 1.5 1.446 2.186.27.344.56.673.87.984l.132.132c.31.308.64.6.984.87.686.543 1.418 1.027 2.186 1.447 1.328.733 2.126 1.07 2.604 1.206l.01.014c.13.042.265.064.402.063.046.002.092 0 .138-.008.31-.036.627-.19.948-.46.004 0 .003-.002.008-.005.37-.33.683-.72.93-1.148l.003-.01c.225-.432.15-.842-.18-1.12-.004 0-.698-.58-1.037-.83-.36-.255-.73-.492-1.113-.71-.51-.285-1.032-.106-1.248.174l-.447.564c-.23.283-.657.246-.657.246-3.12-.796-3.955-3.955-3.955-3.955s-.037-.426.248-.656l.563-.448c.277-.215.456-.737.17-1.248-.217-.383-.454-.756-.71-1.115-.25-.34-.826-1.033-.83-1.035-.137-.165-.31-.265-.502-.297zm4.49.88c-.158.002-.29.124-.3.282-.01.167.115.312.282.324 1.16.085 2.017.466 2.645 1.15.63.688.93 1.524.906 2.57-.002.168.13.306.3.31.166.003.305-.13.31-.297.025-1.175-.334-2.193-1.067-2.994-.74-.81-1.777-1.253-3.05-1.346h-.024zm.463 1.63c-.16.002-.29.127-.3.287-.008.167.12.31.288.32.523.028.875.175 1.113.422.24.245.388.62.416 1.164.01.167.15.295.318.287.167-.008.295-.15.287-.317-.03-.644-.215-1.178-.58-1.557-.367-.378-.893-.574-1.52-.607h-.018z"/></symbol>
+</svg>
+
+<div class="app" id="zz-app">
+  <header class="app-header">
+    <div class="brand-row">
+      <a class="brand" href="https://zazivljenje.com/aplikacije" target="_top" aria-label="Za življenje! – vse aplikacije">
+        <img id="zz-logo" src="data:image/png;base64,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" alt="" width="36" height="36">
+        <span class="brand-text">
+          <span class="brand-name">Je ZIURS družinam prijazen?</span>
+          <span class="brand-sub">Za življenje! · vodič po interventnem zakonu</span>
+        </span>
+      </a>
+      <button type="button" class="btn-calc" data-go="5">
+        <svg class="icon icon-sm"><use href="#i-calc"/></svg>
+        <span>Izračunaj</span>
+      </button>
+    </div>
+    <nav aria-label="Koraki vodiča">
+      <ol class="stepper" id="stepper"></ol>
+    </nav>
+    <div class="progress" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+  </header>
+
+  <main class="content" id="content">
+
+    <!-- 0 · UVOD -->
+    <section class="panel is-active" id="step-0" aria-labelledby="h-0">
+      <div class="referral" id="referral" hidden>
+        <span class="icon-tile gold"><svg class="icon"><use href="#i-users"/></svg></span>
+        <div>
+          <p>Oseba, ki ti je poslala to povezavo, je izračunala <strong id="referral-amount">približno 0 € na mesec</strong>.</p>
+          <p class="small">Koliko pa bi pridobila tvoja družina? Izračun traja manj kot minuto.</p>
+          <button type="button" class="btn btn-teal mt-16" data-go="5">Izračunaj svojo korist <svg class="icon icon-sm"><use href="#i-arrow-right"/></svg></button>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div>
+          <p class="eyebrow">Vodnik za družine</p>
+          <h1 class="h1" id="h-0" tabindex="-1">Ali je interventni zakon res družinam prijazen?</h1>
+          <p class="lead">Pregleden sprehod po tem, kako ZIURS vpliva na vsakodnevne stroške, stanovanje in delo slovenskih družin. Na koncu izračunaš svojo mesečno korist in jo deliš s prijatelji.</p>
+          <div class="hero-actions">
+            <button type="button" class="btn btn-primary" data-go="1">Začni vodič <svg class="icon icon-sm"><use href="#i-arrow-right"/></svg></button>
+            <button type="button" class="btn btn-ghost" data-go="5"><svg class="icon icon-sm"><use href="#i-calc"/></svg> Takoj na izračun</button>
+          </div>
+          <p class="tiny mt-16">7 kratkih korakov · približno 3 minute · brez registracije, podatki ostanejo v tvoji napravi</p>
+        </div>
+        <ul class="hero-facts" aria-label="Ključni ukrepi">
+          <li class="fact"><span class="fact-num">5&nbsp;%</span><span class="fact-txt">DDV na osnovna živila, prej 9,5&nbsp;%</span></li>
+          <li class="fact"><span class="fact-num">5&nbsp;%</span><span class="fact-txt">davek na dolgoročni najem mladim in družinam z otroki</span></li>
+          <li class="fact"><span class="fact-num">~250&nbsp;€</span><span class="fact-txt">mesečni prispevki mikro s.p., prej ~650&nbsp;€</span></li>
+        </ul>
+      </div>
+
+      <div class="grid grid-3 mt-24">
+        <button type="button" class="card stack" data-go="1" style="text-align:left">
+          <span class="icon-tile"><svg class="icon"><use href="#i-cart"/></svg></span>
+          <span class="h3">Vsakodnevni stroški</span>
+          <span class="small">Nižji DDV na osnovna živila in energijo.</span>
+        </button>
+        <button type="button" class="card stack" data-go="2" style="text-align:left">
+          <span class="icon-tile navy"><svg class="icon"><use href="#i-home"/></svg></span>
+          <span class="h3">Stanovanje za mlade</span>
+          <span class="small">Davčna spodbuda za dolgoročne najeme.</span>
+        </button>
+        <button type="button" class="card stack" data-go="3" style="text-align:left">
+          <span class="icon-tile gold"><svg class="icon"><use href="#i-briefcase"/></svg></span>
+          <span class="h3">Samozaposleni starši</span>
+          <span class="small">Precej nižji prispevkovni prag.</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- 1 · STROŠKI -->
+    <section class="panel" id="step-1" aria-labelledby="h-1">
+      <div class="section-head">
+        <p class="eyebrow"><svg class="icon icon-sm"><use href="#i-cart"/></svg> Vsakodnevni stroški</p>
+        <h2 class="h2" id="h-1" tabindex="-1">Olajšava pri nakupovalni košarici in računih</h2>
+        <p class="lead">Družine inflacijo najprej občutijo v trgovini in pri računih za energijo. ZIURS zniža DDV na osnovna živila in energijo, da več denarja ostane v gospodinjstvu.</p>
+      </div>
+
+      <div class="grid grid-2">
+        <article class="card">
+          <p class="label-up">DDV na osnovna živila</p>
+          <p class="rate"><span class="rate-old">9,5&nbsp;%</span><svg class="icon rate-arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg><span class="rate-new">5&nbsp;%</span><span class="sr-only">(prej 9,5 %, zdaj 5 %)</span></p>
+          <p class="small">Velja za približno 15 vsakodnevnih kategorij, ki sestavljajo velik del družinske košarice.</p>
+          <p class="tag mt-16"><svg class="icon icon-sm"><use href="#i-check"/></svg> Mesečna olajšava pri hrani</p>
+        </article>
+        <article class="card">
+          <p class="label-up">DDV na energijo in komunalo</p>
+          <p class="rate"><span class="rate-old">22&nbsp;%</span><svg class="icon rate-arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg><span class="rate-new">9,5&nbsp;%</span><span class="sr-only">(prej 22 %, zdaj 9,5 %)</span></p>
+          <p class="small">Sezonski blažilec (približno 9 mesecev) za lažje zimske račune za ogrevanje in elektriko.</p>
+          <p class="tag mt-16"><svg class="icon icon-sm"><use href="#i-zap"/></svg> Blaži zimske skoke stroškov</p>
+        </article>
+      </div>
+
+      <article class="card mt-16">
+        <h3 class="h3">Kdo z nižjim DDV pridobi največ?</h3>
+        <p class="small">Ocenjen povprečni mesečni dvig kupne moči po dohodkovnih skupinah</p>
+        <div class="hbars" id="chart-vat" role="img" aria-label="Najnižjih 20 %: 45 €, nižja sredina: 75 €, srednje družine: 110 €, višja sredina: 160 €, najvišjih 10 %: 95 € na mesec"></div>
+      </article>
+
+      <div class="card card-paper mt-16" style="display:flex;gap:14px;align-items:flex-start">
+        <span class="icon-tile"><svg class="icon"><use href="#i-info"/></svg></span>
+        <div>
+          <h3 class="h3">Kaj to pomeni za družine</h3>
+          <p class="small" style="margin-top:4px">Gospodinjstva z nižjimi in srednjimi dohodki porabijo večji delež dohodka za hrano in energijo. Zato rez DDV deluje kot samodejna podpora – brez vlog in preverjanja upravičenosti.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · STANOVANJE -->
+    <section class="panel" id="step-2" aria-labelledby="h-2">
+      <div class="section-head">
+        <p class="eyebrow"><svg class="icon icon-sm"><use href="#i-home"/></svg> Stabilnost stanovanja</p>
+        <h2 class="h2" id="h-2" tabindex="-1">Dolgoročni najem, ki deluje za mlade družine</h2>
+        <p class="lead">Davek na dohodek iz oddajanja močno pade, ko lastnik sklene večletno pogodbo z osebo, mlajšo od 30 let, ali z gospodinjstvom z otroki do 18. leta.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <article class="card">
+          <p class="label-up">Standardni davek na najemnino</p>
+          <p class="big" style="margin-top:8px">15&nbsp;%</p>
+          <p class="small">prej 25&nbsp;% · spodbuda za formalni najemni trg</p>
+        </article>
+        <article class="card card-navy">
+          <p class="label-up" style="color:var(--gold)">Najem mladim in družinam</p>
+          <p class="big" style="margin-top:8px">5&nbsp;%</p>
+          <p class="small">dolgoročne pogodbe · pod 30 let ali otroci do 18</p>
+        </article>
+        <article class="card">
+          <p class="label-up">Ocenjen prenos na najemnika</p>
+          <p class="big" style="margin-top:8px">50–120&nbsp;€</p>
+          <p class="small">nižja najemnina na mesec</p>
+        </article>
+      </div>
+
+      <div class="grid grid-2 mt-16">
+        <article class="card">
+          <h3 class="h3">Predvidena rast dolgoročnih najemov</h3>
+          <p class="small">Število pogodb po letih veljavnosti ukrepa</p>
+          <div class="vbars" id="chart-housing" role="img" aria-label="Pogodbe za mlade in družine rastejo s 1.200 v 1. letu na 7.100 v 5. letu, standardni najemi ostajajo okoli 4.200 do 4.600."></div>
+          <div class="vlabels" aria-hidden="true"><span>1. leto</span><span>2.</span><span>3.</span><span>4.</span><span>5. leto</span></div>
+          <div class="legend"><span><i style="background:var(--teal)"></i>Mladi in družine (5&nbsp;%)</span><span><i style="background:#d6dde2"></i>Standardni najemi</span></div>
+        </article>
+        <article class="card">
+          <h3 class="h3" style="margin-bottom:16px">Kako je spodbuda zasnovana</h3>
+          <ul class="list">
+            <li><span class="icon-tile"><svg class="icon"><use href="#i-check"/></svg></span><div><p class="h3" style="font-size:15px">Lastnik obdrži več</p><p class="small">Znižanje davka s 25&nbsp;% na 5&nbsp;% naredi stabilne dolgoročne najemnike finančno privlačne.</p></div></li>
+            <li><span class="icon-tile navy"><svg class="icon"><use href="#i-calendar"/></svg></span><div><p class="h3" style="font-size:15px">Najmanj triletna zaveza</p><p class="small">Manj kratkoročnega in turističnega oddajanja v mestih, kot sta Ljubljana in Maribor.</p></div></li>
+            <li><span class="icon-tile gold"><svg class="icon"><use href="#i-users"/></svg></span><div><p class="h3" style="font-size:15px">Predvidljivost za družine</p><p class="small">Mladim parom da čas in varnost, preden si lahko privoščijo lastno stanovanje.</p></div></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3 · DELO -->
+    <section class="panel" id="step-3" aria-labelledby="h-3">
+      <div class="section-head">
+        <p class="eyebrow"><svg class="icon icon-sm"><use href="#i-briefcase"/></svg> Delo in podjetništvo</p>
+        <h2 class="h2" id="h-3" tabindex="-1">Nižji fiksni stroški za samozaposlene starše</h2>
+        <p class="lead">Veliko slovenskih družin živi od s.p. ali dopolnilne dejavnosti. ZIURS zniža prispevkovni prag in odpravi nekatera podvajanja, da ostane več denarja za družino.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <article class="card">
+          <p class="label-up">Prispevki mikro s.p.</p>
+          <p class="big" style="margin-top:8px">~250&nbsp;€ <span class="small" style="font-weight:500">/ mesec</span></p>
+          <p class="small">prej ~650&nbsp;€ · za dejavnost okoli minimalne plače</p>
+        </article>
+        <article class="card">
+          <p class="label-up">Kmetje in popoldanski s.p.</p>
+          <p class="big" style="margin-top:8px;font-size:24px">Jasnejša pravila</p>
+          <p class="small">Odprava prekrivanj prispevkov za dolgotrajno oskrbo, ki so prej kopičila stroške.</p>
+        </article>
+        <article class="card">
+          <p class="label-up">Delovni upokojenci</p>
+          <p class="big" style="margin-top:8px;font-size:24px">100&nbsp;% pokojnine</p>
+          <p class="small">ob aktivnem delu – koristno za večgeneracijska gospodinjstva.</p>
+        </article>
+      </div>
+
+      <article class="card mt-16">
+        <h3 class="h3">Koliko ostane mikro s.p. z 2.500&nbsp;€ prihodka</h3>
+        <p class="small">Primerjava mesečnega denarnega toka pred in po ukrepu</p>
+        <div class="compare" id="chart-sp"></div>
+      </article>
+
+      <div class="grid grid-2 mt-16">
+        <div class="card card-paper">
+          <h3 class="h3">Manjše tveganje ob zagonu</h3>
+          <p class="small" style="margin-top:4px">Novi samostojni podjetniki imajo v prvem letu precej nižjo fiksno obveznost – ključno, ko je dohodek še nereden in se nanj zanaša družina.</p>
+        </div>
+        <div class="card card-paper">
+          <h3 class="h3">Večgeneracijska podpora</h3>
+          <p class="small" style="margin-top:4px">Upokojenci lahko ostanejo vključeni v družinsko podjetje ali kmetijo in hkrati obdržijo polno pokojnino.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · OCENA -->
+    <section class="panel" id="step-4" aria-labelledby="h-4">
+      <div class="section-head">
+        <p class="eyebrow">Skupna slika</p>
+        <h2 class="h2" id="h-4" tabindex="-1">Kaj ZIURS naredi – in česa ne</h2>
+        <p class="lead">ZIURS ni klasičen »družinski paket«. Njegova prijaznost družinam izhaja iz kombinacije nižjih življenjskih stroškov, stanovanjskih spodbud in nižjih fiksnih stroškov za samozaposlene.</p>
+      </div>
+
+      <div class="card card-navy verdict">
+        <div>
+          <p class="label-up" style="color:var(--gold)">Skupna ocena · družinski pogled</p>
+          <p style="margin-top:8px;color:rgba(255,255,255,.88);max-width:60ch">Zmerno do močno družinam prijazen pri stroških življenja in stanovanju za mlade; podporen za samozaposlene starše; šibkejši pri neposrednih transferjih družinam.</p>
+        </div>
+        <div class="meter" role="img" aria-label="Ocena 4,2 od 5">
+          <p class="meter-score">4,2 <small>/ 5</small></p>
+          <div class="meter-track"><div class="meter-fill"></div></div>
+        </div>
+      </div>
+
+      <div class="grid grid-2 mt-16">
+        <article class="card">
+          <h3 class="h3" style="margin-bottom:16px">Kjer pomaga</h3>
+          <ul class="list small">
+            <li><svg class="icon check"><use href="#i-check"/></svg><span>Rez DDV na hrano in energijo najbolj razbremeni gospodinjstva z nižjimi dohodki.</span></li>
+            <li><svg class="icon check"><use href="#i-check"/></svg><span>5&nbsp;% davek za dolgoročne najeme mladim in družinam z otroki.</span></li>
+            <li><svg class="icon check"><use href="#i-check"/></svg><span>Nižji prispevkovni prag za starše z mikro podjetji.</span></li>
+            <li><svg class="icon check"><use href="#i-check"/></svg><span>Delovni upokojenci lahko podpirajo večgeneracijska gospodinjstva.</span></li>
+          </ul>
+        </article>
+        <article class="card card-paper">
+          <h3 class="h3" style="margin-bottom:16px">Česa ne naredi</h3>
+          <ul class="list small">
+            <li><svg class="icon minus"><use href="#i-minus"/></svg><span>Ni novih neposrednih otroških dodatkov ali sprememb starševskega dopusta.</span></li>
+            <li><svg class="icon minus"><use href="#i-minus"/></svg><span>Učinek na najemnine je odvisen od odziva lastnikov.</span></li>
+            <li><svg class="icon minus"><use href="#i-minus"/></svg><span>Olajšava pri energiji je sezonska in začasna.</span></li>
+            <li><svg class="icon minus"><use href="#i-minus"/></svg><span>Zaradi kapic na prispevke pridobijo tudi visoki dohodki.</span></li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="grid grid-3 mt-16">
+        <div class="card"><p class="label-up">Največji relativni dobiček</p><p class="h3" style="margin-top:6px">Mladi najemniki</p></div>
+        <div class="card"><p class="label-up">Stanovanje + DDV</p><p class="h3" style="margin-top:6px">Družine z otroki</p></div>
+        <div class="card"><p class="label-up">Boljši denarni tok</p><p class="h3" style="margin-top:6px">Starši z mikro s.p.</p></div>
+      </div>
+    </section>
+
+    <!-- 5 · IZRAČUN -->
+    <section class="panel" id="step-5" aria-labelledby="h-5">
+      <div class="section-head">
+        <p class="eyebrow"><svg class="icon icon-sm"><use href="#i-calc"/></svg> Tvoje gospodinjstvo</p>
+        <h2 class="h2" id="h-5" tabindex="-1">Koliko bi mesečno pridobila tvoja družina?</h2>
+        <p class="lead">Izberi profil, ki je najbližji tvojemu. Rezultat se posodablja sproti. Podatki ne zapustijo tvoje naprave.</p>
+      </div>
+
+      <div class="sim">
+        <div class="sim-mini" aria-hidden="true"><span>Ocenjena korist</span><strong id="mini-total">0&nbsp;€/mes.</strong></div>
+
+        <form class="card" id="sim-form" novalidate>
+          <fieldset class="field">
+            <legend>Gospodinjstvo</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="family" value="couple_child" checked><span>Par z otroki</span></label>
+              <label class="chip"><input type="radio" name="family" value="single_parent"><span>Enostarševska družina</span></label>
+              <label class="chip"><input type="radio" name="family" value="couple_no_child"><span>Par brez otrok</span></label>
+              <label class="chip"><input type="radio" name="family" value="single"><span>Samska oseba</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="field">
+            <legend>Stanovanje</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="housing" value="youth_rent" checked><span>Dolgoročni najem</span></label>
+              <label class="chip"><input type="radio" name="housing" value="standard_rent"><span>Tržni najem</span></label>
+              <label class="chip"><input type="radio" name="housing" value="owner"><span>Lastno stanovanje</span></label>
+            </div>
+            <p class="hint">Dolgoročni najem: pogodba za mlade do 30 let ali družine z otroki.</p>
+          </fieldset>
+
+          <fieldset class="field">
+            <legend>Glavni vir dohodka</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="employment" value="standard" checked><span>Zaposlen/a</span></label>
+              <label class="chip"><input type="radio" name="employment" value="sp_micro"><span>Mikro s.p.</span></label>
+              <label class="chip"><input type="radio" name="employment" value="retiree"><span>Delovni upokojenec</span></label>
+              <label class="chip"><input type="radio" name="employment" value="highearner"><span>Visok dohodek</span></label>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <label class="field-label" for="sim-income">Bruto mesečni dohodek</label>
+            <div class="money"><input type="number" id="sim-income" name="income" inputmode="numeric" value="2200" min="0" max="20000" step="100" aria-describedby="income-hint"></div>
+            <p class="hint" id="income-hint">Vpliva na oceno pri zaposlenih in visokih dohodkih.</p>
+          </div>
+
+          <div class="grid grid-2 field">
+            <div>
+              <div class="range-head"><label class="field-label" for="sim-groceries" style="margin:0">Hrana na mesec</label><output for="sim-groceries" id="out-groceries">500&nbsp;€</output></div>
+              <input type="range" id="sim-groceries" name="groceries" min="150" max="1200" step="25" value="500">
+            </div>
+            <div>
+              <div class="range-head"><label class="field-label" for="sim-energy" style="margin:0">Energija in komunala</label><output for="sim-energy" id="out-energy">250&nbsp;€</output></div>
+              <input type="range" id="sim-energy" name="energy" min="60" max="600" step="10" value="250">
+            </div>
+          </div>
+        </form>
+
+        <aside class="card card-navy sim-result" aria-labelledby="res-title">
+          <p class="label-up" id="res-title" style="color:var(--gold)">Tvoja ocenjena korist</p>
+          <p class="result-total" aria-live="polite" aria-atomic="true"><span id="res-total">0&nbsp;€</span> <small>/ mesec</small></p>
+          <p class="result-annual" id="res-annual">približno 0 € na leto</p>
+
+          <div class="stackbar" aria-hidden="true">
+            <span class="c-food" id="sb-food"></span><span class="c-energy" id="sb-energy"></span><span class="c-housing" id="sb-housing"></span><span class="c-emp" id="sb-emp"></span>
+          </div>
+          <ul class="breakdown">
+            <li><span><i class="c-food"></i>DDV na hrano</span><b id="res-food">0 €</b></li>
+            <li><span><i class="c-energy"></i>DDV na energijo</span><b id="res-energy">0 €</b></li>
+            <li><span><i class="c-housing"></i>Stanovanje</span><b id="res-housing">0 €</b></li>
+            <li><span><i class="c-emp"></i>Delo in prispevki</span><b id="res-emp">0 €</b></li>
+          </ul>
+
+          <button type="button" class="btn btn-block mt-24" data-go="6" data-card="moj" style="background:var(--gold);color:var(--ink)">
+            <svg class="icon icon-sm"><use href="#i-share"/></svg> Ustvari sliko za deljenje
+          </button>
+
+          <details class="method">
+            <summary><svg class="icon icon-sm"><use href="#i-info"/></svg> Kako smo računali?</summary>
+            <ul>
+              <li>Hrana: 60&nbsp;% košarice so osnovna živila, DDV nižji za 4,5 odstotne točke.</li>
+              <li>Energija: DDV nižji za 12,5 odstotne točke, preračunano na 9 mesecev v letu.</li>
+              <li>Najem: tipičen prenos davčne olajšave na najemnika.</li>
+              <li>Prispevki: razlika med starim in novim pragom za mikro s.p.</li>
+              <li>Gre za ilustrativno oceno, ne za uradni izračun.</li>
+            </ul>
+          </details>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 6 · DELI -->
+    <section class="panel" id="step-6" aria-labelledby="h-6">
+      <div class="section-head">
+        <p class="eyebrow"><svg class="icon icon-sm"><use href="#i-share"/></svg> Deli naprej</p>
+        <h2 class="h2" id="h-6" tabindex="-1">Pomagaj še drugim družinam izračunati svojo korist</h2>
+        <p class="lead">Izberi sliko in obliko, prilagodi besedilo ter deli. Vsaka slika vsebuje povezavo do vodiča, osebna kartica pa le znesek – brez tvojih podatkov o dohodku.</p>
+      </div>
+
+      <div class="share">
+        <div class="preview">
+          <canvas id="share-canvas" width="1080" height="1350" role="img" aria-label="Predogled slike za deljenje"></canvas>
+          <p class="preview-note" id="preview-note">1080 × 1350 px · Instagram, Facebook, LinkedIn, WhatsApp</p>
+        </div>
+
+        <div class="share-pane">
+        <div class="share-controls">
+          <div class="share-setup" id="share-setup">
+          <div class="share-setup-inner">
+          <fieldset>
+            <legend>1. Izberi kartico</legend>
+            <div class="picker" id="picker">
+              <label class="pick"><input type="radio" name="card" value="moj" checked><span><i class="sw-ink"></i>Moj izračun</span></label>
+              <label class="pick"><input type="radio" name="card" value="hrana"><span><i class="sw-navy"></i>Hrana in energija</span></label>
+              <label class="pick"><input type="radio" name="card" value="stanovanje"><span><i class="sw-teal"></i>Stanovanje</span></label>
+              <label class="pick"><input type="radio" name="card" value="sp"><span><i class="sw-paper"></i>Samozaposleni</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>2. Oblika</legend>
+            <div class="seg" role="radiogroup">
+              <label><input type="radio" name="format" value="post" checked><span>Objava 4:5</span></label>
+              <label><input type="radio" name="format" value="story"><span>Zgodba 9:16</span></label>
+            </div>
+          </fieldset>
+          </div>
+          </div>
+
+          <div class="caption-field">
+            <label class="field-label" for="caption">3. Besedilo objave</label>
+            <textarea class="caption" id="caption" spellcheck="true"></textarea>
+          </div>
+
+          <div class="share-box">
+            <button type="button" class="btn btn-primary share-toggle" id="btn-share" aria-expanded="false" aria-controls="share-menu"><svg class="icon icon-sm"><use href="#i-share"/></svg> Deli objavo <svg class="icon icon-sm chev"><use href="#i-chevron-down"/></svg></button>
+            <div class="share-menu" id="share-menu" inert>
+              <div class="share-menu-inner">
+                <div class="share-menu-body">
+            <div class="socials" role="group" aria-label="Možnosti deljenja">
+              <button type="button" class="social" id="btn-native" hidden><svg class="icon icon-sm"><use href="#i-more"/></svg>Več aplikacij</button>
+              <a class="social" data-net="whatsapp" target="_blank" rel="noopener noreferrer"><svg class="icon-brand"><use href="#b-whatsapp"/></svg>WhatsApp</a>
+              <a class="social" data-net="viber" target="_blank" rel="noopener noreferrer"><svg class="icon-brand"><use href="#b-viber"/></svg>Viber</a>
+              <a class="social" data-net="facebook" target="_blank" rel="noopener noreferrer"><svg class="icon-brand"><use href="#b-facebook"/></svg>Facebook</a>
+              <button type="button" class="social" id="btn-instagram"><svg class="icon icon-sm"><use href="#i-instagram"/></svg>Instagram</button>
+              <a class="social" data-net="x" target="_blank" rel="noopener noreferrer"><svg class="icon-brand"><use href="#b-x"/></svg>X</a>
+              <a class="social" data-net="linkedin" target="_blank" rel="noopener noreferrer"><svg class="icon-brand"><use href="#b-linkedin"/></svg>LinkedIn</a>
+              <a class="social" data-net="email" target="_blank" rel="noopener noreferrer"><svg class="icon icon-sm"><use href="#i-mail"/></svg>E-pošta</a>
+              <button type="button" class="social" id="btn-link"><svg class="icon icon-sm"><use href="#i-link"/></svg>Kopiraj povezavo</button>
+              <button type="button" class="social" id="btn-download"><svg class="icon icon-sm"><use href="#i-download"/></svg>Prenesi sliko</button>
+            </div>
+            <p class="share-hint">Kjer omrežje ne sprejme besedila (Facebook, LinkedIn, Instagram), ga samodejno kopiramo – le prilepi ga v objavo. Za Instagram zgodbo izberi obliko »Zgodba 9:16«.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Premikanje po vodiču">
+    <button type="button" class="btn btn-ghost btn-prev" id="btn-prev" disabled><svg class="icon icon-sm"><use href="#i-arrow-left"/></svg> Nazaj</button>
+    <span class="nav-count" id="nav-count" aria-live="polite">Korak 1 od 7</span>
+    <button type="button" class="btn btn-primary" id="btn-next"><span id="next-label">Začni</span> <svg class="icon icon-sm"><use href="#i-arrow-right"/></svg></button>
+  </nav>
+  <p class="footer-note">Ilustrativne ocene na podlagi ukrepov interventnega zakona (ZIURS). Ne nadomeščajo uradnega izračuna. · <a href="https://zazivljenje.com/aplikacije" target="_top">Več aplikacij za družine</a></p>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"><svg class="icon icon-sm"><use href="#i-check"/></svg><span id="toast-text"></span></div>
+
+<script>
+(() => {
+  'use strict';
+
+  const DISPLAY_URL = 'zazivljenje.com/aplikacije/ziurs-za-druzine';
+  const STEPS = ['Uvod', 'Stroški', 'Stanovanje', 'Delo', 'Ocena', 'Izračun', 'Deli'];
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const inFrame = window.self !== window.top;
+
+  const eur = (n, d = 0) => new Intl.NumberFormat('sl-SI', { style: 'currency', currency: 'EUR', minimumFractionDigits: d, maximumFractionDigits: d }).format(n);
+  const num = (n) => new Intl.NumberFormat('sl-SI', { maximumFractionDigits: 0 }).format(n);
+
+  function resolveShareUrl() {
+    const meta = $('meta[name="zz-share-url"]')?.content?.trim();
+    if (meta) return meta;
+    if (inFrame) {
+      try { return window.top.location.origin + window.top.location.pathname; } catch (_) { /* cross-origin parent */ }
+      if (document.referrer) { try { const r = new URL(document.referrer); return r.origin + r.pathname; } catch (_) {} }
+    }
+    return location.origin + location.pathname;
+  }
+  const SHARE_URL = resolveShareUrl();
+
+  function readParam(name) {
+    const own = new URLSearchParams(location.search).get(name);
+    if (own) return own;
+    try { return new URLSearchParams(window.top.location.search).get(name); } catch (_) { return null; }
+  }
+
+  // ---------- Iframe integration ----------
+  function postToParent(msg) { if (inFrame) window.parent.postMessage({ source: 'zz-ziurs', ...msg }, '*'); }
+  if (inFrame) document.documentElement.classList.add('is-embedded');
+  if (inFrame && 'ResizeObserver' in window) {
+    new ResizeObserver(() => postToParent({ type: 'height', height: document.documentElement.scrollHeight })).observe(document.body);
+  }
+
+  // ---------- Steps ----------
+  const stepper = $('#stepper');
+  stepper.innerHTML = '<li class="step-indicator" aria-hidden="true"></li>' + STEPS.map((name, i) => `<li><button type="button" class="step-tab" data-go="${i}"><span class="step-num">${i + 1}</span>${name}</button></li>`).join('');
+  const tabs = $$('.step-tab', stepper);
+  const indicator = $('.step-indicator', stepper);
+  let current = 0;
+
+  function moveIndicator() {
+    const li = tabs[current].parentElement;
+    indicator.style.width = li.offsetWidth + 'px';
+    indicator.style.transform = `translateX(${li.offsetLeft}px)`;
+  }
+  window.addEventListener('resize', moveIndicator);
+
+  function goTo(n, { focus = true } = {}) {
+    if (n < 0 || n >= STEPS.length) return;
+    const dir = Math.sign(n - current);
+    $$('.panel').forEach((p, i) => {
+      p.classList.remove('is-active');
+      if (i === n) {
+        p.style.setProperty('--enter-x', dir === 0 ? '0px' : `${dir * 28}px`);
+        p.style.setProperty('--enter-y', dir === 0 ? '10px' : '0px');
+        void p.offsetWidth;
+        p.classList.add('is-active');
+      }
+    });
+    current = n;
+    moveIndicator();
+    tabs.forEach((t, i) => {
+      t.classList.toggle('is-done', i < n);
+      if (i === n) t.setAttribute('aria-current', 'step'); else t.removeAttribute('aria-current');
+    });
+    const tab = tabs[n];
+    stepper.scrollTo({ left: tab.offsetLeft - stepper.clientWidth / 2 + tab.clientWidth / 2, behavior: reducedMotion ? 'auto' : 'smooth' });
+    $('#progress-fill').style.width = ((n + 1) / STEPS.length * 100) + '%';
+    $('#nav-count').innerHTML = `<span class="nc-word">Korak </span>${n + 1}<span class="nc-word"> od </span><span class="nc-slash">/</span>${STEPS.length}`;
+    $('#btn-prev').disabled = n === 0;
+    $('#next-label').innerHTML = n === 0 ? 'Začni' : n === STEPS.length - 1 ? 'Na začetek' : `Naprej<span class="nl-extra">: ${STEPS[n + 1]}</span>`;
+
+    if (n === 5) runSimulation();
+    if (n === 6) renderCard();
+
+    history.replaceState(null, '', '#' + (n === 0 ? '' : 'korak-' + (n + 1)));
+    if (focus) {
+      $('#h-' + n)?.focus({ preventScroll: true });
+      const top = $('#zz-app').getBoundingClientRect().top;
+      if (top < 0) window.scrollTo({ top: window.scrollY + top, behavior: reducedMotion ? 'auto' : 'smooth' });
+      postToParent({ type: 'step', step: n });
+    }
+  }
+
+  document.addEventListener('click', (e) => {
+    const el = e.target.closest('[data-go]');
+    if (!el) return;
+    if (el.dataset.card) { const r = $(`input[name="card"][value="${el.dataset.card}"]`); if (r) r.checked = true; captionDirty = false; }
+    goTo(Number(el.dataset.go));
+  });
+  $('#btn-prev').addEventListener('click', () => goTo(current - 1));
+  $('#btn-next').addEventListener('click', () => goTo(current === STEPS.length - 1 ? 0 : current + 1));
+  document.addEventListener('keydown', (e) => {
+    if (e.target.closest('input, textarea, select, [contenteditable]') || e.altKey || e.metaKey || e.ctrlKey) return;
+    if (e.key === 'ArrowRight') goTo(current + 1);
+    if (e.key === 'ArrowLeft') goTo(current - 1);
+  });
+
+  // ---------- Static charts ----------
+  (function charts() {
+    const vat = [['Najnižjih 20 %', 45], ['Nižja sredina', 75], ['Srednje družine', 110], ['Višja sredina', 160], ['Najvišjih 10 %', 95]];
+    const vmax = Math.max(...vat.map(v => v[1]));
+    $('#chart-vat').innerHTML = vat.map(([l, v], i) => `<div class="hbar" aria-hidden="true"><span>${l}</span><span class="hbar-track"><span class="hbar-fill${i === 2 ? ' alt' : ''}" style="width:${v / vmax * 100}%;animation-delay:${i * 60}ms"></span></span><span class="hbar-val">${v}&nbsp;€</span></div>`).join('');
+
+    const std = [4200, 4300, 4400, 4500, 4600], youth = [1200, 2400, 3800, 5200, 7100];
+    const hmax = Math.max(...std.map((s, i) => s + youth[i]));
+    $('#chart-housing').innerHTML = std.map((s, i) => `<div class="vbar" aria-hidden="true" style="height:${(s + youth[i]) / hmax * 100}%;animation-delay:${i * 70}ms"><span style="height:${youth[i] / (s + youth[i]) * 100}%;background:var(--teal)"></span><span style="flex:1;background:#d6dde2"></span></div>`).join('');
+
+    const gross = 2500;
+    const rows = [['Prej', 650], ['Z ZIURS', 250]];
+    $('#chart-sp').innerHTML = rows.map(([l, c], i) => `<div class="compare-row"><div class="compare-head"><span>${l}</span><span>ostane ${eur(gross - c)}</span></div><div class="compare-bar"><span style="width:${(gross - c) / gross * 100}%;background:${i ? 'var(--teal)' : '#9bb1c4'};color:var(--white)">Za družino ${eur(gross - c)}</span><span style="flex:1;background:${i ? 'var(--gold-soft)' : '#f3d9d4'};color:var(--ink);justify-content:center">${eur(c)}</span></div></div>`).join('') + '<p class="tiny">Svetli del: mesečni prispevki. Razlika ' + eur(400) + ' na mesec ostane v družinskem proračunu.</p>';
+  })();
+
+  // ---------- Simulator ----------
+  const form = $('#sim-form');
+  const result = { total: 0, annual: 0 };
+  let totalShown = 0, tweenId = 0;
+
+  function runSimulation() {
+    const fd = new FormData(form);
+    const employment = fd.get('employment');
+    const family = fd.get('family');
+    const housing = fd.get('housing');
+    const income = Math.max(0, parseFloat(fd.get('income')) || 0);
+    const groceries = parseFloat(fd.get('groceries')) || 0;
+    const energy = parseFloat(fd.get('energy')) || 0;
+
+    $('#out-groceries').textContent = eur(groceries);
+    $('#out-energy').textContent = eur(energy);
+
+    const food = groceries * 0.6 * (0.095 - 0.05);
+    const energySave = energy * (0.22 - 0.095) * (9 / 12);
+    const withKids = family === 'couple_child' || family === 'single_parent';
+    const housingSave = housing === 'youth_rent' ? (withKids ? 65 : 45) : housing === 'standard_rent' ? 15 : 0;
+    const emp = employment === 'sp_micro' ? 320
+      : employment === 'highearner' ? Math.max(0, (income - 7500) * 0.12)
+      : employment === 'retiree' ? 90
+      : income > 2500 ? 25 : 15;
+
+    const parts = { food, energy: energySave, housing: housingSave, emp };
+    const total = food + energySave + housingSave + emp;
+    result.total = total;
+    result.annual = total * 12;
+
+    $('#res-food').textContent = '+' + eur(food, 2);
+    $('#res-energy').textContent = '+' + eur(energySave, 2);
+    $('#res-housing').textContent = '+' + eur(housingSave, 2);
+    $('#res-emp').textContent = '+' + eur(emp, 2);
+    $('#res-annual').textContent = `približno ${eur(Math.round(result.annual))} na leto`;
+    $('#mini-total').textContent = eur(Math.round(total)) + '/mes.';
+    Object.entries(parts).forEach(([k, v]) => { $('#sb-' + k).style.width = (total ? v / total * 100 : 0) + '%'; });
+    tweenTotal(total);
+    if (current === 6) renderCard();
+  }
+
+  function tweenTotal(target) {
+    const el = $('#res-total');
+    if (reducedMotion) { el.textContent = eur(Math.round(target)); totalShown = target; return; }
+    const from = totalShown, start = performance.now(), id = ++tweenId;
+    const step = (t) => {
+      if (id !== tweenId) return;
+      const k = Math.min(1, (t - start) / 400), e = 1 - Math.pow(1 - k, 3);
+      totalShown = from + (target - from) * e;
+      el.textContent = eur(Math.round(totalShown));
+      if (k < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+
+  form.addEventListener('input', runSimulation);
+  form.addEventListener('submit', (e) => e.preventDefault());
+
+  // ---------- Share cards ----------
+  const THEMES = {
+    navy:  { bg: '#1a3348', ink: '#f7f5f1', muted: 'rgba(247,245,241,0.72)', accent: '#c6a15a', ctaBg: '#c6a15a', ctaInk: '#162028' },
+    teal:  { bg: '#0c5d68', ink: '#ffffff', muted: 'rgba(255,255,255,0.76)', accent: '#ffffff', ctaBg: '#f7f5f1', ctaInk: '#0c5d68' },
+    paper: { bg: '#f7f5f1', ink: '#162028', muted: '#56636d', accent: '#0c5d68', ctaBg: '#1a3348', ctaInk: '#ffffff' },
+    ink:   { bg: '#162028', ink: '#f7f5f1', muted: 'rgba(247,245,241,0.7)', accent: '#c6a15a', ctaBg: '#c6a15a', ctaInk: '#162028' },
+  };
+
+  const CARDS = {
+    moj: () => ({
+      theme: 'ink',
+      eyebrow: 'Moj izračun',
+      headline: 'Naša družina bi z interventnim zakonom mesečno pridobila približno',
+      big: eur(Math.round(result.total)),
+      bigLabel: `na mesec · okoli ${eur(Math.round(result.annual))} na leto`,
+      cta: 'Koliko pa tvoja družina?',
+      caption: `Izračunal/a sem, da bi naša družina z interventnim zakonom (ZIURS) pridobila približno ${eur(Math.round(result.total))} na mesec. Koliko pa tvoja? Izračun traja manj kot minuto:`,
+      url: SHARE_URL + '?korist=' + Math.round(result.total),
+    }),
+    hrana: () => ({
+      theme: 'navy',
+      eyebrow: 'DDV na hrano in energijo',
+      headline: 'Nižji DDV pomeni, da več denarja ostane v družinskem proračunu.',
+      stats: [{ from: '9,5 %', to: '5 %', label: 'osnovna živila' }, { from: '22 %', to: '9,5 %', label: 'energija in komunala' }],
+      cta: 'Preveri vpliv na svojo družino',
+      caption: 'Ali je interventni zakon (ZIURS) družinam prijazen? DDV na osnovna živila se zniža z 9,5 % na 5 %, na energijo z 22 % na 9,5 %. Preveri, kaj to pomeni za tvojo družino:',
+      url: SHARE_URL,
+    }),
+    stanovanje: () => ({
+      theme: 'teal',
+      eyebrow: 'Stanovanje za mlade družine',
+      headline: 'Samo 5 % davka, ko lastnik dolgoročno odda mladim ali družini z otroki.',
+      big: '50–120 €',
+      bigLabel: 'ocenjena mesečna olajšava pri najemnini',
+      cta: 'Izračunaj svojo korist',
+      caption: 'Lastniki, ki dolgoročno oddajo stanovanje mladim ali družinam z otroki, plačajo le 5 % davka. Ocenjena olajšava pri najemnini: 50–120 € na mesec. Izračunaj, kaj to pomeni zate:',
+      url: SHARE_URL,
+    }),
+    sp: () => ({
+      theme: 'paper',
+      eyebrow: 'Samozaposleni starši',
+      headline: 'Fiksni prispevki mikro s.p. se znižajo za več kot polovico.',
+      stats: [{ from: '~650 €', to: '~250 €', label: 'mesečni prispevki' }],
+      cta: 'Preveri vpliv na svojo družino',
+      caption: 'Samozaposleni starši: prispevki za mikro s.p. se znižajo z ~650 € na ~250 € na mesec. Več denarja za družino v prvih, najtežjih letih. Preveri svoj vpliv:',
+      url: SHARE_URL,
+    }),
+  };
+
+  const canvas = $('#share-canvas');
+  const ctx = canvas.getContext('2d');
+  const logoImg = new Image();
+  logoImg.src = $('#zz-logo').src;
+  let captionDirty = false;
+  const fontsReady = (document.fonts ? Promise.all([
+    document.fonts.load('700 72px Literata', 'ČŠŽčšž'),
+    document.fonts.load('800 120px Inter', 'ČŠŽčšž€'),
+    document.fonts.load('600 40px Inter', 'ČŠŽčšž€'),
+    document.fonts.load('400 30px Inter', 'ČŠŽčšž€'),
+  ]).catch(() => {}) : Promise.resolve());
+  const logoReady = logoImg.decode ? logoImg.decode().catch(() => {}) : Promise.resolve();
+
+  const selected = () => ({
+    card: $('input[name="card"]:checked').value,
+    format: $('input[name="format"]:checked').value,
+  });
+
+  function wrap(text, maxW) {
+    const words = text.split(' '), lines = [];
+    let line = '';
+    for (const w of words) {
+      const test = line ? line + ' ' + w : w;
+      if (ctx.measureText(test).width > maxW && line) { lines.push(line); line = w; } else line = test;
+    }
+    if (line) lines.push(line);
+    return lines;
+  }
+
+  function roundRect(x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath();
+  }
+
+  function setSpacing(px) { if ('letterSpacing' in ctx) ctx.letterSpacing = px + 'px'; }
+
+  async function renderCard() {
+    await Promise.all([fontsReady, logoReady]);
+    const { card, format } = selected();
+    const d = CARDS[card]();
+    const t = THEMES[d.theme];
+    const story = format === 'story';
+    const W = 1080, H = story ? 1920 : 1350;
+    if (canvas.height !== H) canvas.height = H;
+    canvas.width = W;
+    $('#preview-note').textContent = story ? '1080 × 1920 px · Instagram in Facebook zgodbe, WhatsApp status' : '1080 × 1350 px · Instagram, Facebook, LinkedIn, WhatsApp';
+
+    const padX = 88, padTop = story ? 200 : 84, padBottom = story ? 230 : 84;
+    const innerW = W - padX * 2;
+    ctx.textBaseline = 'top';
+    ctx.textAlign = 'left';
+
+    ctx.fillStyle = t.bg; ctx.fillRect(0, 0, W, H);
+    ctx.fillStyle = t.accent; ctx.fillRect(0, 0, W, 14);
+
+    // Brand header
+    const logoR = 52;
+    ctx.fillStyle = '#ffffff';
+    ctx.beginPath(); ctx.arc(padX + logoR, padTop + logoR, logoR, 0, Math.PI * 2); ctx.fill();
+    if (d.theme === 'paper') { ctx.strokeStyle = 'rgba(22,32,40,0.12)'; ctx.lineWidth = 2; ctx.stroke(); }
+    if (logoImg.complete && logoImg.naturalWidth) ctx.drawImage(logoImg, padX + 14, padTop + 14, logoR * 2 - 28, logoR * 2 - 28);
+    setSpacing(0);
+    ctx.fillStyle = t.ink; ctx.font = '700 40px Inter';
+    ctx.fillText('Za življenje!', padX + logoR * 2 + 28, padTop + 18);
+    ctx.fillStyle = t.muted; ctx.font = '500 28px Inter';
+    ctx.fillText('zazivljenje.com', padX + logoR * 2 + 28, padTop + 66);
+    const headerBottom = padTop + logoR * 2;
+
+    // Bottom block (drawn bottom-up)
+    const footY = H - padBottom - 30;
+    ctx.fillStyle = t.muted; ctx.font = '400 26px Inter';
+    ctx.fillText('Ilustrativna ocena · interventni zakon ZIURS', padX, footY);
+    const ctaH = 120, ctaY = footY - 40 - ctaH;
+    ctx.fillStyle = t.ctaBg; roundRect(padX, ctaY, innerW, ctaH, 28); ctx.fill();
+    ctx.fillStyle = t.ctaInk; ctx.font = '700 38px Inter';
+    ctx.fillText(d.cta, padX + 40, ctaY + 22);
+    ctx.font = '500 28px Inter'; ctx.globalAlpha = 0.85;
+    ctx.fillText(DISPLAY_URL, padX + 40, ctaY + 70);
+    ctx.globalAlpha = 1;
+    ctx.font = '700 48px Inter';
+    const arrowW = ctx.measureText('→').width;
+    ctx.fillText('→', padX + innerW - 40 - arrowW, ctaY + 34);
+
+    // Middle block: auto-fit then vertically center
+    const areaTop = headerBottom + (story ? 120 : 64), areaBottom = ctaY - (story ? 120 : 56);
+    const avail = areaBottom - areaTop;
+    let hSize = story ? 84 : 72, layout;
+    const measure = (size) => {
+      ctx.font = `700 ${size}px Literata`;
+      const lines = wrap(d.headline, innerW);
+      const lh = Math.round(size * 1.18);
+      let h = 30 + 28 + lines.length * lh;
+      const bigSize = story ? 200 : Math.min(180, size * 2.3);
+      let statsH = 0;
+      if (d.stats) statsH = d.stats.length * (Math.round(size * 1.6) + 44) + (d.stats.length - 1) * 28;
+      if (d.big) { ctx.font = '400 32px Inter'; statsH = bigSize + 20 + wrap(d.bigLabel, innerW).length * 44; }
+      const gap = story ? 96 : 56;
+      return { lines, lh, size, bigSize, h: h + gap + statsH, gap };
+    };
+    do { layout = measure(hSize); hSize -= 4; } while (layout.h > avail && hSize > 44);
+
+    let y = areaTop + Math.max(0, (avail - layout.h) / (story ? 2 : 2.4));
+    ctx.fillStyle = t.accent; ctx.font = '700 28px Inter'; setSpacing(4);
+    ctx.fillText(d.eyebrow.toUpperCase(), padX, y);
+    setSpacing(0);
+    y += 30 + 28;
+    ctx.fillStyle = t.ink; ctx.font = `700 ${layout.size}px Literata`;
+    layout.lines.forEach((ln) => { ctx.fillText(ln, padX, y); y += layout.lh; });
+    y += layout.gap;
+
+    if (d.stats) {
+      const toSize = Math.round(layout.size * 1.6);
+      d.stats.forEach((s, i) => {
+        ctx.font = `600 ${Math.round(toSize * 0.42)}px Inter`;
+        ctx.fillStyle = t.muted;
+        const fromW = ctx.measureText(s.from).width;
+        const fromY = y + toSize * 0.42;
+        ctx.fillText(s.from, padX, fromY);
+        ctx.strokeStyle = t.muted; ctx.lineWidth = 4;
+        ctx.beginPath(); ctx.moveTo(padX - 4, fromY + toSize * 0.22); ctx.lineTo(padX + fromW + 4, fromY + toSize * 0.22); ctx.stroke();
+        ctx.fillStyle = t.accent; ctx.font = `700 ${Math.round(toSize * 0.5)}px Inter`;
+        ctx.fillText('→', padX + fromW + 24, y + toSize * 0.3);
+        const arrW = ctx.measureText('→').width;
+        ctx.font = `800 ${toSize}px Inter`; setSpacing(-2);
+        ctx.fillText(s.to, padX + fromW + 48 + arrW, y);
+        setSpacing(0);
+        ctx.fillStyle = t.muted; ctx.font = '500 32px Inter';
+        ctx.fillText(s.label, padX, y + toSize + 8);
+        y += toSize + 44 + (i < d.stats.length - 1 ? 28 : 0);
+      });
+    }
+    if (d.big) {
+      ctx.fillStyle = t.accent; ctx.font = `800 ${layout.bigSize}px Inter`; setSpacing(-4);
+      let size = layout.bigSize;
+      while (ctx.measureText(d.big).width > innerW && size > 80) { size -= 8; ctx.font = `800 ${size}px Inter`; }
+      ctx.fillText(d.big, padX - 6, y);
+      setSpacing(0);
+      y += layout.bigSize + 20;
+      ctx.fillStyle = t.muted; ctx.font = '400 32px Inter';
+      wrap(d.bigLabel, innerW).forEach((ln) => { ctx.fillText(ln, padX, y); y += 44; });
+    }
+
+    canvas.setAttribute('aria-label', `Predogled slike: ${d.eyebrow}. ${d.headline} ${d.big || d.stats.map(s => s.label + ' ' + s.to).join(', ')}`);
+    if (!captionDirty) $('#caption').value = composeCaption(d);
+  }
+
+  function composeCaption(d) { return `${d.caption}\n${d.url}\n\n#ZIURS #družine #zazivljenje`; }
+  const currentCard = () => CARDS[selected().card]();
+  const captionText = () => $('#caption').value.trim();
+
+  $('#picker').addEventListener('change', () => { captionDirty = false; renderCard(); });
+  $$('input[name="format"]').forEach(r => r.addEventListener('change', renderCard));
+  $('#caption').addEventListener('input', () => { captionDirty = true; });
+
+  const toBlob = () => new Promise((res) => canvas.toBlob(res, 'image/png'));
+  const fileName = () => `za-zivljenje-ziurs-${selected().card}-${selected().format}.png`;
+
+  async function copyText(text) {
+    try { await navigator.clipboard.writeText(text); return true; }
+    catch (_) {
+      const ta = document.createElement('textarea');
+      ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      let ok = false; try { ok = document.execCommand('copy'); } catch (_) {}
+      ta.remove(); return ok;
+    }
+  }
+
+  function download(blob) {
+    const url = URL.createObjectURL(blob);
+    const a = Object.assign(document.createElement('a'), { href: url, download: fileName() });
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 2000);
+  }
+
+  let toastTimer;
+  function toast(msg) {
+    $('#toast-text').textContent = msg;
+    const anchor = document.activeElement?.closest?.('button, a');
+    if (inFrame && anchor) $('#toast').style.top = (anchor.getBoundingClientRect().bottom + window.scrollY + 12) + 'px';
+    $('#toast').classList.add('is-on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => $('#toast').classList.remove('is-on'), 3200);
+  }
+
+  const shareToggle = $('#btn-share');
+  const shareMenu = $('#share-menu');
+  function setShareMenu(open) {
+    shareToggle.setAttribute('aria-expanded', String(open));
+    shareMenu.classList.toggle('is-open', open);
+    shareMenu.inert = !open;
+    $('.share').classList.toggle('menu-open', open);
+    $('#share-setup').inert = open && matchMedia('(min-width: 900px)').matches;
+    if (open) renderCard();
+  }
+  shareToggle.addEventListener('click', () => setShareMenu(shareToggle.getAttribute('aria-expanded') !== 'true'));
+  shareMenu.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { e.stopPropagation(); setShareMenu(false); shareToggle.focus(); }
+  });
+
+  const canShareFiles = (() => {
+    try { return !!navigator.canShare && navigator.canShare({ files: [new File([''], 'x.png', { type: 'image/png' })] }); }
+    catch (_) { return false; }
+  })();
+  $('#btn-native').hidden = !canShareFiles;
+  $('#btn-native').addEventListener('click', async () => {
+    await renderCard();
+    const file = new File([await toBlob()], fileName(), { type: 'image/png' });
+    try { await navigator.share({ files: [file], title: 'Je ZIURS družinam prijazen?', text: captionText() }); }
+    catch (e) { if (e.name !== 'AbortError') toast('Deljenje ni uspelo. Poskusi s prenosom slike.'); }
+  });
+
+  $('#btn-download').addEventListener('click', async () => { await renderCard(); download(await toBlob()); toast('Slika je prenesena.'); });
+  $('#btn-instagram').addEventListener('click', async () => {
+    await renderCard();
+    download(await toBlob());
+    const copied = await copyText(captionText());
+    toast(copied ? 'Slika je prenesena, besedilo kopirano. Objavi ju v Instagramu.' : 'Slika je prenesena. Objavi jo v Instagramu.');
+  });
+  $$('.social[data-net="facebook"], .social[data-net="linkedin"]').forEach((a) => {
+    a.addEventListener('click', async () => { if (await copyText(captionText())) toast('Besedilo je kopirano – prilepi ga v objavo.'); });
+  });
+  $('#btn-link').addEventListener('click', async () => {
+    const url = currentCard().url;
+    if (navigator.share && matchMedia('(pointer: coarse)').matches) {
+      try { await navigator.share({ title: 'Je ZIURS družinam prijazen?', url }); return; } catch (e) { if (e.name === 'AbortError') return; }
+    }
+    if (await copyText(url)) toast('Povezava je kopirana.');
+  });
+
+  $$('.social[data-net]').forEach((a) => {
+    const update = () => {
+      const d = currentCard(), text = captionText(), url = encodeURIComponent(d.url);
+      const map = {
+        whatsapp: `https://wa.me/?text=${encodeURIComponent(text)}`,
+        viber: `viber://forward?text=${encodeURIComponent(text)}`,
+        facebook: `https://www.facebook.com/sharer/sharer.php?u=${url}`,
+        x: `https://x.com/intent/post?text=${encodeURIComponent(d.caption)}&url=${url}`,
+        linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${url}`,
+        email: `mailto:?subject=${encodeURIComponent('Je ZIURS družinam prijazen?')}&body=${encodeURIComponent(text)}`,
+      };
+      a.href = map[a.dataset.net];
+    };
+    ['pointerdown', 'focus', 'keydown'].forEach(ev => a.addEventListener(ev, update));
+    update();
+  });
+
+  // ---------- Init ----------
+  runSimulation();
+
+  const ref = parseInt(readParam('korist'), 10);
+  if (ref > 0 && ref < 100000) {
+    $('#referral-amount').textContent = `približno ${eur(ref)} na mesec`;
+    $('#referral').hidden = false;
+  }
+
+  const hash = location.hash.match(/korak-(\d)/);
+  const deep = { '#izracun': 5, '#deli': 6 }[location.hash];
+  const start = hash ? Number(hash[1]) - 1 : deep ?? 0;
+  goTo(Math.min(Math.max(start, 0), STEPS.length - 1), { focus: false });
+})();
+</script>
+</body>
+</html>

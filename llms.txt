@@ -52,6 +52,7 @@ Linking and quotation remain available to the extent permitted by law. Third-par
 - [Predavanja](https://zazivljenje.com/rubrike/predavanja/): Predavanja za kulturo življenja
 - [Izdelki](https://zazivljenje.com/izdelki/): Rabljena otroška oblačila, obutev in dodatki (MiniLoop katalog)
 - [Aplikacije](https://zazivljenje.com/aplikacije/): Orodja za družine — razpisi, prejemki, dohodnina
+- [Vizualizacije](https://zazivljenje.com/vizualizacije/): Podatkovne zgodbe o kulturi življenja
 - [Razpisi in pravice za družine](https://zazivljenje.com/aplikacije/razpisi-in-pravice-za-druzine/): Odprti razpisi in trajne pravice z roki
 - [Pričakujemo otroka](https://zazivljenje.com/aplikacije/pricakujemo-otroka/): Kalkulator otroškega dodatka in družinskih prejemkov
 - [Izračun dohodnine](https://zazivljenje.com/aplikacije/izracun-dohodnine/): Davčne olajšave za vzdrževane otroke

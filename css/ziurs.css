@@ -1,0 +1,443 @@
+/* ZIURS family guide — scoped under .ziurs-app */
+.ziurs-app {
+  --navy: #1a3348;
+  --ink: #162028;
+  --teal: #0c5d68;
+  --gold: #c6a15a;
+  --paper: #f7f5f1;
+  --white: #ffffff;
+  --muted: #56636d;
+  --line: rgba(22, 32, 40, 0.12);
+  --teal-soft: #e4eff0;
+  --gold-soft: #f6eedd;
+  --radius: 16px;
+  --serif: 'Literata', Georgia, 'Times New Roman', serif;
+  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+.ziurs-app,
+.ziurs-app *,
+.ziurs-app *::before,
+.ziurs-app *::after { box-sizing: border-box; }
+.ziurs-app { -webkit-text-size-adjust: 100%; background: transparent; }
+.ziurs-app { margin: 0; font-family: var(--sans); color: var(--ink); background: transparent; line-height: 1.55; font-size: 16px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent; }
+.ziurs-app button,
+.ziurs-app input,
+.ziurs-app select,
+.ziurs-app textarea { font: inherit; color: inherit; }
+.ziurs-app button { cursor: pointer; touch-action: manipulation; }
+.ziurs-app img,
+.ziurs-app svg,
+.ziurs-app canvas { display: block; }
+.ziurs-app h1,
+.ziurs-app h2,
+.ziurs-app h3,
+.ziurs-app h4,
+.ziurs-app p { margin: 0; }
+.ziurs-app ul,
+.ziurs-app ol { margin: 0; padding: 0; list-style: none; }
+.ziurs-app a { color: var(--teal); }
+.ziurs-app :focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; border-radius: 8px; }
+.ziurs-app .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.ziurs-app .icon { width: 20px; height: 20px; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.ziurs-app .icon-sm { width: 16px; height: 16px; }
+.ziurs-app .icon-brand { fill: currentColor; stroke: none; }
+.ziurs-app .app { max-width: none; width: 100%; margin: 0 auto; display: flex; flex-direction: column; min-height: 0; }
+/* ---------- Glava ---------- */
+.ziurs-app .app-header { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--theme, #f4f6f8) 92%, transparent); backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--line); }
+.ziurs-app .brand-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 16px; }
+.ziurs-app .brand { display: flex; align-items: center; gap: 10px; min-width: 0; text-decoration: none; color: inherit; }
+.ziurs-app .brand img { width: 36px; height: 36px; }
+.ziurs-app .brand-text { min-width: 0; }
+.ziurs-app .brand-name { font-weight: 700; font-size: 14px; line-height: 1.2; }
+.ziurs-app .brand-sub { font-size: 12px; color: var(--muted); line-height: 1.3; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ziurs-app .btn-calc { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line); background: var(--white); color: var(--navy); font-weight: 600; font-size: 14px; padding: 8px 14px; border-radius: 999px; min-height: 40px; white-space: nowrap; transition: background .2s, border-color .2s; }
+.ziurs-app .btn-calc:hover { background: var(--paper); border-color: rgba(22,32,40,.22); }
+.ziurs-app .stepper { position: relative; display: flex; gap: 4px; list-style: none; overflow-x: auto; scrollbar-width: none; padding: 0 12px 10px; scroll-behavior: smooth; }
+.ziurs-app .stepper::-webkit-scrollbar { display: none; }
+.ziurs-app .stepper > li { flex: 1 0 0; min-width: 128px; }
+.ziurs-app .step-indicator { position: absolute; top: 0; left: 0; height: 36px; min-width: 0 !important; background: var(--navy); border-radius: 999px; pointer-events: none; transition: transform .45s cubic-bezier(.4,0,.2,1), width .45s cubic-bezier(.4,0,.2,1); }
+.ziurs-app .step-tab { position: relative; z-index: 1; display: flex; width: 100%; align-items: center; justify-content: center; gap: 8px; border: 0; background: transparent; padding: 6px 12px 6px 6px; border-radius: 999px; font-size: 13px; font-weight: 500; color: var(--muted); white-space: nowrap; min-height: 36px; transition: background .2s, color .3s; }
+.ziurs-app .step-tab:hover { background: var(--paper); color: var(--ink); }
+.ziurs-app .step-num { display: inline-flex; flex-shrink: 0; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 999px; border: 1.5px solid var(--line); font-size: 12px; font-weight: 700; transition: background .3s, color .3s, border-color .3s; }
+.ziurs-app .step-tab.is-done .step-num { background: var(--teal-soft); border-color: transparent; color: var(--teal); }
+.ziurs-app .step-tab[aria-current="step"],
+.ziurs-app .step-tab[aria-current="step"]:hover { background: transparent; color: var(--white); }
+.ziurs-app .step-tab[aria-current="step"] .step-num { background: var(--white); color: var(--navy); border-color: transparent; }
+.ziurs-app .progress { height: 3px; background: var(--paper); }
+.ziurs-app .progress-fill { height: 100%; width: 14%; background: var(--teal); transition: width .5s cubic-bezier(.4,0,.2,1); }
+/* ---------- Vsebina ---------- */
+.ziurs-app .content { flex: 1; padding: 24px 16px 32px; }
+.ziurs-app .panel { display: none; }
+.ziurs-app .panel.is-active { display: block; animation: panel-in .5s cubic-bezier(.2,.7,.2,1); }
+.ziurs-app .panel.is-active > * { animation: panel-in .55s cubic-bezier(.2,.7,.2,1) both; }
+.ziurs-app .panel.is-active > *:nth-child(2) { animation-delay: .05s; }
+.ziurs-app .panel.is-active > *:nth-child(3) { animation-delay: .1s; }
+.ziurs-app .panel.is-active > *:nth-child(n+4) { animation-delay: .15s; }
+@keyframes panel-in { from { opacity: 0; transform: translateX(var(--enter-x, 0)) translateY(var(--enter-y, 10px)); } to { opacity: 1; transform: none; } }.ziurs-app .eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--teal); margin-bottom: 10px; }
+.ziurs-app .h1 { font-family: var(--serif); font-weight: 700; font-size: clamp(30px, 6vw, 52px); line-height: 1.1; letter-spacing: -0.01em; text-wrap: balance; color: var(--navy); }
+.ziurs-app .h2 { font-family: var(--serif); font-weight: 700; font-size: clamp(24px, 4.4vw, 36px); line-height: 1.15; letter-spacing: -0.01em; text-wrap: balance; color: var(--navy); outline: none; }
+.ziurs-app .h3 { font-size: 16px; font-weight: 700; line-height: 1.35; }
+.ziurs-app .lead { font-size: 16px; color: var(--muted); max-width: 64ch; margin-top: 12px; text-wrap: pretty; }
+.ziurs-app .section-head { margin-bottom: 24px; }
+.ziurs-app .small { font-size: 14px; color: var(--muted); }
+.ziurs-app .tiny { font-size: 13px; color: var(--muted); }
+.ziurs-app .grid { display: grid; gap: 12px; }
+
+@media (min-width: 640px) {
+.ziurs-app .grid-2 { grid-template-columns: repeat(2, 1fr); }
+.ziurs-app .grid-3 { grid-template-columns: repeat(3, 1fr); }
+.ziurs-app .grid { gap: 16px; }
+
+}
+.ziurs-app .card { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
+.ziurs-app .card-paper { background: var(--paper); border-color: transparent; }
+.ziurs-app .card-navy { background: var(--navy); color: var(--white); border-color: transparent; }
+.ziurs-app .card-navy .small,
+.ziurs-app .card-navy .tiny { color: rgba(255,255,255,.75); }
+.ziurs-app .stack { display: flex; flex-direction: column; gap: 8px; }
+.ziurs-app .mt-16 { margin-top: 16px; }
+.ziurs-app .mt-24 { margin-top: 24px; }
+.ziurs-app .label-up { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.ziurs-app .rate { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin: 8px 0 6px; }
+.ziurs-app .rate-old { font-size: 24px; font-weight: 700; color: var(--muted); text-decoration: line-through; text-decoration-thickness: 2px; opacity: .7; }
+.ziurs-app .rate-new { font-size: 44px; font-weight: 800; color: var(--teal); line-height: 1; letter-spacing: -0.02em; }
+.ziurs-app .rate-arrow { color: var(--gold); }
+.ziurs-app .big { font-size: 32px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; color: var(--navy); }
+.ziurs-app .card-navy .big { color: var(--white); }
+.ziurs-app .tag { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; padding: 4px 10px; border-radius: 999px; background: var(--teal-soft); color: var(--teal); }
+.ziurs-app .icon-tile { width: 40px; height: 40px; border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; background: var(--teal-soft); color: var(--teal); }
+.ziurs-app .icon-tile.gold { background: var(--gold-soft); color: #7a5c2e; }
+.ziurs-app .icon-tile.navy { background: rgba(26,51,72,.08); color: var(--navy); }
+/* ---------- Uvod ---------- */
+.ziurs-app .hero { display: grid; gap: 24px; align-items: center; padding: 8px 0 8px; }
+
+@media (min-width: 720px) {
+.ziurs-app .hero { grid-template-columns: 1.2fr 1fr; gap: 28px; }
+
+}
+@media (min-width: 1100px) {
+.ziurs-app .hero { gap: 40px; }
+
+}
+.ziurs-app .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.ziurs-app .hero-facts { display: grid; gap: 10px; }
+.ziurs-app .fact { display: flex; align-items: center; gap: 14px; background: var(--paper); border-radius: var(--radius); padding: 14px 16px; }
+.ziurs-app .fact-num { font-size: 26px; font-weight: 800; color: var(--navy); min-width: 88px; letter-spacing: -0.02em; }
+.ziurs-app .fact-txt { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.ziurs-app .fact--rate {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  padding: 14px 16px;
+}
+.ziurs-app .fact-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  min-width: 0;
+}
+.ziurs-app .fact--rate .label-up { margin: 0; }
+.ziurs-app .fact--rate .rate { margin: 2px 0 0; }
+.ziurs-app .rate--compact { gap: 8px; }
+.ziurs-app .rate--compact .rate-old { font-size: 18px; }
+.ziurs-app .rate--compact .rate-new { font-size: 28px; }
+.ziurs-app .rate--compact .rate-arrow { width: 16px; height: 16px; }
+.ziurs-app .fact--rate .fact-txt { font-size: 13px; }
+.ziurs-app .fact-gain {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-left: auto;
+  width: 4.75rem;
+  min-height: 2.25rem;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #e7f6ec;
+  color: #1b7a3a;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  white-space: nowrap;
+}
+.ziurs-app .fact-gain .icon { color: #1b7a3a; width: 14px; height: 14px; flex-shrink: 0; }
+.ziurs-app .fact-gain__mul { font-size: 14px; min-width: 2.4em; text-align: left; }
+.ziurs-app .referral { display: flex; gap: 14px; align-items: flex-start; background: var(--gold-soft); border-radius: var(--radius); padding: 16px; margin-bottom: 24px; }
+.ziurs-app .referral[hidden] { display: none; }
+.ziurs-app .referral strong { color: var(--navy); }
+.ziurs-app .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 12px; font-weight: 600; font-size: 15px; padding: 12px 18px; min-height: 48px; border: 1px solid transparent; transition: background .2s, transform .1s, border-color .2s; text-decoration: none; }
+.ziurs-app .btn:active { transform: scale(.98); }
+.ziurs-app .btn-primary { background: var(--navy); color: var(--white); }
+.ziurs-app .btn-primary:hover { background: var(--ink); }
+.ziurs-app .btn-ghost { background: var(--white); border-color: var(--line); color: var(--navy); }
+.ziurs-app .btn-ghost:hover { background: var(--paper); }
+.ziurs-app .btn-teal { background: var(--teal); color: var(--white); }
+.ziurs-app .btn-teal:hover { background: #08444c; }
+.ziurs-app .btn-block { width: 100%; }
+/* ---------- Grafi ---------- */
+.ziurs-app .hbars { display: flex; flex-direction: column; gap: 10px; margin-top: 16px; }
+.ziurs-app .hbar { display: grid; grid-template-columns: 120px 1fr 52px; align-items: center; gap: 10px; font-size: 13px; }
+.ziurs-app .hbar-track { display: block; height: 14px; background: var(--paper); border-radius: 999px; overflow: hidden; }
+.ziurs-app .hbar-fill { display: block; height: 100%; border-radius: 999px; background: var(--teal); transform-origin: left; animation: grow .8s cubic-bezier(.2,.7,.2,1) both; }
+.ziurs-app .hbar-fill.alt { background: var(--navy); }
+.ziurs-app .hbar-val { font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; }
+@keyframes grow { from { transform: scaleX(0); } }.ziurs-app .vbars { display: flex; align-items: flex-end; gap: 12px; height: 180px; margin-top: 16px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+.ziurs-app .vbar { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; height: 100%; border-radius: 8px 8px 2px 2px; overflow: hidden; animation: growY .8s cubic-bezier(.2,.7,.2,1) both; transform-origin: bottom; }
+.ziurs-app .vbar span { display: block; }
+@keyframes growY { from { transform: scaleY(0); } }.ziurs-app .vlabels { display: flex; gap: 12px; margin-top: 6px; }
+.ziurs-app .vlabels span { flex: 1; text-align: center; font-size: 12px; color: var(--muted); }
+.ziurs-app .legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 12px; font-size: 13px; color: var(--muted); }
+.ziurs-app .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.ziurs-app .compare { display: flex; flex-direction: column; gap: 14px; margin-top: 16px; }
+.ziurs-app .compare-row { display: grid; gap: 6px; }
+.ziurs-app .compare-head { display: flex; justify-content: space-between; font-size: 13px; font-weight: 600; }
+.ziurs-app .compare-bar { display: flex; height: 36px; border-radius: 10px; overflow: hidden; font-size: 12px; font-weight: 700; }
+.ziurs-app .compare-bar span { display: flex; align-items: center; padding: 0 10px; white-space: nowrap; }
+.ziurs-app .list { display: flex; flex-direction: column; gap: 14px; }
+.ziurs-app .list li { display: flex; gap: 12px; align-items: flex-start; }
+.ziurs-app .list .check { color: var(--teal); margin-top: 2px; }
+.ziurs-app .list .minus { color: var(--muted); margin-top: 2px; }
+.ziurs-app .verdict { display: grid; gap: 16px; align-items: center; }
+
+@media (min-width: 720px) {
+.ziurs-app .verdict { grid-template-columns: 1fr auto; }
+
+}
+.ziurs-app .meter { min-width: 220px; }
+.ziurs-app .meter-score { font-size: 40px; font-weight: 800; color: var(--white); letter-spacing: -0.02em; line-height: 1; }
+.ziurs-app .meter-score small { font-size: 16px; font-weight: 500; color: rgba(255,255,255,.7); }
+.ziurs-app .meter-track { height: 10px; background: rgba(255,255,255,.16); border-radius: 999px; overflow: hidden; margin-top: 12px; }
+.ziurs-app .meter-fill { height: 100%; width: 84%; background: var(--gold); border-radius: 999px; }
+/* ---------- Izračun ---------- */
+.ziurs-app .sim { display: grid; gap: 16px; align-items: start; }
+
+@media (min-width: 960px) {
+.ziurs-app .sim { grid-template-columns: 1.4fr 1fr; gap: 24px; }
+.ziurs-app .sim-result { position: sticky; top: 120px; }
+.ziurs-app .sim-mini { display: none !important; }
+
+}
+.ziurs-app .sim-mini { position: sticky; top: 104px; z-index: 5; display: flex; align-items: center; justify-content: space-between; gap: 12px; background: var(--navy); color: var(--white); border-radius: 12px; padding: 10px 14px; font-size: 14px; box-shadow: 0 8px 24px -12px rgba(22,32,40,.5); }
+.ziurs-app .sim-mini strong { font-size: 18px; color: var(--gold); font-variant-numeric: tabular-nums; }
+.ziurs-app fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+.ziurs-app legend,
+.ziurs-app .field-label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 8px; padding: 0; }
+.ziurs-app .field + .field { margin-top: 20px; }
+.ziurs-app .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.ziurs-app .chip { position: relative; }
+.ziurs-app .chip input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.ziurs-app .chip span { display: inline-flex; align-items: center; min-height: 44px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 12px; font-size: 14px; font-weight: 500; background: var(--white); transition: all .15s; }
+.ziurs-app .chip input:hover + span { border-color: rgba(22,32,40,.3); }
+.ziurs-app .chip input:checked + span { background: var(--navy); border-color: var(--navy); color: var(--white); }
+.ziurs-app .chip input:focus-visible + span { outline: 3px solid var(--gold); outline-offset: 2px; }
+.ziurs-app .money { position: relative; max-width: 240px; }
+.ziurs-app .money input { width: 100%; min-height: 48px; padding: 10px 40px 10px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.ziurs-app .money input:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px var(--teal-soft); }
+.ziurs-app .money::after { content: '€'; position: absolute; right: 14px; top: 50%; transform: translateY(-50%); color: var(--muted); font-weight: 600; pointer-events: none; }
+.ziurs-app .hint { font-size: 13px; color: var(--muted); margin-top: 6px; }
+.ziurs-app .range-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+.ziurs-app .range-head output { font-weight: 700; color: var(--teal); font-variant-numeric: tabular-nums; }
+.ziurs-app input[type="range"] { width: 100%; accent-color: var(--teal); height: 32px; margin: 0; }
+.ziurs-app .result-total { font-size: 56px; font-weight: 800; letter-spacing: -0.03em; line-height: 1; color: var(--gold); font-variant-numeric: tabular-nums; margin-top: 6px; }
+.ziurs-app .result-total small { font-size: 18px; font-weight: 500; color: rgba(255,255,255,.75); letter-spacing: 0; }
+.ziurs-app .result-annual { font-size: 15px; color: rgba(255,255,255,.8); margin-top: 6px; }
+.ziurs-app .stackbar { display: flex; height: 12px; border-radius: 999px; overflow: hidden; margin: 20px 0 16px; background: rgba(255,255,255,.12); }
+.ziurs-app .stackbar span { height: 100%; transition: width .4s ease; }
+.ziurs-app .breakdown { display: flex; flex-direction: column; gap: 10px; font-size: 14px; }
+.ziurs-app .breakdown li { display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+.ziurs-app .breakdown li > span:first-child { display: inline-flex; align-items: center; gap: 8px; color: rgba(255,255,255,.85); }
+.ziurs-app .breakdown i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+.ziurs-app .breakdown b { font-variant-numeric: tabular-nums; }
+.ziurs-app .method { margin-top: 16px; border-top: 1px solid rgba(255,255,255,.14); padding-top: 12px; }
+.ziurs-app .method summary { cursor: pointer; font-size: 14px; font-weight: 600; color: var(--white); list-style: none; display: flex; align-items: center; gap: 8px; min-height: 32px; }
+.ziurs-app .method summary::-webkit-details-marker { display: none; }
+.ziurs-app .method summary::after { content: '+'; margin-left: auto; font-size: 18px; }
+.ziurs-app .method[open] summary::after { content: '−'; }
+.ziurs-app .method ul { margin-top: 8px; display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: rgba(255,255,255,.78); list-style: disc; padding-left: 18px; }
+.ziurs-app .c-food { background: #7fb8bf; }
+.ziurs-app .c-energy { background: var(--gold); }
+.ziurs-app .c-housing { background: var(--paper); }
+.ziurs-app .c-emp { background: #9bb1c4; }
+/* ---------- Deljenje ---------- */
+.ziurs-app .share { display: grid; gap: 20px; align-items: start; }
+
+@media (min-width: 900px) {
+.ziurs-app .share { grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 32px; }
+
+}
+.ziurs-app .preview { background: var(--paper); border-radius: 20px; padding: 20px; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.ziurs-app .preview canvas { max-width: 100%; max-height: 560px; width: auto; height: auto; border-radius: 12px; box-shadow: 0 20px 40px -20px rgba(22,32,40,.45); }
+.ziurs-app .preview-note { font-size: 13px; color: var(--muted); text-align: center; }
+.ziurs-app .picker { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+
+@media (min-width: 520px) {
+.ziurs-app .picker { grid-template-columns: repeat(4, 1fr); }
+
+}
+.ziurs-app .pick { position: relative; }
+.ziurs-app .pick input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.ziurs-app .pick span { display: flex; flex-direction: column; gap: 8px; height: 100%; padding: 10px; border: 1.5px solid var(--line); border-radius: 12px; font-size: 13px; font-weight: 600; line-height: 1.3; background: var(--white); transition: border-color .15s, box-shadow .15s; }
+.ziurs-app .pick i { display: block; height: 28px; border-radius: 6px; }
+.ziurs-app .pick input:checked + span { border-color: var(--navy); box-shadow: 0 0 0 1px var(--navy); }
+.ziurs-app .pick input:focus-visible + span { outline: 3px solid var(--gold); outline-offset: 2px; }
+.ziurs-app .sw-navy { background: var(--navy); }
+.ziurs-app .sw-teal { background: var(--teal); }
+.ziurs-app .sw-paper { background: var(--paper); border: 1px solid var(--line); }
+.ziurs-app .seg { display: inline-flex; background: var(--paper); border-radius: 12px; padding: 4px; gap: 4px; }
+.ziurs-app .seg label { position: relative; }
+.ziurs-app .seg input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.ziurs-app .seg span { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 9px; font-size: 14px; font-weight: 600; color: var(--muted); min-height: 40px; }
+.ziurs-app .seg input:checked + span { background: var(--white); color: var(--navy); box-shadow: 0 1px 3px rgba(22,32,40,.15); }
+.ziurs-app .seg input:focus-visible + span { outline: 3px solid var(--gold); }
+.ziurs-app .share-controls { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+.ziurs-app .share-setup { display: grid; grid-template-rows: 1fr; opacity: 1; transition: grid-template-rows .35s cubic-bezier(.4,0,.2,1), opacity .25s, margin .35s; }
+.ziurs-app .share-setup-inner { overflow: hidden; min-height: 0; display: flex; flex-direction: column; gap: 20px; }
+.ziurs-app .caption-field { display: flex; flex-direction: column; }
+
+@media (min-width: 900px) {
+.ziurs-app .share { align-items: stretch; }
+.ziurs-app .share-pane { position: relative; min-height: 0; }
+.ziurs-app .share-controls { position: absolute; inset: 0; }
+.ziurs-app .caption-field { flex: 1 1 auto; min-height: 0; }
+.ziurs-app .caption-field .caption { flex: 1 1 auto; min-height: 120px; resize: none; }
+.ziurs-app .share.menu-open .share-setup { grid-template-rows: 0fr; opacity: 0; margin-bottom: -20px; }
+.ziurs-app .share-box { margin-top: auto; }
+
+}
+.ziurs-app .caption { width: 100%; min-height: 220px; resize: vertical; border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; font-size: 14px; line-height: 1.5; background: var(--white); }
+.ziurs-app .caption:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px var(--teal-soft); }
+.ziurs-app .share-box { display: flex; flex-direction: column; }
+.ziurs-app .share-toggle { width: 100%; }
+.ziurs-app .share-toggle .chev { transition: transform .3s cubic-bezier(.4,0,.2,1); }
+.ziurs-app .share-toggle[aria-expanded="true"] .chev { transform: rotate(180deg); }
+.ziurs-app .share-menu { display: grid; grid-template-rows: 0fr; opacity: 0; transition: grid-template-rows .35s cubic-bezier(.4,0,.2,1), opacity .25s; }
+.ziurs-app .share-menu.is-open { grid-template-rows: 1fr; opacity: 1; }
+.ziurs-app .share-menu-inner { overflow: hidden; min-height: 0; }
+.ziurs-app .share-menu-body { display: flex; flex-direction: column; gap: 10px; padding-top: 12px; }
+.ziurs-app .share-hint { font-size: 13px; line-height: 1.5; color: var(--muted); }
+.ziurs-app .socials { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; }
+.ziurs-app .social { display: inline-flex; align-items: center; justify-content: flex-start; gap: 10px; padding: 0 14px; white-space: nowrap; min-height: 44px; cursor: pointer; font-family: inherit; border-radius: 12px; border: 1px solid var(--line); background: var(--white); font-size: 14px; font-weight: 600; color: var(--ink); text-decoration: none; transition: background .15s; }
+.ziurs-app .social:hover { background: var(--paper); }
+.ziurs-app .social .icon-brand { width: 18px; height: 18px; }
+.ziurs-app .insta-tip { display: flex; gap: 10px; align-items: flex-start; font-size: 13px; color: var(--muted); background: var(--paper); border-radius: 12px; padding: 12px; }
+/* ---------- Spodnja navigacija ---------- */
+.ziurs-app .bottom-nav { position: sticky; bottom: 0; z-index: 20; background: color-mix(in srgb, var(--theme, #f4f6f8) 94%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-top: 1px solid var(--line); padding: 10px 16px max(10px, env(safe-area-inset-bottom)); display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 12px; }
+.ziurs-app .nav-count { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; text-align: center; }
+.ziurs-app .bottom-nav .btn { min-height: 44px; padding: 10px 14px; width: 100%; max-width: 220px; justify-content: center; white-space: nowrap; overflow: hidden; }
+.ziurs-app .bottom-nav .btn-prev { justify-self: start; }
+.ziurs-app .bottom-nav #btn-next { justify-self: end; }
+.ziurs-app #next-label { overflow: hidden; text-overflow: ellipsis; }
+.ziurs-app .nl-extra { display: none; }
+
+@media (min-width: 560px) {
+.ziurs-app .nl-extra { display: inline; }
+
+}
+.ziurs-app .nc-slash { display: none; }
+
+@media (max-width: 419px) {
+.ziurs-app .nc-word { display: none; }
+.ziurs-app .nc-slash { display: inline; }
+.ziurs-app .bottom-nav { gap: 8px; }
+.ziurs-app .bottom-nav .btn { padding: 10px 10px; }
+
+}
+.ziurs-app .btn-prev[disabled] { visibility: hidden; }
+.ziurs-app .footer-note { padding: 16px; font-size: 12px; color: var(--muted); text-align: center; }
+.ziurs-app .toast { position: fixed; left: 50%; bottom: 84px; transform: translate(-50%, 16px); background: var(--ink); color: var(--white); padding: 12px 16px; border-radius: 12px; font-size: 14px; font-weight: 500; display: flex; align-items: center; gap: 10px; opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; z-index: 50; max-width: calc(100% - 32px); box-shadow: 0 12px 32px -12px rgba(0,0,0,.4); }
+.ziurs-app .toast.is-on { opacity: 1; transform: translate(-50%, 0); }
+.ziurs-app .toast .icon { color: var(--gold); }
+
+@media (min-width: 640px) {
+.ziurs-app .content { padding: 40px 24px 48px; }
+.ziurs-app .brand-row { padding: 12px 24px; }
+.ziurs-app .stepper { padding: 0 20px 12px; }
+.ziurs-app .bottom-nav { padding-left: 24px; padding-right: 24px; }
+.ziurs-app .card { padding: 24px; }
+.ziurs-app .hbar { grid-template-columns: 150px 1fr 56px; }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+.ziurs-app,
+.ziurs-app *,
+.ziurs-app *::before,
+.ziurs-app *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+
+}
+
+/* Page chrome within Hugo apps layout */
+body.section-aplikacije:has(.ziurs-app) .main {
+  max-width: none;
+  width: 100%;
+  padding: 0 0 1.25rem;
+}
+.apps-page--single:has(.ziurs-app) .doh-band {
+  padding: 0;
+}
+.apps-page--single:has(.ziurs-app) .home-inner {
+  max-width: 1360px;
+  width: 100%;
+  padding-left: clamp(16px, 3vw, 32px);
+  padding-right: clamp(16px, 3vw, 32px);
+}
+.ziurs-app {
+  margin: 0;
+}
+
+/* Desktop: wider, denser intro so step 1 more often fits one viewport */
+@media (min-width: 960px) {
+  .ziurs-app .brand-row { padding: 8px 28px; }
+  .ziurs-app .stepper { padding: 0 24px 8px; }
+  .ziurs-app .stepper > li { min-width: 0; }
+  .ziurs-app .content { padding: 20px 28px 24px; }
+  .ziurs-app .bottom-nav { padding-left: 28px; padding-right: 28px; }
+  .ziurs-app .h1 { font-size: clamp(28px, 3.4vw, 44px); }
+  .ziurs-app .lead { margin-top: 10px; font-size: 15px; max-width: 58ch; }
+  .ziurs-app .hero { padding: 0; gap: 28px; align-items: start; }
+  .ziurs-app .hero-actions { margin-top: 16px; gap: 8px; }
+  .ziurs-app .hero-actions .btn { min-height: 44px; padding: 10px 16px; }
+  .ziurs-app .fact { padding: 12px 14px; gap: 12px; }
+  .ziurs-app .fact-num { font-size: 22px; min-width: 72px; }
+  .ziurs-app #step-0 > .grid.mt-24 { margin-top: 16px; }
+  .ziurs-app #step-0 .card.stack { padding: 14px 16px; gap: 6px; }
+  .ziurs-app #step-0 .tiny.mt-16 { margin-top: 10px; }
+  .ziurs-app .footer-note { padding: 10px 20px 14px; }
+  .ziurs-app .section-head { margin-bottom: 18px; }
+}
+
+@media (min-width: 1100px) and (min-height: 780px) {
+  .ziurs-app .content { padding-top: 16px; padding-bottom: 16px; }
+  .ziurs-app .h1 { font-size: clamp(30px, 3vw, 40px); }
+  .ziurs-app .hero-facts { gap: 8px; }
+  .ziurs-app .fact { padding: 10px 14px; }
+  .ziurs-app #step-0 > .grid.mt-24 { margin-top: 14px; gap: 12px; }
+}
+
+/* Mobile: edge-to-edge shell, stacked hero, keep touch targets */
+@media (max-width: 719px) {
+  .apps-page--single:has(.ziurs-app) .home-inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .ziurs-app .brand-row { padding: 10px 16px; }
+  .ziurs-app .content { padding: 18px 16px 28px; }
+  .ziurs-app .hero { gap: 16px; padding: 0; }
+  .ziurs-app .hero-actions { margin-top: 18px; }
+  .ziurs-app .hero-actions .btn { flex: 1 1 auto; min-width: min(100%, 160px); }
+  .ziurs-app .h1 { font-size: clamp(26px, 8vw, 34px); }
+  .ziurs-app .lead { font-size: 15px; }
+  .ziurs-app .fact { padding: 12px 14px; }
+  .ziurs-app .fact-num { font-size: 22px; min-width: 72px; }
+  .ziurs-app #step-0 > .grid.mt-24 { margin-top: 16px; }
+  .ziurs-app .stepper > li { min-width: 118px; }
+  .ziurs-app .bottom-nav { padding-left: 12px; padding-right: 12px; }
+}

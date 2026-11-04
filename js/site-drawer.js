@@ -94,8 +94,10 @@
     var trigger = event.target.closest("[data-drawer]");
     if (!trigger) return;
     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button === 1) return;
+    var id = trigger.getAttribute("data-drawer");
+    if (!id || !document.getElementById("drawer-" + id)) return;
     event.preventDefault();
-    openDrawer(trigger.getAttribute("data-drawer"), trigger);
+    openDrawer(id, trigger);
   });
 
   document.addEventListener("keydown", function (event) {
