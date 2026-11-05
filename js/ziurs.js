@@ -361,7 +361,7 @@
     const usidCy = H - 36 - logoR;
     drawCircledLogo(usidraniImg, usidCx, usidCy, logoR, { stroke: d.theme === 'paper', inset: 4, clip: true });
     ctx.fillStyle = t.muted; ctx.font = '400 26px Inter';
-    ctx.fillText('Ilustrativna ocena · interventni zakon ZIURS', padX, footY);
+    ctx.fillText('Ilustrativna ocena · razvojni zakon ZIURS', padX, footY);
     const ctaH = 120, ctaY = footY - 40 - ctaH;
     ctx.fillStyle = t.ctaBg; roundRect(padX, ctaY, innerW, ctaH, 28); ctx.fill();
     ctx.fillStyle = t.ctaInk; ctx.font = '700 38px Inter';
