@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Nenačrtovana pota v Odiseji ob 15.30
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:dogodek-2026-11-07-nenacrtovana-pota@zazivljenje.com
+DTSTAMP:20261105T210858Z
+DTSTART:20261107T143000Z
+DURATION:PT1H30M
+SUMMARY:Nenačrtovana pota v Odiseji ob 15.30
+DESCRIPTION:Film Nenačrtovana pota je v soboto\, 7. novembra ob 15.30 v dvorani 3 kina Odiseja v Ljubljani. Vstopnice so na Odiseji. Več o filmu je na nenacrtovanapota.si. https://www.odiseja.si/sl/screen/?id=8bd86d80-7fc6-415b-919c-6af7234da52f&amp;cid=c7db67d7-4939-4716-b75b-31340d5bdd05
+
+LOCATION:Moskovska ulica 11\, 1000 Ljubljana\, Slovenija
+
+GEO:46.0657397;14.5499795
+
+URL:https://www.odiseja.si/sl/screen/?id=8bd86d80-7fc6-415b-919c-6af7234da52f&amp;cid=c7db67d7-4939-4716-b75b-31340d5bdd05
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nenačrtovana pota v Odiseji ob 15.30
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR
