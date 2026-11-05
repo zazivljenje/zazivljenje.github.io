@@ -44,7 +44,7 @@
     var shown = 0;
     cards.forEach(function (card) {
       var kind = card.getAttribute("data-kind") || "other";
-      if (isPast(card) || shown >= DISPLAY_K || used[kind]) {
+      if (isPast(card) || shown >= DISPLAY_K || (used[kind] && kind !== "aplikacija")) {
         card.hidden = true;
         return;
       }
