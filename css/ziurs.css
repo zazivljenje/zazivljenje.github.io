@@ -243,6 +243,15 @@
 .ziurs-app .money input:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px var(--teal-soft); }
 .ziurs-app .money::after { content: '€'; position: absolute; right: 14px; top: 50%; transform: translateY(-50%); color: var(--muted); font-weight: 600; pointer-events: none; }
 .ziurs-app .hint { font-size: 13px; color: var(--muted); margin-top: 6px; }
+.ziurs-app .earner + .earner { margin-top: 14px; }
+.ziurs-app .earner { padding: 14px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper); }
+.ziurs-app .earner-title { margin: 0 0 10px; font-size: 14px; font-weight: 700; color: var(--navy); }
+.ziurs-app .earner .chips { flex-wrap: nowrap; align-items: stretch; gap: 6px; }
+.ziurs-app .earner .chip { flex: 1 1 0; min-width: 0; display: flex; }
+.ziurs-app .earner .chip span { width: 100%; height: 100%; box-sizing: border-box; justify-content: center; text-align: center; padding: 8px 6px; font-size: 12px; line-height: 1.25; min-height: 48px; }
+.ziurs-app .earner-income { margin-top: 12px; }
+.ziurs-app .earner-income[hidden],
+.ziurs-app .earner[hidden] { display: none !important; }
 .ziurs-app .range-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
 .ziurs-app .range-head output { font-weight: 700; color: var(--teal); font-variant-numeric: tabular-nums; }
 .ziurs-app input[type="range"] { width: 100%; accent-color: var(--teal); height: 32px; margin: 0; }
@@ -276,21 +285,52 @@
 .ziurs-app .preview { background: var(--paper); border-radius: 20px; padding: 20px; display: flex; flex-direction: column; align-items: center; gap: 12px; }
 .ziurs-app .preview canvas { max-width: 100%; max-height: 560px; width: auto; height: auto; border-radius: 12px; box-shadow: 0 20px 40px -20px rgba(22,32,40,.45); }
 .ziurs-app .preview-note { font-size: 13px; color: var(--muted); text-align: center; }
-.ziurs-app .picker { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
-
-@media (min-width: 520px) {
-.ziurs-app .picker { grid-template-columns: repeat(4, 1fr); }
-
+.ziurs-app .picker {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 8px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding: 2px 2px 8px;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
 }
-.ziurs-app .pick { position: relative; }
+.ziurs-app .pick { position: relative; flex: 0 0 auto; width: 84px; scroll-snap-align: start; }
+.ziurs-app .pick[hidden] { display: none !important; }
 .ziurs-app .pick input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
-.ziurs-app .pick span { display: flex; flex-direction: column; gap: 8px; height: 100%; padding: 10px; border: 1.5px solid var(--line); border-radius: 12px; font-size: 13px; font-weight: 600; line-height: 1.3; background: var(--white); transition: border-color .15s, box-shadow .15s; }
-.ziurs-app .pick i { display: block; height: 28px; border-radius: 6px; }
+.ziurs-app .pick span {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 100%;
+  padding: 6px;
+  border: 1.5px solid var(--line);
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  align-items: center;
+  background: var(--white);
+  transition: border-color .15s, box-shadow .15s;
+}
+.ziurs-app .pick i {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
 .ziurs-app .pick input:checked + span { border-color: var(--navy); box-shadow: 0 0 0 1px var(--navy); }
 .ziurs-app .pick input:focus-visible + span { outline: 3px solid var(--gold); outline-offset: 2px; }
 .ziurs-app .sw-navy { background: var(--navy); }
 .ziurs-app .sw-teal { background: var(--teal); }
 .ziurs-app .sw-paper { background: var(--paper); border: 1px solid var(--line); }
+.ziurs-app .sw-ink { background: linear-gradient(90deg, var(--ink) 60%, var(--gold) 60%); }
+.ziurs-app .sw-gold { background: linear-gradient(90deg, var(--navy) 55%, var(--gold) 55%); }
 .ziurs-app .seg { display: inline-flex; background: var(--paper); border-radius: 12px; padding: 4px; gap: 4px; }
 .ziurs-app .seg label { position: relative; }
 .ziurs-app .seg input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }

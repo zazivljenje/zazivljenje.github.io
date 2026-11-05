@@ -61,7 +61,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/ziurs.css?v=11">
+<link rel="stylesheet" href="/css/ziurs.css?v=18">
 <link rel="manifest" href="/manifest.json">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -254,6 +254,7 @@
 
 <div class="ziurs-app">
 <div class="app" id="zz-app">
+  <img id="usidrani-logo" class="sr-only" src="/images/organizacije/usidrani.png" alt="" width="1" height="1" decoding="async">
   <header class="app-header">
     <div class="brand-row">
       <a class="brand" href="/aplikacije/" aria-label="Za življenje! – vse aplikacije">
@@ -361,7 +362,7 @@
           <p class="tag mt-16"><svg class="icon icon-sm"><use href="#i-check"/></svg> Mesečna olajšava pri hrani</p>
         </article>
         <article class="card">
-          <p class="label-up">DDV na energijo in komunalo</p>
+          <p class="label-up">DDV na energijo</p>
           <p class="rate"><span class="rate-old">22&nbsp;%</span><svg class="icon rate-arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg><span class="rate-new">9,5&nbsp;%</span><span class="sr-only">(prej 22 %, zdaj 9,5 %)</span></p>
           <p class="small">Sezonski blažilec (približno 9 mesecev) za lažje zimske račune za ogrevanje in elektriko.</p>
           <p class="tag mt-16"><svg class="icon icon-sm"><use href="#i-zap"/></svg> Blaži zimske skoke stroškov</p>
@@ -491,20 +492,45 @@
             <p class="hint">Dolgoročni najem: pogodba za mlade do 30 let ali družine z otroki.</p>
           </fieldset>
 
-          <fieldset class="field">
-            <legend>Glavni vir dohodka</legend>
-            <div class="chips">
-              <label class="chip"><input type="radio" name="employment" value="standard" checked><span>Zaposlen/a</span></label>
-              <label class="chip"><input type="radio" name="employment" value="sp_micro"><span>Mikro s.p.</span></label>
-              <label class="chip"><input type="radio" name="employment" value="retiree"><span>Delovni upokojenec</span></label>
-              <label class="chip"><input type="radio" name="employment" value="highearner"><span>Visok dohodek</span></label>
-            </div>
-          </fieldset>
+          <div class="field" id="earners">
+            <p class="field-label" id="earners-label">Dohodek in delo</p>
+            <p class="hint" id="income-hint" style="margin-top:0;margin-bottom:12px">Vnesi bruto dohodek na osebo</p>
 
-          <div class="field">
-            <label class="field-label" for="sim-income">Bruto mesečni dohodek</label>
-            <div class="money"><input type="number" id="sim-income" name="income" inputmode="numeric" value="2200" min="0" max="20000" step="100" aria-describedby="income-hint"></div>
-            <p class="hint" id="income-hint">Vpliva na oceno pri zaposlenih in visokih dohodkih.</p>
+            <div class="earner" data-earner="a">
+              <p class="earner-title" id="earner-a-title">1. oseba</p>
+              <fieldset>
+                <legend class="sr-only">Vir dohodka, 1. oseba</legend>
+                <div class="chips">
+                  <label class="chip"><input type="radio" name="employment_a" value="standard" checked><span>Zaposlen/a</span></label>
+                  <label class="chip"><input type="radio" name="employment_a" value="sp_micro"><span>Mikro s.p.</span></label>
+                  <label class="chip"><input type="radio" name="employment_a" value="retiree"><span>Delovni upokojenec</span></label>
+                  <label class="chip"><input type="radio" name="employment_a" value="highearner"><span>Visok dohodek</span></label>
+                  <label class="chip"><input type="radio" name="employment_a" value="none"><span>Brez dohodka</span></label>
+                </div>
+              </fieldset>
+              <div class="earner-income" id="earner-a-income">
+                <label class="field-label" for="sim-income-a">Bruto mesečni dohodek</label>
+                <div class="money"><input type="number" id="sim-income-a" name="income_a" inputmode="numeric" value="2200" min="0" max="20000" step="100"></div>
+              </div>
+            </div>
+
+            <div class="earner" data-earner="b" id="earner-b">
+              <p class="earner-title" id="earner-b-title">2. oseba</p>
+              <fieldset>
+                <legend class="sr-only">Vir dohodka, 2. oseba</legend>
+                <div class="chips">
+                  <label class="chip"><input type="radio" name="employment_b" value="sp_micro" checked><span>Mikro s.p.</span></label>
+                  <label class="chip"><input type="radio" name="employment_b" value="standard"><span>Zaposlen/a</span></label>
+                  <label class="chip"><input type="radio" name="employment_b" value="retiree"><span>Delovni upokojenec</span></label>
+                  <label class="chip"><input type="radio" name="employment_b" value="highearner"><span>Visok dohodek</span></label>
+                  <label class="chip"><input type="radio" name="employment_b" value="none"><span>Brez dohodka</span></label>
+                </div>
+              </fieldset>
+              <div class="earner-income" id="earner-b-income">
+                <label class="field-label" for="sim-income-b">Bruto mesečni dohodek</label>
+                <div class="money"><input type="number" id="sim-income-b" name="income_b" inputmode="numeric" value="1800" min="0" max="20000" step="100"></div>
+              </div>
+            </div>
           </div>
 
           <div class="grid grid-2 field">
@@ -544,6 +570,7 @@
               <li>Hrana: 60&nbsp;% košarice so osnovna živila, DDV nižji za 4,5 odstotne točke.</li>
               <li>Energija: DDV nižji za 12,5 odstotne točke, preračunano na 9 mesecev v letu.</li>
               <li>Najem: tipičen prenos davčne olajšave na najemnika.</li>
+              <li>Delo: korist za vsako osebo posebej (pri paru seštevek), glede na njen vir dohodka in bruto.</li>
               <li>Prispevki: razlika med starim in novim pragom za mikro s.p.</li>
               <li>Gre za ilustrativno oceno, ne za uradni izračun.</li>
             </ul>
@@ -555,8 +582,8 @@
     
     <section class="panel" id="step-5" aria-labelledby="h-5">
       <div class="section-head">
-        <p class="eyebrow"><svg class="icon icon-sm"><use href="#i-share"/></svg> Deli naprej</p>
-        <h2 class="h2" id="h-5" tabindex="-1">Deli aplikacijo in pomagaj drugim družinam!</h2>
+        <p class="eyebrow"><svg class="icon icon-sm"><use href="#i-share"/></svg> Deli z drugimi</p>
+        <h2 class="h2" id="h-5" tabindex="-1">Deli aplikacijo in pomagaj drugim!</h2>
         <p class="lead">Izberi motiv, uredi sporočilo in deli z drugimi. Skupaj gradimo konkurenčno in družini prijazno prihodnost.</p>
       </div>
 
@@ -576,6 +603,10 @@
               <label class="pick"><input type="radio" name="card" value="hrana" checked><span><i class="sw-navy"></i>Hrana in energija</span></label>
               <label class="pick"><input type="radio" name="card" value="stanovanje"><span><i class="sw-teal"></i>Stanovanje</span></label>
               <label class="pick"><input type="radio" name="card" value="sp"><span><i class="sw-paper"></i>Samozaposleni</span></label>
+              <label class="pick pick--slogan"><input type="radio" name="card" value="wallet"><span><i class="sw-ink"></i>My wallet, my choice</span></label>
+              <label class="pick pick--slogan"><input type="radio" name="card" value="miklavz"><span><i class="sw-gold"></i>Sv. Miklavž</span></label>
+              <label class="pick pick--slogan"><input type="radio" name="card" value="bozic"><span><i class="sw-teal"></i>Božična darila</span></label>
+              <label class="pick pick--slogan"><input type="radio" name="card" value="gume"><span><i class="sw-paper"></i>Zimske gume</span></label>
             </div>
           </fieldset>
 
@@ -634,7 +665,7 @@
 </div>
 </div>
   </section>
-</div><script src="/js/ziurs.js?v=8" defer></script>
+</div><script src="/js/ziurs.js?v=20" defer></script>
     </main>
     
 <footer class="footer">

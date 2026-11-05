@@ -116,12 +116,39 @@
   const result = { total: 0, annual: 0 };
   let totalShown = 0, tweenId = 0;
 
+  const isCouple = (family) => family === 'couple_child' || family === 'couple_no_child';
+
+  function empBenefit(employment, income) {
+    if (employment === 'none') return 0;
+    if (employment === 'sp_micro') return 320;
+    if (employment === 'highearner') return Math.max(0, (income - 7500) * 0.12);
+    if (employment === 'retiree') return 90;
+    return income > 2500 ? 25 : 15;
+  }
+
+  function syncEarners() {
+    const family = form.elements.family?.value || $('input[name="family"]:checked')?.value;
+    const couple = isCouple(family);
+    const earnerB = $('#earner-b');
+    if (earnerB) {
+      earnerB.hidden = !couple;
+      $$('input', earnerB).forEach((el) => { el.disabled = !couple; });
+    }
+    const hint = $('#income-hint');
+    if (hint) hint.textContent = 'Vnesi bruto dohodek na osebo';
+    $$('.earner').forEach((block) => {
+      const key = block.dataset.earner;
+      const emp = $(`input[name="employment_${key}"]:checked`)?.value;
+      const incomeWrap = $(`#earner-${key}-income`);
+      if (incomeWrap) incomeWrap.hidden = emp === 'none';
+    });
+  }
+
   function runSimulation() {
+    syncEarners();
     const fd = new FormData(form);
-    const employment = fd.get('employment');
     const family = fd.get('family');
     const housing = fd.get('housing');
-    const income = Math.max(0, parseFloat(fd.get('income')) || 0);
     const groceries = parseFloat(fd.get('groceries')) || 0;
     const energy = parseFloat(fd.get('energy')) || 0;
 
@@ -132,10 +159,11 @@
     const energySave = energy * (0.22 - 0.095) * (9 / 12);
     const withKids = family === 'couple_child' || family === 'single_parent';
     const housingSave = housing === 'youth_rent' ? (withKids ? 65 : 45) : housing === 'standard_rent' ? 15 : 0;
-    const emp = employment === 'sp_micro' ? 320
-      : employment === 'highearner' ? Math.max(0, (income - 7500) * 0.12)
-      : employment === 'retiree' ? 90
-      : income > 2500 ? 25 : 15;
+
+    const incomeA = Math.max(0, parseFloat(fd.get('income_a')) || 0);
+    const empA = empBenefit(fd.get('employment_a'), incomeA);
+    const empB = isCouple(family) ? empBenefit(fd.get('employment_b'), Math.max(0, parseFloat(fd.get('income_b')) || 0)) : 0;
+    const emp = empA + empB;
 
     const parts = { food, energy: energySave, housing: housingSave, emp };
     const total = food + energySave + housingSave + emp;
@@ -150,7 +178,7 @@
     $('#mini-total').textContent = eur(Math.round(total)) + '/mes.';
     Object.entries(parts).forEach(([k, v]) => { $('#sb-' + k).style.width = (total ? v / total * 100 : 0) + '%'; });
     tweenTotal(total);
-    if (current === 6) renderCard();
+    if (current === 5) renderCard();
   }
 
   function tweenTotal(target) {
@@ -175,6 +203,7 @@
     navy:  { bg: '#1a3348', ink: '#f7f5f1', muted: 'rgba(247,245,241,0.72)', accent: '#c6a15a', ctaBg: '#c6a15a', ctaInk: '#162028' },
     teal:  { bg: '#0c5d68', ink: '#ffffff', muted: 'rgba(255,255,255,0.76)', accent: '#ffffff', ctaBg: '#f7f5f1', ctaInk: '#0c5d68' },
     paper: { bg: '#f7f5f1', ink: '#162028', muted: '#56636d', accent: '#0c5d68', ctaBg: '#1a3348', ctaInk: '#ffffff' },
+    ink:   { bg: '#162028', ink: '#f7f5f1', muted: 'rgba(247,245,241,0.7)', accent: '#c6a15a', ctaBg: '#c6a15a', ctaInk: '#162028' },
   };
 
   const CARDS = {
@@ -182,9 +211,9 @@
       theme: 'navy',
       eyebrow: 'DDV na hrano in energijo',
       headline: 'Nižji DDV pomeni, da več denarja ostane v družinskem proračunu.',
-      stats: [{ from: '9,5 %', to: '5 %', label: 'osnovna živila' }, { from: '22 %', to: '9,5 %', label: 'energija in komunala' }],
-      cta: 'Preveri vpliv na svojo družino',
-      caption: 'Ali je interventni zakon (ZIURS) družinam prijazen? DDV na osnovna živila se zniža z 9,5 % na 5 %, na energijo z 22 % na 9,5 %. Preveri, kaj to pomeni za tvojo družino:',
+      stats: [{ from: '9,5 %', to: '5 %', label: 'osnovna živila' }, { from: '22 %', to: '9,5 %', label: 'energija' }],
+      cta: 'Kako bo vplival na tvojo družino?',
+      caption: 'Kako bo razvojni zakon (ZIURS) vplival na družine? DDV na osnovna živila se zniža z 9,5 % na 5 %, na energijo z 22 % na 9,5 %. Preveri, kaj to pomeni za tvojo družino:',
       url: SHARE_URL,
     }),
     stanovanje: () => ({
@@ -193,7 +222,7 @@
       headline: 'Samo 5 % davka, ko lastnik dolgoročno odda mladim ali družini z otroki.',
       big: '50–120 €',
       bigLabel: 'ocenjena mesečna olajšava pri najemnini',
-      cta: 'Izračunaj svojo korist',
+      cta: 'Kako bo vplival na tvojo družino?',
       caption: 'Lastniki, ki dolgoročno oddajo stanovanje mladim ali družinam z otroki, plačajo le 5 % davka. Ocenjena olajšava pri najemnini: 50–120 € na mesec. Izračunaj, kaj to pomeni zate:',
       url: SHARE_URL,
     }),
@@ -202,8 +231,40 @@
       eyebrow: 'Samozaposleni starši',
       headline: 'Fiksni prispevki mikro s.p. se znižajo za več kot polovico.',
       stats: [{ from: '~650 €', to: '~250 €', label: 'mesečni prispevki' }],
-      cta: 'Preveri vpliv na svojo družino',
+      cta: 'Kako bo vplival na tvojo družino?',
       caption: 'Samozaposleni starši: prispevki za mikro s.p. se znižajo z ~650 € na ~250 € na mesec. Več denarja za družino v prvih, najtežjih letih. Preveri svoj vpliv:',
+      url: SHARE_URL,
+    }),
+    wallet: () => ({
+      theme: 'ink',
+      eyebrow: 'ZIURS',
+      headline: 'My wallet, my choice',
+      cta: 'Kako bo vplival na tvojo družino?',
+      caption: 'My wallet, my choice. Kako bo razvojni zakon (ZIURS) vplival na tvojo družino? Preveri v interaktivnem vodiču:',
+      url: SHARE_URL,
+    }),
+    miklavz: () => ({
+      theme: 'navy',
+      eyebrow: 'Sv. Miklavž',
+      headline: 'Dragi sv. Miklavž, letos namesto daril - nižje davke!',
+      cta: 'Kako bo vplival na tvojo družino?',
+      caption: 'Dragi sv. Miklavž, letos namesto daril - nižje davke! Kako bo razvojni zakon (ZIURS) vplival na tvojo družino? Preveri v interaktivnem vodiču:',
+      url: SHARE_URL,
+    }),
+    bozic: () => ({
+      theme: 'teal',
+      eyebrow: 'Božič',
+      headline: 'Letos bo božična darila plačal razvojni zakon!',
+      cta: 'Kako bo vplival na tvojo družino?',
+      caption: 'Letos bo božična darila plačal razvojni zakon! Kako bo ZIURS vplival na tvojo družino? Preveri v interaktivnem vodiču:',
+      url: SHARE_URL,
+    }),
+    gume: () => ({
+      theme: 'paper',
+      eyebrow: 'Zimske gume',
+      headline: 'Letos bo zimske gume plačal razvojni zakon!',
+      cta: 'Kako bo vplival na tvojo družino?',
+      caption: 'Letos bo zimske gume plačal razvojni zakon! Kako bo ZIURS vplival na tvojo družino? Preveri v interaktivnem vodiču:',
       url: SHARE_URL,
     }),
   };
@@ -212,6 +273,8 @@
   const ctx = canvas.getContext('2d');
   const logoImg = new Image();
   logoImg.src = $('#zz-logo').src;
+  const usidraniImg = new Image();
+  usidraniImg.src = $('#usidrani-logo')?.src || '';
   let captionDirty = false;
   const fontsReady = (document.fonts ? Promise.all([
     document.fonts.load('700 72px Literata', 'ČŠŽčšž'),
@@ -220,6 +283,24 @@
     document.fonts.load('400 30px Inter', 'ČŠŽčšž€'),
   ]).catch(() => {}) : Promise.resolve());
   const logoReady = logoImg.decode ? logoImg.decode().catch(() => {}) : Promise.resolve();
+  const usidraniReady = usidraniImg.decode ? usidraniImg.decode().catch(() => {}) : Promise.resolve();
+
+  function drawCircledLogo(img, cx, cy, r, { stroke = false, inset = 14, clip = false } = {}) {
+    ctx.fillStyle = '#ffffff';
+    ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.fill();
+    if (stroke) { ctx.strokeStyle = 'rgba(22,32,40,0.12)'; ctx.lineWidth = 2; ctx.stroke(); }
+    if (!(img.complete && img.naturalWidth)) return;
+    const size = r * 2 - inset * 2;
+    const x = cx - r + inset, y = cy - r + inset;
+    if (clip) {
+      ctx.save();
+      ctx.beginPath(); ctx.arc(cx, cy, r - 1, 0, Math.PI * 2); ctx.clip();
+      ctx.drawImage(img, x, y, size, size);
+      ctx.restore();
+    } else {
+      ctx.drawImage(img, x, y, size, size);
+    }
+  }
 
   const selected = () => ({
     card: $('input[name="card"]:checked').value,
@@ -246,7 +327,7 @@
   function setSpacing(px) { if ('letterSpacing' in ctx) ctx.letterSpacing = px + 'px'; }
 
   async function renderCard() {
-    await Promise.all([fontsReady, logoReady]);
+    await Promise.all([fontsReady, logoReady, usidraniReady]);
     const { card, format } = selected();
     const d = CARDS[card]();
     const t = THEMES[d.theme];
@@ -266,10 +347,7 @@
 
     // Brand header
     const logoR = 52;
-    ctx.fillStyle = '#ffffff';
-    ctx.beginPath(); ctx.arc(padX + logoR, padTop + logoR, logoR, 0, Math.PI * 2); ctx.fill();
-    if (d.theme === 'paper') { ctx.strokeStyle = 'rgba(22,32,40,0.12)'; ctx.lineWidth = 2; ctx.stroke(); }
-    if (logoImg.complete && logoImg.naturalWidth) ctx.drawImage(logoImg, padX + 14, padTop + 14, logoR * 2 - 28, logoR * 2 - 28);
+    drawCircledLogo(logoImg, padX + logoR, padTop + logoR, logoR, { stroke: d.theme === 'paper', inset: 14 });
     setSpacing(0);
     ctx.fillStyle = t.ink; ctx.font = '700 40px Inter';
     ctx.fillText('Za življenje!', padX + logoR * 2 + 28, padTop + 18);
@@ -279,6 +357,9 @@
 
     // Bottom block (drawn bottom-up)
     const footY = H - padBottom - 30;
+    const usidCx = W - 36 - logoR;
+    const usidCy = H - 36 - logoR;
+    drawCircledLogo(usidraniImg, usidCx, usidCy, logoR, { stroke: d.theme === 'paper', inset: 4, clip: true });
     ctx.fillStyle = t.muted; ctx.font = '400 26px Inter';
     ctx.fillText('Ilustrativna ocena · interventni zakon ZIURS', padX, footY);
     const ctaH = 120, ctaY = footY - 40 - ctaH;
@@ -351,7 +432,8 @@
       wrap(d.bigLabel, innerW).forEach((ln) => { ctx.fillText(ln, padX, y); y += 44; });
     }
 
-    canvas.setAttribute('aria-label', `Predogled slike: ${d.eyebrow}. ${d.headline} ${d.big || d.stats.map(s => s.label + ' ' + s.to).join(', ')}`);
+    const detail = d.big || (d.stats ? d.stats.map(s => s.label + ' ' + s.to).join(', ') : '');
+    canvas.setAttribute('aria-label', `Predogled slike: ${d.eyebrow}. ${d.headline}${detail ? ' ' + detail : ''}`);
     if (!captionDirty) $('#caption').value = composeCaption(d);
   }
 
