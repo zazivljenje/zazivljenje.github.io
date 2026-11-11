@@ -24,29 +24,8 @@ END:STANDARD
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:dogodek-2026-11-06-nenacrtovana-pota@zazivljenje.com
-DTSTAMP:20261105T214113Z
-DTSTART:20261106T150000Z
-DURATION:PT1H30M
-SUMMARY:Nenačrtovana pota v Odiseji ob 16.00
-DESCRIPTION:Film Nenačrtovana pota je v petek\, 6. novembra ob 16.00 v dvorani 9 kina Odiseja v Ljubljani. Vstopnice so na Odiseji. Več o filmu je na nenacrtovanapota.si. https://www.odiseja.si/sl/screen/?id=9f6a78dc-53f6-4943-827f-2203657b6240&amp;cid=c7db67d7-4939-4716-b75b-31340d5bdd05
-
-LOCATION:Moskovska ulica 11\, 1000 Ljubljana\, Slovenija
-
-GEO:46.0657397;14.5499795
-
-URL:https://www.odiseja.si/sl/screen/?id=9f6a78dc-53f6-4943-827f-2203657b6240&amp;cid=c7db67d7-4939-4716-b75b-31340d5bdd05
-
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Nenačrtovana pota v Odiseji ob 16.00
-TRIGGER:-PT1H
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
 UID:dogodek-2026-11-e-priprava@zazivljenje.com
-DTSTAMP:20261105T214113Z
+DTSTAMP:20261111T092458Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20270301
 SUMMARY:E-priprava na zakon
@@ -66,134 +45,8 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:dogodek-2026-11-07-nenacrtovana-pota@zazivljenje.com
-DTSTAMP:20261105T214113Z
-DTSTART:20261107T143000Z
-DURATION:PT1H30M
-SUMMARY:Nenačrtovana pota v Odiseji ob 15.30
-DESCRIPTION:Film Nenačrtovana pota je v soboto\, 7. novembra ob 15.30 v dvorani 3 kina Odiseja v Ljubljani. Vstopnice so na Odiseji. Več o filmu je na nenacrtovanapota.si. https://www.odiseja.si/sl/screen/?id=8bd86d80-7fc6-415b-919c-6af7234da52f&amp;cid=c7db67d7-4939-4716-b75b-31340d5bdd05
-
-LOCATION:Moskovska ulica 11\, 1000 Ljubljana\, Slovenija
-
-GEO:46.0657397;14.5499795
-
-URL:https://www.odiseja.si/sl/screen/?id=8bd86d80-7fc6-415b-919c-6af7234da52f&amp;cid=c7db67d7-4939-4716-b75b-31340d5bdd05
-
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Nenačrtovana pota v Odiseji ob 15.30
-TRIGGER:-PT1H
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:dogodek-2026-11-08-nenacrtovana-pota@zazivljenje.com
-DTSTAMP:20261105T214113Z
-DTSTART:20261108T140000Z
-DURATION:PT1H30M
-SUMMARY:Nenačrtovana pota v Odiseji ob 15.00
-DESCRIPTION:Film Nenačrtovana pota je v nedeljo\, 8. novembra ob 15.00 v dvorani 4 LED kina Odiseja v Ljubljani. Vstopnice so na Odiseji. Več o filmu je na nenacrtovanapota.si. https://www.odiseja.si/sl/screen/?id=027bba82-72a9-4635-942d-625659fa5a1f&amp;cid=c7db67d7-4939-4716-b75b-31340d5bdd05
-
-LOCATION:Moskovska ulica 11\, 1000 Ljubljana\, Slovenija
-
-GEO:46.0657397;14.5499795
-
-URL:https://www.odiseja.si/sl/screen/?id=027bba82-72a9-4635-942d-625659fa5a1f&amp;cid=c7db67d7-4939-4716-b75b-31340d5bdd05
-
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Nenačrtovana pota v Odiseji ob 15.00
-TRIGGER:-PT1H
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:dogodek-2026-11-09-nenacrtovana-pota@zazivljenje.com
-DTSTAMP:20261105T214113Z
-DTSTART:20261109T154000Z
-DURATION:PT1H30M
-SUMMARY:Nenačrtovana pota v Odiseji ob 16.40
-DESCRIPTION:Film Nenačrtovana pota je v ponedeljek\, 9. novembra ob 16.40 v dvorani 11 kina Odiseja v Ljubljani. Vstopnice so na Odiseji. Več o filmu je na nenacrtovanapota.si. https://www.odiseja.si/sl/screen/?id=6bff1455-983f-4829-a75b-b961a198979f&amp;cid=c7db67d7-4939-4716-b75b-31340d5bdd05
-
-LOCATION:Moskovska ulica 11\, 1000 Ljubljana\, Slovenija
-
-GEO:46.0657397;14.5499795
-
-URL:https://www.odiseja.si/sl/screen/?id=6bff1455-983f-4829-a75b-b961a198979f&amp;cid=c7db67d7-4939-4716-b75b-31340d5bdd05
-
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Nenačrtovana pota v Odiseji ob 16.40
-TRIGGER:-PT1H
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:dogodek-2026-11-10-nenacrtovana-pota-1100@zazivljenje.com
-DTSTAMP:20261105T214113Z
-DTSTART:20261110T100000Z
-DURATION:PT1H30M
-SUMMARY:Nenačrtovana pota v Odiseji ob 11.00
-DESCRIPTION:Film Nenačrtovana pota je v torek\, 10. novembra ob 11.00 v dvorani 11 kina Odiseja v Ljubljani. Vstopnice so na Odiseji. Več o filmu je na nenacrtovanapota.si. https://www.odiseja.si/sl/movie/nenacrtovana-pota/
-
-LOCATION:Moskovska ulica 11\, 1000 Ljubljana\, Slovenija
-
-GEO:46.0657397;14.5499795
-
-URL:https://www.odiseja.si/sl/movie/nenacrtovana-pota/
-
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Nenačrtovana pota v Odiseji ob 11.00
-TRIGGER:-PT1H
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:dogodek-2026-11-10-nenacrtovana-pota-1640@zazivljenje.com
-DTSTAMP:20261105T214113Z
-DTSTART:20261110T154000Z
-DURATION:PT1H30M
-SUMMARY:Nenačrtovana pota v Odiseji ob 16.40
-DESCRIPTION:Film Nenačrtovana pota je v torek\, 10. novembra ob 16.40 v dvorani 11 kina Odiseja v Ljubljani. Istega dne je še dopoldanska projekcija ob 11.00. Vstopnice so na Odiseji. Več o filmu je na nenacrtovanapota.si. https://www.odiseja.si/sl/movie/nenacrtovana-pota/
-
-LOCATION:Moskovska ulica 11\, 1000 Ljubljana\, Slovenija
-
-GEO:46.0657397;14.5499795
-
-URL:https://www.odiseja.si/sl/movie/nenacrtovana-pota/
-
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Nenačrtovana pota v Odiseji ob 16.40
-TRIGGER:-PT1H
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:debatni-klub-usidrani@zazivljenje.com
-DTSTAMP:20261105T214113Z
-DTSTART;TZID=Europe/Ljubljana:20261013T200000
-DTEND;TZID=Europe/Ljubljana:20261013T220000
-RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20271012T200000Z
-SUMMARY:Debatni klub Usidrani
-DESCRIPTION:Debatni klub Usidrani se od torka\, 13. oktobra 2026\, srečuje vsak torek ob 20.00 v središču Ljubljane. Natančen kraj udeleženci prejmejo ob prijavi. Vodi ga Peter Merše\, novinar in politični komentator. Vabljeni so predvsem študenti in mladi v poklicih. Enkratni prispevek za sezono 2026–27 je 5 evrov. Srečanje se začne z argumentom\, logičnimi napakami in retoriko\, nato sledi debata v obliki pro et contra in kratek razmislek. Teme so življenje\, zakonska zveza in družina\, spol\, starševske pravice ter svoboda govora in vere. Prijavnica: https://docs.google.com/forms/d/e/1FAIpQLScJuB4h0XJu42L6el4GrA6fpkKs99shstHRrIS-qrVey4Sg6A/viewform https://usidrani.si/prihaja-debatni-klub-usidrani/
-
-LOCATION:Center Ljubljane
-
-
-URL:https://usidrani.si/prihaja-debatni-klub-usidrani/
-
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Debatni klub Usidrani
-TRIGGER:-PT1H
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
 UID:dogodek-2026-11-11-nenacrtovana-pota@zazivljenje.com
-DTSTAMP:20261105T214113Z
+DTSTAMP:20261111T092458Z
 DTSTART:20261111T154000Z
 DURATION:PT1H30M
 SUMMARY:Nenačrtovana pota v Odiseji ob 16.40
@@ -214,7 +67,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:mali-pohod-kurescek@zazivljenje.com
-DTSTAMP:20261105T214113Z
+DTSTAMP:20261111T092458Z
 DTSTART;TZID=Europe/Ljubljana:20261008T170000
 DTEND;TZID=Europe/Ljubljana:20261008T190000
 RRULE:FREQ=MONTHLY;BYDAY=2TH
@@ -236,7 +89,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-11-zalec-masa@zazivljenje.com
-DTSTAMP:20261105T214113Z
+DTSTAMP:20261111T092458Z
 DTSTART:20261114T173000Z
 DURATION:PT1H30M
 SUMMARY:Sv. maša za zakonce\, ki si želijo otrok — Žalec
@@ -257,7 +110,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-11-dan-molitve-mamice@zazivljenje.com
-DTSTAMP:20261105T214113Z
+DTSTAMP:20261111T092458Z
 DTSTART:20261117T140000Z
 DTEND:20261117T160000Z
 SUMMARY:Dan molitve za mamice\, ki razmišljajo o splavu
@@ -276,8 +129,29 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
+UID:debatni-klub-usidrani@zazivljenje.com
+DTSTAMP:20261111T092458Z
+DTSTART;TZID=Europe/Ljubljana:20261013T200000
+DTEND;TZID=Europe/Ljubljana:20261013T220000
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20271012T200000Z
+SUMMARY:Debatni klub Usidrani
+DESCRIPTION:Debatni klub Usidrani se od torka\, 13. oktobra 2026\, srečuje vsak torek ob 20.00 v središču Ljubljane. Natančen kraj udeleženci prejmejo ob prijavi. Vodi ga Peter Merše\, novinar in politični komentator. Vabljeni so predvsem študenti in mladi v poklicih. Enkratni prispevek za sezono 2026–27 je 5 evrov. Srečanje se začne z argumentom\, logičnimi napakami in retoriko\, nato sledi debata v obliki pro et contra in kratek razmislek. Teme so življenje\, zakonska zveza in družina\, spol\, starševske pravice ter svoboda govora in vere. Prijavnica: https://docs.google.com/forms/d/e/1FAIpQLScJuB4h0XJu42L6el4GrA6fpkKs99shstHRrIS-qrVey4Sg6A/viewform https://usidrani.si/prihaja-debatni-klub-usidrani/
+
+LOCATION:Center Ljubljane
+
+
+URL:https://usidrani.si/prihaja-debatni-klub-usidrani/
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Debatni klub Usidrani
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
 UID:dogodek-2026-11-logoterapevtski-pogovor-mediacija@zazivljenje.com
-DTSTAMP:20261105T214113Z
+DTSTAMP:20261111T092458Z
 DTSTART:20261127T150000Z
 DTEND:20261128T153000Z
 SUMMARY:Logoterapevtski pogovor in mediacija
@@ -298,7 +172,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-12-logodrama@zazivljenje.com
-DTSTAMP:20261105T214113Z
+DTSTAMP:20261111T092458Z
 DTSTART:20261211T150000Z
 DTEND:20261212T163000Z
 SUMMARY:Logodrama
@@ -319,7 +193,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2027-01-logoterapija-mladostniki-ii@zazivljenje.com
-DTSTAMP:20261105T214113Z
+DTSTAMP:20261111T092458Z
 DTSTART:20270129T150000Z
 DTEND:20270130T153000Z
 SUMMARY:Logoterapija in delo z mladostniki II
@@ -340,7 +214,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2027-05-omame-zasvojenosti-logoterapija@zazivljenje.com
-DTSTAMP:20261105T214113Z
+DTSTAMP:20261111T092458Z
 DTSTART:20270521T140000Z
 DTEND:20270522T143000Z
 SUMMARY:Omame in zasvojenosti kot izziv za terapevtsko in preventivno delo
@@ -361,7 +235,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2027-06-partnerska-terapija-logoterapija@zazivljenje.com
-DTSTAMP:20261105T214113Z
+DTSTAMP:20261111T092458Z
 DTSTART:20270604T140000Z
 DTEND:20270605T143000Z
 SUMMARY:Partnerska terapija skozi oči logoterapije
@@ -382,7 +256,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2027-07-uvod-v-logoterapijo@zazivljenje.com
-DTSTAMP:20261105T214113Z
+DTSTAMP:20261111T092458Z
 DTSTART:20270702T140000Z
 DTEND:20270703T133000Z
 SUMMARY:Uvod v logoterapijo
@@ -403,7 +277,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2027-09-uvod-v-logoterapijo@zazivljenje.com
-DTSTAMP:20261105T214113Z
+DTSTAMP:20261111T092458Z
 DTSTART:20270910T140000Z
 DTEND:20270911T133000Z
 SUMMARY:Uvod v logoterapijo
