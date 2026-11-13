@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Za življenje//Koledar//SL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Spominska sv. maša za ozdravljenje po izgubi otroka (Ljubljana)
+X-WR-TIMEZONE:Europe/Ljubljana
+BEGIN:VTIMEZONE
+TZID:Europe/Ljubljana
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:dogodek-2026-12-19-spominska-masa-ljubljana@zazivljenje.com
+DTSTAMP:20261113T220311Z
+DTSTART:20261219T090000Z
+DTEND:20261219T100000Z
+SUMMARY:Spominska sv. maša za ozdravljenje po izgubi otroka (Ljubljana)
+DESCRIPTION:Spominska sveta maša za starše\, ki žalujejo po izgubi otroka (tudi po spontanem ali umetnem splavu\, zunajmaternični nosečnosti\, nesreči\, bolezni\, samomoru\, mrtvorojenosti ali drugi izgubi). Dobrodošli so tudi drugi žalujoči svojci. Kdaj? 19. december 2026\, 10.00–11.00 Kje? Cerkev Srca Jezusovega\, Ljubljana-Tabor Organizator: Zavod ŽIV!M — podrobnosti in kontakt https://www.zavod-zivim.si/dogodki/spominska-sv-masa-za-ozdravljenje-po-izgubi-otroka-ljubljana-2/
+
+LOCATION:Ljubljana-Tabor
+
+
+URL:https://www.zavod-zivim.si/dogodki/spominska-sv-masa-za-ozdravljenje-po-izgubi-otroka-ljubljana-2/
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Spominska sv. maša za ozdravljenje po izgubi otroka (Ljubljana)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR
