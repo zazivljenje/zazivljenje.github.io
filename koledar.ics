@@ -25,7 +25,7 @@ END:VTIMEZONE
 
 BEGIN:VEVENT
 UID:dogodek-2026-11-e-priprava@zazivljenje.com
-DTSTAMP:20261113T221319Z
+DTSTAMP:20261119T033011Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20270301
 SUMMARY:E-priprava na zakon
@@ -45,49 +45,8 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:dogodek-2026-11-zalec-masa@zazivljenje.com
-DTSTAMP:20261113T221319Z
-DTSTART:20261114T173000Z
-DURATION:PT1H30M
-SUMMARY:Sv. maša za zakonce\, ki si želijo otrok — Žalec
-DESCRIPTION:Se soočata s preizkušnjo\, ko otroka ni in ni? V cerkvi sv. Miklavža v Žalcu bo v soboto\, 14. novembra 2026\, ob 18.30 sveta maša. Maševal bo Vlado Bizjak. Med sveto mašo bo pričevanje zakonskega para\, po sv. maši pa molitev pred Najsvetejšim za ozdravljenje in rodovitnost. Sveta maša bo tudi zahvalna za 10 let delovanja Zavoda Neplodnost in najina rodovitnost. https://www.neplodnost-rodovitnost.si/sv-masa-za-zakonce-ki-si-zelijo-otrok-14-november-2026-zalec/
-
-LOCATION:Savinjska cesta 9\, 3310 Žalec\, Slovenija
-
-GEO:46.2519459;15.1642383
-
-URL:https://www.neplodnost-rodovitnost.si/sv-masa-za-zakonce-ki-si-zelijo-otrok-14-november-2026-zalec/
-
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Sv. maša za zakonce\, ki si želijo otrok — Žalec
-TRIGGER:-PT1H
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:dogodek-2026-11-dan-molitve-mamice@zazivljenje.com
-DTSTAMP:20261113T221319Z
-DTSTART:20261117T140000Z
-DTEND:20261117T160000Z
-SUMMARY:Dan molitve za mamice\, ki razmišljajo o splavu
-DESCRIPTION:Dan molitve za mamice\, ki razmišljajo o splavu — da bi zmogle sprejeti življenje. Namen: Molili bomo za mamice\, ki razmišljajo o splavu\, da bi zmogle sprejeti svojega otroka. Kdaj? torek\, 17. november 2026\, 15.00–17.00 Kje? Zavod ŽIV!M\, Prvomajska ul. 14\, Ljubljana Komu je namenjeno? Mladim (od 16. leta dalje) in odraslim\, ki želijo z molitvijo podpreti mamice v stiski. Vabljene tudi mamice z dojenčki. Program: 15.00 zbiranje in molitev 16.00 sv. maša 17.00 zaključek Cena: brezplačno Prijave niso potrebne. Več informacij na 069 621 009 ali info@zavod-zivim.si. Skupaj ZA življenje! https://www.zavod-zivim.si/dogodki/dan-molitve-za-mamice-ki-razmisljajo-o-splavu-12/
-
-LOCATION:Prvomajska ul. 14\, 1000 Ljubljana
-
-
-URL:https://www.zavod-zivim.si/dogodki/dan-molitve-za-mamice-ki-razmisljajo-o-splavu-12/
-
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Dan molitve za mamice\, ki razmišljajo o splavu
-TRIGGER:-PT1H
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
 UID:debatni-klub-usidrani@zazivljenje.com
-DTSTAMP:20261113T221319Z
+DTSTAMP:20261119T033011Z
 DTSTART;TZID=Europe/Ljubljana:20261013T200000
 DTEND;TZID=Europe/Ljubljana:20261013T220000
 RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20271012T200000Z
@@ -108,7 +67,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-11-logoterapevtski-pogovor-mediacija@zazivljenje.com
-DTSTAMP:20261113T221319Z
+DTSTAMP:20261119T033011Z
 DTSTART:20261127T150000Z
 DTEND:20261128T153000Z
 SUMMARY:Logoterapevtski pogovor in mediacija
@@ -129,7 +88,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:mali-pohod-kurescek@zazivljenje.com
-DTSTAMP:20261113T221319Z
+DTSTAMP:20261119T033011Z
 DTSTART;TZID=Europe/Ljubljana:20261008T170000
 DTEND;TZID=Europe/Ljubljana:20261008T190000
 RRULE:FREQ=MONTHLY;BYDAY=2TH
@@ -151,7 +110,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2026-12-logodrama@zazivljenje.com
-DTSTAMP:20261113T221319Z
+DTSTAMP:20261119T033011Z
 DTSTART:20261211T150000Z
 DTEND:20261212T163000Z
 SUMMARY:Logodrama
@@ -171,8 +130,28 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
+UID:dogodek-2026-12-13-marijina-sola-ptujska-gora@zazivljenje.com
+DTSTAMP:20261119T033011Z
+DTSTART:20261213T150000Z
+DTEND:20261213T180000Z
+SUMMARY:Marijina šola življenja: zaključno srečanje na Ptujski Gori
+DESCRIPTION:Zaključno srečanje po desetih epizodah Marijine šole življenja. Kdaj? 13. december 2026 ob 16.00 Kje? Ptujska Gora Program: sveta maša\, nato pogovor med patrom Tonijem Brnijevcem in voditeljico Katjo Zver\, prižig adventne sveče in druženje na trgu. Vabljeni mladi\, družine\, starejši in vsi spremljevalci projekta. Podrobnosti in vabilo https://www.druzina.si/clanek/marijina-sola-zivljenja-vabi-na-ptujsko-goro-veseliva-se-srecanja-z-vami
+
+LOCATION:Ptujska Gora\, Slovenija
+
+
+URL:https://www.druzina.si/clanek/marijina-sola-zivljenja-vabi-na-ptujsko-goro-veseliva-se-srecanja-z-vami
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Marijina šola življenja: zaključno srečanje na Ptujski Gori
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
 UID:dogodek-2026-12-19-spominska-masa-ljubljana@zazivljenje.com
-DTSTAMP:20261113T221319Z
+DTSTAMP:20261119T033011Z
 DTSTART:20261219T090000Z
 DTEND:20261219T100000Z
 SUMMARY:Spominska sv. maša za ozdravljenje po izgubi otroka (Ljubljana)
@@ -192,7 +171,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2027-01-logoterapija-mladostniki-ii@zazivljenje.com
-DTSTAMP:20261113T221319Z
+DTSTAMP:20261119T033011Z
 DTSTART:20270129T150000Z
 DTEND:20270130T153000Z
 SUMMARY:Logoterapija in delo z mladostniki II
@@ -213,7 +192,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2027-05-omame-zasvojenosti-logoterapija@zazivljenje.com
-DTSTAMP:20261113T221319Z
+DTSTAMP:20261119T033011Z
 DTSTART:20270521T140000Z
 DTEND:20270522T143000Z
 SUMMARY:Omame in zasvojenosti kot izziv za terapevtsko in preventivno delo
@@ -234,7 +213,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2027-06-partnerska-terapija-logoterapija@zazivljenje.com
-DTSTAMP:20261113T221319Z
+DTSTAMP:20261119T033011Z
 DTSTART:20270604T140000Z
 DTEND:20270605T143000Z
 SUMMARY:Partnerska terapija skozi oči logoterapije
@@ -255,7 +234,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2027-07-uvod-v-logoterapijo@zazivljenje.com
-DTSTAMP:20261113T221319Z
+DTSTAMP:20261119T033011Z
 DTSTART:20270702T140000Z
 DTEND:20270703T133000Z
 SUMMARY:Uvod v logoterapijo
@@ -276,7 +255,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:dogodek-2027-09-uvod-v-logoterapijo@zazivljenje.com
-DTSTAMP:20261113T221319Z
+DTSTAMP:20261119T033011Z
 DTSTART:20270910T140000Z
 DTEND:20270911T133000Z
 SUMMARY:Uvod v logoterapijo
